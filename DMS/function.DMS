@@ -339,7 +339,7 @@ HTML函数
       <Name>新列8</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>7d09bbfa-2aee-4147-af6f-40163eab4b83</guid>
+        <guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -353,7 +353,7 @@ HTML函数
       <FieldName>新列8</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F("{行号}) {函数}
+      <FormulaExpression>F("{函数}
 ~~~~~~~~~~~~~~~~~~
 返回值：{返回值}
 
@@ -369,8 +369,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeRowID">
       <Guid>7d09bbfa-2aee-4147-af6f-40163eab4b83</Guid>
-      <CenterY>255.1</CenterY>
-      <CenterX>425.2</CenterX>
+      <CenterY>335.1</CenterY>
+      <CenterX>345.2</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -511,7 +511,7 @@ HTML函数
       <Name>输出</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>d07e6c20-c4ed-4e79-b795-4c8fa2e4c6e3</guid>
+        <guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -525,7 +525,7 @@ HTML函数
       <FieldName>输出</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F("{行号}、{组别}
+      <FormulaExpression>F("{组别}
 -----------------
 
 {新列8_字符合并}
