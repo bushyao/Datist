@@ -367,35 +367,6 @@ HTML函数
       <MutliCondtitions />
       <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
     </NodeBase>
-    <NodeBase xsi:type="NodeRowID">
-      <Guid>7d09bbfa-2aee-4147-af6f-40163eab4b83</Guid>
-      <CenterY>335.1</CenterY>
-      <CenterX>345.2</CenterX>
-      <Description />
-      <KeyWords />
-      <EditMode>Edit</EditMode>
-      <Title />
-      <Name>行号</Name>
-      <ShowName>true</ShowName>
-      <PriorNodeGuid>
-        <guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</guid>
-      </PriorNodeGuid>
-      <CacheIt>false</CacheIt>
-      <BatchEvalParameterName />
-      <BatchEvalParameterValues />
-      <InterActiveFieldName />
-      <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
-      <DefaultEvalIt>false</DefaultEvalIt>
-      <NewName>行号</NewName>
-      <ComputeMode>RowID</ComputeMode>
-      <ComputeFieldName />
-      <UniqueFieldName>组别</UniqueFieldName>
-      <BeginFieldName />
-      <OrderBy>true</OrderBy>
-    </NodeBase>
     <NodeBase xsi:type="NodeAggregate">
       <Guid>b1049196-a994-4731-8ef7-5c27d9facb57</Guid>
       <CenterY>245.1</CenterY>
@@ -539,35 +510,6 @@ HTML函数
       <MutliCondtitions />
       <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
     </NodeBase>
-    <NodeBase xsi:type="NodeRowID">
-      <Guid>d07e6c20-c4ed-4e79-b795-4c8fa2e4c6e3</Guid>
-      <CenterY>360.1</CenterY>
-      <CenterX>525.2</CenterX>
-      <Description />
-      <KeyWords />
-      <EditMode>Edit</EditMode>
-      <Title />
-      <Name>行号</Name>
-      <ShowName>true</ShowName>
-      <PriorNodeGuid>
-        <guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</guid>
-      </PriorNodeGuid>
-      <CacheIt>false</CacheIt>
-      <BatchEvalParameterName />
-      <BatchEvalParameterValues />
-      <InterActiveFieldName />
-      <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
-      <DefaultEvalIt>false</DefaultEvalIt>
-      <NewName>行号</NewName>
-      <ComputeMode>RowID</ComputeMode>
-      <ComputeFieldName />
-      <UniqueFieldName />
-      <BeginFieldName />
-      <OrderBy>true</OrderBy>
-    </NodeBase>
     <NodeBase xsi:type="NodeDownload">
       <Guid>dade82c4-151b-4fe1-84e9-c5492d08597b</Guid>
       <CenterY>430.1</CenterY>
@@ -678,7 +620,7 @@ HTML函数
   </Items>
   <ParNames />
   <EvalNodeNames>汇总(组别);数据项转存</EvalNodeNames>
-  <OffsetX>120</OffsetX>
+  <OffsetX>0</OffsetX>
   <OffsetY>0</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>
