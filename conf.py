@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'地震行业相关问题汇编'
+project = u'数据专家文档'
 copyright = u'2017~2020, CEA-IGP'
-author = u'Dr. Shi CHEN'
+author = u'Bushyao'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -164,7 +164,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'sphinx', 'auto documents',
-     author, 'Dr. Shi CHEN', 'One line description of project.',
+     author, 'bushyao', 'One line description of project.',
      'Miscellaneous'),
 ] 
 
