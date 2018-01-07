@@ -16,5 +16,4 @@
    节点与函数FA<content/functionNode>
    节点帮助<content/node>
    函数帮助<content/function> 
-   更新日志
-      2017<content/updatalog>
+   更新日志<content/updatalog>
