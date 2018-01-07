@@ -10,5 +10,5 @@
    :maxdepth: 2
    :caption: Contents:
 
-   1、数据专家基本原理<content/Principle>
-   节点帮助<content/forecast>
+   1、基本原理<content/Principle>
+   2、环境与操作<content/environment>
