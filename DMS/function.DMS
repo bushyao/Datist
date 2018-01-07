@@ -3,9 +3,9 @@
   <Arthor>bushyao</Arthor>
   <HID>S22XNXAG711613</HID>
   <SQLiteIO>
-    <DbFullName>T3305c7cca96c4575aa99dca2a4dabde7.bcdb</DbFullName>
+    <DbFullName>T92a358716fa34d3c9c6b401d2d15ba57.bcdb</DbFullName>
     <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
-    <DmsFullName>D:\github\test\content\function.DMS</DmsFullName>
+    <DmsFullName>D:\github\Datist\DMS\function.DMS</DmsFullName>
   </SQLiteIO>
   <FieldFormats>
     <Formats>
@@ -356,6 +356,7 @@ HTML函数
       <FormulaExpression>F("{行号}){函数}
 ~~~~~~~~~~~~~~~~~~
 返回值：{返回值}
+
 说明：{说明}")</FormulaExpression>
       <ConditionIf />
       <ConditionTrue />
@@ -569,8 +570,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDownload">
       <Guid>dade82c4-151b-4fe1-84e9-c5492d08597b</Guid>
-      <CenterY>435.1</CenterY>
-      <CenterX>820</CenterX>
+      <CenterY>430.1</CenterY>
+      <CenterX>880</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -578,7 +579,7 @@ HTML函数
       <Name>数据项转存</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>7ee081e7-4bcd-4b44-bb09-097508d1b906</guid>
+        <guid>17307153-6002-4d9f-95a7-a56dc5abb114</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -642,10 +643,42 @@ HTML函数
       <CountFieldName>RecordCount</CountFieldName>
       <HasSum>false</HasSum>
     </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>17307153-6002-4d9f-95a7-a56dc5abb114</Guid>
+      <CenterY>438.4</CenterY>
+      <CenterX>736</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>替换</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7ee081e7-4bcd-4b44-bb09-097508d1b906</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FillerIf>1</FillerIf>
+      <FillerFields>
+        <string>输出_字符合并</string>
+      </FillerFields>
+      <FillerValue>F(".. _FA:
+
+函数帮助
+======================
+{输出_字符合并}")</FillerValue>
+    </NodeBase>
   </Items>
   <ParNames />
   <EvalNodeNames>汇总(组别);数据项转存</EvalNodeNames>
-  <OffsetX>0</OffsetX>
+  <OffsetX>120</OffsetX>
   <OffsetY>0</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>
