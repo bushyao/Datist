@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'数据专家文档'
-copyright = u'2017~2020, CEA-IGP'
+copyright = u'2017~2020, Datist'
 author = u'Bushyao'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -142,7 +142,7 @@ latex_show_urls = 'footnote'
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'sphinx.tex', u'地震相关专业名词与术语规范',
+    (master_doc, 'sphinx.tex', u'数据专家',
      'i', 'manual'),
 ]
 
@@ -152,7 +152,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sphinx', u'地震相关专业名词与术语规范',
+    (master_doc, 'sphinx', u'数据专家',
      [author], 1)
 ]
 
