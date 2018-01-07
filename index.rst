@@ -13,4 +13,5 @@
    一、基本原理<content/Principle>
    二、环境与操作<content/environment>
    三、节点与函数FA<content/functionNode>
+   三、函数帮助<content/function>
  
