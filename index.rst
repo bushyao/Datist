@@ -11,7 +11,7 @@
    :numbered:
    :caption: Contents:
 
-   基本原理<content/principle>
+   基本原理<content/baseprinciple>
    环境与操作<content/environment>
    节点与函数FA<content/functionNode>
    节点帮助<content/node>
