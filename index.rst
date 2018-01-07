@@ -10,5 +10,5 @@
    :maxdepth: 2
    :caption: Contents:
 
-   常见问题汇编<content/FA>
+   1、数据专家基本原理<content/Principle>
    节点帮助<content/forecast>
