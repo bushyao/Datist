@@ -11,4 +11,4 @@
    :caption: Contents:
 
    常见问题汇编<content/fqforeq>
-   Questions on Earthquake forecast<content/forecast>
+   节点帮助<content/forecast>
