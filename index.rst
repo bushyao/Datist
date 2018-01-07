@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-数据专家技术文档
+地震行业相关问题汇编
 ====================================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   常见问题<content/fqforeq>
-   数据专家<content/forecast>
+   Questions on Earthquake<content/fqforeq>
+   Questions on Earthquake forecast<content/forecast>
