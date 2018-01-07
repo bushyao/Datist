@@ -1,0 +1,651 @@
+<?xml version="1.0"?>
+<NodeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Arthor>bushyao</Arthor>
+  <HID>S22XNXAG711613</HID>
+  <SQLiteIO>
+    <DbFullName>T3305c7cca96c4575aa99dca2a4dabde7.bcdb</DbFullName>
+    <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
+    <DmsFullName>D:\github\test\content\function.DMS</DmsFullName>
+  </SQLiteIO>
+  <FieldFormats>
+    <Formats>
+      <Justify>Right</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Integer</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Right</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx>{0:#.##}</DisplayFormatEx>
+      <DecimalPlaces>2</DecimalPlaces>
+      <DataType>Real</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Text</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Boolean</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx>{0:G}</DisplayFormatEx>
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>DateTime</DataType>
+      <Visible>true</Visible>
+    </Formats>
+  </FieldFormats>
+  <Title>Stream</Title>
+  <Subject>2018/1/7 20:46:11</Subject>
+  <Arthor2>BC-PC</Arthor2>
+  <Manager />
+  <Company>DSS</Company>
+  <Category />
+  <Description />
+  <KeyWords />
+  <StreamID />
+  <ReportTitleName />
+  <ListReportTitles />
+  <Price>0</Price>
+  <PrivilegeType>公开</PrivilegeType>
+  <Parameters />
+  <Items>
+    <NodeBase xsi:type="NodeTXTEx">
+      <Guid>433a5a5f-a20c-4f88-beee-ad86eef8c5df</Guid>
+      <CenterY>140.9</CenterY>
+      <CenterX>142.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>Functions</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FileName>D:\MyProgram\RDMS\PPTAnalysis\binX\Functions.txt</FileName>
+      <ReadMode>Delimited</ReadMode>
+      <Filebody>false</Filebody>
+      <SplitterDelimited>◆</SplitterDelimited>
+      <SplitterFixed>10,20</SplitterFixed>
+      <HasHeader>false</HasHeader>
+      <EncodingSave>Default</EncodingSave>
+      <RemoveRept>false</RemoveRept>
+      <EnclosedInQuotes>false</EnclosedInQuotes>
+      <ReadOnlyFristRows>false</ReadOnlyFristRows>
+      <OnlyFristRows>10000</OnlyFristRows>
+      <FolderFiles>
+        <IsFolder>false</IsFolder>
+        <FullName>D:\MyProgram\RDMS\PPTAnalysis\binX\Functions.txt</FullName>
+      </FolderFiles>
+      <AllExt>true</AllExt>
+      <Ext>txt;csv;json;htm;html;xml</Ext>
+      <ExportFileName>false</ExportFileName>
+      <FullFileName>false</FullFileName>
+      <FieldFilters />
+      <Exts>
+        <string>.csv</string>
+        <string>.txt</string>
+        <string>.json</string>
+        <string>.htm</string>
+        <string>.html</string>
+        <string>.xml</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFilter">
+      <Guid>52c9c905-568d-4315-9c79-4404b1dd5bb9</Guid>
+      <CenterY>160.1</CenterY>
+      <CenterX>240.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>过滤</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>433a5a5f-a20c-4f88-beee-ad86eef8c5df</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFilters>
+        <FieldFilter>
+          <FieldName>列0</FieldName>
+          <Filte>true</Filte>
+          <NewFieldName>组别</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>列1</FieldName>
+          <Filte>true</Filte>
+          <NewFieldName>函数</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>列2</FieldName>
+          <Filte>true</Filte>
+          <NewFieldName>返回值</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>列3</FieldName>
+          <Filte>true</Filte>
+          <NewFieldName>参数</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>列4</FieldName>
+          <Filte>true</Filte>
+          <NewFieldName>说明</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>列5</FieldName>
+          <Filte>true</Filte>
+          <NewFieldName>创建日期</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+      </FieldFilters>
+      <DefaultFilte>true</DefaultFilte>
+      <IsStandardMode>false</IsStandardMode>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</Guid>
+      <CenterY>160.1</CenterY>
+      <CenterX>420.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行序</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>c2491d03-2362-40f8-bca3-373ecb529e41</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>组别</FieldName>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort>数值函数
+三角函数
+字符串函数
+日期与时间
+地理信息
+列表函数
+统计
+HTML函数
+转换函数
+文件相关
+图像处理
+信息函数
+比较函数
+逻辑函数
+油田专用
+批处理命令
+位运算函数
+空间统计
+随机函数
+数据缓存
+网络相关
+颜色函数
+字符编码
+定时运行
+其它</ValueSort>
+        </FieldSort>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>函数</FieldName>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>参数</FieldName>
+          <DataType>Integer</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+      </FieldSorts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>73d1c718-ce97-41a2-8143-030c26eb5efd</Guid>
+      <CenterY>140.1</CenterY>
+      <CenterX>590.2</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>汇总</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <KeyFields>
+        <string>组别</string>
+      </KeyFields>
+      <AggregeteFields />
+      <StringSpliter>,</StringSpliter>
+      <HasCount>true</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeTable">
+      <Guid>6dc7e656-6181-493c-8f04-03f78e194ee7</Guid>
+      <CenterY>55.1</CenterY>
+      <CenterX>660</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>汇总(组别)</Title>
+      <Name>浏览数据</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>73d1c718-ce97-41a2-8143-030c26eb5efd</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFormats />
+      <AutoWidthFit>true</AutoWidthFit>
+      <Expression />
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>c2491d03-2362-40f8-bca3-373ecb529e41</Guid>
+      <CenterY>160.1</CenterY>
+      <CenterX>315.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>筛选</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>52c9c905-568d-4315-9c79-4404b1dd5bb9</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsIncluded>false</IsIncluded>
+      <FilterExpression> 组别 == '内部使用' </FilterExpression>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</Guid>
+      <CenterY>250.1</CenterY>
+      <CenterX>565.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>新列8</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7d09bbfa-2aee-4147-af6f-40163eab4b83</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>新列8</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>F("{行号}){函数}
+~~~~~~~~~~~~~~~~~~
+返回值：{返回值}
+说明：{说明}")</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeRowID">
+      <Guid>7d09bbfa-2aee-4147-af6f-40163eab4b83</Guid>
+      <CenterY>255.1</CenterY>
+      <CenterX>425.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行号</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <NewName>行号</NewName>
+      <ComputeMode>RowID</ComputeMode>
+      <ComputeFieldName />
+      <UniqueFieldName>组别</UniqueFieldName>
+      <BeginFieldName />
+      <OrderBy>true</OrderBy>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>b1049196-a994-4731-8ef7-5c27d9facb57</Guid>
+      <CenterY>245.1</CenterY>
+      <CenterX>665.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>汇总#1</Title>
+      <Name>汇总</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <KeyFields>
+        <string>组别</string>
+      </KeyFields>
+      <AggregeteFields>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>新列8</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+      </AggregeteFields>
+      <StringSpliter>\r\n\r\n</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</Guid>
+      <CenterY>245.1</CenterY>
+      <CenterX>760.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行序</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>b1049196-a994-4731-8ef7-5c27d9facb57</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>组别</FieldName>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort>数值函数
+三角函数
+字符串函数
+日期与时间
+地理信息
+列表函数
+统计
+HTML函数
+转换函数
+文件相关
+图像处理
+信息函数
+比较函数
+逻辑函数
+油田专用
+批处理命令
+位运算函数
+空间统计
+随机函数
+数据缓存
+网络相关
+颜色函数
+字符编码
+定时运行
+其它</ValueSort>
+        </FieldSort>
+      </FieldSorts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</Guid>
+      <CenterY>355.1</CenterY>
+      <CenterX>620.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>输出</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>d07e6c20-c4ed-4e79-b795-4c8fa2e4c6e3</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>输出</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>F("{行号}、{组别}
+-----------------
+
+{新列8_字符合并}
+")</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeRowID">
+      <Guid>d07e6c20-c4ed-4e79-b795-4c8fa2e4c6e3</Guid>
+      <CenterY>360.1</CenterY>
+      <CenterX>525.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行号</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <NewName>行号</NewName>
+      <ComputeMode>RowID</ComputeMode>
+      <ComputeFieldName />
+      <UniqueFieldName />
+      <BeginFieldName />
+      <OrderBy>true</OrderBy>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDownload">
+      <Guid>dade82c4-151b-4fe1-84e9-c5492d08597b</Guid>
+      <CenterY>435.1</CenterY>
+      <CenterX>820</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>数据项转存</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7ee081e7-4bcd-4b44-bb09-097508d1b906</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Url>输出_字符合并</Url>
+      <SavePath>"D:\github\Datist\content\function.rst"</SavePath>
+      <DataDataType />
+      <MillisecondsTimeout>0</MillisecondsTimeout>
+      <ItemType>Txt</ItemType>
+      <RecognizeFileName>true</RecognizeFileName>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>7ee081e7-4bcd-4b44-bb09-097508d1b906</Guid>
+      <CenterY>435.20000000000005</CenterY>
+      <CenterX>633.6</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>汇总#2</Title>
+      <Name>汇总</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <KeyFields />
+      <AggregeteFields>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>输出</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+      </AggregeteFields>
+      <StringSpliter>\r\n</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+  </Items>
+  <ParNames />
+  <EvalNodeNames>汇总(组别);数据项转存</EvalNodeNames>
+  <OffsetX>0</OffsetX>
+  <OffsetY>0</OffsetY>
+  <Scale>1</Scale>
+</NodeCollection>
