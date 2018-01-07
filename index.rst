@@ -10,5 +10,5 @@
    :maxdepth: 2
    :caption: Contents:
 
-   常见问题汇编<content/fqforeq>
+   常见问题汇编<content/FA>
    节点帮助<content/forecast>
