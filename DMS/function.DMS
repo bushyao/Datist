@@ -353,7 +353,7 @@ HTML函数
       <FieldName>新列8</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F("{行号}){函数}
+      <FormulaExpression>F("{行号}) {函数}
 ~~~~~~~~~~~~~~~~~~
 返回值：{返回值}
 
