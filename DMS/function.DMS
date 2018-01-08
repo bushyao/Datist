@@ -484,6 +484,7 @@ HTML函数
       <CenterY>375.5</CenterY>
       <CenterX>655.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -524,6 +525,7 @@ HTML函数
       <CenterY>365.5</CenterY>
       <CenterX>790</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -631,6 +633,7 @@ HTML函数
       <CenterY>380.5</CenterY>
       <CenterX>540.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -697,6 +700,7 @@ HTML函数
       <CenterY>405.5</CenterY>
       <CenterX>360.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -726,6 +730,7 @@ HTML函数
       <CenterY>405.5</CenterY>
       <CenterX>440.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -761,6 +766,7 @@ HTML函数
       <CenterY>269</CenterY>
       <CenterX>268</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>替换#1</Title>
