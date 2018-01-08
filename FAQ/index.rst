@@ -3,15 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-数据专家技术文档
+常见问题解答
 ====================================
 
 .. toctree::
-   :numbered:
-   :glob:
-
-   FAQ/index
-   environment/index
-   nodes/index
-   functions/index
-   logs/index
+   :maxdepth: 2
+   
+   baseprinciple
+   environment
+   functionNode
