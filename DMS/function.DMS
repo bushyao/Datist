@@ -744,6 +744,7 @@ HTML函数
       <CenterY>65.5</CenterY>
       <CenterX>540.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -770,93 +771,6 @@ HTML函数
           <ValueSort />
         </FieldSort>
       </FieldSorts>
-    </NodeBase>
-    <NodeBase xsi:type="NodeComment">
-      <Guid>751f90f2-181f-4027-87f5-1657eec68aa6</Guid>
-      <CenterY>621</CenterY>
-      <CenterX>163</CenterX>
-      <Description />
-      <KeyWords />
-      <EditMode>Edit</EditMode>
-      <Title />
-      <Name>文本框</Name>
-      <ShowName>true</ShowName>
-      <PriorNodeGuid />
-      <CacheIt>false</CacheIt>
-      <BatchEvalParameterName />
-      <BatchEvalParameterValues />
-      <InterActiveFieldName />
-      <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
-      <DefaultEvalIt>false</DefaultEvalIt>
-      <RenderTransformOrigin>
-        <X>0</X>
-        <Y>0</Y>
-      </RenderTransformOrigin>
-      <Width>195</Width>
-      <Height>163</Height>
-      <IsLine>false</IsLine>
-      <EndPointX>0</EndPointX>
-      <EndPointY>0</EndPointY>
-      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
-      <HasStartArrow>false</HasStartArrow>
-      <HasEndArrow>false</HasEndArrow>
-      <Rotate>0</Rotate>
-      <Parameter>0.69263803680981617</Parameter>
-      <Parameter2>0</Parameter2>
-      <Text>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcdWMxXGh0bWF1dHNwXGRlZmYye1xmb250dGJse1xmMFxmY2hhcnNldDAgVGltZXMgTmV3IFJvbWFuO317XGYyXGZjaGFyc2V0MTM0IFwnY2VcJ2EyXCdjOFwnZWRcJ2QxXCdjNVwnYmFcJ2RhO319e1xjb2xvcnRibFxyZWQwXGdyZWVuMFxibHVlMDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fVxsb2NoXGhpY2hcZGJjaFxwYXJkXHBsYWluXGx0cnBhclxpdGFwMHtcbGFuZzEwMzNcZnMxOFxmMlxjZjAgXGNmMFxxbHtcZjIge1xsYW5nMjA1MlxsdHJjaCBzZnNhZmFzZn1cbGkwXHJpMFxzYTBcc2IwXGZpMFxxY1xwYXJ9DQp7XGYyIFxsaTBccmkwXHNhMFxzYjBcZmkwXHFjXHBhcn0NCntcZjIge1xsYW5nMjA1MlxsdHJjaCBzZmRzZGZzZGFmfVxsaTBccmkwXHNhMFxzYjBcZmkwXHFjXHBhcn0NCn0NCn0=</Text>
-      <CmShapeType>十字星</CmShapeType>
-      <FontFamilyName>宋体</FontFamilyName>
-      <IsBold>false</IsBold>
-      <IsItalic>false</IsItalic>
-      <FontSize>10</FontSize>
-      <ForeColor>
-        <A>255</A>
-        <R>0</R>
-        <G>0</G>
-        <B>0</B>
-        <ScA>1</ScA>
-        <ScR>0</ScR>
-        <ScG>0</ScG>
-        <ScB>0</ScB>
-      </ForeColor>
-      <RenderID>1</RenderID>
-      <BackgroundColor>
-        <A>255</A>
-        <R>188</R>
-        <G>211</G>
-        <B>255</B>
-        <ScA>1</ScA>
-        <ScR>0.5028865</ScR>
-        <ScG>0.651405632</ScG>
-        <ScB>1</ScB>
-      </BackgroundColor>
-      <LineColor>
-        <A>255</A>
-        <R>99</R>
-        <G>141</G>
-        <B>189</B>
-        <ScA>1</ScA>
-        <ScR>0.124771819</ScR>
-        <ScG>0.266355634</ScG>
-        <ScB>0.50888133</ScB>
-      </LineColor>
-      <LineThickness>0.75</LineThickness>
-      <LineDashArray>0</LineDashArray>
-      <HAlignment>Left</HAlignment>
-      <VAlignment>Top</VAlignment>
-      <BackgroundImage />
-      <NodeSelected>false</NodeSelected>
-      <ZIndex>1</ZIndex>
-      <Url />
-      <IsShadow>false</IsShadow>
-      <IsLocked>false</IsLocked>
-      <Exts>
-        <string>.png</string>
-        <string>.jpg</string>
-      </Exts>
     </NodeBase>
     <NodeBase xsi:type="NodeSuper">
       <Guid>90c79752-bfb4-43d7-8eec-74bf56baa196</Guid>
@@ -898,6 +812,7 @@ HTML函数
         <StreamID />
         <ReportTitleName />
         <ListReportTitles />
+        <AttachFiles />
         <Price>0</Price>
         <PrivilegeType>公开</PrivilegeType>
         <Parameters />
@@ -998,6 +913,7 @@ HTML函数
             <CenterY>349</CenterY>
             <CenterX>282</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title>文本框#1</Title>
@@ -1091,10 +1007,63 @@ HTML函数
       <OffsetY>0</OffsetY>
       <Scale>1</Scale>
     </NodeBase>
+    <NodeBase xsi:type="NodeXLSEx">
+      <Guid>9ac89a6f-5b58-497f-91f7-44db51ad4c90</Guid>
+      <CenterY>355.9</CenterY>
+      <CenterX>82.2</CenterX>
+      <Description>NodeXLSEx</Description>
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>Excel扩展</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FolderPathForPicture>C:\Users\BC\Desktop\test</FolderPathForPicture>
+      <ExMode>GetSheetAndTextBox</ExMode>
+      <MaxColumn>30</MaxColumn>
+      <MaxRow>-1</MaxRow>
+      <GetMerge>true</GetMerge>
+      <MultiColumns>true</MultiColumns>
+      <ShapePosition>true</ShapePosition>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>a5f8351f-b3fe-4e88-8e7e-43f2c3fe7195</Guid>
+      <CenterY>355.9</CenterY>
+      <CenterX>192.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>筛选#2</Title>
+      <Name>筛选</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>9ac89a6f-5b58-497f-91f7-44db51ad4c90</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsIncluded>false</IsIncluded>
+      <FilterExpression> Type == 'Cell' </FilterExpression>
+    </NodeBase>
   </Items>
   <ParNames />
   <EvalNodeNames>汇总(组别);数据项转存</EvalNodeNames>
   <OffsetX>0</OffsetX>
-  <OffsetY>120</OffsetY>
+  <OffsetY>0</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>

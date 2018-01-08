@@ -17,3 +17,4 @@
    NodeScanFiles
    NodeTXT
    NodeXLS
+   NodeXLSEx
