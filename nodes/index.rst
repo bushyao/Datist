@@ -8,6 +8,7 @@
 
 .. toctree::
    :maxdepth: 2
-
+   :numbered:
+   
    01Source/index
    02Field/index

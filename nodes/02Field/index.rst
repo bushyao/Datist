@@ -3,13 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
    
-数据源节点
+行列计算节点
 ====================================
-将外部数据接入到数据专家中，是整个数据流程的开始。
+最常用的数据处理方法，通过行列操作，实现数据清洗与变换。
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    
    NodeSelect
    NodeDerive
