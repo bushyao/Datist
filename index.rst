@@ -7,7 +7,6 @@
 ====================================
 
 .. toctree::
-   :numbered:3
    :glob:
 
    FAQ/index
