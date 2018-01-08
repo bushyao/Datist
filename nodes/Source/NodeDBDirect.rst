@@ -17,7 +17,7 @@
     
      * **文件扩展名：** 指定文件的扩展名；仅适用于文件型数据库，以便在使用过程中，文件选择对话框过滤文件；扩展名填写格式为点号+扩展名，如.mdb，需要带上点号；
 
-     * **连接串：** 输入数据库连接字符串，具体参考  `connectionstrings<https://www.connectionstrings.com/>` ；与一般的数据库连接方式不同的是，需要连接字符串之前，添加Provide语句，如Provider=MS Access；等。
+     * **连接串：** 输入数据库连接字符串，具体参考 https://www.connectionstrings.com/ ；与一般的数据库连接方式不同的是，需要连接字符串之前，添加Provide语句，如Provider=MS Access；等。
 
   * **E：** 编辑选中的数据库连接字符串；
 
