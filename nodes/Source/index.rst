@@ -14,7 +14,7 @@
    NodeSplitString
    NodeCache
    NodeExcelSheet
-   NodeScanFiles
-   NodeTXT
    NodeXLS
    NodeXLSEx
+   NodeTXT
+   NodeScanFiles
