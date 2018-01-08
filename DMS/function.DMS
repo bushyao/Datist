@@ -60,6 +60,7 @@
   <StreamID />
   <ReportTitleName />
   <ListReportTitles />
+  <AttachFiles />
   <Price>0</Price>
   <PrivilegeType>公开</PrivilegeType>
   <Parameters />
@@ -69,6 +70,7 @@
       <CenterY>140.9</CenterY>
       <CenterX>142.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -118,6 +120,7 @@
       <CenterY>160.1</CenterY>
       <CenterX>240.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -181,6 +184,7 @@
       <CenterY>160.1</CenterY>
       <CenterX>420.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -308,6 +312,7 @@ HTML函数
       <CenterY>160.1</CenterY>
       <CenterX>315.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -330,9 +335,10 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</Guid>
-      <CenterY>250.1</CenterY>
-      <CenterX>565.2</CenterX>
+      <CenterY>215.5</CenterY>
+      <CenterX>540.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -369,9 +375,10 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeAggregate">
       <Guid>b1049196-a994-4731-8ef7-5c27d9facb57</Guid>
-      <CenterY>245.1</CenterY>
-      <CenterX>665.2</CenterX>
+      <CenterY>230.5</CenterY>
+      <CenterX>635.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>汇总#1</Title>
@@ -417,9 +424,10 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeSort">
       <Guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</Guid>
-      <CenterY>245.1</CenterY>
-      <CenterX>760.2</CenterX>
+      <CenterY>230.5</CenterY>
+      <CenterX>725.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -476,6 +484,7 @@ HTML函数
       <CenterY>355.1</CenterY>
       <CenterX>620.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -512,8 +521,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDownload">
       <Guid>dade82c4-151b-4fe1-84e9-c5492d08597b</Guid>
-      <CenterY>430.1</CenterY>
-      <CenterX>880</CenterX>
+      <CenterY>365.5</CenterY>
+      <CenterX>790</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -521,7 +530,7 @@ HTML函数
       <Name>数据项转存</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>17307153-6002-4d9f-95a7-a56dc5abb114</guid>
+        <guid>f5cb87af-bd10-41f1-b967-f19e1631c3b7</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -532,8 +541,8 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
-      <Url>输出_字符合并</Url>
-      <SavePath>"D:\github\Datist\content\function.rst"</SavePath>
+      <Url>输出</Url>
+      <SavePath>F("D:\github\Datist\functions\{FileName}.rst")</SavePath>
       <DataDataType />
       <MillisecondsTimeout>0</MillisecondsTimeout>
       <ItemType>Txt</ItemType>
@@ -541,9 +550,10 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeAggregate">
       <Guid>7ee081e7-4bcd-4b44-bb09-097508d1b906</Guid>
-      <CenterY>435.20000000000005</CenterY>
-      <CenterX>633.6</CenterX>
+      <CenterY>490.5</CenterY>
+      <CenterX>620.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>汇总#2</Title>
@@ -587,9 +597,10 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>17307153-6002-4d9f-95a7-a56dc5abb114</Guid>
-      <CenterY>438.4</CenterY>
-      <CenterX>736</CenterX>
+      <CenterY>485.5</CenterY>
+      <CenterX>725.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -616,6 +627,41 @@ HTML函数
 函数帮助
 ======================
 {输出_字符合并}")</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>f5cb87af-bd10-41f1-b967-f19e1631c3b7</Guid>
+      <CenterY>360.5</CenterY>
+      <CenterX>710.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>FileName</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>FileName</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>ToPinyin( 组别 )</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
     </NodeBase>
   </Items>
   <ParNames />
