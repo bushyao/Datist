@@ -105,7 +105,7 @@ DateAfter(列1,"2017-08-08 21:0:0") and DateBefore(列1,"2017-08-09 21:0:0")表�
 注：字符串转换为文件体的方式，可使用String2Base64(String)函数实现。
 数据体Blob与字符串并没有实质的区别，只是数据操作略有不同而已。文件、字符串、Blob以及Base64之间，可以进行相互转换，如图所示。
 
-.. figure:: ../images/functionNode13.png
+.. figure:: images/functionNode13.png
      :align: center
      :figwidth: 100% 
      :name: plate
@@ -125,12 +125,12 @@ DateAfter(列1,"2017-08-08 21:0:0") and DateBefore(列1,"2017-08-09 21:0:0")表�
 文件收集器中，输出文本流功能是将数据源节点、中间处理节点的数据以文本流方式进行收集，而这一功能对于终端节点则是不支持的。示例中，浏览数据节点为终端节点，在文件收集器的编辑窗口会看不到输出文本流功能。
 对于终端节点，文件收集器将它视作为一个整体，收集它的输出成果向后扭转。
 
-.. figure:: ../images/functionNode16_1.png
+.. figure:: images/functionNode16_1.png
      :align: center
      :figwidth: 100% 
      :name: plate 
 	 
-.. figure:: ../images/functionNode16_2.png
+.. figure:: images/functionNode16_2.png
      :align: center
      :figwidth: 100% 
      :name: plate 
@@ -201,14 +201,14 @@ DateAfter(列1,"2017-08-08 21:0:0") and DateBefore(列1,"2017-08-09 21:0:0")表�
 -----------------
 可以通过图元缓冲区结合空间筛选功能，解决类似的问题。
 
-.. figure:: ../images/functionNode30_1.png
+.. figure:: images/functionNode30_1.png
      :align: center
      :figwidth: 100% 
      :name: plate 
 	 
 1)本次地震经纬度信息；2)本次地震点图元（中心点图元）；3)以中心点图元创建的缓冲区；4)导入待筛选的经纬度数据（不需要创建点图元，经纬度各自成列即可）；5）创建区块筛选。
 
-.. figure:: ../images/functionNode30_2.png
+.. figure:: images/functionNode30_2.png
      :align: center
      :figwidth: 100% 
      :name: plate   
@@ -224,7 +224,7 @@ PPT模板报告图片为什么被压偏了？
 系统中报告生成功能是基于“模板+数据”的思路，如PPT模板+Datist数据。PPT模板生成报告功能，以文本框中的标记为基础进行数据、图片等内容的替换，数据替换过程受文本框原有设置、样式的约束。
 报告生成过程中，出现图片被压偏的现象，可在PPT的设置形状格式窗口，将文本框设置为不自动调整，即可。
 
-.. figure:: ../images/functionNode32.png
+.. figure:: images/functionNode32.png
      :align: center
      :figwidth: 100% 
      :name: plate    
