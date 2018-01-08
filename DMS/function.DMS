@@ -67,8 +67,8 @@
   <Items>
     <NodeBase xsi:type="NodeTXTEx">
       <Guid>433a5a5f-a20c-4f88-beee-ad86eef8c5df</Guid>
-      <CenterY>140.9</CenterY>
-      <CenterX>142.2</CenterX>
+      <CenterY>186.5</CenterY>
+      <CenterX>132</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -481,17 +481,16 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</Guid>
-      <CenterY>355.1</CenterY>
-      <CenterX>620.2</CenterX>
+      <CenterY>375.5</CenterY>
+      <CenterX>655.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
       <Name>输出</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</guid>
+        <guid>f5cb87af-bd10-41f1-b967-f19e1631c3b7</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -505,8 +504,9 @@ HTML函数
       <FieldName>输出</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F("{组别}
------------------
+      <FormulaExpression>F(".. _{FileName}:
+{组别}
+======================
 
 {新列8_字符合并}
 ")</FormulaExpression>
@@ -530,7 +530,7 @@ HTML函数
       <Name>数据项转存</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>f5cb87af-bd10-41f1-b967-f19e1631c3b7</guid>
+        <guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -542,7 +542,7 @@ HTML函数
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <Url>输出</Url>
-      <SavePath>F("D:\github\Datist\functions\{FileName}.rst")</SavePath>
+      <SavePath>F("D:\\github\\Datist\\functions\\{行号}{FileName}.rst")</SavePath>
       <DataDataType />
       <MillisecondsTimeout>0</MillisecondsTimeout>
       <ItemType>Txt</ItemType>
@@ -559,9 +559,7 @@ HTML函数
       <Title>汇总#2</Title>
       <Name>汇总</Name>
       <ShowName>false</ShowName>
-      <PriorNodeGuid>
-        <guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</guid>
-      </PriorNodeGuid>
+      <PriorNodeGuid />
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
       <BatchEvalParameterValues />
@@ -630,8 +628,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>f5cb87af-bd10-41f1-b967-f19e1631c3b7</Guid>
-      <CenterY>360.5</CenterY>
-      <CenterX>710.5</CenterX>
+      <CenterY>380.5</CenterY>
+      <CenterX>540.5</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -639,7 +637,7 @@ HTML函数
       <Name>FileName</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</guid>
+        <guid>3b260d2e-b337-4a1e-8ed7-673327dfbc92</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -654,6 +652,101 @@ HTML函数
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
       <FormulaExpression>ToPinyin( 组别 )</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeScanFiles">
+      <Guid>1fb17375-5000-44fd-b6ac-83ac5c9dd66b</Guid>
+      <CenterY>411.5</CenterY>
+      <CenterX>119.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>扫描目录</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FolderFiles>
+        <IsFolder>true</IsFolder>
+        <FullName>D:\github\Datist\functions</FullName>
+      </FolderFiles>
+      <ReadHash>false</ReadHash>
+      <ReadData>false</ReadData>
+      <ReadDirectory>false</ReadDirectory>
+      <Exts>
+        <string>path</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeRowID">
+      <Guid>c1831aca-cbaf-435d-a025-bd8519cacaaf</Guid>
+      <CenterY>385.5</CenterY>
+      <CenterX>375.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行号16</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <NewName>行号16</NewName>
+      <ComputeMode>RowID</ComputeMode>
+      <ComputeFieldName />
+      <UniqueFieldName />
+      <BeginFieldName />
+      <OrderBy>true</OrderBy>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>3b260d2e-b337-4a1e-8ed7-673327dfbc92</Guid>
+      <CenterY>405.5</CenterY>
+      <CenterX>440.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行号</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>c1831aca-cbaf-435d-a025-bd8519cacaaf</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>行号</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>Padl( 行号16 ,2, '0' )</FormulaExpression>
       <ConditionIf />
       <ConditionTrue />
       <ConditionFalse />
