@@ -181,8 +181,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeSort">
       <Guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</Guid>
-      <CenterY>160.1</CenterY>
-      <CenterX>420.2</CenterX>
+      <CenterY>150.5</CenterY>
+      <CenterX>470.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -666,8 +666,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeScanFiles">
       <Guid>1fb17375-5000-44fd-b6ac-83ac5c9dd66b</Guid>
-      <CenterY>411.5</CenterY>
-      <CenterX>119.5</CenterX>
+      <CenterY>571.5</CenterY>
+      <CenterX>399.5</CenterX>
       <Description />
       <ToolTip />
       <EditMode>Edit</EditMode>
@@ -763,8 +763,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</Guid>
-      <CenterY>269</CenterY>
-      <CenterX>268</CenterX>
+      <CenterY>230.5</CenterY>
+      <CenterX>315.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -789,6 +789,63 @@ HTML函数
         <string>函数</string>
       </FillerFields>
       <FillerValue>"\" || @Fields</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>d02df6fb-23df-41bc-89d0-290b8f4bd061</Guid>
+      <CenterY>130.5</CenterY>
+      <CenterX>365.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>筛选#1</Title>
+      <Name>筛选</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsIncluded>true</IsIncluded>
+      <FilterExpression> 组别 == '数值函数' </FilterExpression>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>a1f4614c-236e-4e69-9ce8-187be4d0f180</Guid>
+      <CenterY>65.5</CenterY>
+      <CenterX>540.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行序</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>d02df6fb-23df-41bc-89d0-290b8f4bd061</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>函数</FieldName>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+      </FieldSorts>
     </NodeBase>
   </Items>
   <ParNames />
