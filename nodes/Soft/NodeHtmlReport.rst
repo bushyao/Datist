@@ -2,83 +2,10 @@
 =====================
 科学研究是一项极为复杂的工作，研究中要完成一系列的任务，每个任务都会产若干图表。任务可对应于数据专家的流程，使用浏览报告节点可将多个流程产生的图表汇集成一份完整的报告。
 
-浏览报告采MarkDown技术，遵循MarkDown基本语法：
-
-<table class="wikitable">
-<tr>
-<th width="45%">Text using Markdown syntax</th>
-<th width="45%">Text viewed in a browser</th>
-</tr>
-<tr valign="top">
-<td>
-<pre>
-#Heading#
-
-##Sub-heading##
-
-### Another deeper heading
- 
-Paragraphs are separated
-by a blank line.
-
-Two spaces at the end of a line leave a  
-line break.
-
-Text attributes _italic_, *italic*, __bold__, **bold**, `monospace`.
-
-Horizontal rule:
-
----
-
-Bullet list:
-
-  * apples
-  * oranges
-  * pears
-
-Numbered list:
-
-  1. apples
-  2. oranges
-  3. pears
-
-A [link](http://example.com).
-
-Img ![image](http://www.baidu.com/img/baidu_jgylogo3.gif)
-
-</pre></td>
-
-<td>
-<h1>Heading</h1>
-<h2>Sub-heading</h2>
-<h3>Another deeper heading</h3>
-<p>Paragraphs are separated by a blank line.</p>
-<p>Two spaces at the end of a line leave a<br />
-line break.</p>
-<p>Text attributes <i>italic</i>, <i>italic</i>, <b>bold</b>, <b>bold</b>, <code>monospace</code>.</p>
-<p>Horizontal rule:</p>
-<hr />
-<p>Bullet list:</p>
-<ul>
-<li>apples</li>
-<li>oranges</li>
-<li>pears</li>
-</ul>
-<p>Numbered list:</p>
-<ol>
-<li>apples</li>
-<li>oranges</li>
-<li>pears</li>
-</ol>
-<p>A <a rel="nofollow" class="external text" href="http://example.com">link</a>.</p>
-<p>Img <img src="http://www.baidu.com/img/baidu_jgylogo3.gif" alt="image">.</p>
-</td>
-</tr>
-</table>
+浏览报告采MarkDown技术，遵循MarkDown基本语法，参考 https://en.wikipedia.org/wiki/Markdown 。
 
 数据专家独有的语法：
 
-<pre>
 $$节点名$  代表当前节点的名称；
 
 $$文件名$  代表流程的文件名；
@@ -93,14 +20,14 @@ $$摘要$    代表流程的描述；
 
 $NodeName$     代表前节点的内容,其中NodeName为数据流中，Name字段数据项的内容。
 
-注：浏览节点，前节点输出数据流中，必须有ID、Name、StreamType和Data字段，Description（可选）。
-</pre>
+..note::
+   浏览节点，前节点输出数据流中，必须有ID、Name、StreamType和Data字段，Description（可选）。
+
 
 浏览报告编辑器
 -----------------
 
-标记
-^^^^^^^^^^^^^^^^
+**1)标记**
 
 **自动创建报告：** 使用系统提供的默认标记生成报告。
 
@@ -119,8 +46,7 @@ $NodeName$     代表前节点的内容,其中NodeName为数据流中，Name字�
 表格类型：$具体数据(autoid=false,expend=true,years.decimal=5)$，autoid定义是否自动追加编号列，默认若表中没有编号列自动追加；expend定义表格是否展开，默认大于20行收缩；years.decimal指定数据列的小数点位数，其中years为的列名；
 
 
-样式设置
-^^^^^^^^^^^^^^^^
+**2)样式设置**
 
 定义报告中标题级别、编号样式、图像宽度等基本样式。
 
@@ -141,15 +67,13 @@ $NodeName$     代表前节点的内容,其中NodeName为数据流中，Name字�
 **解析公式：** 指定是否解析报告中的公式；
 
  
-页眉与页脚
-^^^^^^^^^^^^^^^^
+**3)页眉与页脚**
 
 **顶部：** 定义报告页眉HTML语句；
 
 **底部：** 定义报告页脚HTML语句；
 
-代码片断
-^^^^^^^^^^^^^^^^
+**4)代码片断**
 
 **Header：**定义嵌入在报告顶部的Script语句；
 
