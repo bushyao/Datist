@@ -11,6 +11,7 @@
    :maxdepth: 2
    
    NodeDBDirect
+   NodeSplitString
    NodeCache
    NodeExcelSheet
    NodeScanFiles
