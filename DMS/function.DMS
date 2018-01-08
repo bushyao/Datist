@@ -67,8 +67,8 @@
   <Items>
     <NodeBase xsi:type="NodeTXTEx">
       <Guid>433a5a5f-a20c-4f88-beee-ad86eef8c5df</Guid>
-      <CenterY>186.5</CenterY>
-      <CenterX>132</CenterX>
+      <CenterY>161.5</CenterY>
+      <CenterX>122</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -117,8 +117,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeFilter">
       <Guid>52c9c905-568d-4315-9c79-4404b1dd5bb9</Guid>
-      <CenterY>160.1</CenterY>
-      <CenterX>240.2</CenterX>
+      <CenterY>155.5</CenterY>
+      <CenterX>205.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -191,7 +191,7 @@
       <Name>行序</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>c2491d03-2362-40f8-bca3-373ecb529e41</guid>
+        <guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -252,8 +252,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeAggregate">
       <Guid>73d1c718-ce97-41a2-8143-030c26eb5efd</Guid>
-      <CenterY>55.5</CenterY>
-      <CenterX>550.5</CenterX>
+      <CenterY>60.5</CenterY>
+      <CenterX>280.5</CenterX>
       <Description />
       <ToolTip />
       <EditMode>Edit</EditMode>
@@ -283,8 +283,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeTable">
       <Guid>6dc7e656-6181-493c-8f04-03f78e194ee7</Guid>
-      <CenterY>55.1</CenterY>
-      <CenterX>660</CenterX>
+      <CenterY>55.5</CenterY>
+      <CenterX>390</CenterX>
       <Description />
       <ToolTip />
       <EditMode>Edit</EditMode>
@@ -309,8 +309,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeSelect">
       <Guid>c2491d03-2362-40f8-bca3-373ecb529e41</Guid>
-      <CenterY>160.1</CenterY>
-      <CenterX>315.2</CenterX>
+      <CenterY>160.5</CenterY>
+      <CenterX>280.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -694,8 +694,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeRowID">
       <Guid>c1831aca-cbaf-435d-a025-bd8519cacaaf</Guid>
-      <CenterY>385.5</CenterY>
-      <CenterX>375.5</CenterX>
+      <CenterY>405.5</CenterY>
+      <CenterX>360.5</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -755,6 +755,34 @@ HTML函数
       <MutliDefaultValue>null</MutliDefaultValue>
       <MutliCondtitions />
       <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</Guid>
+      <CenterY>269</CenterY>
+      <CenterX>268</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>替换#1</Title>
+      <Name>替换</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>c2491d03-2362-40f8-bca3-373ecb529e41</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FillerIf>@Fields in ('*','+' ,'-','|')</FillerIf>
+      <FillerFields>
+        <string>函数</string>
+      </FillerFields>
+      <FillerValue>"\" || @Fields</FillerValue>
     </NodeBase>
   </Items>
   <ParNames />
