@@ -7,6 +7,7 @@
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    
    01ShuZhiHanShu
    02SanJiaoHanShu
