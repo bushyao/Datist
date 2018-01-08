@@ -847,9 +847,174 @@ HTML函数
         </FieldSort>
       </FieldSorts>
     </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>c12dcce7-4d71-4fc2-a25d-d2c4dda5c24f</Guid>
+      <CenterY>429</CenterY>
+      <CenterX>50</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>替换#2</Title>
+      <Name>替换</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FillerIf />
+      <FillerFields />
+      <FillerValue />
+    </NodeBase>
+    <NodeBase xsi:type="NodeMerge">
+      <Guid>aa93df23-7224-4db7-9f88-2355cd0a3956</Guid>
+      <CenterY>463</CenterY>
+      <CenterX>303</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>合并</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Inputs />
+      <KeyFields />
+      <IsSameNameMode>true</IsSameNameMode>
+      <JoinString />
+      <NodeJoinType>Inner</NodeJoinType>
+      <T1Gid>
+        <Gid>00000000-0000-0000-0000-000000000000</Gid>
+        <Tag>0</Tag>
+      </T1Gid>
+      <T2Gid>
+        <Gid>00000000-0000-0000-0000-000000000000</Gid>
+        <Tag>0</Tag>
+      </T2Gid>
+      <InputsFilter />
+    </NodeBase>
+    <NodeBase xsi:type="NodeWordMarker">
+      <Guid>52ddb571-8c06-4ef1-b18c-0e0719e2cc38</Guid>
+      <CenterY>618</CenterY>
+      <CenterX>50</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>打标签</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>Data</FieldName>
+      <KeyFieldName />
+      <MatchText />
+    </NodeBase>
+    <NodeBase xsi:type="NodeScanFiles">
+      <Guid>da8ee921-4813-41b6-a2b2-d42357e76249</Guid>
+      <CenterY>586.5</CenterY>
+      <CenterX>185</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>扫描目录#1</Title>
+      <Name>扫描目录</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FolderFiles>
+        <IsFolder>true</IsFolder>
+        <FullName>D:\github\Datist\nodes</FullName>
+      </FolderFiles>
+      <ReadHash>false</ReadHash>
+      <ReadData>false</ReadData>
+      <ReadDirectory>true</ReadDirectory>
+      <Exts>
+        <string>path</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeTable">
+      <Guid>cf61dc17-f551-4504-840f-1732c28fdf66</Guid>
+      <CenterY>705.5</CenterY>
+      <CenterX>329</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>浏览数据</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>cd41c239-52df-4c28-938c-823c6bfe954b</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFormats />
+      <AutoWidthFit>true</AutoWidthFit>
+      <Expression />
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>cd41c239-52df-4c28-938c-823c6bfe954b</Guid>
+      <CenterY>615.5</CenterY>
+      <CenterX>275.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>筛选#2</Title>
+      <Name>筛选</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>da8ee921-4813-41b6-a2b2-d42357e76249</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsIncluded>true</IsIncluded>
+      <FilterExpression> IsFile == False </FilterExpression>
+    </NodeBase>
   </Items>
   <ParNames />
-  <EvalNodeNames>汇总(组别);数据项转存</EvalNodeNames>
+  <EvalNodeNames>汇总(组别);数据项转存;浏览数据</EvalNodeNames>
   <OffsetX>0</OffsetX>
   <OffsetY>0</OffsetY>
   <Scale>1</Scale>
