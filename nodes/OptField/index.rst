@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
    
-行列计算节点
+行列计算
 ====================================
 最常用的数据处理方法，通过行列操作，实现数据清洗与变换。
 

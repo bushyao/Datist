@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
    
-数据源节点
+数据源
 ====================================
 将外部数据接入到数据专家中，是整个数据流程的开始。
 
