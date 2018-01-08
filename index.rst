@@ -14,5 +14,5 @@
    content/environment
    content/functionNode
    content/node
-   content/function
+   functions/index
    logs/index
