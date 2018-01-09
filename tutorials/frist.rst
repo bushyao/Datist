@@ -5,7 +5,7 @@ Hollow world！
 =====================
  典型的 Datist 界面如下：
 
-.. figure:: images/first_01.png
+.. figure:: images/first01.png
      :align: center
      :figwidth: 100% 
      :name: plate 
@@ -18,17 +18,16 @@ Hollow world！
 
 例如，假定您需要打开某个数据源、添加新字段、根据新字段中的值选择记录，然后在表中显示结果。在这种情况下，您的数据流应由以下四个节点组成：
 
-.. figure:: images/first_02.png
+.. figure:: images/first02.png
      :align: center
-     :figwidth: 60% 
+     :figwidth: 70% 
      :name: plate 	 
 	 
-
 **基本概念：数据流**
 
  Datist 进行的数据处理重点关注通过一系列节点运行数据的过程，我们将这一过程称为数据流。也可以说 Datist 是以数据流为驱动的工具，这一系列节点代表要对数据执行的操作，而节点之间的链接指示数据的流动方向。如，上面提到的四个节点可以创建如下数据流：
 
-.. figure:: images/first_03.png
+.. figure:: images/first03.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
@@ -41,20 +40,22 @@ Hollow world！
 
 在 Datist 中，可以通过打开新的数据流来一次处理多个数据流。会话期间，可以在 Datist 窗口右上角的已打开流程中管理打开的多个数据流。
 
-.. figure:: images/first_04.png
+.. figure:: images/first04.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
  
 **工具箱选项板**
+
  工具箱选项板位于流工作区左侧窗口中。
 
-.. figure:: images/first_05.png
+.. figure:: images/first05.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
 
  每个选项板选项卡均包含一组不同的流操作阶段中使用的相关节点，如：
+ 
 * 数据源：此类节点可将数据导入 Datist，如数据库、文本文件、Excel、Word、扫描目录等。
 * 行列计算：此类节点可对数据行列操作，如选择、过滤、新列、合并和追加等。
 * 空间分析：此类节点提供空间分析方法，如投影变换、图元信息提取、图元简化与平滑等。
@@ -71,6 +72,7 @@ Hollow world！
  随着对 Datist 的熟悉，您可以在收藏夹栏中自定义常用节点，或是扩展自己的节点。
 
 **使用节点和流**
+
  要将节点添加到工作区，请在节点选项板中双击图标或将其拖放到工作区。已添加到流工作区的节点在连接之前不会形成数据流，可以将各个图标连接以创建一个表示数据流动的流，节点之间的连接指示数据从一项操作流向下一项操作的方向。
 
 Datist 中最常见的鼠标用法如下所示：
