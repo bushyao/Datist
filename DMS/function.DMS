@@ -1262,8 +1262,10 @@ HTML函数
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
       <FormulaExpression>F("{functype}： **{函数}**
-|返回值：{返回值}
-|说明：{说明}")</FormulaExpression>
+
+返回值：{返回值}
+
+说明：{说明}")</FormulaExpression>
       <ConditionIf />
       <ConditionTrue />
       <ConditionFalse />
