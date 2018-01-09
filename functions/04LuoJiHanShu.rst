@@ -26,18 +26,6 @@ Cond1 or Cond2
 
 说明：或，双目逻辑运算符。当Cond1或Cond2为真或这两者同时为真时，返回真值。如果Cond1为真，则不求Cond2的值。
 
-Item1 between Item2 and Item3
-~~~~~~~~~~~~~~~~~~
-返回值：Boolean
-
-说明：界于之间，三目逻辑运算符。例："x BETWEEN y AND z"等同于"x  >=y AND x< =z"。
-
-NullIf(expr1, expr2)
-~~~~~~~~~~~~~~~~~~
-返回值：Any
-
-说明：如果两个表达式相等，NullIf返回空值NULL,否则返回expr1的值。
-
 decode(value, if1, then1, if2,then2, if3,then3, … else )
 ~~~~~~~~~~~~~~~~~~
 返回值：Any
@@ -56,11 +44,23 @@ iif(Cond,TrueItem,FalseItem)
 
 说明：条件函数。如果条件Cond满足(为真)，返回表达式TrueItem的值，否则表达式FalseItem的值。
 
+Item1 between Item2 and Item3
+~~~~~~~~~~~~~~~~~~
+返回值：Boolean
+
+说明：界于之间，三目逻辑运算符。例："x BETWEEN y AND z"等同于"x  >=y AND x< =z"。
+
 not( Cond )
 ~~~~~~~~~~~~~~~~~~
 返回值：Boolean
 
 说明：非，单目逻辑运算符。如果Cond为假，则返回真。否则，此运算将返回值0。
+
+NullIf(expr1, expr2)
+~~~~~~~~~~~~~~~~~~
+返回值：Any
+
+说明：如果两个表达式相等，NullIf返回空值NULL,否则返回expr1的值。
 
 nvl(expr1, expr2)
 ~~~~~~~~~~~~~~~~~~

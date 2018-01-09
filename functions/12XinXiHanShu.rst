@@ -20,12 +20,6 @@ IsChinese(Item)
 
 说明：Item全为汉字返回真值。
 
-IsDBNull(Item)
-~~~~~~~~~~~~~~~~~~
-返回值：Boolean
-
-说明：空值判断，如果表达式Item的值为空，返回真（1），否则返回假（0）。
-
 IsDatetime(Item)
 ~~~~~~~~~~~~~~~~~~
 返回值：Boolean
@@ -43,6 +37,12 @@ IsDatetime(Item,DateTimeFormatList,SplitChar)
 返回值：Boolean
 
 说明：判断文本是否为指定格式的日期与时间，DateTimeFormatList为日期格式列表：(年-月-日 时:分:秒.毫秒) yyyy-MM-dd HH:mm:ss （HH为24小时制，hh为12小时制）；SplitChar为格式列表的分隔字符。
+
+IsDBNull(Item)
+~~~~~~~~~~~~~~~~~~
+返回值：Boolean
+
+说明：空值判断，如果表达式Item的值为空，返回真（1），否则返回假（0）。
 
 IsInteger(Item)
 ~~~~~~~~~~~~~~~~~~
@@ -80,17 +80,17 @@ IsReal(Item)
 
 说明：Item为实数返回真值。
 
-RemoveChinese(Item)
-~~~~~~~~~~~~~~~~~~
-返回值：String
-
-说明：删除字符串中的所有中文。
-
 null
 ~~~~~~~~~~~~~~~~~~
 返回值：null
 
 说明：空。
+
+RemoveChinese(Item)
+~~~~~~~~~~~~~~~~~~
+返回值：String
+
+说明：删除字符串中的所有中文。
 
 typeof(ITEM)
 ~~~~~~~~~~~~~~~~~~

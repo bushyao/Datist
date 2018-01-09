@@ -38,12 +38,6 @@ Create8CWorkGrahp(LocationString, LoadString)
 
 说明：示功图函数，创建绘图数据。
 
-GUIDParse(String)
-~~~~~~~~~~~~~~~~~~
-返回值：GUID
-
-说明：将文本转换为GUID值。
-
 GetAddressByIdCard(string)
 ~~~~~~~~~~~~~~~~~~
 返回值：String
@@ -79,6 +73,12 @@ GetSexByIdCard(string)
 返回值：String
 
 说明：从居民身份证号码中获取性别信息。
+
+GUIDParse(String)
+~~~~~~~~~~~~~~~~~~
+返回值：GUID
+
+说明：将文本转换为GUID值。
 
 IsIdCard(string)
 ~~~~~~~~~~~~~~~~~~

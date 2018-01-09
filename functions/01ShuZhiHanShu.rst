@@ -8,42 +8,6 @@
 
 说明：余数，双目运算符，输出其左边的数除以右面数后的余数，注：左右两个参数必须为整数。
 
-/
-~~~~~~~~~~~~~~~~~~
-返回值：Number
-
-说明：除法运算，双目运算符。
-
-IEEERemainder(Number,Divisor)
-~~~~~~~~~~~~~~~~~~
-返回值：Double
-
-说明：返回Number除Divisor的余数。
-
-Log(NUM,BASE)
-~~~~~~~~~~~~~~~~~~
-返回值：Double
-
-说明：对数，以BASE底数，返回NUM的对数。
-
-Mean(Number,...)
-~~~~~~~~~~~~~~~~~~
-返回值：Any
-
-说明：返回函数参数中的平均值，如果有任何一个参数为NULL，则返回NULL。
-
-Round(NUM)
-~~~~~~~~~~~~~~~~~~
-返回值：Integer
-
-说明：四舍五入，返回与参数最接近的整数值。
-
-Round(NUM,Integer)
-~~~~~~~~~~~~~~~~~~
-返回值：Double
-
-说明：四舍五入，返回按指定位数(Integer)进行四舍五入的数值。
-
 \*
 ~~~~~~~~~~~~~~~~~~
 返回值：Number
@@ -61,6 +25,12 @@ Round(NUM,Integer)
 返回值：Number
 
 说明：减法运算，置于两个数值之间：NUM1-NUM2（NUM1减去NUM2）；或置于一个数值之间：-NUM（NUM的负数）。
+
+/
+~~~~~~~~~~~~~~~~~~
+返回值：Number
+
+说明：除法运算，双目运算符。
 
 abs(NUM)
 ~~~~~~~~~~~~~~~~~~
@@ -92,6 +62,12 @@ fracof(Number)
 
 说明：返回Number 的小数部分，定义为Number–intof(Number)。
 
+IEEERemainder(Number,Divisor)
+~~~~~~~~~~~~~~~~~~
+返回值：Double
+
+说明：返回Number除Divisor的余数。
+
 intof(Number)
 ~~~~~~~~~~~~~~~~~~
 返回值：Integer
@@ -104,11 +80,23 @@ log(NUM)
 
 说明：对数，返回以e为底NUM的对数，e是一个常数为2.71828182845905（自然数)。
 
+Log(NUM,BASE)
+~~~~~~~~~~~~~~~~~~
+返回值：Double
+
+说明：对数，以BASE底数，返回NUM的对数。
+
 log10(NUM)
 ~~~~~~~~~~~~~~~~~~
 返回值：Double
 
 说明：对数，返回以 10 为底 NUM 的对数。
+
+Mean(Number,...)
+~~~~~~~~~~~~~~~~~~
+返回值：Any
+
+说明：返回函数参数中的平均值，如果有任何一个参数为NULL，则返回NULL。
 
 mean_n(List)
 ~~~~~~~~~~~~~~~~~~
@@ -121,6 +109,18 @@ power(NUM, POWER)
 返回值：Double
 
 说明：幂函数，返回 NUM 的 POWER 次方。
+
+Round(NUM)
+~~~~~~~~~~~~~~~~~~
+返回值：Integer
+
+说明：四舍五入，返回与参数最接近的整数值。
+
+Round(NUM,Integer)
+~~~~~~~~~~~~~~~~~~
+返回值：Double
+
+说明：四舍五入，返回按指定位数(Integer)进行四舍五入的数值。
 
 sdev_n(List)
 ~~~~~~~~~~~~~~~~~~

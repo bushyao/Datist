@@ -2,12 +2,6 @@
 批处理命令
 ======================
 
-Rename(FileName,NewFileName)
-~~~~~~~~~~~~~~~~~~
-返回值：String
-
-说明：合成重命名批处理命令。
-
 copy(FileName,NewFileName)
 ~~~~~~~~~~~~~~~~~~
 返回值：String
@@ -37,3 +31,9 @@ rd(Path)
 返回值：String
 
 说明：合成删除文件夹批处理命令。
+
+Rename(FileName,NewFileName)
+~~~~~~~~~~~~~~~~~~
+返回值：String
+
+说明：合成重命名批处理命令。

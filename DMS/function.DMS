@@ -184,7 +184,6 @@
       <CenterY>150.5</CenterY>
       <CenterX>470.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -210,33 +209,33 @@
           <Tag>true</Tag>
           <ValueSort>数值函数
 三角函数
-字符串函数
-日期与时间
-地理信息
-列表函数
-统计
-HTML函数
-转换函数
-文件相关
-图像处理
-信息函数
-比较函数
-逻辑函数
-油田专用
-批处理命令
-位运算函数
-空间统计
 随机函数
+逻辑函数
+比较函数
+字符串函数
+字符编码
+日期与时间
+列表函数
+位运算函数
+转换函数
+信息函数
+颜色函数
+统计
+地理信息
+空间统计
+HTML函数
+文件相关
+批处理命令
+图像处理
 数据缓存
 网络相关
-颜色函数
-字符编码
 定时运行
+油田专用
 其它</ValueSort>
         </FieldSort>
         <FieldSort>
           <Asc>true</Asc>
-          <FieldName>函数</FieldName>
+          <FieldName>函数2</FieldName>
           <DataType>Text</DataType>
           <Tag>true</Tag>
           <ValueSort />
@@ -335,7 +334,7 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</Guid>
-      <CenterY>250.5</CenterY>
+      <CenterY>255.5</CenterY>
       <CenterX>430.5</CenterX>
       <Description />
       <ToolTip />
@@ -424,10 +423,9 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeSort">
       <Guid>8dfaf672-8de3-4fbc-b202-e3bfa8d7dfed</Guid>
-      <CenterY>230.5</CenterY>
+      <CenterY>255.5</CenterY>
       <CenterX>725.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -453,35 +451,35 @@ HTML函数
           <Tag>true</Tag>
           <ValueSort>数值函数
 三角函数
-字符串函数
-日期与时间
-地理信息
-列表函数
-统计
-HTML函数
-转换函数
-文件相关
-图像处理
-信息函数
-比较函数
-逻辑函数
-油田专用
-批处理命令
-位运算函数
-空间统计
 随机函数
+逻辑函数
+比较函数
+字符串函数
+字符编码
+日期与时间
+列表函数
+位运算函数
+转换函数
+信息函数
+颜色函数
+统计
+地理信息
+空间统计
+HTML函数
+文件相关
+批处理命令
+图像处理
 数据缓存
 网络相关
-颜色函数
-字符编码
 定时运行
+油田专用
 其它</ValueSort>
         </FieldSort>
       </FieldSorts>
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</Guid>
-      <CenterY>375.5</CenterY>
+      <CenterY>405.5</CenterY>
       <CenterX>655.5</CenterX>
       <Description />
       <ToolTip />
@@ -522,8 +520,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDownload">
       <Guid>dade82c4-151b-4fe1-84e9-c5492d08597b</Guid>
-      <CenterY>365.5</CenterY>
-      <CenterX>790</CenterX>
+      <CenterY>405.5</CenterY>
+      <CenterX>745</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -552,8 +550,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>17307153-6002-4d9f-95a7-a56dc5abb114</Guid>
-      <CenterY>485.5</CenterY>
-      <CenterX>725.5</CenterX>
+      <CenterY>565.5</CenterY>
+      <CenterX>495.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -585,7 +583,7 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>f5cb87af-bd10-41f1-b967-f19e1631c3b7</Guid>
-      <CenterY>380.5</CenterY>
+      <CenterY>405.5</CenterY>
       <CenterX>540.5</CenterX>
       <Description />
       <ToolTip />
@@ -687,8 +685,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</Guid>
-      <CenterY>230.5</CenterY>
-      <CenterX>315.5</CenterX>
+      <CenterY>255.5</CenterY>
+      <CenterX>350.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -697,7 +695,7 @@ HTML函数
       <Name>替换</Name>
       <ShowName>false</ShowName>
       <PriorNodeGuid>
-        <guid>c2491d03-2362-40f8-bca3-373ecb529e41</guid>
+        <guid>60a05b3c-a541-4d3f-b829-50a3c2b50ecd</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -774,8 +772,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeSuper">
       <Guid>90c79752-bfb4-43d7-8eec-74bf56baa196</Guid>
-      <CenterY>490.5</CenterY>
-      <CenterX>620.5</CenterX>
+      <CenterY>570</CenterY>
+      <CenterX>430</CenterX>
       <Description />
       <ToolTip />
       <EditMode>Edit</EditMode>
@@ -1128,6 +1126,139 @@ HTML函数
       <MutliDefaultValue>null</MutliDefaultValue>
       <MutliCondtitions />
       <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>60a05b3c-a541-4d3f-b829-50a3c2b50ecd</Guid>
+      <CenterY>255.5</CenterY>
+      <CenterX>295.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>函数2</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>c2491d03-2362-40f8-bca3-373ecb529e41</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>函数2</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>Lower( 函数 )</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>a932d2e1-c4b4-4f9d-92e1-53603e615d84</Guid>
+      <CenterY>505</CenterY>
+      <CenterX>660</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>index_1</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>de8f3a49-a4e4-48d9-b4eb-2466d47607c5</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>index_1</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>F("   {行号}{FileName}")</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFilter">
+      <Guid>e6936acf-d674-4872-b0e8-b808ff57a420</Guid>
+      <CenterY>502</CenterY>
+      <CenterX>735</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>过滤#1</Title>
+      <Name>过滤</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>a932d2e1-c4b4-4f9d-92e1-53603e615d84</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFilters>
+        <FieldFilter>
+          <FieldName>组别</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>组别</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>新列8_字符合并</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>新列8_字符合并</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>行号16</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>行号16</NewFieldName>
+          <NewDataType>Integer</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>行号</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>行号</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>FileName</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>FileName</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>输出</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>输出</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+      </FieldFilters>
+      <DefaultFilte>true</DefaultFilte>
+      <IsStandardMode>false</IsStandardMode>
     </NodeBase>
   </Items>
   <ParNames />
