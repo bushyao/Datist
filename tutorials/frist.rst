@@ -77,7 +77,7 @@ Datist 中最常见的鼠标用法如下所示：
 创建了流以后，可以对流进行保存、添加注解，将其添加到工程。从文件主菜单中，选择流属性还可以为流设置各种选项，如优化、日期和时间设置、参数。
 
 .. note::
-  您可以从Windows的文件夹中把文件或目录，拖到 Datist 的流工作区，或是复制、粘贴到 Datist 的流工作区，Datist 将根据拖入或粘入文件的类型自动创建相应数据源节点。支持的文件类型有：.mdb .db .db3 .accdb .xls .xlsx .csv .txt .doc .docx .wis .e2d .dxf .kml .shp .gdb .png .jpg .dms。
+  您可以从Windows的文件夹中把文件或目录，拖到或是复制、粘贴到 Datist 的流工作区，系统将根据文件类型自动创建数据源节点。系统支持.mdb .db .db3 .accdb .xls .xlsx .csv .txt .doc .docx .wis .e2d .dxf .kml .shp .gdb .png .jpg .dms等。
 
 **Datist管理器**
  
