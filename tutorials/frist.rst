@@ -20,7 +20,7 @@ Hollow world！
 
 .. figure:: images/first_02.png
      :align: center
-     :figwidth: 100% 
+     :figwidth: 60% 
      :name: plate 	 
 	 
 
@@ -31,15 +31,12 @@ Hollow world！
 .. figure:: images/first_03.png
      :align: center
      :figwidth: 100% 
-     :name: plate
-	 
-	 
+     :name: plate 	 
+ 
  通常，Datist 将数据以一条条记录的形式读入，然后通过对数据进行一系列操作，最后将其发送至某个地方（可以是模型，或某种格式的数据输出）。使用 Datist 处理数据的三个步骤：
 
- # 将数据读入 Datist。
-
- # 通过一系列操纵运行数据。
-
- # 将数据发送到目标位置。
+#. 将数据读入 Datist。
+#. 通过一系列操纵运行数据。
+#. 将数据发送到目标位置。
 
 
