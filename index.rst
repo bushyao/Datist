@@ -10,7 +10,6 @@
    
    tutorials/index
    FAQ/index
-   environment/index
    nodes/index
    functions/index
    logs/index

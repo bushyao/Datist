@@ -9,6 +9,7 @@
    :maxdepth: 2
    :numbered:
    
+   base.rst
    01ShuZhiHanShu
    02BiJiaoHanShu
    03LuoJiHanShu
