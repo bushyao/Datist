@@ -1,7 +1,7 @@
 ﻿.. the frist doc for datist
 
 
-初次上手
+Hollow world！
 =====================
  典型的 Datist 界面如下：
 
@@ -23,27 +23,23 @@
      :figwidth: 100% 
      :name: plate 	 
 	 
-表格节点，设置此节点后可以读取数据源中的数据。
+
+**基本概念：数据流**
+
+ Datist 进行的数据处理重点关注通过一系列节点运行数据的过程，我们将这一过程称为数据流。也可以说 Datist 是以数据流为驱动的工具，这一系列节点代表要对数据执行的操作，而节点之间的链接指示数据的流动方向。如，上面提到的四个节点可以创建如下数据流：
 
 .. figure:: images/first_03.png
      :align: center
      :figwidth: 100% 
-     :name: plate 	
+     :name: plate
 	 
-新列节点，用于向数据集中添加计算的新字段。 
-
-.. figure:: images/first_04.png
-     :align: center
-     :figwidth: 100% 
-     :name: plate 	 
 	 
-筛选节点，用于设置选择标准，以从数据流中排除某些记录。 
+ 通常，Datist 将数据以一条条记录的形式读入，然后通过对数据进行一系列操作，最后将其发送至某个地方（可以是模型，或某种格式的数据输出）。使用 Datist 处理数据的三个步骤：
 
-.. figure:: images/first_05.png
-     :align: center
-     :figwidth: 100% 
-     :name: plate 	 
-  
-浏览数据节点，用于在屏幕上显示操作结果。 
+ # 将数据读入 Datist。
 
- 
+ # 通过一系列操纵运行数据。
+
+ # 将数据发送到目标位置。
+
+
