@@ -32,6 +32,18 @@ CountNulls(List)
 
 说明：返回列表中空值的个数。
 
+CreateSequence(StartId,EndId)
+~~~~~~~~~~~~~~~~~~
+返回值：String
+
+说明：根据指定的定义起止序号，构造一个整数序列字符串（包括起止序号），其中StartId、EndId为整数；当 StartId 小于 EndId 输出递增序列，StartId 大于 EndId 输出递减序列。
+
+CreateSequence(StartId,EndId,Step)
+~~~~~~~~~~~~~~~~~~
+返回值：String
+
+说明：根据指定的定义起止序号，构造一个整数序列字符串（包括起止序号），其中StartId、EndId、Step为整数，Step定义增量步长；当 StartId 小于 EndId 输出递增序列，StartId 大于 EndId 输出递减序列。
+
 FirstGreaterThan(Item,List)
 ~~~~~~~~~~~~~~~~~~
 返回值：Number

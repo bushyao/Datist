@@ -1012,6 +1012,7 @@ HTML函数
       <CenterY>355.9</CenterY>
       <CenterX>82.2</CenterX>
       <Description>NodeXLSEx</Description>
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1040,6 +1041,7 @@ HTML函数
       <CenterY>355.9</CenterY>
       <CenterX>192.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>筛选#2</Title>
@@ -1059,6 +1061,73 @@ HTML函数
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsIncluded>false</IsIncluded>
       <FilterExpression> Type == 'Cell' </FilterExpression>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSplitString">
+      <Guid>c5d25f94-6e7f-4eda-bf58-ca58d24a9b2d</Guid>
+      <CenterY>521.5</CenterY>
+      <CenterX>169.5</CenterX>
+      <Description />
+      <ToolTip />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>列1</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Text>start,end,step
+20,50,4</Text>
+      <SplitChar>, .、;:"\r\n\t</SplitChar>
+      <FieldName>列1</FieldName>
+      <FillHead>true</FillHead>
+      <SplitIt>true</SplitIt>
+      <OutChar>,</OutChar>
+      <IsTableMode>true</IsTableMode>
+      <HasHeader>true</HasHeader>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>5f396b15-5d7b-4e45-a2bf-fe88c6aacfc2</Guid>
+      <CenterY>530.5</CenterY>
+      <CenterX>350.5</CenterX>
+      <Description />
+      <ToolTip />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>新列27</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>c5d25f94-6e7f-4eda-bf58-ca58d24a9b2d</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>新列27</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>CreateSequence(  end_1 ,start,-2)</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
     </NodeBase>
   </Items>
   <ParNames />
