@@ -22,24 +22,24 @@
      :align: center
      :figwidth: 100% 
      :name: plate 	 
-表格节点，设置此节点后可以读取数据源中的数据。
+   表格节点，设置此节点后可以读取数据源中的数据。
 
 .. figure:: images/first_03.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
-新列节点，用于向数据集中添加计算的新字段。 
+   新列节点，用于向数据集中添加计算的新字段。 
 
 .. figure:: images/first_04.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
-筛选节点，用于设置选择标准，以从数据流中排除某些记录。 
+     筛选节点，用于设置选择标准，以从数据流中排除某些记录。 
 
 .. figure:: images/first_05.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
-浏览数据节点，用于在屏幕上显示操作结果。 
+   浏览数据节点，用于在屏幕上显示操作结果。 
 
  
