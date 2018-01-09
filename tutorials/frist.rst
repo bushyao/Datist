@@ -38,9 +38,9 @@ Datist 进行的数据处理重点关注通过一系列节点运行数据的过�
 #. 通过一系列操纵运行数据。
 #. 将数据发送到目标位置。
 
-**工具箱选项板**
+**工具箱选项卡**
 
-工具箱选项板位于流工作区左侧窗口中。
+工具箱选项卡位于流工作区左侧窗口中。
 
 .. figure:: images/first05.png
      :align: center
@@ -81,20 +81,58 @@ Datist 中最常见的鼠标用法如下所示：
 
 **Datist管理器**
  
-“已打开流程”选项卡中管理打开的多个数据流。可以使用“已打开流程”选项卡新建、打开、保存和关闭流程。
+“已打开流程”选项卡中管理打开的多个数据流，可以使用“已打开流程”选项卡新建、打开、保存和关闭流程。
 
 .. figure:: images/first04.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
  
-“输出窗口”选项卡中管理由 Datist 中的流操作生成的输出或图形文件。您可以显示、锁定和关闭此选项上列出的表格、图形和报告。
+“输出窗口”选项卡中管理由 Datist 中的流操作生成的输出或图形文件，您可以显示、锁定和关闭此选项上列出的表格、图形和报告。
  
 .. figure:: images/first06.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
  
+“流程设置”选项卡中管理当前的流程中的流程变量，您可以填写流程变量的值并运行输出节点。
+ 
+.. figure:: images/first07.png
+     :align: center
+     :figwidth: 100% 
+     :name: plate 	 
+ 
+“流程设置”选项卡中管理当前的流程中的流程变量，您可以填写流程变量的值并运行输出节点。
+ 
+.. figure:: images/first07.png
+     :align: center
+     :figwidth: 100% 
+     :name: plate 	 
+ 
+“工程列表”选项卡可以进行流程工程管理，您可以将一组相关的流程的组织成流程工程，以便于与其实用户共享。
+ 
+.. figure:: images/first08.png
+     :align: center
+     :figwidth: 100% 
+     :name: plate 	 
+	 
+“数据源列表”选项卡可以管理多数据库中的数据表，以便于快速创建流程；您可以用它来管理企业中多个数据库。
+ 
+.. figure:: images/first09.png
+     :align: center
+     :figwidth: 100% 
+     :name: plate 
+	 
+“节点查找”选项卡可以用于查找当前流程中的节点或是节点中属性，以于您查找、定位节点。
+ 
+.. figure:: images/first10.png
+     :align: center
+     :figwidth: 100% 
+     :name: plate 	 
 
+“运行报告”选项卡中管理由 Datist 中的流操作产生日志，您可以用它来排查运行过程中出现问题。
  
- 
+.. figure:: images/first11.png
+     :align: center
+     :figwidth: 100% 
+     :name: plate 	  	 
