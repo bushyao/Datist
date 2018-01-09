@@ -1241,7 +1241,6 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>650.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1262,11 +1261,9 @@ HTML函数
       <FieldName>body</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F("{functype}：{函数}
-
-返回值：{返回值}
-
-说明：{说明}")</FormulaExpression>
+      <FormulaExpression>F("{functype}： **{函数}**
+|返回值：{返回值}
+|说明：{说明}")</FormulaExpression>
       <ConditionIf />
       <ConditionTrue />
       <ConditionFalse />
@@ -1378,8 +1375,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeSort">
       <Guid>6945166e-754d-4227-a335-eb894f6b3feb</Guid>
-      <CenterY>160.5</CenterY>
-      <CenterX>815.5</CenterX>
+      <CenterY>155.5</CenterY>
+      <CenterX>865.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -1420,8 +1417,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeAggregate">
       <Guid>5755e91f-b068-4f69-a800-f0f287ba53ef</Guid>
-      <CenterY>161</CenterY>
-      <CenterX>884</CenterX>
+      <CenterY>170.5</CenterY>
+      <CenterX>975.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -1529,8 +1526,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>0ac78f1e-1a10-4223-adeb-e5193119f031</Guid>
-      <CenterY>65.5</CenterY>
-      <CenterX>745.5</CenterX>
+      <CenterY>150.5</CenterY>
+      <CenterX>785.5</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -1557,8 +1554,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeSelect">
       <Guid>682a2943-9a6c-4b4f-85b3-92b017b2dec5</Guid>
-      <CenterY>50.5</CenterY>
-      <CenterX>865.5</CenterX>
+      <CenterY>40.5</CenterY>
+      <CenterX>740.5</CenterX>
       <Description />
       <ToolTip />
       <EditMode>Edit</EditMode>
@@ -1579,6 +1576,35 @@ HTML函数
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsIncluded>true</IsIncluded>
       <FilterExpression> 组别 == '比较函数' </FilterExpression>
+    </NodeBase>
+    <NodeBase xsi:type="NodeRowID">
+      <Guid>52803d92-68c0-475d-954f-780437d379da</Guid>
+      <CenterY>50</CenterY>
+      <CenterX>905</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行号41</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>6945166e-754d-4227-a335-eb894f6b3feb</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <NewName>行号41</NewName>
+      <ComputeMode>RowID</ComputeMode>
+      <ComputeFieldName />
+      <UniqueFieldName>funcName</UniqueFieldName>
+      <BeginFieldName />
+      <OrderBy>true</OrderBy>
     </NodeBase>
   </Items>
   <ParNames />
