@@ -1280,6 +1280,7 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>485.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1315,7 +1316,6 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>570.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1498,6 +1498,7 @@ HTML函数
       <CenterY>280.5</CenterY>
       <CenterX>640.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1531,6 +1532,7 @@ HTML函数
       <CenterY>150.5</CenterY>
       <CenterX>785.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>替换#2</Title>
@@ -1584,6 +1586,7 @@ HTML函数
       <CenterY>50</CenterY>
       <CenterX>905</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1611,7 +1614,7 @@ HTML函数
   </Items>
   <ParNames />
   <EvalNodeNames>汇总(组别);数据项转存;浏览数据</EvalNodeNames>
-  <OffsetX>0</OffsetX>
+  <OffsetX>257.9737335835124</OffsetX>
   <OffsetY>0</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>
