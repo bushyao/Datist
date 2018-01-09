@@ -40,14 +40,6 @@ Area
 
 说明：返回多边形的面积；式中Points为多边形边界，数据格式：x1 y1,x2 y2,x3 y3；EPSG为投影带号。
 
-Beijing54ToXian80
-~~~~~~~~~~~~~~~~~~
-函数体：Beijing54ToXian80(Real X,Real Y,Bool IsY)
-
-返回值：Double
-
-说明：将北京54坐标转换为西安80，如IsY为True或1，返回横坐标Y；否则返回纵坐标X。
-
 Beijing54_3To6
 ~~~~~~~~~~~~~~~~~~
 函数体：Beijing54_3To6(Real X,Real Y,Bool IsY)
@@ -71,6 +63,14 @@ Beijing54toLL
 返回值：Double
 
 说明：将北京54坐标转换为经纬度坐标（只适应于鄂尔多斯盆地）。式中北京54坐标（X,Y）,X为横坐标(东方向)，Y为纵坐标(北方向)；如IsLongitude为True或1，返回经度值；否则返回纬度值。
+
+Beijing54ToXian80
+~~~~~~~~~~~~~~~~~~
+函数体：Beijing54ToXian80(Real X,Real Y,Bool IsY)
+
+返回值：Double
+
+说明：将北京54坐标转换为西安80，如IsY为True或1，返回横坐标Y；否则返回纵坐标X。
 
 Bmap2Gmap
 ~~~~~~~~~~~~~~~~~~

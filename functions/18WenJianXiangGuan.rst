@@ -94,14 +94,6 @@ MD5
 
 说明：Creates a MD5 hash on binary data
 
-RIPEMD160
-~~~~~~~~~~~~~~~~~~
-函数体：RIPEMD160(byte[])
-
-返回值：String
-
-说明：Creates a RIPEMD160 hash on binary data
-
 RemoveInvalidFileNameChars
 ~~~~~~~~~~~~~~~~~~
 函数体：RemoveInvalidFileNameChars(FileName)
@@ -109,6 +101,14 @@ RemoveInvalidFileNameChars
 返回值：String
 
 说明：删除文件名中，非法字符。
+
+RIPEMD160
+~~~~~~~~~~~~~~~~~~
+函数体：RIPEMD160(byte[])
+
+返回值：String
+
+说明：Creates a RIPEMD160 hash on binary data
 
 SHA1
 ~~~~~~~~~~~~~~~~~~

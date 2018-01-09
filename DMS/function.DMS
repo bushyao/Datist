@@ -181,8 +181,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeSort">
       <Guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</Guid>
-      <CenterY>250.5</CenterY>
-      <CenterX>430.5</CenterX>
+      <CenterY>330.5</CenterY>
+      <CenterX>315.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -307,8 +307,9 @@
     <NodeBase xsi:type="NodeDerive">
       <Guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</Guid>
       <CenterY>280.5</CenterY>
-      <CenterX>675.5</CenterX>
+      <CenterX>560.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -346,13 +347,14 @@
       <CenterY>280.5</CenterY>
       <CenterX>760.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>汇总#1</Title>
       <Name>汇总</Name>
       <ShowName>false</ShowName>
       <PriorNodeGuid>
-        <guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</guid>
+        <guid>8ae8b0c4-c949-4f62-a976-4c9664146419</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -655,8 +657,8 @@ HTML函数
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</Guid>
-      <CenterY>235.5</CenterY>
-      <CenterX>345.5</CenterX>
+      <CenterY>160.5</CenterY>
+      <CenterX>380.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -1279,14 +1281,13 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>485.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
       <Name>funcName</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>51e295ac-5c5a-4530-bce5-eeb11edc979d</guid>
+        <guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -1300,7 +1301,7 @@ HTML函数
       <FieldName>funcName</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>SubStrBetweenS( 函数 , "" , "(" )</FormulaExpression>
+      <FormulaExpression>SubStrBetweenS( 函数 , "" , "(" )  </FormulaExpression>
       <ConditionIf />
       <ConditionTrue />
       <ConditionFalse />
@@ -1349,7 +1350,7 @@ HTML函数
     <NodeBase xsi:type="NodeFiller">
       <Guid>27e19d76-b3df-4c70-997c-e93f385e8d69</Guid>
       <CenterY>160.5</CenterY>
-      <CenterX>740.5</CenterX>
+      <CenterX>715.5</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -1387,7 +1388,7 @@ HTML函数
       <Name>行序</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>27e19d76-b3df-4c70-997c-e93f385e8d69</guid>
+        <guid>0ac78f1e-1a10-4223-adeb-e5193119f031</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -1422,6 +1423,7 @@ HTML函数
       <CenterY>161</CenterY>
       <CenterX>884</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>汇总#3</Title>
@@ -1491,6 +1493,92 @@ HTML函数
       <FieldFormats />
       <AutoWidthFit>true</AutoWidthFit>
       <Expression />
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>8ae8b0c4-c949-4f62-a976-4c9664146419</Guid>
+      <CenterY>280.5</CenterY>
+      <CenterX>640.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行序</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>funcName</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+      </FieldSorts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>0ac78f1e-1a10-4223-adeb-e5193119f031</Guid>
+      <CenterY>65.5</CenterY>
+      <CenterX>745.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>替换#2</Title>
+      <Name>替换</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>27e19d76-b3df-4c70-997c-e93f385e8d69</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FillerIf>1</FillerIf>
+      <FillerFields>
+        <string>funcName</string>
+      </FillerFields>
+      <FillerValue>trim( RemoveStrings(@Fields,"Item1","Item2","Item3","Item4","Item5","Item6","Cond1","Cond2") ) </FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>682a2943-9a6c-4b4f-85b3-92b017b2dec5</Guid>
+      <CenterY>50.5</CenterY>
+      <CenterX>865.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>筛选#3</Title>
+      <Name>筛选</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>0ac78f1e-1a10-4223-adeb-e5193119f031</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsIncluded>true</IsIncluded>
+      <FilterExpression> 组别 == '比较函数' </FilterExpression>
     </NodeBase>
   </Items>
   <ParNames />

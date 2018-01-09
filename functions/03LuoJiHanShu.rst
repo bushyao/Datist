@@ -2,23 +2,7 @@
 逻辑函数
 ======================
 
-CASE Item1 WHEN Item2 THEN Item3 WHEN Item4 THEN Item5 ELSE Item6 END
-~~~~~~~~~~~~~~~~~~
-操作符：CASE Item1 WHEN Item2 THEN Item3 WHEN Item4 THEN Item5 ELSE Item6 END
-
-返回值：Any
-
-说明：条件语句。例：CASE x WHEN w1 THEN r1 WHEN w2 THEN r2 ELSE r3 END
-
-CASE WHEN Item1 THEN Item2 WHEN Item3 THEN Item4 ELSE Item5 END
-~~~~~~~~~~~~~~~~~~
-操作符：CASE WHEN Item1 THEN Item2 WHEN Item3 THEN Item4 ELSE Item5 END
-
-返回值：Any
-
-说明：条件语句。例：CASE WHEN x=w1 THEN r1 WHEN x=w2 THEN r2 ELSE r3 END
-
-Cond1 and Cond2
+and
 ~~~~~~~~~~~~~~~~~~
 操作符：Cond1 and Cond2
 
@@ -26,15 +10,7 @@ Cond1 and Cond2
 
 说明：并且，双目逻辑运算符。当Cond1 与Cond2同时为真时返回真值。如果Cond1为假，则不求Cond2的值。
 
-Cond1 or Cond2
-~~~~~~~~~~~~~~~~~~
-操作符：Cond1 or Cond2
-
-返回值：Boolean
-
-说明：或，双目逻辑运算符。当Cond1或Cond2为真或这两者同时为真时，返回真值。如果Cond1为真，则不求Cond2的值。
-
-Item1 between Item2 and Item3
+between  and
 ~~~~~~~~~~~~~~~~~~
 操作符：Item1 between Item2 and Item3
 
@@ -42,13 +18,21 @@ Item1 between Item2 and Item3
 
 说明：界于之间，三目逻辑运算符。例："x BETWEEN y AND z"等同于"x  >=y AND x< =z"。
 
-NullIf
+CASE  WHEN  THEN  WHEN  THEN  ELSE  END
 ~~~~~~~~~~~~~~~~~~
-函数体：NullIf(expr1, expr2)
+操作符：CASE Item1 WHEN Item2 THEN Item3 WHEN Item4 THEN Item5 ELSE Item6 END
 
 返回值：Any
 
-说明：如果两个表达式相等，NullIf返回空值NULL,否则返回expr1的值。
+说明：条件语句。例：CASE x WHEN w1 THEN r1 WHEN w2 THEN r2 ELSE r3 END
+
+CASE WHEN  THEN  WHEN  THEN  ELSE  END
+~~~~~~~~~~~~~~~~~~
+操作符：CASE WHEN Item1 THEN Item2 WHEN Item3 THEN Item4 ELSE Item5 END
+
+返回值：Any
+
+说明：条件语句。例：CASE WHEN x=w1 THEN r1 WHEN x=w2 THEN r2 ELSE r3 END
 
 decode
 ~~~~~~~~~~~~~~~~~~
@@ -82,6 +66,14 @@ not
 
 说明：非，单目逻辑运算符。如果Cond为假，则返回真。否则，此运算将返回值0。
 
+NullIf
+~~~~~~~~~~~~~~~~~~
+函数体：NullIf(expr1, expr2)
+
+返回值：Any
+
+说明：如果两个表达式相等，NullIf返回空值NULL,否则返回expr1的值。
+
 nvl
 ~~~~~~~~~~~~~~~~~~
 函数体：nvl(expr1, expr2)
@@ -97,6 +89,14 @@ nvl2
 返回值：Any
 
 说明：如果Expression不为NULL，则返回IsNotNullItem；expr1为NULL，返回IsNullItem。
+
+or
+~~~~~~~~~~~~~~~~~~
+操作符：Cond1 or Cond2
+
+返回值：Boolean
+
+说明：或，双目逻辑运算符。当Cond1或Cond2为真或这两者同时为真时，返回真值。如果Cond1为真，则不求Cond2的值。
 
 true
 ~~~~~~~~~~~~~~~~~~

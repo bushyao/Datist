@@ -18,44 +18,6 @@
 
 说明：除法运算，双目运算符。
 
-IEEERemainder
-~~~~~~~~~~~~~~~~~~
-函数体：IEEERemainder(Number,Divisor)
-
-返回值：Double
-
-说明：返回Number除Divisor的余数。
-
-Log
-~~~~~~~~~~~~~~~~~~
-函数体：Log(NUM,BASE)
-
-返回值：Double
-
-说明：对数，以BASE底数，返回NUM的对数。
-
-Mean
-~~~~~~~~~~~~~~~~~~
-函数体：Mean(Number,...)
-
-返回值：Any
-
-说明：返回函数参数中的平均值，如果有任何一个参数为NULL，则返回NULL。
-
-Round
-~~~~~~~~~~~~~~~~~~
-函数体：Round(NUM)
-
-返回值：Integer
-
-说明：四舍五入，返回与参数最接近的整数值。
-
-函数体：Round(NUM,Integer)
-
-返回值：Double
-
-说明：四舍五入，返回按指定位数(Integer)进行四舍五入的数值。
-
 \*
 ~~~~~~~~~~~~~~~~~~
 操作符：\*
@@ -120,6 +82,14 @@ fracof
 
 说明：返回Number 的小数部分，定义为Number–intof(Number)。
 
+IEEERemainder
+~~~~~~~~~~~~~~~~~~
+函数体：IEEERemainder(Number,Divisor)
+
+返回值：Double
+
+说明：返回Number除Divisor的余数。
+
 intof
 ~~~~~~~~~~~~~~~~~~
 函数体：intof(Number)
@@ -127,6 +97,14 @@ intof
 返回值：Integer
 
 说明：将其参数截为整数,返回与NUM 符号相同的整数。
+
+Log
+~~~~~~~~~~~~~~~~~~
+函数体：Log(NUM,BASE)
+
+返回值：Double
+
+说明：对数，以BASE底数，返回NUM的对数。
 
 log
 ~~~~~~~~~~~~~~~~~~
@@ -144,6 +122,14 @@ log10
 
 说明：对数，返回以 10 为底 NUM 的对数。
 
+Mean
+~~~~~~~~~~~~~~~~~~
+函数体：Mean(Number,...)
+
+返回值：Any
+
+说明：返回函数参数中的平均值，如果有任何一个参数为NULL，则返回NULL。
+
 mean_n
 ~~~~~~~~~~~~~~~~~~
 函数体：mean_n(List)
@@ -159,6 +145,20 @@ power
 返回值：Double
 
 说明：幂函数，返回 NUM 的 POWER 次方。
+
+Round
+~~~~~~~~~~~~~~~~~~
+函数体：Round(NUM)
+
+返回值：Integer
+
+说明：四舍五入，返回与参数最接近的整数值。
+
+函数体：Round(NUM,Integer)
+
+返回值：Double
+
+说明：四舍五入，返回按指定位数(Integer)进行四舍五入的数值。
 
 sdev_n
 ~~~~~~~~~~~~~~~~~~

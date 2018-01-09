@@ -10,14 +10,6 @@
 
 说明：用在“替换节点”的条件中，代表任意字段名。
 
-GUIDParse
-~~~~~~~~~~~~~~~~~~
-函数体：GUIDParse(String)
-
-返回值：GUID
-
-说明：将文本转换为GUID值。
-
 GetAddressByIdCard
 ~~~~~~~~~~~~~~~~~~
 函数体：GetAddressByIdCard(string)
@@ -63,6 +55,14 @@ GetSexByIdCard
 返回值：String
 
 说明：从居民身份证号码中获取性别信息。
+
+GUIDParse
+~~~~~~~~~~~~~~~~~~
+函数体：GUIDParse(String)
+
+返回值：GUID
+
+说明：将文本转换为GUID值。
 
 IsIdCard
 ~~~~~~~~~~~~~~~~~~

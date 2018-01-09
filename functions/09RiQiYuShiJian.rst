@@ -284,6 +284,14 @@ FirstDayOfYear
 
 说明：获取指定日期所在年份第一天。
 
+format_DateTime
+~~~~~~~~~~~~~~~~~~
+函数体：format_DateTime(DateTime,DateTimeFormat)
+
+返回值：String
+
+说明：将日期与时间转化为指定格式的文本，DateTimeFormat为日期格式：(年-月-日 时:分:秒.毫秒) yyyy-MM-dd HH:mm:ss（HH为24小时制，hh为12小时制）。
+
 Format_TimeSpan
 ~~~~~~~~~~~~~~~~~~
 函数体：Format_TimeSpan(TimeSpan)
@@ -714,6 +722,14 @@ TimeSpan2HM
 
 说明：将时间间隔转换为，总小时数：分钟，如25：50表示25小时50分钟。
 
+To_UnixTime
+~~~~~~~~~~~~~~~~~~
+函数体：To_UnixTime(DateTime)
+
+返回值：Integer
+
+说明：将日期转换为Unix时间，从公元1970年1月1日的UTC时间从0时0分0秒算起到现在所经过的秒数。
+
 ToCENCDate
 ~~~~~~~~~~~~~~~~~~
 函数体：ToCENCDate(DateTime)
@@ -766,13 +782,21 @@ ToOAdate
 
 说明：将一个日期型的字符串转化(格式为yyyy-MM-dd HH:mm:ss 例如2010-01-01 5:11:33 )为等效的 OLE 自动化日期，返回一个双精度浮点数，它包含与此实例的值等效的 OLE 自动化日期。
 
-To_UnixTime
+toShortDate
 ~~~~~~~~~~~~~~~~~~
-函数体：To_UnixTime(DateTime)
+函数体：toShortDate(DateTime)
 
-返回值：Integer
+返回值：String
 
-说明：将日期转换为Unix时间，从公元1970年1月1日的UTC时间从0时0分0秒算起到现在所经过的秒数。
+说明：将日期时间(可为字符串格式)转化为短日期格式,支持常见的日期格式，如2005-11-5 13:47:04，输出2005-11-5。
+
+toShortTime
+~~~~~~~~~~~~~~~~~~
+函数体：toShortTime(DateTime)
+
+返回值：String
+
+说明：将日期时间(可为字符串格式)转化为短时间格式,支持常见的日期格式，如2005-11-5 13:47:04，输出13:47:04。
 
 TuesdayOfNextWeek
 ~~~~~~~~~~~~~~~~~~
@@ -859,27 +883,3 @@ YearsDifference
 返回值：Double
 
 说明：以小数的形式返回从日期BasedDatetime至日期Datetime的年数。这是基于每年365.0 天的近似数字。如果Datetime在BasedDatetime之前，则该函数返回负值。
-
-format_DateTime
-~~~~~~~~~~~~~~~~~~
-函数体：format_DateTime(DateTime,DateTimeFormat)
-
-返回值：String
-
-说明：将日期与时间转化为指定格式的文本，DateTimeFormat为日期格式：(年-月-日 时:分:秒.毫秒) yyyy-MM-dd HH:mm:ss（HH为24小时制，hh为12小时制）。
-
-toShortDate
-~~~~~~~~~~~~~~~~~~
-函数体：toShortDate(DateTime)
-
-返回值：String
-
-说明：将日期时间(可为字符串格式)转化为短日期格式,支持常见的日期格式，如2005-11-5 13:47:04，输出2005-11-5。
-
-toShortTime
-~~~~~~~~~~~~~~~~~~
-函数体：toShortTime(DateTime)
-
-返回值：String
-
-说明：将日期时间(可为字符串格式)转化为短时间格式,支持常见的日期格式，如2005-11-5 13:47:04，输出13:47:04。
