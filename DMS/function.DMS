@@ -184,6 +184,7 @@
       <CenterY>150.5</CenterY>
       <CenterX>470.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -205,6 +206,7 @@
         <FieldSort>
           <Asc>true</Asc>
           <FieldName>组别</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
           <DataType>Text</DataType>
           <Tag>true</Tag>
           <ValueSort>数值函数
@@ -236,6 +238,7 @@ HTML函数
         <FieldSort>
           <Asc>true</Asc>
           <FieldName>函数2</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
           <DataType>Text</DataType>
           <Tag>true</Tag>
           <ValueSort />
@@ -243,6 +246,7 @@ HTML函数
         <FieldSort>
           <Asc>true</Asc>
           <FieldName>参数</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
           <DataType>Integer</DataType>
           <Tag>true</Tag>
           <ValueSort />
@@ -426,6 +430,7 @@ HTML函数
       <CenterY>255.5</CenterY>
       <CenterX>725.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -447,6 +452,7 @@ HTML函数
         <FieldSort>
           <Asc>true</Asc>
           <FieldName>组别</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
           <DataType>Text</DataType>
           <Tag>true</Tag>
           <ValueSort>数值函数
@@ -695,7 +701,7 @@ HTML函数
       <Name>替换</Name>
       <ShowName>false</ShowName>
       <PriorNodeGuid>
-        <guid>60a05b3c-a541-4d3f-b829-50a3c2b50ecd</guid>
+        <guid>c2491d03-2362-40f8-bca3-373ecb529e41</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -742,7 +748,6 @@ HTML函数
       <CenterY>65.5</CenterY>
       <CenterX>540.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -764,6 +769,7 @@ HTML函数
         <FieldSort>
           <Asc>true</Asc>
           <FieldName>函数</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
           <DataType>Text</DataType>
           <Tag>true</Tag>
           <ValueSort />
@@ -1132,6 +1138,7 @@ HTML函数
       <CenterY>255.5</CenterY>
       <CenterX>295.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1167,6 +1174,7 @@ HTML函数
       <CenterY>505</CenterY>
       <CenterX>660</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1202,6 +1210,7 @@ HTML函数
       <CenterY>502</CenterY>
       <CenterX>735</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>过滤#1</Title>
