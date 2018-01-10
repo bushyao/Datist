@@ -13,6 +13,8 @@ Datist 提供了批处理功能，也可称之为循环运行、列遍运行等�
      :align: center
      :figwidth: 100% 
      :name: plate 	
+
+流程中，表格数据节点罗列了公司各个员工当的工资水平；小李用了一个新列节点，构造了一个 "工资 * $ratio"公式，当前倍率 $ratio 为3.0时，浏览数据节点的运行结果如下：
 	 
 .. figure:: images/foreach4.png
      :align: center
