@@ -3,98 +3,51 @@
 20140913
 ======================
 
-1、BUG：NodeTxt文本数据源节点，★★★
+1、BUG：NodeTxt文本数据源节点
 
-1）字段读不全问题
-
-解决：修改字段创建逻辑
-
-2）内存溢出问题，引发类型为“System.OutOfMemoryException”的异常
-
-解决：改写成“边读数据，边写数据库”的存储方式
+* 字段读不全问题；修改字段创建逻辑
+* 内存溢出问题，引发类型为“System.OutOfMemoryException”的异常
 
 2、字段检查节点
 
-1）对数据表中的字段，进行空值、冗余、值域、字符串长度、日期区间、特殊字符等快速检查；
-
-2）可将检查结果直接输出到Excel中，包括统计结果、各异常项的原始记录
-
-3）结果支持双击数据钻取功能
-
-4）字段列表，合法性检查
+* 对数据表中的字段，进行空值、冗余、值域、字符串长度、日期区间、特殊字符等快速检查；
+* 可将检查结果直接输出到Excel中，包括统计结果、各异常项的原始记录
+* 结果支持双击数据钻取功能
+* 字段列表，合法性检查
 
 3、关键字匹配检查节点
 
-1）对多个表进行，关键字匹配度分析，给出源表记录数、源表关键字数、目标表记录数、目标表关键字表、两个多个共有关键字数，源表多出，目标表多出等信息；
-
-2）支持结果输出到Excel中，包括统计结果、源表多出记录、目标表多出记录
-
-3）结果支持双击数据钻取功能
-
-4）字段列表，合法性检查
+* 对多个表进行，关键字匹配度分析，给出源表记录数、源表关键字数、目标表记录数、目标表关键字表、两个多个共有关键字数，源表多出，目标表多出等信息；
+* 支持结果输出到Excel中，包括统计结果、源表多出记录、目标表多出记录
+* 结果支持双击数据钻取功能
+* 字段列表，合法性检查
 
 4、升级：二维数据表浏览器
 
-1）支持Excel输出
-
-2）数据读取显示读取进度条
+* 支持Excel输出
+* 数据读取显示读取进度条
 
 5、升级：数据源面板
 
-1）右键菜单，去掉更新菜单功能；当数据流设置结束时，自动更新数据源面板
+* 右键菜单，去掉更新菜单功能；当数据流设置结束时，自动更新数据源面板
+* 右键菜单，显示分组菜单项，用对勾表示分组面板是否打开
+* 右键菜单，新增查看数据源流程功能
+* 设置面板中，提供下列表设置列功能，自动获取数据源流程的列名列表
 
-2）右键菜单，显示分组菜单项，用对勾表示分组面板是否打开
+6、数据库直连节点（ WPF版），支持所有的数据类型，足以取代“数据库节点”  
 
-3）右键菜单，新增查看数据源流程功能
-
-4）设置面板中，提供下列表设置列功能，自动获取数据源流程的列名列表
-
-6、数据库直连节点（ WPF版），支持所有的数据类型，足以取代“数据库节点”     ★★★★
-
-1）支持数据库、数据类型的新增、编辑、删除，用于扩展系统支持的数据库类型，系统自动保存扩展项
-
-2）解析ConnecionString，生成数据源配制面板（WPF），为用户设置数据源，提供可视化界面
-
-3）自动获取DNS名称、Oracle的DataSource、SQL Server的Initial Catalog、My SQL的DataBase
-
-4）按用户生成表名列表
-
-5）密码可见与不可见切换
-
-6）数据库连接字符串，加密存储
-
-7）连接串查询参考站点  HYPERLINK "https://connectionstrings.com/" https://connectionstrings.com/
-
-8）Excel表名列表显示优化，带“[]”
-
-9）历史连接串
+* 支持数据库、数据类型的新增、编辑、删除，用于扩展系统支持的数据库类型，系统自动保存扩展项
+* 解析ConnecionString，生成数据源配制面板（WPF），为用户设置数据源，提供可视化界面
+* 自动获取DNS名称、Oracle的DataSource、SQL Server的Initial Catalog、My SQL的DataBase
+* 按用户生成表名列表
+* 密码可见与不可见切换
+* 数据库连接字符串，加密存储
+* 连接串查询参考站点  https://connectionstrings.com/
+* Excel表名列表显示优化，带“[]”
+* 历史连接串
 
 7、升级：内核，数据库读取进度30秒输出一次，避免烦躁的进度输出。
 
-Provider=MS Access;Data Source=C:\Users\bc\Desktop\db1.mdb
+8、查看节点的字段
 
-Provider=MS Access;Data Source=C:\Users\bc\Desktop\db1.mdb;Database Password=x1
-
-Provider=OLE DB;Ole Db Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\bc\Desktop\sssss.xlsx;Extended Properties="Excel 12.0 Xml;HDR=YES";
-
-Provider=OLE DB;Ole Db Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\bc\Desktop\0910数据集.xls;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1";
-
-Provider=OLE DB;Ole Db Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\bc\Desktop\db1.accdb;Persist Security Info=False;
-
-1、查看节点的字段
-
-2、数据浏览，输出Excel文件
-
-3、
-
-A、数据检查，输出字段过滤
-
-B、数据源扩展
-
-C、缓存数据，访问Oracel
-
-输出数据源？？？保存？？？
-
-当连接串改变时，删除tabelName??
-
-密码修改？
+9、数据浏览，输出Excel文件
