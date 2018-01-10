@@ -10,6 +10,7 @@
 3、Fix：分栏计数不对
 
 4、Fix：WordEx节点
+
    * SheetID使用不正确
    * 引用Excel表单挂死
    * 单元格宽度，自动拉宽
