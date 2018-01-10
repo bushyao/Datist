@@ -17,3 +17,4 @@
    oiltest
    oilstratum
    oilwellonmap
+   oilrockdeep
