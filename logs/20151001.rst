@@ -84,14 +84,25 @@
 
 模板参数::
 
-   变量（单值）：  &=$变量名称
-   数据（一列）：  &=表名.字段名
-   转化为数字：    &=表名.字段名(numeric)
-   组合并：        &=表名.字段名(group:merge)
-   组向右合并：    &=表名.字段名(group:merge2)，2-9
-   图片（仅限表）：&=表名.字段名(Picture:FitToCell）
-                   &=表名.字段名(Picture:ScaleN) 如&=表名.字段名(Picture:Scale50)
-                   &=表名.字段名(Picture:Width:Nin&Height:Nin)
+   变量（单值）：  
+      &=$变量名称
+	  
+   数据（一列）：  
+      &=表名.字段名
+	  
+   转化为数字：    
+      &=表名.字段名(numeric)
+	  
+   组合并：        
+      &=表名.字段名(group:merge)
+	  
+   组向右合并：    
+      &=表名.字段名(group:merge2)，2-9
+	  
+   图片（仅限表）：
+      &=表名.字段名(Picture:FitToCell）
+      &=表名.字段名(Picture:ScaleN) 如&=表名.字段名(Picture:Scale50)
+      &=表名.字段名(Picture:Width:Nin&Height:Nin)
 
 22、数据源面板，查询样式一致
 

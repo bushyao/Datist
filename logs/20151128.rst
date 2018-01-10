@@ -58,26 +58,24 @@
 24、新增：WordEx节点， 采用替换变量方式构建文档。
 
 变量构成方式为::
+
    $=表名.字段名(参数)=$。 
 
-相关内容定义如下:
+相关内容定义如下::
 
-   字符串::
-    $=表名.字段名=$  
-
-  图片::
-
-   $=表名.字段名(Picture)=$
-   $=表名.字段名(Picture:ScaleN)=$  如$=Picture.Data(Picture:Scale50)=$
-   $=表名.字段名(Picture:Width:Nin&Height:Nin)=$ 
-
-  表单::
-
-   $=表名.字段名(Table)=$ 
-   
-  Excel表单::
-
-   $=表名.字段名(Excel:SheetId:Nin&StartRow:Nin&StartColumn:Nin &EndRow:Nin&EndColumn:Nin)=$ ,其中参数编号从1开始
+  字符串:
+      $=表名.字段名=$
+	  
+  图片:
+      $=表名.字段名(Picture)=$
+      $=表名.字段名(Picture:ScaleN)=$  如$=Picture.Data(Picture:Scale50)=$
+      $=表名.字段名(Picture:Width:Nin&Height:Nin)=$ 
+	  
+  表单:
+      $=表名.字段名(Table)=$  
+	  
+  Excel表单:
+      $=表名.字段名(Excel:SheetId:Nin&StartRow:Nin&StartColumn:Nin &EndRow:Nin&EndColumn:Nin)=$ ,其中参数编号从1开始
 
 
 25、新增：Word合并节点，用于将多个Word文档合并成一个Word文件
