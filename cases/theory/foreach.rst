@@ -13,11 +13,17 @@ Datist 提供了批处理功能，也可称之为循环运行、列遍运行等�
      :align: center
      :figwidth: 100% 
      :name: plate 	
-
+	 
+.. figure:: images/foreach4.png
+     :align: center
+     :figwidth: 100% 
+     :name: plate 	
+	 
 .. figure:: images/foreach2.png
      :align: center
      :figwidth: 100% 
      :name: plate 	
+	 
 
 .. figure:: images/foreach3.png
      :align: center

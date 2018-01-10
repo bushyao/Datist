@@ -297,6 +297,180 @@
       <AutoExpendTable>true</AutoExpendTable>
       <AcceptEnter>true</AcceptEnter>
     </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>dc5d212c-73c1-4722-86d4-f1898c588ad8</Guid>
+      <CenterY>389</CenterY>
+      <CenterX>336</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>126</Width>
+      <Height>48</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0</Parameter>
+      <Parameter2>0</Parameter2>
+      <Text>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcdWMxXGh0bWF1dHNwXGRlZmYye1xmb250dGJse1xmMFxmY2hhcnNldDAgVGltZXMgTmV3IFJvbWFuO317XGYyXGZjaGFyc2V0MTM0IFwnY2VcJ2EyXCdjOFwnZWRcJ2QxXCdjNVwnYmFcJ2RhO319e1xjb2xvcnRibFxyZWQwXGdyZWVuMFxibHVlMDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDBcZ3JlZW4wXGJsdWUyNTU7fVxsb2NoXGhpY2hcZGJjaFxwYXJkXHBsYWluXGx0cnBhclxpdGFwMHtcbGFuZzEwMzNcZnMxOFxmMlxjZjAgXGNmMFxxbHtcZnMyNFxmMiB7XGNmMlxsdHJjaCBcJ2I5XCdhNFwnZDdcJ2NhfXtcbHRyY2ggICogfXtcY2YyXGx0cmNoICRyYXRpb31cbGkwXHJpMFxzYTBcc2IwXGZpMFxxbFxwYXJ9DQp9DQp9</Text>
+      <CmShapeType>圆角矩形</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>1</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </ForeColor>
+      <RenderID>0</RenderID>
+      <BackgroundColor>
+        <A>1</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>0</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>0</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </LineColor>
+      <LineThickness>0</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <BackgroundImage />
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>-1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>dbffc581-a7b7-4061-9cb0-861b7dc53ae0</Guid>
+      <CenterY>387</CenterY>
+      <CenterX>80</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0</Y>
+      </RenderTransformOrigin>
+      <Width>165.02847290039063</Width>
+      <Height>102.01773071289062</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points />
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0</Parameter>
+      <Parameter2>0</Parameter2>
+      <Text />
+      <CmShapeType>无边框</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>0</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>0</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <BackgroundImage>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</BackgroundImage>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>-1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
   </Items>
   <ParNames>ratio</ParNames>
   <EvalNodeNames>浏览数据;浏览报告</EvalNodeNames>
