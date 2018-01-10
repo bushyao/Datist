@@ -8,257 +8,193 @@
 2、修改：函数名称，带下划线函数，删除下划线，函数更好用
 
 3、升级：字段描述性分析节点，合并原有字段规范性检查节点的功能，主要用于对数据表本身的数据质量检查，与字段匹配度分析节点、同值匹配度分析节点共同组成数据专家的数据库质量控制节点；
-
 字段描述性分析节点，针对数值、字符串、日期等类型数据，采用最值、分位数、众数、均值、总和；空值率、字段重复性、特殊字符、低值异常、高值异常等常规的数值检查功能，同时用户可以使用三个自定义条件，进度异常率的判断；近30个统计量
 
 4、统一窗口皮肤
 
-2015年4月1日
-
-1、升级：数据二维表查看节点
-
-页面布局生成节点功能支持行排序
-
-支持按定的列生成汇总节点
-
+5、升级：数据二维表查看节点；
+页面布局生成节点功能支持行排序；
+支持按定的列生成汇总节点；
 插件与字段名对应关系，不区分大小写
 
-2、Bug：文本输入节点，自动删除两端的全局变量生成的单引号
+6、Bug：文本输入节点，自动删除两端的全局变量生成的单引号
 
-3、Bug：空间数据源节点，滚动条不显示
+7、Bug：空间数据源节点，滚动条不显示
 
-4、Bug：窗口皮肤下，字段选取边界线不可见
+8、Bug：窗口皮肤下，字段选取边界线不可见
 
-5、升级：模板统计图节点，支持Label、Gauges、NumericDisplay等图表类型
+9、升级：模板统计图节点，支持Label、Gauges、NumericDisplay等图表类型
 
-6、升级：公式编辑器，函数支持录入筛选
+10、升级：公式编辑器，函数支持录入筛选
 
-7、升级：统计图形，功能重构；地质图版、常用统计图、示功图、模板图、直方图，界面与功能重组
+11、升级：统计图形，功能重构；地质图版、常用统计图、示功图、模板图、直方图，界面与功能重组
 
-8、新增：C#脚本处理节点，允许用户自定义脚本，处理数据
+12、新增：C#脚本处理节点，允许用户自定义脚本，处理数据
 
-9、升级：采用按需调用的方式，减少系统资源占用利率
+13、升级：采用按需调用的方式，减少系统资源占用利率
 
-10、Bug：累加节点，不支持Double型的问题
+14、Bug：累加节点，不支持Double型的问题
 
-11、Bug：数据直联节点，取字段结构后，出错的问题
+15、Bug：数据直联节点，取字段结构后，出错的问题
 
-12、升级：工程列表面板，
+16、升级：工程列表面板，
 
-支持扫描目录功能，将本地磁盘上的所有流程文件，批量追加到工程列表中；
+* 支持扫描目录功能，将本地磁盘上的所有流程文件，批量追加到工程列表中；
+* 支持关闭工程功能
+* 支持多个关键字，对工程中的流程进行过滤
 
-支持关闭工程功能
+17、升级：节点面板，对所有节点，按使用频率进行重新排序
 
-支持多个关键字，对工程中的流程进行过滤
+18、Bug：空间查看节点，图元属性对话框，不支持改变窗体大小的问题；
 
-13、升级：节点面板，对所有节点，按使用频率进行重新排序
+19、空间坐标转换，空间筛选，GoogleEarth节点，界面经纬度标反了的问题
 
-14、Bug：空间查看节点，图元属性对话框，不支持改变窗体大小的问题
+20、图形节点，常用图形、模板图
 
-空间坐标转换，空间筛选，GoogleEarth节点，界面经纬度标反了的问题
+21、支持日期型，内部自动转换(直方图?)
 
-15、NoveronChart 节点，常用图形、模板图
+22、新增日期型函数
 
-支持日期型，内部自动转换(直方图?)
+本周::
 
-设计按钮点击后 显示 Tool工具条
+   MondayOfWeek( "2015-04-12" )
+   TuesdayOfWeek( "2015-04-12" )
+   WednesdayOfWeek( "2015-04-12" )
+   ThursdayOfWeek( "2015-04-12" )
+   FridayOfWeek( "2015-04-12" )
+   SaturdayOfWeek( "2015-04-12" )
+   SundayOfWeek( "2015-04-12" )
 
-数据列选择对应后不能取消，BUG
+上周::
 
-增加ToolTip功能
+   MondayOfPreviousWeek( "2015-04-12" )
+   TuesdayOfPreviousWeek( "2015-04-12" )
+   WednesdayOfPreviousWeek( "2015-04-12" )
+   ThursdayOfPreviousWeek( "2015-04-12" )
+   FridayOfPreviousWeek( "2015-04-12" )
+   SaturdayOfPreviousWeek( "2015-04-12" )
+   SundayOfPreviousWeek( "2015-04-12" )
 
-topMost 帮助，编辑器
+下周::
 
-模板图，Value出错
+   MondayOfNextWeek( "2015-04-12" )
+   TuesdayOfNextWeek( "2015-04-12" )
+   WednesdayOfNextWeek( "2015-04-12" )
+   ThursdayOfNextWeek( "2015-04-12" )
+   FridayOfNextWeek( "2015-04-12" )
+   SaturdayOfNextWeek( "2015-04-12" )
+   SundayOfNextWeek( "2015-04-12" )
 
-本周
+本月::
 
-MondayOfWeek( "2015-04-12" )
+   FirstDayOfMonth( "2015-04-12" )
+   LastDayOfMonth( "2015-04-12" )
 
-TuesdayOfWeek( "2015-04-12" )
+上月::
 
-WednesdayOfWeek( "2015-04-12" )
+   FirstDayOfPreviousMonth( "2015-04-12" )
+   LastDayOfPrdviousMonth( "2015-04-12" )
 
-ThursdayOfWeek( "2015-04-12" )
+下月::
 
-FridayOfWeek( "2015-04-12" )
+   FirstDayOfNextMonth( "2015-04-12" )
+   LastDayOfNextMonth( "2015-04-12" )
 
-SaturdayOfWeek( "2015-04-12" )
+本年::
 
-SundayOfWeek( "2015-04-12" )
+   FirstDayOfYear( "2015-04-12" )
+   LastDayOfYear( "2015-04-12" )
 
-上周
+上一年::
 
-MondayOfPreviousWeek( "2015-04-12" )
+   FirstDayOfPreviousYear( "2015-04-12" )
+   LastDayOfPrdviousYear( "2015-04-12" )
 
-TuesdayOfPreviousWeek( "2015-04-12" )
+下一年::
 
-WednesdayOfPreviousWeek( "2015-04-12" )
+   FirstDayOfNextYear( "2015-04-12" )
+   LastDayOfNextYear( "2015-04-12" )
 
-ThursdayOfPreviousWeek( "2015-04-12" )
+本季度::
 
-FridayOfPreviousWeek( "2015-04-12" )
+   FirstDayOfQuarter( "2015-04-12" )
+   LastDayOfQuarter( "2015-04-12" )
 
-SaturdayOfPreviousWeek( "2015-04-12" )
+上季度::
 
-SundayOfPreviousWeek( "2015-04-12" )
+   FirstDayOfPreviousQuarter( "2015-04-12" )
+   LastDayOfPrdviousQuarter( "2015-04-12" )
 
-下周
+下季度::
 
-MondayOfNextWeek( "2015-04-12" )
+   FirstDayOfNextQuarter( "2015-04-12" )
+   LastDayOfNextQuarter( "2015-04-12" )
 
-TuesdayOfNextWeek( "2015-04-12" )
+年度第N天::
 
-WednesdayOfNextWeek( "2015-04-12" )
+   DayOfYear("2015-04-12")
 
-ThursdayOfNextWeek( "2015-04-12" )
+月份第N天::
 
-FridayOfNextWeek( "2015-04-12" )
+   DayOfMonth("2015-04-12")
 
-SaturdayOfNextWeek( "2015-04-12" )
+年度第N周::
 
-SundayOfNextWeek( "2015-04-12" )
+   WeekNoOfYear("2015-01-4")
 
-本月
+年度第N周，周一的日期::
 
-FirstDayOfMonth( "2015-04-12" )
+   MondayByWeekNo(2015,15)
 
-LastDayOfMonth( "2015-04-12" )
-
-上月
-
-FirstDayOfPreviousMonth( "2015-04-12" )
-
-LastDayOfPrdviousMonth( "2015-04-12" )
-
-下月
-
-FirstDayOfNextMonth( "2015-04-12" )
-
-LastDayOfNextMonth( "2015-04-12" )
-
-本年
-
-FirstDayOfYear( "2015-04-12" )
-
-LastDayOfYear( "2015-04-12" )
-
-上一年
-
-FirstDayOfPreviousYear( "2015-04-12" )
-
-LastDayOfPrdviousYear( "2015-04-12" )
-
-下一年
-
-FirstDayOfNextYear( "2015-04-12" )
-
-LastDayOfNextYear( "2015-04-12" )
-
-本季度
-
-FirstDayOfQuarter( "2015-04-12" )
-
-LastDayOfQuarter( "2015-04-12" )
-
-上季度
-
-FirstDayOfPreviousQuarter( "2015-04-12" )
-
-LastDayOfPrdviousQuarter( "2015-04-12" )
-
-下季度
-
-FirstDayOfNextQuarter( "2015-04-12" )
-
-LastDayOfNextQuarter( "2015-04-12" )
-
-年度第N天
-
-DayOfYear("2015-04-12")
-
-月份第N天
-
-DayOfMonth("2015-04-12")
-
-年度第N周
-
-WeekNoOfYear("2015-01-4")
-
-年度第N周，周一的日期
-
-MondayByWeekNo(2015,15)
-
-1、BUG:新增字段中，字段名中如果有小括弧的话会出错
-
-对系统中新增的字段名进行验证
-
+23、BUG:新增字段中，字段名中如果有小括弧的话会出错; 
+对系统中新增的字段名进行验证; 
 新列、数据表计数、合并多列、行数据劈分、累计、值偏离、高斯变换、词频统计、输入、过滤
 
-2、BUG:汇总节点，字符合并功能，整数 列合并时候，整数加了小数
+24、BUG:汇总节点，字符合并功能，整数 列合并时候，整数加了小数
 
-3、常用统计图节点
-
-字符型X轴支持标记
-
+25、常用统计图节点; 
+字符型X轴支持标记;
 日期型X轴支持格式化显示
 
-4、汇总节点，按照汇总项的顺序，输出结果
-
+26、汇总节点，按照汇总项的顺序，输出结果;
 修正，缓存与原始数据类型不一致
 
-5、系统表达式中，支持多个@函数
+27、系统表达式中，支持多个@函数
 
-6、Filter节点，优化数据存储方式，节约存储的内容；
-
+28、Filter节点，优化数据存储方式，节约存储的内容；
 编辑器中新增类型重置功能；
 
-7、行值转列，描述型字段分析
-
+29、行值转列，描述型字段分析;
 通过预缓存优化技术，提高运行速度；
 
-8、汇总节点
-
+30、汇总节点;
 字符串合并出错问题，修正字符串合并函数GroupJoin
 
-9、描述性字段分析
-
-支持合并关键字输出
-
+31、描述性字段分析;
+支持合并关键字输出;
 （该节点有助数据质量评价，掌握数据的整体情况，以数字、比率的形式给出数据的各项评估指标，主要包括数据的空值率、极值异常率、特殊字符含有率、冗余度以及多个字段之间的业务逻辑满足情况等。新增关键字报告列，在数据质量评价的基础上，给出具体待整改的数据项，反馈给用户，有利于开展进一步数据补录与整改工作。）
 
-10、字段名配对
-
+32、字段名配对;
 对多个数据表中字段名进行配对分析。
 
-11、通用接口
-
+33、通用接口;
 将数据推送给DLL或指定的流程中，实现外部平台、系统的接入。
 
-12、微信节点
+34、微信节点,向企业号中推送图片（JPG、PNG）及文字信息;
 
-功能：向企业号中推送图片（JPG、PNG）及文字信息
-
-实现：支持推送给所有人@all，个人Bushyao，多个人Bushyao|sunsbo；
-
-支持推送给部门或标记的Tag；
-
-支持从系统外部通过全局变量，传入参数；
-
-支持在流程变量中自动创建参数列表；
-
-文字信息由于流程收集节点，从前节点的TAB中的文字汇集而成；
+* 支持推送给所有人@all，个人Bushyao，多个人Bushyao|sunsbo；
+* 支持推送给部门或标记的Tag；
+* 支持从系统外部通过全局变量，传入参数；
+* 支持在流程变量中自动创建参数列表；
+* 文字信息由于流程收集节点，从前节点的TAB中的文字汇集而成；
 
 使用过程中，前节点中，必须包含数据类型、数据体，可以通过流程收集节点生成。
 
-13、同时开启软件时，不能正确读取界面布局的BUG
+35、同时开启软件时，不能正确读取界面布局的BUG;锁定界面配制文件
 
-锁定界面配制文件
-
-14、GUID日志文件问题
-
+36、GUID日志文件问题;
 多个实例时，只有一个实例有日志
 
-15、行值转列，当分组字段为空时，不能正确统计的BUG
+37、行值转列，当分组字段为空时，不能正确统计的BUG
 
-16、已打开流程窗口，支持“关闭其它流程”功能
+38、已打开流程窗口，支持“关闭其它流程”功能
