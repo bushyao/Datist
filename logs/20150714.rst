@@ -5,69 +5,45 @@
 
 1、在Windows浏览器中，双击DMS文件，在前一个实例打开它。
 
-2、行值转列节点
+2、行值转列节点Bug： 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
 
-Bug： 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+3、统计图节点Bug：名为“date_DateTime_DateTime”的列已属于此 DataTable。
 
-（源于有多个汇总条件）
+4、自定义函数
 
-3、统计图节点
+新增::
 
-Bug：名为“date_DateTime_DateTime”的列已属于此 DataTable。
+   FileStream(FileName)
+   RemoveRedundantSpace(String)
+   GetHtmlCellValue(String HtmlTable,Int ColumnID,Int RowID)
+   GetHtmlRowID(String HtmlTable,String SubString,Int ColumnID)
+   GetHtmlColumnID(String HtmlTable,String SubString,Int RowID)
+   WKTArea(WKT,EPSG)
 
-（源于一列绑定到系列中）
+修正::
 
-4、函数扩展
-
-新增：
-
-FileStream(FileName)
-
-RemoveRedundantSpace(String)
-
-GetHtmlCellValue(String HtmlTable,Int ColumnID,Int RowID)
-
-GetHtmlRowID(String HtmlTable,String SubString,Int ColumnID)
-
-GetHtmlColumnID(String HtmlTable,String SubString,Int RowID)
-
-WKTArea(WKT,EPSG)
-
-修正：
-
-CRC32(byte[])
-
-MD5(byte[])
-
-RIPEMD160(byte[])
-
-SHA1(byte[])
-
-SHA256(byte[])
-
-SHA384(byte[])
-
-SHA512(byte[])
-
-HtmlExtract(String HtmlText,String TagPath),Html空格问题
+   CRC32(byte[])
+   MD5(byte[])
+   RIPEMD160(byte[])
+   SHA1(byte[])
+   SHA256(byte[])
+   SHA384(byte[])
+   SHA512(byte[])
+   HtmlExtract(String HtmlText,String TagPath),Html空格问题
 
 5、优化浏览数据节点
 
-1）右键显示，将追加的菜单，合并至系统自带的菜单中。
-
-2）快捷创建过程中，以前节点名称命名。
+* 右键显示，将追加的菜单，合并至系统自带的菜单中。
+* 快捷创建过程中，以前节点名称命名。
 
 6、新增回车键，快速执行
 
 7、平面分布节点
 
-1）图元属性查看器，顶端显示。
+* 图元属性查看器，顶端显示。
+* 属性表查看器
 
-2）属性表查看器
-
-9、修正流程编辑器，停靠罗盘
-
-BUG：运行报告被拉出来后，不能停靠致原有位置的问题
+9、修正流程编辑器，停靠罗盘BUG：运行报告被拉出来后，不能停靠致原有位置的问题
 
 10、HtmlExtract编辑器，支持创建新增列节点
 
@@ -85,9 +61,9 @@ BUG：运行报告被拉出来后，不能停靠致原有位置的问题
 
 17、空间数据节点，数据存储改写成加密Json字段串的方式，避免特殊字符串引起的流程不能打开的问题。
 
-18、中间数据节点，支持数据编辑功能。★★★
+18、中间数据节点，支持数据编辑功能。
 
-19、二维数据浏览节点，支持数据编辑、生成中间数据节点功能。★★★
+19、二维数据浏览节点，支持数据编辑、生成中间数据节点功能。
 
 20、Bug：因交互参数不存在，引发的流程运行异常。
 
@@ -103,17 +79,13 @@ BUG：运行报告被拉出来后，不能停靠致原有位置的问题
 
 26、测井数据WIS数据源节点，完善编辑器操作逻辑。
 
-27、BUG：合并节点，表达式模式不能执行。
-
-BUG：源节点名称，显示不正确。
+27、BUG：合并节点，表达式模式不能执行。BUG：源节点名称，显示不正确。
 
 28、区块过滤节点，更新前节点的存储方式。
 
 29、数据表计数节点，默认缓存。
 
 30、数据库抽样节点，默认缓存。
-
-支持进度日志。
 
 31、认证方式，支持硬件和软件狗。
 

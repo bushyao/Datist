@@ -5,47 +5,30 @@
 
 1、函数扩展
 
-新增：
+新增::
 
-HtmlExtract(String HtmlText)；从HTML文本中，抽取文本。
+   HtmlExtract(String HtmlText)；从HTML文本中，抽取文本。
+   DefaultToUTF8(String Text)；字符串编码转换,默认编码转换为UTF8。
+   MapIDNew(Double Longitude,Double Latitude,String Scale)返回坐标对应的新图幅号
+   MapIDOld(Double Longitude,Double Latitude,String Scale)返回坐标对应的旧图幅号
+   MapIdNew2Old(String MapIdNew),返回新图幅号对应的旧图幅号。
+   MapIdOld2New(String MapIdOld),返回旧图幅号对应的新图幅号。
+   InsertString(String,Id,InsertString)，向字符串插入指定的字符串。
+   Beijing54toLL(Real X,Real Y,Bool IsLongitude)
+   LLToBeijing54_6(Real Longitude ,Real Latitude ,Bool IsY)
+   LLToBeijing54_3(Real Longitude ,Real Latitude ,Bool IsY)
+   Beijing54ToXian80(Real X,Real Y,Bool IsY)
+   Xian80ToBeijing54(Real X,Real Y,Bool IsY)
+   Beijing54_3To6(Real X,Real Y,Bool IsY)
+   Beijing54_6To3(Real X,Real Y,Bool IsY)
+   Xian8_3To6(Real X,Real Y,Bool IsY)
+   Xian8_6To3(Real X,Real Y,Bool IsY)
+   Xian8_6To3(Real X,Real Y,Bool IsY)
+   ProjectionTransformation(Real X,Real Y,Int sourceEpsg, Int targetEpsg,Bool IsY)
 
-DefaultToUTF8(String Text)；字符串编码转换,默认编码转换为UTF8。
+完善::
 
-MapIDNew(Double Longitude,Double Latitude,String Scale)返回坐标对应的新图幅号
-
-MapIDOld(Double Longitude,Double Latitude,String Scale)返回坐标对应的旧图幅号
-
-MapIdNew2Old(String MapIdNew),返回新图幅号对应的旧图幅号。
-
-MapIdOld2New(String MapIdOld),返回旧图幅号对应的新图幅号。
-
-InsertString(String,Id,InsertString)，向字符串插入指定的字符串。
-
-Beijing54toLL(Real X,Real Y,Bool IsLongitude)
-
-LLToBeijing54_6(Real Longitude ,Real Latitude ,Bool IsY)
-
-LLToBeijing54_3(Real Longitude ,Real Latitude ,Bool IsY)
-
-Beijing54ToXian80(Real X,Real Y,Bool IsY)
-
-Xian80ToBeijing54(Real X,Real Y,Bool IsY)
-
-Beijing54_3To6(Real X,Real Y,Bool IsY)
-
-Beijing54_6To3(Real X,Real Y,Bool IsY)
-
-Xian8_3To6(Real X,Real Y,Bool IsY)
-
-Xian8_6To3(Real X,Real Y,Bool IsY)
-
-Xian8_6To3(Real X,Real Y,Bool IsY)
-
-ProjectionTransformation(Real X,Real Y,Int sourceEpsg, Int targetEpsg,Bool IsY)
-
-完善：
-
-AppendWellHeaders函数，修正井号长度为1的问题。
+   AppendWellHeaders函数，修正井号长度为1的问题。
 
 2、词频统计节点，默认缓存。
 
@@ -53,75 +36,54 @@ AppendWellHeaders函数，修正井号长度为1的问题。
 
 4、平面分布节点
 
-1)删除图元
-
-2)线拆分
-
-3)线构面
-
-4)线合并，多个线合并成一条线
-
-5)删除指定图层
+* 删除图元
+* 线拆分
+* 线构面
+* 线合并，多个线合并成一条线
+* 删除指定图层
 
 5、函数帮助窗口
 
-新增：函数记录创建日期，便于版本更新时，查看新增函数；★
-
-新增：使用帮助注释（支持多个关键词）；
+* 新增：函数记录创建日期，便于版本更新时，查看新增函数；
+* 新增：使用帮助注释（支持多个关键词）；
 
 6、流程窗口，支持打开所在的文件夹；
 
-工程列表窗口，支持打开所在的文件夹；
-
-已打开流程窗口，右键菜单，打开流程所在的文件夹-->打开所在的文件夹；
+* 工程列表窗口，支持打开所在的文件夹；
+* 已打开流程窗口，右键菜单，打开流程所在的文件夹-->打开所在的文件夹；
 
 7、日志窗口
 
-右键菜单项可用逻辑验证；
-
-新增右键菜单，浏览日志文件；
-
-名称更新：计算-->计算运行耗时;清空-->清空所有记录；
+* 右键菜单项可用逻辑验证；
+* 新增右键菜单，浏览日志文件；
+* 名称更新：计算-->计算运行耗时;清空-->清空所有记录；
 
 8、节点重新命名，便于理解
 
-数据库直连-->接入数据库；更改图标
+* 数据库直连-->接入数据库；更改图标
+* 导出数据-->写入数据库；更改图标
+* 输出文件-->保存为文件
+* 空间数据-->保存为GIS文件
 
-导出数据-->写入数据库；更改图标
-
-输出文件-->保存为文件
-
-空间数据-->保存为GIS文件
-
-9、缓存机制
-
-清除缓存时，清除后续所有节点的缓存。
+9、缓存机制；清除缓存时，清除后续所有节点的缓存。
 
 10、过滤节点，支持自动拼音重命名
 
 11、接入数据库节点
 
-表结构、字段列表模式，Orcale数据库读取表名、字段名注释；★★
-
-创建时，自动对节点重命名，表结构、字段列表；
-
-创建时，默认缓存；
-
-节点编辑器，SQL查询文本框，支持SQL关键字高亮显示，并优化；
-
-节点编辑器，新增连接字符串时，继承选中项；
-
-节点编辑器，MySQL连接字符串，默认字符集为UTF8；★★★
-
-BUG：MYSQL数据库不能正确读取字段名列表；
+* 表结构、字段列表模式，Orcale数据库读取表名、字段名注释；
+* 创建时，自动对节点重命名，表结构、字段列表；
+* 创建时，默认缓存；
+* 节点编辑器，SQL查询文本框，支持SQL关键字高亮显示，并优化；
+* 节点编辑器，新增连接字符串时，继承选中项；
+* 节点编辑器，MySQL连接字符串，默认字符集为UTF8；
+* BUG：MYSQL数据库不能正确读取字段名列表；
 
 12、写数据库节点
 
-命令行模式，通过数据专家创建数据库执行命令，操作（增删改）数据库；在执行提示用户是否执行。★★★
-
-数据表模式，自动将数据流程运行结果，保存致数据库中；自动创建数据库、插入数据，或是覆盖原有数据表。
-
-BUG：MYSQL追加数据错误。
+* 命令行模式，通过数据专家创建数据库执行命令，操作（增删改）数据库；在执行提示用户是否执行。
+* 数据表模式，自动将数据流程运行结果，保存致数据库中；自动创建数据库、插入数据，或是覆盖原有数据表。
+* BUG：MYSQL追加数据错误。
 
 13、版本号更新，2015.3.*
 
@@ -131,25 +93,17 @@ BUG：MYSQL追加数据错误。
 
 16、Excel数据读取节点，新增字符型单元格读取功能。
 
-17、二维数据表查看节点
-
-升级，同源数据表查看功能，支持自动汉化数据源、字段名称。
+17、二维数据表查看节点，升级，同源数据表查看功能，支持自动汉化数据源、字段名称。
 
 18、新增数据库查找节点，从多个数据表中，查询整个数据库中某个特定值所在的表和字段。
 
-支持多个关键字，同时满足或仅满足其中一个★★★
+* 支持多个关键字，同时满足或仅满足其中一个
+* 支持查询库结构
+* 可用于破译数据库的结构。
 
-支持查询库结构
+19、新增数据库备份节点，将数据库中的多张数据表，转存到另一个数据库中。支持中自动将汉字字段名转化为拼音。
 
-可用于破译数据库的结构。
-
-19、新增数据库备份节点，将数据库中的多张数据表，转存到另一个数据库中。★★
-
-支持中自动将汉字字段名转化为拼音。
-
-20、新增经典案例，可以将典型案例存储于系统中，并添加到当前流程编辑器；位于帮助菜单。
-
-新增Oracle分析案例，获取库表结构，可自动创建同源数据查看流程。
+20、新增经典案例，可以将典型案例存储于系统中，并添加到当前流程编辑器；位于帮助菜单。新增Oracle分析案例，获取库表结构，可自动创建同源数据查看流程。
 
 21、智能解析节点编辑器，当数据模板中，路径为空时不更新界面显示。
 
@@ -167,54 +121,36 @@ BUG：MYSQL追加数据错误。
 
 28、新增，接图表节点，根据指定的坐标范围及比例尺，输出地形图接图数据表；
 
-支持100万、50万、25万、10万、5万、2.5万、1万及5千；
-
-支持输出新、旧两种图号；
-
-支持小数及度分秒两种输出方式；
+* 支持100万、50万、25万、10万、5万、2.5万、1万及5千；
+* 支持输出新、旧两种图号；
+* 支持小数及度分秒两种输出方式；
 
 29、平面分布浏览器，查找图元，支持工程图层。
 
 30、升级高斯变换节点，更名为投影变换
 
-支持：
+支持::
 
-西安80 公里网转经纬度
-
-西安80 经纬度转六度带
-
-西安80 经纬度转三度带
-
-西安80 三度带转六度带
-
-西安80 六度度转三度带
-
-北京54 公里网转经纬度
-
-北京54 经纬度转六度带
-
-北京54 经纬度转三度带
-
-北京54 三度带转六度带
-
-北京54 六度度转三度带
-
-北京54转西安80
-
-西安80转北京54
-
-指定投影系统变换
+   西安80 公里网转经纬度
+   西安80 经纬度转六度带
+   西安80 经纬度转三度带
+   西安80 三度带转六度带
+   西安80 六度度转三度带
+   北京54 公里网转经纬度
+   北京54 经纬度转六度带
+   北京54 经纬度转三度带
+   北京54 三度带转六度带
+   北京54 六度度转三度带
+   北京54转西安80
+   西安80转北京54
+   指定投影系统变换
 
 31、合并节点，支持排除合并；编辑器配图示
 
 32、新增交并补节点，求多个中共同字段的进行交集、并集、差集操作
 
-33、新增多列节点，新列节点的增强版，可以同时创建多个列；
-
-适当冗余有助于使用
+33、新增多列节点，新列节点的增强版，可以同时创建多个列；适当冗余有助于使用
 
 34、新增文本劈分节点，通过特定字符或正则表达式方式，将文本列劈分多个列
 
 35、升级向上取值，支持同时多个字段进行向上取值操作
-
-直方图？？自定义范围
