@@ -45,7 +45,7 @@ B、其它软件向数据专家发送数据，通过【接口】模块完成
 
 该文件采用UTF-8的编码方式，内容不区分大小写。
 
-定义方式如下：:
+定义方式如下::
 
     <?xml version="1.0" encoding="UTF-8"?>
     <NodeBase type="NodeSelect">
