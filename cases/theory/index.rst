@@ -10,4 +10,4 @@
 .. toctree::
    :maxdepth: 2
    
-   theory/standardization.rst
+   standardization.rst
