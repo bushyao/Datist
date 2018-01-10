@@ -5,7 +5,11 @@
    
 应用案例
 ====================================
+
 .. toctree::
    :maxdepth: 2
    
-   theory/index.rst
+   standardization
+   variable
+   UI
+   foreach
