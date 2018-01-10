@@ -42,17 +42,17 @@ CharCommon
 
 Count_SubString
 ~~~~~~~~~~~~~~~~~~
-函数体： **Count_SubString(STRING,N,SUBSTRING)**
-
-返回值：Boolean
-
-说明：返回字符串中指定字符串出现的次数。N为搜索起始位置,其中N从0开始计数。
-
 函数体： **Count_SubString(STRING,SUBSTRING)**
 
 返回值：Boolean
 
 说明：返回字符串中指定字符串出现的次数。例如，count_substring("foooo.txt", "oo") 返回3。
+
+函数体： **Count_SubString(STRING,N,SUBSTRING)**
+
+返回值：Boolean
+
+说明：返回字符串中指定字符串出现的次数。N为搜索起始位置,其中N从0开始计数。
 
 DefaultToUTF8
 ~~~~~~~~~~~~~~~~~~
@@ -112,17 +112,17 @@ HasStartString
 
 HasSubString
 ~~~~~~~~~~~~~~~~~~
-函数体： **HasSubString(STRING,N,SUBSTRING)**
-
-返回值：Boolean
-
-说明：如果STRING中包含SUBSTRING，返回真(1)，否则返回假(0)，N为搜索起始位置,其中N从0开始计数。
-
 函数体： **HasSubString(STRING,SUBSTRING)**
 
 返回值：Boolean
 
 说明：如果STRING中包含SUBSTRING，返回真(1)，否则返回假(0)。
+
+函数体： **HasSubString(STRING,N,SUBSTRING)**
+
+返回值：Boolean
+
+说明：如果STRING中包含SUBSTRING，返回真(1)，否则返回假(0)，N为搜索起始位置,其中N从0开始计数。
 
 HasSubStringsAND
 ~~~~~~~~~~~~~~~~~~
@@ -142,17 +142,17 @@ HasSubStringsOR
 
 IndexOf
 ~~~~~~~~~~~~~~~~~~
-函数体： **IndexOf(STRING,N,SUBSTRING)**
-
-返回值：Integer
-
-说明：字符串定位,返回SUBSTRING在STRING中位置N之后的第一个匹配位置(第一个字符位置为1)。如果两个字符串不匹配返回0。
-
 函数体： **IndexOf(STRING,SUBSTRING)**
 
 返回值：Integer
 
 说明：字符串定位,返回SUBSTRING在STRING中第一个匹配的位置(第一个字符位置为1)。如果两个字符串不匹配返回0。
+
+函数体： **IndexOf(STRING,N,SUBSTRING)**
+
+返回值：Integer
+
+说明：字符串定位,返回SUBSTRING在STRING中位置N之后的第一个匹配位置(第一个字符位置为1)。如果两个字符串不匹配返回0。
 
 InsertString
 ~~~~~~~~~~~~~~~~~~
@@ -216,17 +216,17 @@ JsonValue
 
 LastIndexOf
 ~~~~~~~~~~~~~~~~~~
-函数体： **LastIndexOf(STRING,N,SUBSTRING)**
-
-返回值：Integer
-
-说明：返回子字符串的位置,从后向前匹配SUBSTRING在STRING中位置（N为从后向前计数的位置）。如果两个字符串不匹配返回0。
-
 函数体： **LastIndexOf(STRING,SUBSTRING)**
 
 返回值：Integer
 
 说明：返回子字符串的位置,从后向前匹配SUBSTRING在STRING中位置。如果两个字符串不匹配返回0。
+
+函数体： **LastIndexOf(STRING,N,SUBSTRING)**
+
+返回值：Integer
+
+说明：返回子字符串的位置,从后向前匹配SUBSTRING在STRING中位置（N为从后向前计数的位置）。如果两个字符串不匹配返回0。
 
 LCS
 ~~~~~~~~~~~~~~~~~~
@@ -300,17 +300,17 @@ ltrim
 
 Match
 ~~~~~~~~~~~~~~~~~~
-函数体： **Match(String, RegexString, RegexOptions)**
-
-返回值：Boolean
-
-说明：正则表达式匹配，返回第一个匹配结果。RegexOptions用于设置正则表达式选项的枚举值。例如：Match("ASDV","[a-z]+","Compiled | IgnoreCase")选项值有：None,Compiled,CultureInvariant,ECMAScript,ExplicitCapture,IgnoreCase,IgnorePatternWhitespace,Multiline,RightToLeft,Singleline。
-
 函数体： **Match(String,RegexString)**
 
 返回值：String
 
 说明：正则表达式匹配，返回第一个匹配结果。
+
+函数体： **Match(String, RegexString, RegexOptions)**
+
+返回值：Boolean
+
+说明：正则表达式匹配，返回第一个匹配结果。RegexOptions用于设置正则表达式选项的枚举值。例如：Match("ASDV","[a-z]+","Compiled | IgnoreCase")选项值有：None,Compiled,CultureInvariant,ECMAScript,ExplicitCapture,IgnoreCase,IgnorePatternWhitespace,Multiline,RightToLeft,Singleline。
 
 MatchDate
 ~~~~~~~~~~~~~~~~~~
@@ -322,26 +322,20 @@ MatchDate
 
 Matches
 ~~~~~~~~~~~~~~~~~~
-函数体： **Matches(String, RegexString, RegexOptions)**
-
-返回值：List
-
-说明：正则表达式匹配，返回字符串列表。RegexOptions用于设置正则表达式选项的枚举值。例如：Matches("$ASDV@ad","[a-z]+","Compiled | IgnoreCase")选项值有：None,Compiled,CultureInvariant,ECMAScript,ExplicitCapture,IgnoreCase,IgnorePatternWhitespace,Multiline,RightToLeft,Singleline。
-
 函数体： **Matches(String,RegexString)**
 
 返回值：List
 
 说明：正则表达式匹配，返回字符串列表。
 
+函数体： **Matches(String, RegexString, RegexOptions)**
+
+返回值：List
+
+说明：正则表达式匹配，返回字符串列表。RegexOptions用于设置正则表达式选项的枚举值。例如：Matches("$ASDV@ad","[a-z]+","Compiled | IgnoreCase")选项值有：None,Compiled,CultureInvariant,ECMAScript,ExplicitCapture,IgnoreCase,IgnorePatternWhitespace,Multiline,RightToLeft,Singleline。
+
 MatchGroup
 ~~~~~~~~~~~~~~~~~~
-函数体： **MatchGroup(String, RegexString, GroupName, RegexOptions)**
-
-返回值：String
-
-说明：分组正则表达式匹配，返回第一个匹配结果。RegexOptions用于设置正则表达式选项的枚举值。例如：MatchGroup("关井油压5.7MPa,套压8.2MPa。", "油压(?<GN>[0-9]+(\.[0-9]+){0,1})" ,"GN","Compiled | IgnoreCase")选项值有：None,Compiled,CultureInvariant,ECMAScript,ExplicitCapture,IgnoreCase,IgnorePatternWhitespace,Multiline,RightToLeft,Singleline。
-
 函数体： **MatchGroup(String,RegexString,GroupName)**
 
 返回值：String
@@ -353,6 +347,12 @@ MatchGroup
 返回值：List
 
 说明：分组正则表达式匹配，返回字符串列表。
+
+函数体： **MatchGroup(String, RegexString, GroupName, RegexOptions)**
+
+返回值：String
+
+说明：分组正则表达式匹配，返回第一个匹配结果。RegexOptions用于设置正则表达式选项的枚举值。例如：MatchGroup("关井油压5.7MPa,套压8.2MPa。", "油压(?<GN>[0-9]+(\.[0-9]+){0,1})" ,"GN","Compiled | IgnoreCase")选项值有：None,Compiled,CultureInvariant,ECMAScript,ExplicitCapture,IgnoreCase,IgnorePatternWhitespace,Multiline,RightToLeft,Singleline。
 
 MatchGroups
 ~~~~~~~~~~~~~~~~~~

@@ -1241,6 +1241,7 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>650.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1316,6 +1317,7 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>570.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1380,7 +1382,6 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>865.5</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1404,6 +1405,14 @@ HTML函数
           <FieldName>funcName</FieldName>
           <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
           <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>参数</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
+          <DataType>Integer</DataType>
           <Tag>true</Tag>
           <ValueSort />
         </FieldSort>

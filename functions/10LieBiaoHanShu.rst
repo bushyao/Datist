@@ -248,17 +248,17 @@ ListItemsCount
 
 ListJoinToString
 ~~~~~~~~~~~~~~~~~~
-函数体： **ListJoinToString(List,GroupCount,GroupSpliter,Spliter)**
-
-返回值：String
-
-说明：将列表以分组形式，合并成字符串；GroupCount，指定组内元素数；GroupSpliter，组间字符间隔；Spliter，组内字符间隔。
-
 函数体： **ListJoinToString(List,String)**
 
 返回值：String
 
 说明：将列表合并成字符串，以String指定的字符分隔。
+
+函数体： **ListJoinToString(List,GroupCount,GroupSpliter,Spliter)**
+
+返回值：String
+
+说明：将列表以分组形式，合并成字符串；GroupCount，指定组内元素数；GroupSpliter，组间字符间隔；Spliter，组内字符间隔。
 
 ListSort
 ~~~~~~~~~~~~~~~~~~

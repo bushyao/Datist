@@ -18,15 +18,13 @@ Random
 
 说明：返回整型的伪随机数,随机数介于-9223372036854775808和+9223372036854775807之间。
 
-random
-~~~~~~~~~~~~~~~~~~
-函数体： **random(maxInteger)**
+函数体： **Random(maxInteger)**
 
 返回值：Integer
 
 说明：返回一个小于maxInteger的非负随机数。maxInteger必须大于或等于零。返回值的范围通常包括零但不包括 maxInteger。不过，如果 maxInteger 等于零，则返回 maxInteger。
 
-函数体： **random(minInteger,maxInteger)**
+函数体： **Random(minInteger,maxInteger)**
 
 返回值：Integer
 

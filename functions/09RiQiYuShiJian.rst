@@ -92,6 +92,12 @@ CreateTime
 
 CreateTimeSpan
 ~~~~~~~~~~~~~~~~~~
+函数体： **CreateTimeSpan(hours,minutes,seconds)**
+
+返回值：TimeSpan
+
+说明：返回指定的时间间隔。
+
 函数体： **CreateTimeSpan(days,hours,minutes,seconds)**
 
 返回值：TimeSpan
@@ -99,12 +105,6 @@ CreateTimeSpan
 说明：返回指定的时间间隔。
 
 函数体： **CreateTimeSpan(days,hours,minutes,seconds,milliseconds)**
-
-返回值：TimeSpan
-
-说明：返回指定的时间间隔。
-
-函数体： **CreateTimeSpan(hours,minutes,seconds)**
 
 返回值：TimeSpan
 
