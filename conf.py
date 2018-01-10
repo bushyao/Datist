@@ -47,7 +47,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'数据专家文档'
-copyright = u'2009~2018, DSS'
+copyright = u'2009~2018，http://www.datist.cn/，QQ:1909137294'
 author = u'Bushyao'
 
 # The version info for the project you're documenting, acts as replacement for
