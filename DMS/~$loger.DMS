@@ -699,9 +699,178 @@
       <CountFieldName>RecordCount</CountFieldName>
       <HasSum>false</HasSum>
     </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>9144f344-6d38-43b9-ab20-df34b0a9f818</Guid>
+      <CenterY>391.75</CenterY>
+      <CenterX>519</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>index_1</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>80ebe2e8-009c-4ce2-9226-191a50ed1f63</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>index_1</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>F("   {Version_最大值}")</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFilter">
+      <Guid>7cea9fda-9eb4-4876-ba8f-8f7d8bc8031c</Guid>
+      <CenterY>388.75</CenterY>
+      <CenterX>594</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>过滤#1</Title>
+      <Name>过滤</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>9144f344-6d38-43b9-ab20-df34b0a9f818</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFilters>
+        <FieldFilter>
+          <FieldName>月份</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>月份</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>Version_最大值</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>Version_最大值</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+        <FieldFilter>
+          <FieldName>Paragraph_字符合并</FieldName>
+          <Filte>false</Filte>
+          <NewFieldName>Paragraph_字符合并</NewFieldName>
+          <NewDataType>Text</NewDataType>
+        </FieldFilter>
+      </FieldFilters>
+      <DefaultFilte>true</DefaultFilte>
+      <IsStandardMode>false</IsStandardMode>
+    </NodeBase>
+    <NodeBase xsi:type="NodeTable">
+      <Guid>0ecab483-f65f-4aa3-a270-92734f1891e9</Guid>
+      <CenterY>382.25</CenterY>
+      <CenterX>683</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>浏览数据</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7cea9fda-9eb4-4876-ba8f-8f7d8bc8031c</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFormats />
+      <AutoWidthFit>true</AutoWidthFit>
+      <Expression />
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>80ebe2e8-009c-4ce2-9226-191a50ed1f63</Guid>
+      <CenterY>348</CenterY>
+      <CenterX>425</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行序</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>2ee0a665-326e-4e36-9107-9d235797fe25</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>false</Asc>
+          <FieldName>Version_最大值</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+      </FieldSorts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeWebChartEx">
+      <Guid>478240fd-e03a-4cea-a87a-c4d61f9c012f</Guid>
+      <CenterY>541</CenterY>
+      <CenterX>142</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>智能统计图</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <CmbPath>D:\MyProgram\RDMS\PPTAnalysis\binX\D3\bcChart.zip</CmbPath>
+      <TextURL>Examples\478240fde03a4ceaa87ac4d61f9c012f.html</TextURL>
+      <ImageWidth>1000</ImageWidth>
+      <ImageHeight>600</ImageHeight>
+      <ExportMode>Html_Tag</ExportMode>
+      <MapTitle />
+      <MapSubTitle />
+      <MapStyle>default</MapStyle>
+      <ScriptText />
+    </NodeBase>
   </Items>
   <ParNames />
-  <EvalNodeNames>数据项转存</EvalNodeNames>
+  <EvalNodeNames>数据项转存;浏览数据;智能统计图</EvalNodeNames>
   <OffsetX>0</OffsetX>
   <OffsetY>0</OffsetY>
   <Scale>1</Scale>
