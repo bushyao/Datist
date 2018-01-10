@@ -7,74 +7,52 @@
 
 2、自定义函数：
 
-从字符串中提取数字函数：
+从字符串中提取数字函数::
 
-GetNumber(String,Index)
+   GetNumber(String,Index)
+   GetNumber(String,Index,NegativeNumber,RealNumber)
+   GetNumbers(String)
+   GetNumbers(String,NegativeNumber,RealNumber)
 
-GetNumber(String,Index,NegativeNumber,RealNumber)
+类似Oracle赋值函数::
 
-GetNumbers(String)
+   decode(value, if1, then1, if2,then2, if3,then3, … else )
+   NullIf(expr1, expr2)
+   nvl(expr1, expr2)
+   nvl2(expr1, expr2, expr3)
 
-GetNumbers(String,NegativeNumber,RealNumber)
+合成Windows批处理命令::
 
-类似Oracle赋值函数：
+   move(FileName,NewFileName)
+   del(Path)
+   md(Path)
+   rd(Path)
+   Rename(FileName,NewFileName)
+   copy(FileName,NewFileName)
 
-decode(value, if1, then1, if2,then2, if3,then3, … else )
+地理信息::
 
-NullIf(expr1, expr2)
+   ToWKTLine2(Points)
+   Centroid(Feature)
+   DigitalToDegrees(Double,DecimalPlace)
 
-nvl(expr1, expr2)
+网页相关::
 
-nvl2(expr1, expr2, expr3)
-
-合成Windows批处理命令：
-
-move(FileName,NewFileName)
-
-del(Path)
-
-md(Path)
-
-rd(Path)
-
-Rename(FileName,NewFileName)
-
-copy(FileName,NewFileName)
-
-地理信息：
-
-ToWKTLine2(Points)
-
-Centroid(Feature)
-
-DigitalToDegrees(Double,DecimalPlace)
-
-网页相关：
-
-HtmlExtract(String HtmlText,String TagPath,Bool IsHtml)
-
-HtmlContext(URL,WebEncoding Text)
-
-HtmlContext(URL,WebEncoding Text,int second)
-
-HtmlDownload(URL)
-
-HtmlDownload(URL,int second)
-
-HtmlA(Text,URl)
-
-HtmlBr()
-
-HtmlImg(URl,Width,Height)
-
-HtmlImg(URl)
-
-HtmlSpace(count)
+   HtmlExtract(String HtmlText,String TagPath,Bool IsHtml)
+   HtmlContext(URL,WebEncoding Text)
+   HtmlContext(URL,WebEncoding Text,int second)
+   HtmlDownload(URL)
+   HtmlDownload(URL,int second)
+   HtmlA(Text,URl)
+   HtmlBr()
+   HtmlImg(URl,Width,Height)
+   HtmlImg(URl)
+   HtmlSpace(count)
 
 3、二维表数据查看节点，支持条件高亮显示
 
 4、新增：下载文件节点
 
-5、新增：自动编排功能*********
+5、新增：自动编排功能
 
 6、新的授权使用方式
