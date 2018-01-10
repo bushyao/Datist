@@ -13,3 +13,4 @@
    standardization
    variable
    UI
+   foreach

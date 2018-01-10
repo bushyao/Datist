@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<NodeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Arthor>bushyao</Arthor>
+  <HID>FT56A09YBJTMLN</HID>
+  <SQLiteIO>
+    <DbFullName>T01064621e7b649f4b8c0c26eb0d2cba2.bcdb</DbFullName>
+    <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
+    <DmsFullName>D:\github\Datist\cases\theory\data\涨工资.DMS</DmsFullName>
+  </SQLiteIO>
+  <FieldFormats>
+    <Formats>
+      <Justify>Right</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Integer</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Right</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx>{0:#.##}</DisplayFormatEx>
+      <DecimalPlaces>2</DecimalPlaces>
+      <DataType>Real</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Text</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Boolean</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx>{0:G}</DisplayFormatEx>
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>DateTime</DataType>
+      <Visible>true</Visible>
+    </Formats>
+  </FieldFormats>
+  <Title>Stream</Title>
+  <Subject>2018-01-10 17:33:04</Subject>
+  <Arthor2>bc-THINK</Arthor2>
+  <Manager />
+  <Company>DSS</Company>
+  <Category />
+  <Description />
+  <KeyWords />
+  <StreamID />
+  <ReportTitleName>样式一</ReportTitleName>
+  <ListReportTitles>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8QXJyYXlPZlJlcG9ydFRpdGxlcyB4bWxuczp4c2Q9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczp4c2k9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hLWluc3RhbmNlIj4NCiAgPFJlcG9ydFRpdGxlcz4NCiAgICA8SXRlbXM+DQogICAgICA8UmVwb3J0VGl0bGVJdGVtPg0KICAgICAgICA8VGl0bGVHcmFkZT4xPC9UaXRsZUdyYWRlPg0KICAgICAgICA8QmVnaW5JZD4wPC9CZWdpbklkPg0KICAgICAgICA8U3R5bGVJZD4xPC9TdHlsZUlkPg0KICAgICAgICA8VGl0bGVGb3JtYXQ+ezF9IDwvVGl0bGVGb3JtYXQ+DQogICAgICA8L1JlcG9ydFRpdGxlSXRlbT4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjI8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjE8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD57MX0uezJ9IDwvVGl0bGVGb3JtYXQ+DQogICAgICA8L1JlcG9ydFRpdGxlSXRlbT4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjM8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjE8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD57MX0uezJ9LnszfSA8L1RpdGxlRm9ybWF0Pg0KICAgICAgPC9SZXBvcnRUaXRsZUl0ZW0+DQogICAgICA8UmVwb3J0VGl0bGVJdGVtPg0KICAgICAgICA8VGl0bGVHcmFkZT40PC9UaXRsZUdyYWRlPg0KICAgICAgICA8QmVnaW5JZD4wPC9CZWdpbklkPg0KICAgICAgICA8U3R5bGVJZD4xPC9TdHlsZUlkPg0KICAgICAgICA8VGl0bGVGb3JtYXQ+ezF9LnsyfS57M30uezR9IDwvVGl0bGVGb3JtYXQ+DQogICAgICA8L1JlcG9ydFRpdGxlSXRlbT4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjU8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjE8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD57MX0uezJ9LnszfS57NH0uezV9IDwvVGl0bGVGb3JtYXQ+DQogICAgICA8L1JlcG9ydFRpdGxlSXRlbT4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjY8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjE8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD57MX0uezJ9LnszfS57NH0uezV9Lns2fSA8L1RpdGxlRm9ybWF0Pg0KICAgICAgPC9SZXBvcnRUaXRsZUl0ZW0+DQogICAgPC9JdGVtcz4NCiAgICA8TmFtZT7moLflvI/kuIA8L05hbWU+DQogIDwvUmVwb3J0VGl0bGVzPg0KICA8UmVwb3J0VGl0bGVzPg0KICAgIDxJdGVtcz4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjE8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjY8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD57MX3jgIEgPC9UaXRsZUZvcm1hdD4NCiAgICAgIDwvUmVwb3J0VGl0bGVJdGVtPg0KICAgICAgPFJlcG9ydFRpdGxlSXRlbT4NCiAgICAgICAgPFRpdGxlR3JhZGU+MjwvVGl0bGVHcmFkZT4NCiAgICAgICAgPEJlZ2luSWQ+MDwvQmVnaW5JZD4NCiAgICAgICAgPFN0eWxlSWQ+NjwvU3R5bGVJZD4NCiAgICAgICAgPFRpdGxlRm9ybWF0Pih7Mn0pIDwvVGl0bGVGb3JtYXQ+DQogICAgICA8L1JlcG9ydFRpdGxlSXRlbT4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjM8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjE8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD57M30uIDwvVGl0bGVGb3JtYXQ+DQogICAgICA8L1JlcG9ydFRpdGxlSXRlbT4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjQ8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjE8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD57NH0pIDwvVGl0bGVGb3JtYXQ+DQogICAgICA8L1JlcG9ydFRpdGxlSXRlbT4NCiAgICAgIDxSZXBvcnRUaXRsZUl0ZW0+DQogICAgICAgIDxUaXRsZUdyYWRlPjU8L1RpdGxlR3JhZGU+DQogICAgICAgIDxCZWdpbklkPjA8L0JlZ2luSWQ+DQogICAgICAgIDxTdHlsZUlkPjE8L1N0eWxlSWQ+DQogICAgICAgIDxUaXRsZUZvcm1hdD4oezV9KSA8L1RpdGxlRm9ybWF0Pg0KICAgICAgPC9SZXBvcnRUaXRsZUl0ZW0+DQogICAgICA8UmVwb3J0VGl0bGVJdGVtPg0KICAgICAgICA8VGl0bGVHcmFkZT42PC9UaXRsZUdyYWRlPg0KICAgICAgICA8QmVnaW5JZD4wPC9CZWdpbklkPg0KICAgICAgICA8U3R5bGVJZD41PC9TdHlsZUlkPg0KICAgICAgICA8VGl0bGVGb3JtYXQ+ezZ9LiA8L1RpdGxlRm9ybWF0Pg0KICAgICAgPC9SZXBvcnRUaXRsZUl0ZW0+DQogICAgPC9JdGVtcz4NCiAgICA8TmFtZT7moLflvI/kuow8L05hbWU+DQogIDwvUmVwb3J0VGl0bGVzPg0KPC9BcnJheU9mUmVwb3J0VGl0bGVzPg==</ListReportTitles>
+  <Price>0</Price>
+  <PrivilegeType>公开</PrivilegeType>
+  <Parameters>
+    <StreamParameter>
+      <Name>ratio</Name>
+      <DataType>Real</DataType>
+      <ShowInUI>false</ShowInUI>
+      <ParaValue xsi:type="xsd:string">3.0</ParaValue>
+      <ParagramEditor>TextBox</ParagramEditor>
+      <RunID>0</RunID>
+      <NodeGuids>
+        <guid>db9ca840-f606-4792-99a0-b625acb707d4</guid>
+        <guid>39b3b79c-dce1-45db-9c6a-5890ee0ec388</guid>
+      </NodeGuids>
+    </StreamParameter>
+  </Parameters>
+  <Items>
+    <NodeBase xsi:type="NodeCache">
+      <Guid>4a7c3d6d-256d-45f3-8185-12d13fbd13ac</Guid>
+      <CenterY>321.5</CenterY>
+      <CenterX>200.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>表格数据</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>true</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <JsonTextSaved>twXvOWsGkVyTlyaHZBddIGnsTXDuwhAyxUaVaGoOdwTqPSHR/es70t01EQ0DKLcNvShor/KRQKXTCqQv7TmlPXnf4hZIMUin9SSdjyuERnlnrvAZnroB9ga6OB4Xh9ARIN7VN47YXOOILUV+XbM7v3z2nsBotghoQI4evYV4fCHSWNVuMLypk/AEld4SgXKO/tVHq+MvyOYFsyE3autftWpRvSXUJNNpG8XG9Q4G8JH95pHuOnhyycZexCeFgdBPqlpz+fdwV9C1cDenOYNTzx2iRybu5WORihQ0NOf7k4wo44IDYX56dR2m2Jrs913QQ4t4FhBB8969lhtI+gmnBuGxBYpkMR1VDSTLjP2+9a0+XT5CJ3hXPfvsz+JxhEHv</JsonTextSaved>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>db9ca840-f606-4792-99a0-b625acb707d4</Guid>
+      <CenterY>321.5</CenterY>
+      <CenterX>390.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>涨工资</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>1b420898-6c56-441f-a0de-40de925f2162</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>涨工资</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Real</FieldDataType>
+      <FormulaExpression>工资 * $ratio</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>0.0</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeTable">
+      <Guid>0933f2d4-1d71-4991-b0ef-48c902aece93</Guid>
+      <CenterY>321.5</CenterY>
+      <CenterX>485.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>浏览数据</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>db9ca840-f606-4792-99a0-b625acb707d4</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFormats>
+        <FieldFormat>
+          <Field>
+            <AllowDBNull>false</AllowDBNull>
+            <NumericPrecision xsi:nil="true" />
+            <NumericScale xsi:nil="true" />
+            <ColumnName>涨工资</ColumnName>
+            <DataTypeName>Real</DataTypeName>
+            <FieldDataType>Real</FieldDataType>
+          </Field>
+          <Justify>Right</Justify>
+          <ColumnWidth>-1</ColumnWidth>
+          <DisplayFormatEx>{0:F2}</DisplayFormatEx>
+          <DecimalPlaces>2</DecimalPlaces>
+          <DataType>Real</DataType>
+          <Visible>true</Visible>
+        </FieldFormat>
+      </FieldFormats>
+      <AutoWidthFit>true</AutoWidthFit>
+      <Expression />
+    </NodeBase>
+    <NodeBase xsi:type="NodeFilter">
+      <Guid>1b420898-6c56-441f-a0de-40de925f2162</Guid>
+      <CenterY>321.5</CenterY>
+      <CenterX>295.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>过滤</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>4a7c3d6d-256d-45f3-8185-12d13fbd13ac</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldFilters>
+        <FieldFilter>
+          <FieldName>工资</FieldName>
+          <Filte>true</Filte>
+          <NewFieldName>工资</NewFieldName>
+          <NewDataType>Real</NewDataType>
+        </FieldFilter>
+      </FieldFilters>
+      <DefaultFilte>true</DefaultFilte>
+      <IsStandardMode>false</IsStandardMode>
+    </NodeBase>
+    <NodeBase xsi:type="NodeStreamCollection">
+      <Guid>39b3b79c-dce1-45db-9c6a-5890ee0ec388</Guid>
+      <CenterY>321.5</CenterY>
+      <CenterX>580.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文件收集器</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>0933f2d4-1d71-4991-b0ef-48c902aece93</guid>
+      </PriorNodeGuid>
+      <CacheIt>true</CacheIt>
+      <BatchEvalParameterName>ratio</BatchEvalParameterName>
+      <BatchEvalParameterValues>1.1;1.5;2.0;2.5;3.0</BatchEvalParameterValues>
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <InputNodes>
+        <SCInputNode>
+          <Text>涨 $ratio 倍</Text>
+          <gid>0933f2d4-1d71-4991-b0ef-48c902aece93</gid>
+          <Text2Stream>false</Text2Stream>
+        </SCInputNode>
+      </InputNodes>
+      <NameAsBefore>false</NameAsBefore>
+      <ByFieldMode>true</ByFieldMode>
+      <FieldNameMode>OnlyFieldName</FieldNameMode>
+    </NodeBase>
+    <NodeBase xsi:type="NodeHtmlReport">
+      <Guid>efc46c26-2d50-406c-abaf-71a2d771fc75</Guid>
+      <CenterY>321.5</CenterY>
+      <CenterX>675.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>浏览报告</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>39b3b79c-dce1-45db-9c6a-5890ee0ec388</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <ImageMaxWidth>1100</ImageMaxWidth>
+      <PageWidth>1100</PageWidth>
+      <MarkDownText />
+      <ReportMode>Default</ReportMode>
+      <HeadScript />
+      <BodyScript />
+      <FootScript />
+      <HeadHtml />
+      <FootHtml />
+      <HasBodyScript>false</HasBodyScript>
+      <HasHeadScript>false</HasHeadScript>
+      <HasFootScript>false</HasFootScript>
+      <HasHeadHtml>false</HasHeadHtml>
+      <HasFootHtml>false</HasFootHtml>
+      <UseWebFormula>false</UseWebFormula>
+      <HasReportTitle>true</HasReportTitle>
+      <ReportTitle>涨工资报告</ReportTitle>
+      <NameColumnType>Title</NameColumnType>
+      <HasImage>true</HasImage>
+      <HasDescription>true</HasDescription>
+      <ExportTitleInfo>false</ExportTitleInfo>
+      <ExportTitleFieldName>Name</ExportTitleFieldName>
+      <TitleGrade>1</TitleGrade>
+      <ExportStreamFormat>HTML_TAG</ExportStreamFormat>
+      <UseFormula>false</UseFormula>
+      <ExportTitle>false</ExportTitle>
+      <IsTempletefile>false</IsTempletefile>
+      <Templetefile />
+      <Templete />
+      <AutoExpendTable>true</AutoExpendTable>
+      <AcceptEnter>true</AcceptEnter>
+    </NodeBase>
+  </Items>
+  <ParNames>ratio</ParNames>
+  <EvalNodeNames>浏览数据;浏览报告</EvalNodeNames>
+  <OffsetX>0</OffsetX>
+  <OffsetY>0</OffsetY>
+  <Scale>1</Scale>
+</NodeCollection>
