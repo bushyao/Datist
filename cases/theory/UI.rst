@@ -50,7 +50,7 @@ UI界面应用与多流程协作
 
 .. figure:: images/UI5.png
      :align: center
-     :figwidth: 80% 
+     :figwidth: 100% 
      :name: plate 	
 
 
@@ -58,7 +58,7 @@ UI界面应用与多流程协作
 
 .. figure:: images/UI6.png
      :align: center
-     :figwidth: 80% 
+     :figwidth: 100% 
      :name: plate 	
 
 
@@ -66,5 +66,5 @@ UI界面应用与多流程协作
 
 .. figure:: images/UI7.png
      :align: center
-     :figwidth: 80% 
+     :figwidth: 100% 
      :name: plate 	
