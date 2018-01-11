@@ -9,6 +9,7 @@
    :glob:
    
    tutorials/index
+   advance/index
    cases/index
    FAQ/index
    nodes/index
