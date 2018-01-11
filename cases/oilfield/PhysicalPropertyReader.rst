@@ -32,7 +32,7 @@
 
 .. figure:: images/PhysicalPropertyReader4.png
      :align: center
-     :figwidth: 90% 
+     :figwidth: 70% 
      :name: plate 	 	 
 	 	 
 **技术点：**
