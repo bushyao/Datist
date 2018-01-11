@@ -9,8 +9,8 @@
 .. toctree::
    :maxdepth: 2
    
-   standardization
+   ExpressionEditor
    variable
    UI
    foreach
-   
+   standardization

@@ -1,6 +1,6 @@
 .. _QiTa:
 
-函数概述
+函数与公式编辑器
 ======================
 函数作为 Datist 的重要组成部分，它以节点为载体；如果说节点是 Datist 的骨架，那么函数就是 Datist 的血液，它可以实现数值计算、数据分析、清洗等多项任务；因此，选取适合函数，可以达到事半功倍的作用。目前 Datist 提供数值计算、比较、字符串运算等25类近700个函数。
 
@@ -10,7 +10,7 @@
 
 通常，可以从节点编辑器公式输入框右上角的E按键，打开公式编辑器，如下图所示：
 
-.. figure:: images/base02.png
+.. figure:: images/ExpressionEditor02.png
      :align: center
      :figwidth: 100% 
      :name: plate
@@ -44,7 +44,7 @@ $号枚举出所有的流程变量；
 ----------------------
 为了方便开发者查找函数，系统中提供函数查询功能，您可以在公式编辑器的右键菜单中，找到函数帮助菜单项，或是主菜单帮助菜单下的函数帮助，打开函数窗口，如下图。
  
-.. figure:: images/base01.png
+.. figure:: images/ExpressionEditor01.png
      :align: center
      :figwidth: 100% 
      :name: plate 	 
