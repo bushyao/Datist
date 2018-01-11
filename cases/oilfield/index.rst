@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 2
    
+   predrilling
    oiltest
    oilstratum
    oilwellonmap
