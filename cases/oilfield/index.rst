@@ -13,5 +13,6 @@
    oiltest
    oilstratum
    oilwellonmap
+   PhysicalPropertyReader
    oilrockdeep
    WaterFlooding
