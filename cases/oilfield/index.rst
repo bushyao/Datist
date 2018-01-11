@@ -16,3 +16,4 @@
    PhysicalPropertyReader
    oilrockdeep
    WaterFlooding
+   DataQuality
