@@ -1382,6 +1382,7 @@ HTML函数
       <CenterY>155.5</CenterY>
       <CenterX>865.5</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1623,7 +1624,7 @@ HTML函数
   </Items>
   <ParNames />
   <EvalNodeNames>汇总(组别);数据项转存;浏览数据</EvalNodeNames>
-  <OffsetX>257.9737335835124</OffsetX>
-  <OffsetY>0</OffsetY>
+  <OffsetX>0</OffsetX>
+  <OffsetY>144</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>
