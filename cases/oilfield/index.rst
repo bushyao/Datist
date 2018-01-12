@@ -11,7 +11,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :numbered:
    
    predrilling
    oilstratum
@@ -23,7 +22,6 @@
 
 .. toctree::
    :maxdepth: 2   
-   :numbered:
    
    DataQuality
    DataConsistency
@@ -34,7 +32,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :numbered:  
    
    oiltest   
    oilwellonmap 
