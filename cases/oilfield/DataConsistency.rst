@@ -62,7 +62,7 @@ Datist 提供数据匹配度分析节点，用于在多个数据表（节点）�
      :figwidth: 90% 
      :name: plate 	 
 
-数据钻取：
+数据钻取（双击分析结果中以蓝色的数字，您可以创建临时数据源节点）：
 
 .. figure:: images/DataConsistency08.png
      :align: center
