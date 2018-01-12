@@ -41,21 +41,21 @@
      :figwidth: 90% 
      :name: plate 		 
 
-使用本地下载功能，下载某条记录的内容	 
+使用本地下载功能，下载某个地质图件。	 
  
 .. figure:: images/DocsOnline05.png
      :align: center
      :figwidth: 90% 
      :name: plate 	
 
-使用批量下载，批量多个文件。
+使用批量下载功能，批量多个地质图件。
 
 .. figure:: images/DocsOnline06.png
      :align: center
      :figwidth: 90% 
      :name: plate 	
 	 
-使用单井在线浏览，同一口井的多个文档
+使用单井在线浏览功能，单井的测井蓝图。
 
 .. figure:: images/DocsOnline07.png
      :align: center
