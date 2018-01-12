@@ -49,14 +49,7 @@
 .. figure:: images/DataAccess04.png
      :align: center
      :figwidth: 90% 
-     :name: plate 	 
-	 
-数据源面板中的数据加载结果如下：
-
-.. figure:: images/DataAccess05.png
-     :align: center
-     :figwidth: 90% 
-     :name: plate 
+     :name: plate 	
 	 
 .. note::	 
 
