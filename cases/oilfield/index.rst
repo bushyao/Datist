@@ -6,29 +6,35 @@
 数字油田
 ====================================
 
-**数据整理篇**
+数据整理篇
+------------------------------------
 
 .. toctree::
    :maxdepth: 2
+   :numbered:
    
    predrilling
    oilstratum
    PhysicalPropertyReader
    oilrockdeep
    
-**质量控制篇**
+质量控制篇
+------------------------------------
 
 .. toctree::
    :maxdepth: 2   
-
+   :numbered:
+   
    DataQuality
    DataConsistency
    DataLogic   
    
-**深化应用篇**
+深化应用篇
+------------------------------------
 
 .. toctree::
    :maxdepth: 2
+   :numbered:  
    
    oiltest   
    oilwellonmap 
