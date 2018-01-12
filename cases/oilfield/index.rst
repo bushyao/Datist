@@ -6,16 +6,34 @@
 数字油田
 ====================================
 
+**数据整理篇**
+
 .. toctree::
    :maxdepth: 2
    
    predrilling
-   oiltest
    oilstratum
-   oilwellonmap
    PhysicalPropertyReader
    oilrockdeep
-   WaterFlooding
+   
+**质量控制篇**
+
+.. toctree::
+   :maxdepth: 2   
+
    DataQuality
    DataConsistency
-   DataLogic
+   DataLogic   
+   
+**深化应用篇**
+
+.. toctree::
+   :maxdepth: 2
+   
+   oiltest   
+   oilwellonmap 
+   WaterFlooding
+   
+   
+   
+   
