@@ -58,6 +58,7 @@ Datist 给用户提供自定义的节点的功能，您可以在工具箱添加�
 HTML界面与节点之间，采用JSON格式进行数据交换，JSON数据定义了参数传递与字段映射关系。
 
 示例::
+
    {
        "pars": {
            "title": "点1",
@@ -112,7 +113,16 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
         }
     </style>
 
-		
+数据交换部分，由GetData、SetData两个函数组成；建议使用Jquery组件，方便界面对象的引用。
+
+function GetData()
+
+将界面数据组织成JSON数据字符串，存储于节点中；
+
+function SetData(txt, fieldnames)
+
+从节点中获取数据Json字符串和前节点的名称列表，初始化界面； txt为JSON字符串， fieldnames为前节点的字段名列表，以分号间隔的字符串。
+
 数据交换部分示例代码:: 
 
     <script type="text/javascript">
@@ -131,6 +141,7 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
             return JSON.stringify(anObject);
         }
 
+		//SetData由节点编辑器在窗口打开时，自动执行。
         function SetData(txt, fieldnames) {
 
             var field1 = '';
@@ -151,6 +162,7 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
             SetFields(fieldnames, "fieldF", field2);
         }
 
+		//字段列表初始化
         function SetFields(fieldnames, elementId, fieldvalue) {
 
             var id = "#" + elementId;
@@ -168,28 +180,27 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
 
 界面显示部分示例代码:: 
 
-   <body scroll="no" style="height: 100%; margin: 0; width: 100%">
-      <table>
-         <tr>
-            <td style="width:70px">名称</td>
-            <td><input id="title" type="text" value="点1"></td>
-         </tr>
-         <tr>
-            <td>描述</td>
-            <td><input id="desc" type="text" value="测点"></td>
-         </tr>
+	<body scroll="no" style="height: 100%; margin: 0; width: 100%">
+		<table>
+			<tr>
+				<td style="width:70px">名称</td>
+				<td><input id="title" type="text" value="点1"></td>
+			</tr>
+			<tr>
+				<td>描述</td>
+				<td><input id="desc" type="text" value="测点"></td>
+			</tr>
 
-         <tr>
-            <td>字段Q</td>
-            <td><select id="fieldQ"></select> </td>
-         </tr>
-         
-         <tr>
-            <td>字段F</td>
-            <td><select id="fieldF"></select> </td>
-         </tr>
-      </table>
-   </body>
- 
+			<tr>
+				<td>字段Q</td>
+				<td><select id="fieldQ"></select> </td>
+			</tr>
+			
+			<tr>
+				<td>字段F</td>
+				<td><select id="fieldF"></select> </td>
+			</tr>
+		</table>
+	</body>
 
 
