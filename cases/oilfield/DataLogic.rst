@@ -49,7 +49,7 @@ Datist 提供【同值匹配度】分析节点，用于同一实体，多个不�
      :figwidth: 90% 
      :name: plate 	 
  
-扫描电镜数据表与分析试验主数据表比较，相同编号而井名不一致的样品数据。
+扫描电镜数据表与分析试验主数据表比较，相同编号而井名不一致的样品数据：
  
 .. figure:: images/DataLogic06.png
      :align: center
