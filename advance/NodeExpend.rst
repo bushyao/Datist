@@ -87,109 +87,109 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
   * 数据交换：定义HTML界面与节点编辑器之间的通讯方式，由数据初始化SetData与数据保存 GetData 两个函数组成；
   * 界面显示：HTML脚本定义，界面参数与字段映射的具体内容。
   
-示例::
+样式设置部分示例代码:: 
 
-	<!DOCTYPE html>
-	<html style="height: 100%; margin: 0; width: 100%">
-	<head>
-		<style>
-			body {
-				overflow: hidden;
-			}
+    <style>
+        body {
+            overflow: hidden;
+        }
 
-			input {
-				width: 200px;
-			}
+        input {
+            width: 200px;
+        }
 
-			select {
-				width: 203px;
-			}
+        select {
+            width: 203px;
+        }
 
-			table {
-				width: 100%;
-				font-size: 12px;
-			}
+        table {
+            width: 100%;
+            font-size: 12px;
+        }
 
-			td {
-				height: 30px;
-			}
-		</style>
+        td {
+            height: 30px;
+        }
+    </style>
 
-		<script type="text/javascript" src="js\jquery.js"></script>
-		<script type="text/javascript">
-			function GetData() {
+		
+数据交换部分示例代码:: 
 
-				var anObject = new Object();
-				anObject.pars = new Object();
-				anObject.pars.title = $("#title").val();
-				anObject.pars.desc = $("#desc").val();
+    <script type="text/javascript">
+        function GetData() {
 
-				anObject.allfields = true;
-				anObject.names = new Object();
-				anObject.names.q = $("#fieldQ").find("option:selected").text();
-				anObject.names.f = $("#fieldF").find("option:selected").text();
+            var anObject = new Object();
+            anObject.pars = new Object();
+            anObject.pars.title = $("#title").val();
+            anObject.pars.desc = $("#desc").val();
 
-				return JSON.stringify(anObject);
-			}
+            anObject.allfields = true;
+            anObject.names = new Object();
+            anObject.names.q = $("#fieldQ").find("option:selected").text();
+            anObject.names.f = $("#fieldF").find("option:selected").text();
 
-			function SetData(txt, fieldnames) {
+            return JSON.stringify(anObject);
+        }
 
-				var field1 = '';
-				var field2 = '';
-				if (txt !== null && txt !== '') {
-					var obj = JSON.parse(txt);
+        function SetData(txt, fieldnames) {
 
-					if (obj !== null) {
-						$("#title").val(obj.pars.title);
-						$("#desc").val(obj.pars.desc);
+            var field1 = '';
+            var field2 = '';
+            if (txt !== null && txt !== '') {
+                var obj = JSON.parse(txt);
 
-						field1 = obj.names.q;
-						field2 = obj.names.f;
-					}
-				}
+                if (obj !== null) {
+                    $("#title").val(obj.pars.title);
+                    $("#desc").val(obj.pars.desc);
 
-				SetFields(fieldnames, "fieldQ", field1);
-				SetFields(fieldnames, "fieldF", field2);
-			}
+                    field1 = obj.names.q;
+                    field2 = obj.names.f;
+                }
+            }
 
-			function SetFields(fieldnames, elementId, fieldvalue) {
+            SetFields(fieldnames, "fieldQ", field1);
+            SetFields(fieldnames, "fieldF", field2);
+        }
 
-				var id = "#" + elementId;
+        function SetFields(fieldnames, elementId, fieldvalue) {
 
-				$(id).empty();
-				var arr = fieldnames.split(";");
-				var selector = $(id);
-				arr.forEach(function (value, index) {
-					var opt = new Option(value, index);
-					if (value === fieldvalue) opt.selected = true;
-					selector.append(opt);
-				});
-			}
+            var id = "#" + elementId;
 
-		</script>
-	</head>
-	<body scroll="no" style="height: 100%; margin: 0; width: 100%">
-		<table>
-			<tr>
-				<td style="width:70px">名称</td>
-				<td><input id="title" type="text" value="点1"></td>
-			</tr>
-			<tr>
-				<td>描述</td>
-				<td><input id="desc" type="text" value="测点"></td>
-			</tr>
+            $(id).empty();
+            var arr = fieldnames.split(";");
+            var selector = $(id);
+            arr.forEach(function (value, index) {
+                var opt = new Option(value, index);
+                if (value === fieldvalue) opt.selected = true;
+                selector.append(opt);
+            });
+        } 
+    </script>
 
-			<tr>
-				<td>字段Q</td>
-				<td><select id="fieldQ"></select> </td>
-			</tr>
-			
-			<tr>
-				<td>字段F</td>
-				<td><select id="fieldF"></select> </td>
-			</tr>
-		</table>
-	</body>
-	</html>
+界面显示部分示例代码:: 
+
+   <body scroll="no" style="height: 100%; margin: 0; width: 100%">
+      <table>
+         <tr>
+            <td style="width:70px">名称</td>
+            <td><input id="title" type="text" value="点1"></td>
+         </tr>
+         <tr>
+            <td>描述</td>
+            <td><input id="desc" type="text" value="测点"></td>
+         </tr>
+
+         <tr>
+            <td>字段Q</td>
+            <td><select id="fieldQ"></select> </td>
+         </tr>
+         
+         <tr>
+            <td>字段F</td>
+            <td><select id="fieldF"></select> </td>
+         </tr>
+      </table>
+   </body>
+ 
 
 
