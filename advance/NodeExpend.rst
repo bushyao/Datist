@@ -231,16 +231,16 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
      
     header1("具体内容")
     #============== set parameters ===================
-    T0 =0                   #start time
-    T1=5479                 #Learning period /julian day
-    T2=13847                #Forcast period  /julian day
+    T0 =0                    #start time
+    T1=5479                  #Learning period /julian day
+    T2=13847                 #Forcast period  /julian day
 
-    xMin=95                   #output range Xmin
-    xMax=109                #output range Xmax
-    yMin=20                   #output range Ymin
+    xMin=95                  #output range Xmin
+    xMax=109                 #output range Xmax
+    yMin=20                  #output range Ymin
     yMax=43                  #output range Ymax
-    xd=0.05                    #space distance in X direction
-    yd=0.05                    #space distance in Y direction
+    xd=0.05                  #space distance in X direction
+    yd=0.05                  #space distance in Y direction
     calcmag=4.0              #triggering events 
     estimag=6.0              #triggered events
 
