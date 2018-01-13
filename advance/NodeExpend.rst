@@ -205,7 +205,8 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
 
 用户自己构成脚本过程中，需要遵循数据接入与输出的规范。
 
-**R版** 
+R版
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   * 数据接入：界面参数格式为[$VarName$]，其中VarName对于界面参数JSON中的字段的名称，如title等; 
   * 前节点数据接入：为Inputtable变量，DataFrame类型；
@@ -263,7 +264,8 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
      plot(cata1[,c(8,7)],cex=(cata[,9]-3.5)/2,xlab='long',ylab='lati',main='seismicity of learning period')   #figure Dist 4  
     invisible(dev.off())
 
-**Echarts版** 
+Echarts版
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 与R类似，具体使用方式，参考官方网站：http://echarts.baidu.com/examples.html
 
@@ -362,7 +364,8 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
     };    
     
     
-**C#** 
+C# 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 通过C#编制DLL，将外部数据读取到数据专家中。
 
