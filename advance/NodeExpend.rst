@@ -45,9 +45,8 @@ Datist 给用户提供自定义的节点的功能，您可以在工具箱添加�
 
 扩展节点运行包括两部分的工作，如下图所示；
 
-一是节点编辑器与节点实体之间的界面交互，这部分需要您定义HTML界面，并通过JSON数据格式进行通讯；
-
-二是自定义的算法；运行时，数据专家会给算法推送数据，并进行关键字替换；算法执行之后，收集并扭转算法的输出结果，如文字、表格、图片等；
+  * 一是节点编辑器与节点实体之间的界面交互，这部分需要您定义HTML界面，并通过JSON数据格式进行通讯；
+  * 二是自定义的算法；运行时，数据专家会给算法推送数据，并进行关键字替换；算法执行之后，收集并扭转算法的输出结果，如文字、表格、图片等；
  
 .. figure:: images/NodeExpend04.png
     :align: center
@@ -78,9 +77,8 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
 
 字段映射由两部分构成
 
-1）allfields，布尔型，定义是否对前节点数据推送的方式；false，将根据names键值组的定义，取二维表中的部分字段（列）进行数据映射，向自定义代码中推送；true，将忽略names键值组，推送所有数据。
-
-2）name键值组，定义数据映射关系；本例中，定义了前节点中IsFile与StreamType两个字段的映射关系，运行时，系统以q、f名称推送两列数据。
+  * 1）allfields，布尔型，定义是否对前节点数据推送的方式；false，将根据names键值组的定义，取二维表中的部分字段（列）进行数据映射，向自定义代码中推送；true，将忽略names键值组，推送所有数据。
+  * 2）name键值组，定义数据映射关系；本例中，定义了前节点中IsFile与StreamType两个字段的映射关系，运行时，系统以q、f名称推送两列数据。
  
 用户自定义的Html界面
 -----------------------------------
@@ -118,13 +116,9 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
 
 数据交换部分，由GetData、SetData两个函数组成；建议使用Jquery组件，方便界面对象的引用。
 
-function GetData()
+  * function GetData() 将界面数据组织成JSON数据字符串，存储于节点中；
 
-将界面数据组织成JSON数据字符串，存储于节点中；
-
-function SetData(txt, fieldnames)
-
-从节点中获取数据Json字符串和前节点的名称列表，初始化界面； txt为JSON字符串， fieldnames为前节点的字段名列表，以分号间隔的字符串。
+  * function SetData(txt, fieldnames) 从节点中获取数据Json字符串和前节点的名称列表，初始化界面； txt为JSON字符串， fieldnames为前节点的字段名列表，以分号间隔的字符串。
 
 数据交换部分，示例代码:: 
 
@@ -273,9 +267,10 @@ function SetData(txt, fieldnames)
 
 与R类似，具体使用方式，参考官方网站：http://echarts.baidu.com/examples.html
 
-数据专家以pdata为变量向核心算法推送数据；
+数据专家以pdata为变量的形式，向核心算法推送数据；
 
 算法代码，示例代码::
+
 	var markLineOpt = {
 		animation: false,
 		label: {
@@ -401,7 +396,7 @@ function SetData(txt, fieldnames)
     :figwidth: 90% 
     :name: plate
 	
-案例：
+**案例：**
 
 .. figure:: images/NodeExpend09.png
     :align: center
