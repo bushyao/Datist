@@ -88,7 +88,7 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
   * 数据交换：定义HTML界面与节点编辑器之间的通讯方式，由数据初始化SetData与数据保存 GetData 两个函数组成；
   * 界面显示：HTML脚本定义，界面参数与字段映射的具体内容。
   
-样式设置部分示例代码:: 
+样式设置部分，示例代码:: 
 
     <style>
         body {
@@ -123,7 +123,7 @@ function SetData(txt, fieldnames)
 
 从节点中获取数据Json字符串和前节点的名称列表，初始化界面； txt为JSON字符串， fieldnames为前节点的字段名列表，以分号间隔的字符串。
 
-数据交换部分示例代码:: 
+数据交换部分，示例代码:: 
 
     <script type="text/javascript">
         function GetData() {
@@ -178,7 +178,7 @@ function SetData(txt, fieldnames)
         } 
     </script>
 
-界面显示部分示例代码:: 
+界面显示部分，示例代码:: 
 
 	<body scroll="no" style="height: 100%; margin: 0; width: 100%">
 		<table>
