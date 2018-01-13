@@ -2,17 +2,14 @@
    sphinx-quickstart on Sun Jan 7 22:11:51 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
- 
-内容提要
-==================
-.. toctree::
-   :glob:
    
-   tutorials/index
-   advance/index
-   solutions/index
-   cases/index
-   FAQ/index
-   nodes/index
-   functions/index
-   logs/index
+解决方案
+====================================
+ 
+.. toctree::
+   :maxdepth: 2
+   
+   单井版解决方案
+   服务器版解决方案
+   微信端解决方案
+   数据专家云平台
