@@ -89,7 +89,7 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
   * 数据交换：定义HTML界面与节点编辑器之间的通讯方式，由数据初始化SetData与数据保存 GetData 两个函数组成；
   * 界面显示：HTML脚本定义，界面参数与字段映射的具体内容。
   
-样式设置部分，示例代码:: 
+示例代码:: 
 
     <style>
         body {
@@ -114,13 +114,13 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
         }
     </style>
 
-数据交换部分，由GetData、SetData两个函数组成；建议使用Jquery组件，方便界面对象的引用。
+数据交换部分由GetData、SetData两个函数组成；建议使用Jquery组件，方便界面对象的引用。
 
   * function GetData() 将界面数据组织成JSON数据字符串，存储于节点中；
 
   * function SetData(txt, fieldnames) 从节点中获取数据Json字符串和前节点的名称列表，初始化界面； txt为JSON字符串， fieldnames为前节点的字段名列表，以分号间隔的字符串。
 
-数据交换部分，示例代码:: 
+示例代码:: 
 
     <script type="text/javascript">
         function GetData() {
@@ -225,7 +225,7 @@ R
 
     #前节点数据源名称为inputtable；
 
-算法代码，示例代码::
+示例代码::
 
     header1("[$title$]")
     output("[$desc$]")
@@ -271,7 +271,7 @@ Echarts
 
 数据专家以pdata为变量的形式，向核心算法推送数据；
 
-算法代码，示例代码::
+示例代码::
 
     var markLineOpt = {
         animation: false,
@@ -367,14 +367,14 @@ Echarts
 C# 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-通过C#编制DLL，将外部数据读取到数据专家中。
+通过C#编制DLL，将外部数据读入数据专家中。
 
   * 类名命名空间必须和DLL的名称同名；
   * 类名的必须为DataEngine；
   * 必须包含字段名定义函数： public static Dictionary<string, string> DBFields(string jsonString)
   * 必须包含数据读取函数：public static IEnumerator<List<object>> Data(string jsonString)
 
-算法代码，示例代码::
+示例代码::
 
     using System;
     using System.Collections.Generic;
