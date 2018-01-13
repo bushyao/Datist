@@ -412,7 +412,7 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
             /// <returns>返回集合，object列表与DBFields的类型相对应</returns>
             public static IEnumerator<List<object>> Data(string jsonString)
             {
-
+                //可以将参数输出到日志区
                 Debug.WriteLine(jsonString); 
 				
                 var json = JObject.Parse(jsonString);
@@ -423,14 +423,8 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
                 else
                 {
                     var pars = json.SelectToken("pars");
-                    var paraFile = pars["filename"].ToString();
-
-                    Debug.WriteLine(paraFile);
-
-                    var fall = File.ReadAllLines(paraFile);
-
-                    var oldDateTime = DateTime.Now;
-
+                    var paraFile = pars["filename"].ToString(); 
+                    var fall = File.ReadAllLines(paraFile); 
                     for (var index = 1; index < fall.Length; index++)
                     {
                         var s = fall[index]; 
@@ -448,14 +442,7 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
                             lst.Add("");
                         }
      
-                        yield return lst;
-
-                        //进度
-                        if ((DateTime.Now - oldDateTime).TotalSeconds >= 30 || index == fall.Length - 1)
-                        {
-                            Debug.WriteLine($"Read: {index }/{fall.Length - 1} ({index * 1.0 / (fall.Length - 1):P}) ");
-                            oldDateTime = DateTime.Now;
-                        }
+                        yield return lst; 
                     }
                 }
                 
