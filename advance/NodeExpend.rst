@@ -205,7 +205,7 @@ function SetData(txt, fieldnames)
 			</tr>
 		</table>
 	</body>
-
+	
 核心脚本构成
 -----------------------------------
 
