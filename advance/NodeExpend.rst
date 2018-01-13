@@ -204,6 +204,95 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
 -----------------------------------
 
 用户自己构成脚本过程中，需要遵循数据接入与输出的规范。
+ 
+C# 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+通过C#编制DLL，将外部数据读入数据专家中。
+
+  * 类名命名空间必须和DLL的名称同名；
+  * 类名的必须为DataEngine；
+  * 必须包含字段名定义函数： public static Dictionary<string, string> DBFields(string jsonString)
+  * 必须包含数据读取函数：public static IEnumerator<List<object>> Data(string jsonString)
+
+示例代码::
+
+    using System;
+    using System.Collections.Generic;
+    using System.Diagnostics;
+    using System.IO;
+    using System.Linq;
+    using System.Text;
+    using Newtonsoft.Json.Linq;
+
+    namespace MyDLL
+    {
+        public class DataEngine
+        {
+            /// <summary>
+            /// 字段名称
+            /// </summary>
+            /// <param name="jsonString"></param>
+            /// <returns>名称，类型 字典</returns>
+            public static Dictionary<string, string> DBFields(string jsonString)
+            {
+                var dic = new Dictionary<string, string>(); 
+                dic.Add("DocName", "Text");
+                dic.Add("烟尘执行标准", "Text");
+                dic.Add("硫氧执行标准", "Text");
+                dic.Add("氮氧执行标准", "Text"); 
+                dic.Add("企业编号", "Text");
+                dic.Add("排口编号", "Text");
+                dic.Add("省", "Text");
+                dic.Add("市", "Text"); 
+                return dic;
+            }
+
+
+            /// <summary>
+            /// 数据读取
+            /// </summary>
+            /// <param name="paraFile"></param>
+            /// <returns>返回集合，object列表与DBFields的类型相对应</returns>
+            public static IEnumerator<List<object>> Data(string jsonString)
+            {
+                //可以将参数输出到日志区
+                Debug.WriteLine(jsonString); 
+				
+                var json = JObject.Parse(jsonString);
+                if (json == null)
+                {
+                    yield return null;
+                }
+                else
+                {
+                    var pars = json.SelectToken("pars");
+                    var paraFile = pars["filename"].ToString(); 
+                    var fall = File.ReadAllLines(paraFile); 
+                    for (var index = 1; index < fall.Length; index++)
+                    {
+                        var s = fall[index]; 
+                        var arr = s.Split('\t');
+
+                        var lst = new List<object>();
+                        foreach (var pollutant in arr)
+                        {
+                            if (lst.Count > 8) break;
+                            lst.Add(pollutant);
+                        }
+
+                        for (int i = lst.Count; i < 8; i++)
+                        {
+                            lst.Add("");
+                        }
+     
+                        yield return lst; 
+                    }
+                }
+                
+            }
+        } 
+    }    
 
 R
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -362,98 +451,7 @@ Echarts
             }
         ]
     };    
-    
-    
-C# 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-通过C#编制DLL，将外部数据读入数据专家中。
-
-  * 类名命名空间必须和DLL的名称同名；
-  * 类名的必须为DataEngine；
-  * 必须包含字段名定义函数： public static Dictionary<string, string> DBFields(string jsonString)
-  * 必须包含数据读取函数：public static IEnumerator<List<object>> Data(string jsonString)
-
-示例代码::
-
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.IO;
-    using System.Linq;
-    using System.Text;
-    using Newtonsoft.Json.Linq;
-
-    namespace MyDLL
-    {
-        public class DataEngine
-        {
-            /// <summary>
-            /// 字段名称
-            /// </summary>
-            /// <param name="jsonString"></param>
-            /// <returns>名称，类型 字典</returns>
-            public static Dictionary<string, string> DBFields(string jsonString)
-            {
-                var dic = new Dictionary<string, string>(); 
-                dic.Add("DocName", "Text");
-                dic.Add("烟尘执行标准", "Text");
-                dic.Add("硫氧执行标准", "Text");
-                dic.Add("氮氧执行标准", "Text"); 
-                dic.Add("企业编号", "Text");
-                dic.Add("排口编号", "Text");
-                dic.Add("省", "Text");
-                dic.Add("市", "Text"); 
-                return dic;
-            }
-
-
-            /// <summary>
-            /// 数据读取
-            /// </summary>
-            /// <param name="paraFile"></param>
-            /// <returns>返回集合，object列表与DBFields的类型相对应</returns>
-            public static IEnumerator<List<object>> Data(string jsonString)
-            {
-                //可以将参数输出到日志区
-                Debug.WriteLine(jsonString); 
-				
-                var json = JObject.Parse(jsonString);
-                if (json == null)
-                {
-                    yield return null;
-                }
-                else
-                {
-                    var pars = json.SelectToken("pars");
-                    var paraFile = pars["filename"].ToString(); 
-                    var fall = File.ReadAllLines(paraFile); 
-                    for (var index = 1; index < fall.Length; index++)
-                    {
-                        var s = fall[index]; 
-                        var arr = s.Split('\t');
-
-                        var lst = new List<object>();
-                        foreach (var pollutant in arr)
-                        {
-                            if (lst.Count > 8) break;
-                            lst.Add(pollutant);
-                        }
-
-                        for (int i = lst.Count; i < 8; i++)
-                        {
-                            lst.Add("");
-                        }
-     
-                        yield return lst; 
-                    }
-                }
-                
-            }
-        } 
-    }    
-        
-    
+      
 编译扩展包
 -----------------------------------
 
