@@ -527,7 +527,7 @@ Echarts
     :figwidth: 90% 
     :name: plate
 
-.. warn::
+.. warning::
    
    对于DLL数据源扩展节点，请勾选数据源节点；
 	
