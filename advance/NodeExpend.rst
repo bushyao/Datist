@@ -242,55 +242,55 @@ C#数据源
                 return dic;
             }
  
-			public static IEnumerator<List<object>> Data(string jsonString)
-			{ 
-				Debug.WriteLine(jsonString);
-	 
-				var json = JObject.Parse(jsonString);
-				if (json == null)  yield break;
-				
-				var pars = json.SelectToken("pars");
-				var paraFile = pars["filename"].ToString();
+            public static IEnumerator<List<object>> Data(string jsonString)
+            { 
+                Debug.WriteLine(jsonString);
+     
+                var json = JObject.Parse(jsonString);
+                if (json == null)  yield break;
+                
+                var pars = json.SelectToken("pars");
+                var paraFile = pars["filename"].ToString();
 
-				Debug.WriteLine(paraFile);
+                Debug.WriteLine(paraFile);
 
-				var fall = File.ReadAllLines(paraFile);
+                var fall = File.ReadAllLines(paraFile);
 
-				var oldDateTime = DateTime.Now;
+                var oldDateTime = DateTime.Now;
 
-				for (var index = 1; index < fall.Length; index++)
-				{
-					var s = fall[index];
+                for (var index = 1; index < fall.Length; index++)
+                {
+                    var s = fall[index];
 
-					var arr = s.Split('\t');
+                    var arr = s.Split('\t');
 
-					var lst = new List<object>();
-					foreach (var pollutant in arr)
-					{
-						if (lst.Count > 8) break;
-						lst.Add(pollutant);
-					}
+                    var lst = new List<object>();
+                    foreach (var pollutant in arr)
+                    {
+                        if (lst.Count > 8) break;
+                        lst.Add(pollutant);
+                    }
 
-					for (int i = lst.Count; i < 8; i++)
-					{
-						lst.Add("");
-					}
-	 
-					yield return lst;
+                    for (int i = lst.Count; i < 8; i++)
+                    {
+                        lst.Add("");
+                    }
+     
+                    yield return lst;
 
-					//进度
-					if ((DateTime.Now - oldDateTime).TotalSeconds >= 30 || index == fall.Length - 1)
-					{
-						Debug.WriteLine($"Read: {index }/{fall.Length - 1} ({index * 1.0 / (fall.Length - 1):P}) ");
-						oldDateTime = DateTime.Now;
-					}
-				}
-			}
-		}
+                    //进度
+                    if ((DateTime.Now - oldDateTime).TotalSeconds >= 30 || index == fall.Length - 1)
+                    {
+                        Debug.WriteLine($"Read: {index }/{fall.Length - 1} ({index * 1.0 / (fall.Length - 1):P}) ");
+                        oldDateTime = DateTime.Now;
+                    }
+                }
+            }
+        }
         } 
     } 
 
-	
+    
 C#数据处理
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -303,52 +303,52 @@ C#数据处理
 
 示例代码::
 
-	using System.Collections.Generic;
-	using System.Data;
-	using System.Diagnostics;
-	using Newtonsoft.Json.Linq;
+    using System.Collections.Generic;
+    using System.Data;
+    using System.Diagnostics;
+    using Newtonsoft.Json.Linq;
 
-	namespace MyProcess
-	{
-		public class DataEngine
-		{ 
-			public static Dictionary<string, string> DBFields(string jsonString)
-			{
-				var dic = new Dictionary<string, string>();
-				dic.Add("FieldName1", "Text");
-				dic.Add("FieldName2", "Text");
-				dic.Add("Result2", "Int");
-				return dic;
-			}
+    namespace MyProcess
+    {
+        public class DataEngine
+        { 
+            public static Dictionary<string, string> DBFields(string jsonString)
+            {
+                var dic = new Dictionary<string, string>();
+                dic.Add("FieldName1", "Text");
+                dic.Add("FieldName2", "Text");
+                dic.Add("Result2", "Int");
+                return dic;
+            }
  
-			public static IEnumerator<List<object>> Data(string jsonString, DataTable data)
-			{ 
-				Debug.WriteLine(jsonString); 
+            public static IEnumerator<List<object>> Data(string jsonString, DataTable data)
+            { 
+                Debug.WriteLine(jsonString); 
 
-				var json = JObject.Parse(jsonString);
-				if (json == null)
-				{
-					yield break;
-				}
+                var json = JObject.Parse(jsonString);
+                if (json == null)
+                {
+                    yield break;
+                }
 
-				var pars = json.SelectToken("pars");
-				var title = pars["title"].ToString();
+                var pars = json.SelectToken("pars");
+                var title = pars["title"].ToString();
 
-				Debug.WriteLine(title);
+                Debug.WriteLine(title);
 
 
-				if (data == null) yield break;
-				long id = 0;
-				foreach (DataRow dr in data.Rows)
-				{
-					var results = new List<object> { dr[0], dr[1], id++ };
+                if (data == null) yield break;
+                long id = 0;
+                foreach (DataRow dr in data.Rows)
+                {
+                    var results = new List<object> { dr[0], dr[1], id++ };
 
-					yield return results;
-				}
+                    yield return results;
+                }
 
-			}
-		}
-	}
+            }
+        }
+    }
 
 R
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
