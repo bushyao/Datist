@@ -15,6 +15,7 @@
    predrilling
    oilstratum
    PhysicalPropertyReader
+   SliceImage
    oilrockdeep
    
 质量控制篇
