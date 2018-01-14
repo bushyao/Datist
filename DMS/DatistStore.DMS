@@ -251,10 +251,10 @@
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
       <FormulaExpression>F("
-{DisplayName} ( V{Version})
+#. {DisplayName}    V{Version} 
 -----------------
 
-  **作者：** {Author} ({Company})
+  **作者：** {Author}  ( {Company} )
 
   **关键字：** {Tags}
 
@@ -285,7 +285,7 @@
       <Name>行序</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>7dc290bc-8ff7-4fa8-aef6-95eb887d897d</guid>
+        <guid>fc21dd69-61f7-469c-baf5-c3eca4f1b932</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -410,13 +410,71 @@
       </FillerFields>
       <FillerValue>F(".. list
 
-流程商店
+DatistStore
 ==========================================
+
+DatistStore 流程共享平台，旨在为您提供流程交流、共享的渠道，您可以从中查询、下载感兴趣的流程，或者把您的流程发布上来分享给其它用户。
 
 {内容_字符合并}
 
 
 ")</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>ca8bf328-047e-40f8-aab9-f433a4f0a505</Guid>
+      <CenterY>275.20000000000005</CenterY>
+      <CenterX>364.80000000000007</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>汇总#1</Title>
+      <Name>汇总</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>7dc290bc-8ff7-4fa8-aef6-95eb887d897d</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <KeyFields>
+        <string>PrivilegeType</string>
+      </KeyFields>
+      <AggregeteFields />
+      <StringSpliter>,</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>fc21dd69-61f7-469c-baf5-c3eca4f1b932</Guid>
+      <CenterY>85.1</CenterY>
+      <CenterX>450.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>筛选</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7dc290bc-8ff7-4fa8-aef6-95eb887d897d</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsIncluded>false</IsIncluded>
+      <FilterExpression> PrivilegeType == '私有' </FilterExpression>
     </NodeBase>
   </Items>
   <ParNames />
