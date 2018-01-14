@@ -250,8 +250,11 @@
       <FieldName>内容</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F(" {DisplayName} ( V{Version})
---------------------------
+      <FormulaExpression>F("
+
+ {DisplayName} ( V{Version})
+-----------------
+
   **作者：** {Author} ({Company})
 
   **关键字：** {Tags}
@@ -307,8 +310,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeDownload">
       <Guid>84adbe58-163b-475b-a0d8-dacdcb1b61ad</Guid>
-      <CenterY>275.20000000000005</CenterY>
-      <CenterX>611.2</CenterX>
+      <CenterY>280.1</CenterY>
+      <CenterX>720</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -316,7 +319,7 @@
       <Name>数据项转存</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>e5e8f0a1-5fe7-48ec-9df0-b71f086fdc39</guid>
+        <guid>144ff6fc-4f48-43c3-aa9c-b147c9aa9491</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -379,6 +382,42 @@
       <HasCount>false</HasCount>
       <CountFieldName>RecordCount</CountFieldName>
       <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>144ff6fc-4f48-43c3-aa9c-b147c9aa9491</Guid>
+      <CenterY>399.20000000000005</CenterY>
+      <CenterX>513.6</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>替换</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>e5e8f0a1-5fe7-48ec-9df0-b71f086fdc39</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FillerIf>1</FillerIf>
+      <FillerFields>
+        <string>内容_字符合并</string>
+      </FillerFields>
+      <FillerValue>F(".. list
+
+流程商店
+==========================================
+
+{内容_字符合并}
+
+
+")</FillerValue>
     </NodeBase>
   </Items>
   <ParNames />

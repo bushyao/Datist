@@ -251,15 +251,14 @@
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
       <FormulaExpression>F("
-
- {DisplayName} ( V{Version})
+{DisplayName} ( V{Version})
 -----------------
 
   **作者：** {Author} ({Company})
 
   **关键字：** {Tags}
 
-  **描述：** {Description} 
+  **描述：** { RemoveLineBreak( Description ) } 
 
   **发布：** {ModifyTime}
 
