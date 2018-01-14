@@ -60,6 +60,7 @@
   <StreamID />
   <ReportTitleName />
   <ListReportTitles />
+  <AttachFiles />
   <Price>0</Price>
   <PrivilegeType>公开</PrivilegeType>
   <Parameters />
@@ -69,6 +70,7 @@
       <CenterY>110.9</CenterY>
       <CenterX>85.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -143,6 +145,7 @@
       <CenterY>105.1</CenterY>
       <CenterX>270.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -230,6 +233,7 @@
       <CenterY>200.1</CenterY>
       <CenterX>530.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -279,6 +283,7 @@
       <CenterY>95.1</CenterY>
       <CenterX>425.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -312,6 +317,7 @@
       <CenterY>280.1</CenterY>
       <CenterX>720</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -341,6 +347,7 @@
       <CenterY>290.1</CenterY>
       <CenterX>530.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -387,6 +394,7 @@
       <CenterY>399.20000000000005</CenterY>
       <CenterX>513.6</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -425,6 +433,7 @@ DatistStore 流程共享平台，旨在为您提供流程交流、共享的渠�
       <CenterY>230.1</CenterY>
       <CenterX>415.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>汇总#1</Title>
@@ -456,6 +465,7 @@ DatistStore 流程共享平台，旨在为您提供流程交流、共享的渠�
       <CenterY>100.1</CenterY>
       <CenterX>360.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -481,6 +491,7 @@ DatistStore 流程共享平台，旨在为您提供流程交流、共享的渠�
       <CenterY>95.1</CenterY>
       <CenterX>535.2</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
