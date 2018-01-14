@@ -143,7 +143,7 @@
       <CenterY>105.1</CenterY>
       <CenterX>270.2</CenterX>
       <Description />
-      <ToolTip />
+      <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
       <Name>过滤</Name>
@@ -251,10 +251,10 @@
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
       <FormulaExpression>F("
-{行号11}. {DisplayName}    V{Version} 
+{行号11}. {DisplayName}  
 -----------------
 
-  **作者：** {Author}  ( {Company} )
+  V {Version :0.0}  By {Author}  ( {Company} )
 
   **关键字：** {Tags}
 
@@ -422,8 +422,8 @@ DatistStore 流程共享平台，旨在为您提供流程交流、共享的渠�
     </NodeBase>
     <NodeBase xsi:type="NodeAggregate">
       <Guid>ca8bf328-047e-40f8-aab9-f433a4f0a505</Guid>
-      <CenterY>275.20000000000005</CenterY>
-      <CenterX>364.80000000000007</CenterX>
+      <CenterY>230.1</CenterY>
+      <CenterX>415.2</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>

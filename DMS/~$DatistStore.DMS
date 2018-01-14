@@ -227,8 +227,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>7dc290bc-8ff7-4fa8-aef6-95eb887d897d</Guid>
-      <CenterY>135.1</CenterY>
-      <CenterX>365.2</CenterX>
+      <CenterY>200.1</CenterY>
+      <CenterX>530.2</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -236,7 +236,7 @@
       <Name>内容</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>293dceab-a7cb-406b-9998-69fc9908cda1</guid>
+        <guid>021a68e1-b322-4ea9-a1a8-ba6bd4fc1aba</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -251,7 +251,7 @@
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
       <FormulaExpression>F("
-#. {DisplayName}    V{Version} 
+{行号11}. {DisplayName}    V{Version} 
 -----------------
 
   **作者：** {Author}  ( {Company} )
@@ -276,8 +276,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeSort">
       <Guid>497cdaee-ec6e-498c-b37d-eb89cddaa095</Guid>
-      <CenterY>172.00000000000003</CenterY>
-      <CenterX>464.80000000000007</CenterX>
+      <CenterY>95.1</CenterY>
+      <CenterX>425.2</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -285,7 +285,7 @@
       <Name>行序</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>7dc290bc-8ff7-4fa8-aef6-95eb887d897d</guid>
+        <guid>fc21dd69-61f7-469c-baf5-c3eca4f1b932</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -338,8 +338,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeAggregate">
       <Guid>e5e8f0a1-5fe7-48ec-9df0-b71f086fdc39</Guid>
-      <CenterY>285.6</CenterY>
-      <CenterX>474.4</CenterX>
+      <CenterY>290.1</CenterY>
+      <CenterX>530.2</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -347,7 +347,7 @@
       <Name>汇总</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>497cdaee-ec6e-498c-b37d-eb89cddaa095</guid>
+        <guid>7dc290bc-8ff7-4fa8-aef6-95eb887d897d</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -410,13 +410,100 @@
       </FillerFields>
       <FillerValue>F(".. list
 
-流程商店
+DatistStore
 ==========================================
+
+DatistStore 流程共享平台，旨在为您提供流程交流、共享的渠道，您可以从中查询、下载感兴趣的流程，或者把您的流程发布上来分享给其它用户。
 
 {内容_字符合并}
 
 
 ")</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>ca8bf328-047e-40f8-aab9-f433a4f0a505</Guid>
+      <CenterY>275.20000000000005</CenterY>
+      <CenterX>364.80000000000007</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>汇总#1</Title>
+      <Name>汇总</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>7dc290bc-8ff7-4fa8-aef6-95eb887d897d</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <KeyFields>
+        <string>PrivilegeType</string>
+      </KeyFields>
+      <AggregeteFields />
+      <StringSpliter>,</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>fc21dd69-61f7-469c-baf5-c3eca4f1b932</Guid>
+      <CenterY>100.1</CenterY>
+      <CenterX>360.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>筛选</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>293dceab-a7cb-406b-9998-69fc9908cda1</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsIncluded>false</IsIncluded>
+      <FilterExpression> PrivilegeType == '私有' </FilterExpression>
+    </NodeBase>
+    <NodeBase xsi:type="NodeRowID">
+      <Guid>021a68e1-b322-4ea9-a1a8-ba6bd4fc1aba</Guid>
+      <CenterY>95.1</CenterY>
+      <CenterX>535.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行号11</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>497cdaee-ec6e-498c-b37d-eb89cddaa095</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <NewName>行号11</NewName>
+      <ComputeMode>RowID</ComputeMode>
+      <ComputeFieldName />
+      <UniqueFieldName />
+      <BeginFieldName />
+      <OrderBy>true</OrderBy>
     </NodeBase>
   </Items>
   <ParNames />
