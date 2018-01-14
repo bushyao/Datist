@@ -253,7 +253,7 @@
       <FormulaExpression>F("
 
  {DisplayName} ( V{Version})
--------------------------------------------
+-----------------
 
   **作者：** {Author} ({Company})
 
