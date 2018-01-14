@@ -310,7 +310,6 @@
       <CenterY>275.20000000000005</CenterY>
       <CenterX>611.2</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -328,8 +327,8 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
-      <Url>输出</Url>
-      <SavePath>F("D:\\github\\Datist\\functions\\{行号}{FileName}.rst")</SavePath>
+      <Url>内容_字符合并</Url>
+      <SavePath>F("D:\\github\\Datist\\DatistStore\\list.rst")</SavePath>
       <DataDataType />
       <MillisecondsTimeout>0</MillisecondsTimeout>
       <ItemType>Txt</ItemType>
