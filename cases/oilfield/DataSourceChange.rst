@@ -10,7 +10,7 @@
 
 数据分析流程：
 
-.. figure:: images/wuxinpancha01.png
+.. figure:: images/DataSourceChange01.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
@@ -21,14 +21,14 @@
  
 数据量增加异常数据表：
 
-.. figure:: images/wuxinpancha02.png
+.. figure:: images/DataSourceChange02.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
 	 
 数据量减少异常数据表：
 
-.. figure:: images/wuxinpancha03.png
+.. figure:: images/DataSourceChange03.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
