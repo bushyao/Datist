@@ -12,6 +12,7 @@
    advance/index
    solutions/index
    cases/index
+   DatistStore/list
    FAQ/index
    nodes/index
    functions/index
