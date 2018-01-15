@@ -16,3 +16,4 @@
    foreach
    standardization
    NodeExpend
+   DatistStore
