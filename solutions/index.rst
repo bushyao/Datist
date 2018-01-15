@@ -11,3 +11,8 @@
   * 微信端解决方案 
   * 数据专家云平台
  
+ 
+.. figure:: images/docker.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	 
