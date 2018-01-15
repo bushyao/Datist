@@ -527,17 +527,13 @@ Echarts
     :figwidth: 90% 
     :name: plate
 
-.. warning::
-   
-   对于DLL数据源扩展节点，请勾选数据源节点；
-	
-核心数据项验证机制
+.. note::
 
-.. figure:: images/NodeExpend07.png
-    :align: center
-    :figwidth: 90% 
-    :name: plate
-  
+   * 界面HTML、脚本文件请使用UTF8编码格式；
+   * 对于DLL数据源扩展节点，请勾选数据源节点；
+   * 对于R和Echarts扩展节点，请设置勾选代码加密，以便保护您的代码。
+	
+
 添加扩展包
 -----------------------------------
 
