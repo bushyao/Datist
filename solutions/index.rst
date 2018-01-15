@@ -7,12 +7,21 @@
 ====================================
 
   * 单井版解决方案 
+  
   * 服务器版解决方案 
-  * 微信端解决方案 
-  * 数据专家云平台
- 
- 
-.. figure:: images/docker.png
+  
+微信端解决方案  
+-------------------
+  
+.. figure:: images/solutions01.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	
+	 
+云部署解决方案 
+---------------------
+  
+.. figure:: images/solutions02.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
