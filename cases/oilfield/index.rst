@@ -28,8 +28,7 @@
    :maxdepth: 2
    
    predrilling
-   oilstratum
-   PhysicalPropertyReader
+   oilstratum   
    SliceImage
    oilrockdeep
    

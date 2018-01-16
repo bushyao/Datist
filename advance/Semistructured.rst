@@ -1,12 +1,54 @@
-﻿.. PhysicalPropertyReader
+﻿.. Semistructured
 
-录井数据整理入库
+半结构化数据智能解析
 ====================================
+维基百科：“直观的界面、出色的计算功能和图表工具，再加上成功的市场营销，使Excel成为最流行的个人计算机数据处理软件。在1993年，作为Microsoft Office的组件发布了5.0版之后，Excel就开始成为所适用操作平台上的电子制表软件的霸主。”这段话描述的非常到位，Excel在油田科研生产中无所不在，无论是从现场的数据采集、日常报表上报到科研人员的分析研究，都得到广泛的使用，因而多年来企业也就积累了大量的Excel数据。
+
+Excel格式多源于用户习惯自行独立设计，缺乏统一的企业规范；与常见的二维表格数据相比，Excel数据种类多样、格式复杂，具有很强的自述性与动态可变性。
+
+传统数据处理工具难以适应数据结构的复杂与变动，仅能处理格式相对简单的Excel表格；而编制数据解读程序工作量又非常大；就造成了Excel半结构化数据应用十分困难。
+
+Datist提供独创的智能解析工具与技术，可快速地、批量地从任意复杂格式中，抽取所需的数据，并按照新需求将数据重新组织成标准规范的结构化数据格式，支撑上层应用。
+
+智能解析原理：
+
+.. figure:: images/Semistructured01.jpg
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	 
+
+智能解析采用多模板、单元格动态匹配、可选列等技术，让智能解析模板具有很强的伸缩性与兼容性，使得同一模板抽取多种格式的文件成为可能。
+
+**步骤一 构造解析模板**
+
+通过Excel智能解析插件，编写数据抽取模板：
+
+  *. 定义待抽取的字段名及数据类型列表；
+  *. 新建数据解析模板，指定标题块、说明块和内容块的取值方式；
+
+Excel智能解析插件界面：
+
+.. figure:: images/Semistructured02.jpg
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	 
+
+
+**步骤二 数据清洗**
+
+使用数据专家中的智能解析节点，加载智能解析模板，读取Excel文档中数据。
+
+.. note::
+
+  如果说智能解析节点实现了Excel文档的读取，那么数据专家流程式数据清洗才是真正实现了Excel文档数据的智能解析与重组。
+
+**案例：录井数据整理入库**
+
 项目组需要将历年以光盘保存的单井资料，整理、加载到生产系统中。由于数据归档以单井为单位，钻、录、试数据又分别存在不同的Excel文档中，数据整理人员需从每口单井的文档中提取数据，通过复制、粘贴的方式，将原始的Excel数据，整理成目标数据格式，工程量浩大。又因为项目组人员少，日常事务烦忙，数据实录工作，进展缓慢，1个月才完成十几口的数据整理任务。
 
 多年来积攒的报告：
 
-.. figure:: images/PhysicalPropertyReader7.png
+.. figure:: images/Semistructured03.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
@@ -18,28 +60,28 @@
 
 勘探局的格式：
 
-.. figure:: images/PhysicalPropertyReader1.png
+.. figure:: images/Semistructured04.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
 	 
 川庆钻探工程公司的格式：
 
-.. figure:: images/PhysicalPropertyReader2.png
+.. figure:: images/Semistructured05.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 	 
 
 吐哈油田的格式：
 
-.. figure:: images/PhysicalPropertyReader3.png
+.. figure:: images/Semistructured06.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 	 
 
 数据专家系统，采用智能数据解析技术，快速实现了分层数据提取、钻井分段钻井液性能数据、气测解释数据、取芯、套管数据、岩屑油气显示、钻头数据、最大井斜、油气显示分层统计和物性入库共10项数据自动提取入库，仅用10分钟，完成600余井的数据整理工作。
 	 
-.. figure:: images/PhysicalPropertyReader4.png
+.. figure:: images/Semistructured07.png
      :align: center
      :figwidth: 70% 
      :name: plate 	 	 
@@ -80,15 +122,34 @@
  
 解析结果数据表：
 	  
-.. figure:: images/PhysicalPropertyReader5.png
+.. figure:: images/Semistructured08.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
 	 
 按年度统计报告：
 
-.. figure:: images/PhysicalPropertyReader6.png
+.. figure:: images/Semistructured09.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
 	 
+ 
+**智能解析效果**
+
+Datist数据提取解决方案具有高度智能化、自动化的特点，且整个过程无需编程，只需要对Datist数据专家的节点进行排列组合，便可以生成个性化的解决方案，因此在各方面均比人工方式和编程方式的解决方案高出几个等级，经过大量实际项目验证：
+
+与人工方式相比：
+
+  *. 准确率提高2倍；
+  *. 工作时长缩短至1/10；
+  *. 成本减少2/3；
+  *. 可复用程度提高100倍。
+
+与编程方式相比：
+
+  *. 开发用时缩短至1/50；
+  *. 成本缩短至1/2；
+  *. 灵活性提高10倍；
+  *. 开发难度降低至1/50。
+
