@@ -9,11 +9,7 @@
 .. toctree::
    :maxdepth: 2
    :numbered:
-	  
-   ExpressionEditor
-   variable
-   UI
-   foreach
+	
    standardization
    NodeExpend
-   DatistStore
+

@@ -7,5 +7,11 @@
 ====================================
 .. toctree::
    :maxdepth: 2
+   :numbered:
    
    frist
+   ExpressionEditor
+   variable
+   foreach
+   UI   
+   DatistStore
