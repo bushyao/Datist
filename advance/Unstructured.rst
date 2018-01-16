@@ -45,6 +45,11 @@
 
   * Word节点支持加载单个文件、某个目录下的所有文件的功能。
   * 调查表中的字体的颜色、加粗等样式，具体有实际意义，因此需要输出文本的段落样式。
+
+.. figure:: images/Unstructured10.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 
   
 Word数据源节点，将所有文档全加载进来，输出项包括：文件名称、内容类型、内容编号及内容（Paragraph）。
 
