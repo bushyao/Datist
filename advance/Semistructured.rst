@@ -93,7 +93,7 @@ Excel智能解析插件界面：
 
 多年来积攒的报告：
 
-.. figure:: images/Semistructured03.png
+.. figure:: images/Semistructured03.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
@@ -105,21 +105,21 @@ Excel智能解析插件界面：
 
 勘探局的格式：
 
-.. figure:: images/Semistructured04.png
+.. figure:: images/Semistructured04.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
 	 
 川庆钻探工程公司的格式：
 
-.. figure:: images/Semistructured05.png
+.. figure:: images/Semistructured05.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 	 
 
 吐哈油田的格式：
 
-.. figure:: images/Semistructured06.png
+.. figure:: images/Semistructured06.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 	 
