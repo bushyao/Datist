@@ -10,6 +10,7 @@
    :maxdepth: 2
    :numbered:
 	
+   Semistructured
    Unstructured
    standardization
    NodeExpend
