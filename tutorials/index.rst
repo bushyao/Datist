@@ -14,4 +14,6 @@
    variable
    foreach
    UI   
+   DataAccess
+   DocsOnline
    DatistStore
