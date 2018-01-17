@@ -12,6 +12,7 @@
 	
    Semistructured
    Unstructured
+   GIS
    standardization
    NodeExpend
 
