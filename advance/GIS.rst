@@ -8,10 +8,12 @@
 
 数据专家中提供了一些常用的空间分析功能，如投影变换、空间匹配、最近图元查找等。
 
-.. figure:: images/GIS01.jpg
-     :align: center
-     :figwidth: 90% 
-     :name: plate 	 
+空间数据分析体系::
+
+	.. figure:: images/GIS01.jpg
+		 :align: center
+		 :figwidth: 90% 
+		 :name: plate 	 
 
 空间数据的存储两个部分：一个是图元数据，一个属性数据；
 
