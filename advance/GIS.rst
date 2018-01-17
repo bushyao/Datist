@@ -47,14 +47,14 @@ Polygon              POLYGON ((35 10, 45 45, 15 40, 10 20, 35 10),(20 30, 35 35,
 
 在自然地震研究过程中，需要从华东地震目录中抽取研究区内历年来发生的地震数据。
 
-构造带空间边界数据：
+历年来发生的地震情况：
 
 .. figure:: images/GIS03.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	
 
-历年来发生的地震情况：	 
+构造带空间边界数据：	 
 	 
 .. figure:: images/GIS04.jpg
      :align: center
