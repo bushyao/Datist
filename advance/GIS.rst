@@ -20,7 +20,7 @@
 
 值得注意的是，数据专家中坐标系统默认是WGS84，在空间分析过程中，需先通过投影变换节点将其它坐标系的数据统一WGS84坐标系下。
  
-.. figure:: images/GIS01.png
+.. figure:: images/GIS01.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
