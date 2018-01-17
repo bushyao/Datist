@@ -43,9 +43,38 @@ Polygon              POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10))
 Polygon              POLYGON ((35 10, 45 45, 15 40, 10 20, 35 10),(20 30, 35 35, 30 20, 20 30))
 ==================   ============
 
-在空间分析过程中，首先需要将空间数据转换空间图元（WKT），这里提供了创建点图元、创建多边形等系列节点。
+**案例： 求单井所属勘探区带信息**
 
+在自然地震研究过程中，需要从华东地震目录中抽取研究区内历年来发生的地震数据。
 
+构造带空间边界数据：
+
+.. figure:: images/GIS03.jpg
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	
+
+历年来发生的地震情况：	 
+	 
+.. figure:: images/GIS04.jpg
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	
+
+通过创建点图元、构建多边形、区块筛选等节点，实现地震目录数据自动抽取流程。
+	 
+.. figure:: images/GIS02.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	
+
+研究区内地震数据抽取结果：
+	 
+.. figure:: images/GIS05.jpg
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	
+	 	 
 .. note::
 
    数据专家中坐标系统默认是WGS84，在空间分析过程中，需先通过投影变换节点将其它坐标系的数据统一WGS84坐标系下。
