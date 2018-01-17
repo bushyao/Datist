@@ -32,30 +32,7 @@
   * 图元数据是点坐标、多边形的边界线坐标，由一对、一组XY数值的集合，如省边界线、单井坐标等；
   * 属性数据是一系列的业务参数，如省份的人口、GDP等；
 
-通常GIS数据存储过程中，会将图元数据与属性数据分别存放，如ArcGIS的标准数据格式SHP与DBF文件，在数据专家里将它们合并在一张二维表中，图元以一个特殊的字符串（WKT，一种通用的图元表达方式）去表征它，您也可以创建编辑、自己的图元数据。
-https://en.wikipedia.org/wiki/Well-known_text
-
-{| class="wikitable"
-|+Geometry primitives (2D)
-|-
-! Type
-!colspan="2"| Examples
-|-
-| [[Point (geometry)|Point]]
-| [[File:SFA Point.svg]]
-| <code>POINT (30 10)</code>
-|-
-| [[Polygonal chain|LineString]]
-| [[File:SFA LineString.svg]]
-| <code>LINESTRING (30 10, 10 30, 40 40)</code>
-|-
-|rowspan="2"| [[Polygon]]
-| [[File:SFA Polygon.svg]]
-| <code>POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10))</code>
-|-
-| [[File:SFA Polygon with hole.svg]]
-| <code>POLYGON ((35 10, 45 45, 15 40, 10 20, 35 10),<br />  (20 30, 35 35, 30 20, 20 30))</code>
-|}
+通常GIS数据存储过程中，会将图元数据与属性数据分别存放，如ArcGIS的标准数据格式SHP与DBF文件，在数据专家里将它们合并在一张二维表中，图元以一个特殊的字符串（ `WKT <https://en.wikipedia.org/wiki/Well-known_text>`_ ，一种通用的图元表达方式）去表征它，您也可以创建编辑、自己的图元数据。
 
 
 在空间分析过程中，首先需要将空间数据转换空间图元（WKT），这里提供了创建点图元、创建多边形等系列节点。
