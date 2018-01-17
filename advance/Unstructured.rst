@@ -26,7 +26,7 @@
 
 数字化小组调查表基本构成
 
-.. figure:: images/Unstructured03.png
+.. figure:: images/Unstructured03.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
@@ -34,7 +34,7 @@
 
 数据解析流程：
 
-.. figure:: images/Unstructured02.png
+.. figure:: images/Unstructured02.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
@@ -53,7 +53,7 @@
   
 Word数据源节点，将所有文档全加载进来，输出项包括：文件名称、内容类型、内容编号及内容（Paragraph）。
 
-.. figure:: images/Unstructured04.png
+.. figure:: images/Unstructured04.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
@@ -74,7 +74,7 @@ Word数据源节点，将所有文档全加载进来，输出项包括：文件�
   
 经过文本规范化预处理生成Paragraph2列，使得多个调查报告的内容趋于一致，为后续的解析工作打下坚实基础。
 
-.. figure:: images/Unstructured06.png
+.. figure:: images/Unstructured06.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
@@ -93,7 +93,7 @@ Word数据源节点，将所有文档全加载进来，输出项包括：文件�
 
 经过前面4步的准备，进入实质性数据提取阶段，抽取调查表的具体内容。抽取过程，主要是通过特征字符标记，来进行内容的定位与提取。
 
-.. figure:: images/Unstructured07.png
+.. figure:: images/Unstructured07.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	  
@@ -130,14 +130,14 @@ Word数据源节点，将所有文档全加载进来，输出项包括：文件�
 
 数据抽取结果评估：
 
-.. figure:: images/Unstructured09.png
+.. figure:: images/Unstructured09.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
 
 异常数据分析：
 	 
-.. figure:: images/Unstructured08.png
+.. figure:: images/Unstructured08.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	 
