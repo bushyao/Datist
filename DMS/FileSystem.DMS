@@ -1,0 +1,369 @@
+<?xml version="1.0"?>
+<NodeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Arthor>bushyao</Arthor>
+  <HID>FT56A09YBJTMLN</HID>
+  <SQLiteIO>
+    <DbFullName>T836a9e2e39db48ce8443bdea16c5bd31.bcdb</DbFullName>
+    <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
+    <DmsFullName>D:\github\Datist\DMS\FileSystem.DMS</DmsFullName>
+  </SQLiteIO>
+  <FieldFormats>
+    <Formats>
+      <Justify>Right</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Integer</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Right</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx>{0:#.##}</DisplayFormatEx>
+      <DecimalPlaces>2</DecimalPlaces>
+      <DataType>Real</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Text</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx />
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>Boolean</DataType>
+      <Visible>true</Visible>
+    </Formats>
+    <Formats>
+      <Justify>Auto</Justify>
+      <ColumnWidth>-1</ColumnWidth>
+      <DisplayFormatEx>{0:G}</DisplayFormatEx>
+      <DecimalPlaces>-1</DecimalPlaces>
+      <DataType>DateTime</DataType>
+      <Visible>true</Visible>
+    </Formats>
+  </FieldFormats>
+  <Title>Stream</Title>
+  <Subject>2018-01-18 14:03:05</Subject>
+  <Arthor2>bc-THINK</Arthor2>
+  <Manager />
+  <Company>DSS</Company>
+  <Category />
+  <Description />
+  <KeyWords />
+  <StreamID />
+  <ReportTitleName />
+  <ListReportTitles />
+  <AttachFiles />
+  <Price>0</Price>
+  <PrivilegeType>公开</PrivilegeType>
+  <Parameters />
+  <Items>
+    <NodeBase xsi:type="NodeScanFiles">
+      <Guid>a10d4b21-36a6-423e-bbb5-896a6739ab7e</Guid>
+      <CenterY>270</CenterY>
+      <CenterX>180</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>扫描目录</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FolderFiles>
+        <IsFolder>true</IsFolder>
+        <FullName>C:\Users\bc\Desktop\SDB</FullName>
+      </FolderFiles>
+      <ReadHash>true</ReadHash>
+      <ReadData>true</ReadData>
+      <ReadDirectory>false</ReadDirectory>
+      <Exts>
+        <string>path</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFTP">
+      <Guid>ea60a314-6708-4413-bf22-f1928ff6d378</Guid>
+      <CenterY>360</CenterY>
+      <CenterX>180</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>扫描FTP</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Conn>
+        <CurrentDirectory>/</CurrentDirectory>
+        <URL>124.114.234.38</URL>
+        <UserName>htmler</UserName>
+        <Password>MykPha0bi2WfsTDd1ZjLnQ==</Password>
+        <IsParameterMode>false</IsParameterMode>
+        <PasswordParameter />
+        <Port2>21</Port2>
+        <RemotePath>/var/www/html/</RemotePath>
+        <IsFtp>true</IsFtp>
+      </Conn>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFileConvert">
+      <Guid>6625c981-a2bf-49f3-a757-e733a3ae48f9</Guid>
+      <CenterY>270</CenterY>
+      <CenterX>360</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>格式转换</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <TargetFileType>Html</TargetFileType>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFileOpt">
+      <Guid>d8a7903b-5a9b-4a5a-99be-5ff19892c06d</Guid>
+      <CenterY>270</CenterY>
+      <CenterX>450</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文件操作</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>true</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsCut>false</IsCut>
+      <FieldName>FileOperationResults</FieldName>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDownload">
+      <Guid>802cbe1b-cb3a-44fd-a28d-a4bacc5b76af</Guid>
+      <CenterY>270</CenterY>
+      <CenterX>720</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>数据项转存</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Url />
+      <SavePath />
+      <MillisecondsTimeout>0</MillisecondsTimeout>
+      <ItemType>Blob</ItemType>
+      <RecognizeFileName>true</RecognizeFileName>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFTPBrowser">
+      <Guid>fce2aba6-96b7-405b-b5b6-160a49621255</Guid>
+      <CenterY>360</CenterY>
+      <CenterX>630</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>FTP下载</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Conn>
+        <CurrentDirectory>/</CurrentDirectory>
+        <URL />
+        <UserName />
+        <Password>KTUgaQ+3hY8/mJreDRqzXw==</Password>
+        <IsParameterMode>false</IsParameterMode>
+        <Port2>21</Port2>
+        <RemotePath />
+        <IsFtp>true</IsFtp>
+      </Conn>
+      <RemotePath />
+      <OpenFile>false</OpenFile>
+      <ReplaceExist>false</ReplaceExist>
+    </NodeBase>
+    <NodeBase xsi:type="NodeZIP">
+      <Guid>9574d908-3953-40f1-b5d7-c2d73b31f91d</Guid>
+      <CenterY>270</CenterY>
+      <CenterX>630</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>ZIP压缩</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <ZipFileName />
+      <Password>KTUgaQ+3hY8/mJreDRqzXw==</Password>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFTPUpload">
+      <Guid>18a92a07-8b01-4999-971a-b0501099f205</Guid>
+      <CenterY>360</CenterY>
+      <CenterX>720</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>FTP上传</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Conn>
+        <CurrentDirectory>/</CurrentDirectory>
+        <URL />
+        <UserName />
+        <Password>KTUgaQ+3hY8/mJreDRqzXw==</Password>
+        <IsParameterMode>false</IsParameterMode>
+        <Port2>21</Port2>
+        <RemotePath />
+        <IsFtp>true</IsFtp>
+      </Conn>
+      <Overwrite>true</Overwrite>
+      <SubPath />
+    </NodeBase>
+    <NodeBase xsi:type="NodeStreamCollection">
+      <Guid>2e019d96-a3b4-462d-827b-45b24f9e8106</Guid>
+      <CenterY>180</CenterY>
+      <CenterX>360</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文件收集器</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>true</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <InputNodes />
+      <NameAsBefore>false</NameAsBefore>
+      <ByFieldMode>true</ByFieldMode>
+      <FieldNameMode>OnlyFieldName</FieldNameMode>
+    </NodeBase>
+    <NodeBase xsi:type="NodeHtmlReport">
+      <Guid>e4447681-dbbb-4108-bcb2-3613b1f5b6db</Guid>
+      <CenterY>180</CenterY>
+      <CenterX>630</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>浏览报告</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <ImageMaxWidth>1100</ImageMaxWidth>
+      <PageWidth>1100</PageWidth>
+      <ReportMode>Default</ReportMode>
+      <HasBodyScript>false</HasBodyScript>
+      <HasHeadScript>false</HasHeadScript>
+      <HasFootScript>false</HasFootScript>
+      <HasHeadHtml>false</HasHeadHtml>
+      <HasFootHtml>false</HasFootHtml>
+      <UseWebFormula>false</UseWebFormula>
+      <HasReportTitle>true</HasReportTitle>
+      <ReportTitle>报告</ReportTitle>
+      <NameColumnType>Title</NameColumnType>
+      <HasImage>true</HasImage>
+      <HasDescription>true</HasDescription>
+      <ExportTitleInfo>false</ExportTitleInfo>
+      <ExportTitleFieldName>Name</ExportTitleFieldName>
+      <TitleGrade>1</TitleGrade>
+      <ExportStreamFormat>HTML_TAG</ExportStreamFormat>
+      <UseFormula>false</UseFormula>
+      <ExportTitle>false</ExportTitle>
+      <IsTempletefile>false</IsTempletefile>
+      <Templetefile />
+      <Templete />
+      <AutoExpendTable>true</AutoExpendTable>
+      <AcceptEnter>true</AcceptEnter>
+    </NodeBase>
+  </Items>
+  <ParNames />
+  <EvalNodeNames>数据项转存;FTP下载;ZIP压缩;FTP上传;浏览报告</EvalNodeNames>
+  <OffsetX>0</OffsetX>
+  <OffsetY>0</OffsetY>
+  <Scale>1</Scale>
+</NodeCollection>
