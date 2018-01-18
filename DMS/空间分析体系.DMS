@@ -1,0 +1,1911 @@
+<?xml version="1.0"?>
+<NodeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Arthor>bushyao</Arthor>
+  <HID>FT56A09YBJTMLN</HID>
+  <SQLiteIO>
+    <DbFullName>Tf456db6ab15c4864ae7fc2eece88c0c4.bcdb</DbFullName>
+    <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
+    <DmsFullName>D:\github\Datist\DMS\空间分析体系.DMS</DmsFullName>
+  </SQLiteIO>
+  <Title>Stream</Title>
+  <Subject>2018-01-17 8:42:27</Subject>
+  <Arthor2>bc-THINK</Arthor2>
+  <Manager />
+  <Company>DSS</Company>
+  <Category />
+  <Description />
+  <KeyWords />
+  <StreamID />
+  <ReportTitleName />
+  <ListReportTitles />
+  <AttachFiles />
+  <Price>0</Price>
+  <PrivilegeType>公开</PrivilegeType>
+  <Parameters />
+  <Items>
+    <NodeBase xsi:type="NodeMapNO">
+      <Guid>cd734fe6-be87-4020-911d-42a12f025162</Guid>
+      <CenterY>201</CenterY>
+      <CenterX>272.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>接图表</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Latitude>0</Latitude>
+      <Longitude>0</Longitude>
+      <Latitude2>0</Latitude2>
+      <Longitude2>0</Longitude2>
+      <MapScale>S100W</MapScale>
+      <IsOldNo>false</IsOldNo>
+    </NodeBase>
+    <NodeBase xsi:type="NodeGDB">
+      <Guid>b9b9224d-bc59-4533-951a-f771a69d5f5b</Guid>
+      <CenterY>201</CenterY>
+      <CenterX>208</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>地质图件</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <ListElementType />
+      <GeneralizePoints>true</GeneralizePoints>
+      <Tolerance>10</Tolerance>
+      <ReadFeatureStyle>false</ReadFeatureStyle>
+      <ReadFileName>false</ReadFileName>
+      <Exts>
+        <string>.gdb</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodePolygonSource">
+      <Guid>0b4daaba-b37f-4354-908a-e3624710b56c</Guid>
+      <CenterY>201</CenterY>
+      <CenterX>142</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>空间数据</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <PolygonsSaved>QbsEpaQlVhLcJ2dP8ebDSA==</PolygonsSaved>
+      <FeatureFilter>AllFeature</FeatureFilter>
+      <IsFileMode>false</IsFileMode>
+      <FileName />
+      <ToWgs84>true</ToWgs84>
+      <Exts>
+        <string>.dxf</string>
+        <string>.kml</string>
+        <string>.shp</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeCreatePoint">
+      <Guid>2b0d23e2-977e-4de3-a044-5bee19cc9829</Guid>
+      <CenterY>398.5</CenterY>
+      <CenterX>176</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>创建点图元</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <WKTFieldName>点图元</WKTFieldName>
+    </NodeBase>
+    <NodeBase xsi:type="NodePolyBuild">
+      <Guid>238410b2-d38b-49a1-91b8-4c49a7b32194</Guid>
+      <CenterY>398.5</CenterY>
+      <CenterX>242</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>创建多边形</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <BuildMethod>ConvexHull</BuildMethod>
+      <KeyFields />
+      <Concavity>0</Concavity>
+      <ScaleFactor>100000</ScaleFactor>
+    </NodeBase>
+    <NodeBase xsi:type="NodeGISProjection">
+      <Guid>634c8b9e-634c-4b92-8474-3be45721b5df</Guid>
+      <CenterY>183.5</CenterY>
+      <CenterX>425.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>投影变换</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <SXField />
+      <SYField />
+      <DXField />
+      <DYField />
+      <ProjType>Xian80toLL</ProjType>
+      <CSIn>4214</CSIn>
+      <CSOut>4610</CSOut>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSpatialInfo">
+      <Guid>e77d175d-c792-4f30-9cc7-bb057415792c</Guid>
+      <CenterY>269.5</CenterY>
+      <CenterX>561.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>图元信息</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <InfoType />
+    </NodeBase>
+    <NodeBase xsi:type="NodeDistance">
+      <Guid>7a4f6f87-7590-41bb-90de-d8020006b90e</Guid>
+      <CenterY>269.5</CenterY>
+      <CenterX>629.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>距离</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <DistanceFieldName>距离</DistanceFieldName>
+      <DistanceUnit>Meters</DistanceUnit>
+    </NodeBase>
+    <NodeBase xsi:type="NodeGeneralize">
+      <Guid>55cf5a7b-d220-43df-8f39-443b5ddd28e2</Guid>
+      <CenterY>183.5</CenterY>
+      <CenterX>493.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>简化图元</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Distance>500</Distance>
+      <DistanceUnit>Meters</DistanceUnit>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSmooth">
+      <Guid>c2abdd7e-be83-40d6-9975-2295b78148d6</Guid>
+      <CenterY>183.5</CenterY>
+      <CenterX>561.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>平滑图元</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <Factor>5</Factor>
+    </NodeBase>
+    <NodeBase xsi:type="NodeBuffer">
+      <Guid>08c94df5-1edb-49e6-b66b-c1ddaad25e86</Guid>
+      <CenterY>183.5</CenterY>
+      <CenterX>629.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>缓冲区</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsSpecificValue>false</IsSpecificValue>
+      <Distance>0</Distance>
+      <DistanceUnit>Meters</DistanceUnit>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSpatialProcess">
+      <Guid>80622b85-ead8-4482-b59e-42a1872bec1f</Guid>
+      <CenterY>269.5</CenterY>
+      <CenterX>493.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>图元交并补</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <OneColumnMode>false</OneColumnMode>
+      <KeyFields />
+      <FeatureCombineType>Union</FeatureCombineType>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSpatialMatch">
+      <Guid>b1c28ac0-e197-497d-8d1e-3de30e87c4ce</Guid>
+      <CenterY>269.5</CenterY>
+      <CenterX>425.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>空间匹配</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <DataTableB>00000000-0000-0000-0000-000000000000</DataTableB>
+      <FeatureBField />
+      <DataTableA>00000000-0000-0000-0000-000000000000</DataTableA>
+      <FeatureAField />
+      <MatchType>Intersects</MatchType>
+    </NodeBase>
+    <NodeBase xsi:type="NodeNearest">
+      <Guid>a81cbda9-e1cb-4025-865f-3f5e2e5489cb</Guid>
+      <CenterY>355.5</CenterY>
+      <CenterX>425.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>最近图元</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <DataTableA>00000000-0000-0000-0000-000000000000</DataTableA>
+      <FeatureAField />
+      <DataTableB>00000000-0000-0000-0000-000000000000</DataTableB>
+      <FeatureBField />
+      <DistanceUnit>Meters</DistanceUnit>
+    </NodeBase>
+    <NodeBase xsi:type="NodePolygonSelect">
+      <Guid>b123c59d-c90f-4ff8-af30-5b45f1fbeb9d</Guid>
+      <CenterY>355.5</CenterY>
+      <CenterX>493.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>区块筛选</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <DataTableXY1>00000000-0000-0000-0000-000000000000</DataTableXY1>
+      <SXField />
+      <SYField />
+      <DataTablePolygon1>00000000-0000-0000-0000-000000000000</DataTablePolygon1>
+      <PolygonWktField />
+      <Distance>500</Distance>
+      <DistanceUnit>Meters</DistanceUnit>
+      <ExportUnJoin>false</ExportUnJoin>
+    </NodeBase>
+    <NodeBase xsi:type="NodePolygonSplit">
+      <Guid>2c5c4957-1e11-46fb-a459-007910772ba8</Guid>
+      <CenterY>355.5</CenterY>
+      <CenterX>561.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>面面劈分</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <P1Guid>00000000-0000-0000-0000-000000000000</P1Guid>
+      <P1WKT />
+      <P2Guid>00000000-0000-0000-0000-000000000000</P2Guid>
+      <P2WKT />
+      <P2Name />
+    </NodeBase>
+    <NodeBase xsi:type="NodeImpact">
+      <Guid>f2ed6151-d655-4336-8ef0-89910e9ddd65</Guid>
+      <CenterY>355.5</CenterY>
+      <CenterX>629.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>权重多边形</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <WktFieldNameName />
+      <PolyMode>Voronoi</PolyMode>
+    </NodeBase>
+    <NodeBase xsi:type="NodeContour">
+      <Guid>7bc9330a-20ba-4a8f-83f8-8b21f2774ab3</Guid>
+      <CenterY>439.5</CenterY>
+      <CenterX>425.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>等值线</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsPolygon>false</IsPolygon>
+      <IsAutoClassMode>false</IsAutoClassMode>
+      <IsClassNumber>5</IsClassNumber>
+      <CustomClass>2,4,6,8,10,12</CustomClass>
+      <Tolerance>0.03</Tolerance>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDBSCAN">
+      <Guid>d7adc888-f6f5-4b70-aeb2-853dbc34488d</Guid>
+      <CenterY>439.5</CenterY>
+      <CenterX>493.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>密度聚类</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <EPS>100</EPS>
+      <DistanceUnit>Meters</DistanceUnit>
+      <MinPts>3</MinPts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeTatukGIS">
+      <Guid>c1f27ed0-b99c-4659-a4cc-6bf862302872</Guid>
+      <CenterY>182.5</CenterY>
+      <CenterX>790.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>地理图</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FileName>$system$\SHP\bc.TTKGP</FileName>
+      <NewLayerName>图层1</NewLayerName>
+      <DrawChart>false</DrawChart>
+      <IsWKTFeature>false</IsWKTFeature>
+      <SXField />
+      <SYField />
+      <ExportWKT>false</ExportWKT>
+      <ChartType />
+      <ChartFields />
+      <ChartSizeType>czFixed</ChartSizeType>
+      <SizeField />
+      <ChartSize>1000</ChartSize>
+      <ChartSizeMin>300</ChartSizeMin>
+      <ChartSizeMax>1000</ChartSizeMax>
+      <StyleName>Desert</StyleName>
+      <ExtentMode>Auto</ExtentMode>
+      <CenterSize>1,1</CenterSize>
+      <ExtentSize>109,43,110,45</ExtentSize>
+    </NodeBase>
+    <NodeBase xsi:type="NodeWebMap">
+      <Guid>6cd29e2e-0aef-46b2-a489-f7f03c1cb5ef</Guid>
+      <CenterY>182.5</CenterY>
+      <CenterX>854.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>WebMap</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <CmbPath>D:\MyProgram\RDMS\PPTAnalysis\binX\D3\bcChart.zip</CmbPath>
+      <TextURL>Examples\WebMap.html</TextURL>
+      <ImageWidth>1000</ImageWidth>
+      <ImageHeight>600</ImageHeight>
+      <ExportMode>Html_Tag</ExportMode>
+      <MapTitle />
+      <MapSubTitle />
+      <MapStyle>default</MapStyle>
+      <MapType>HYBRID</MapType>
+      <WKTFieldName />
+      <FeatureName />
+      <FeatureDesc />
+      <Zoom>10</Zoom>
+      <GroupName />
+      <PointSizeName />
+      <BMapOnlineConverter>false</BMapOnlineConverter>
+    </NodeBase>
+    <NodeBase xsi:type="NodeColorMap">
+      <Guid>eec74b95-6cae-4917-8b04-a1085bc6c90e</Guid>
+      <CenterY>274.5</CenterY>
+      <CenterX>790.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>专题地图</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <CmbPath>D:\MyProgram\RDMS\PPTAnalysis\binX\D3\bcChart.zip</CmbPath>
+      <TextURL>Examples\eec74b956cae49178b04a1085bc6c90e.html</TextURL>
+      <ImageWidth>1000</ImageWidth>
+      <ImageHeight>700</ImageHeight>
+      <ExportMode>Html_Tag</ExportMode>
+      <MapTitle />
+      <MapSubTitle />
+      <MapStyle>default</MapStyle>
+      <FeatureName />
+      <FeatureValue />
+      <MapID>中国</MapID>
+    </NodeBase>
+    <NodeBase xsi:type="NodeHeatmapMap">
+      <Guid>8df4a228-9bc7-4b91-88b5-d60a5df818f8</Guid>
+      <CenterY>274.5</CenterY>
+      <CenterX>854.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>地理热力图</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <CmbPath>D:\MyProgram\RDMS\PPTAnalysis\binX\D3\bcChart.zip</CmbPath>
+      <TextURL>Examples\8df4a2289bc74b9188b5d60a5df818f8.html</TextURL>
+      <ImageWidth>1000</ImageWidth>
+      <ImageHeight>700</ImageHeight>
+      <ExportMode>Html_Tag</ExportMode>
+      <MapTitle />
+      <MapSubTitle />
+      <MapStyle>default</MapStyle>
+      <FeatureName />
+      <FeatureValue />
+      <MapID>中国</MapID>
+      <XFieldName />
+      <YFieldName />
+      <HasModelType>false</HasModelType>
+    </NodeBase>
+    <NodeBase xsi:type="NodeGoogleEarth">
+      <Guid>6cc1de98-3e37-4c42-a810-d1b740f3fc3b</Guid>
+      <CenterY>182.5</CenterY>
+      <CenterX>919.5</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>高清影像</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FeatureType>FTPoint</FeatureType>
+      <WKTPoint>false</WKTPoint>
+      <ClassStyles />
+      <ViewByGoogleEarth>true</ViewByGoogleEarth>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>f5db0e1a-547d-4081-92b1-a1b2b5d1f94a</Guid>
+      <CenterY>335</CenterY>
+      <CenterX>94</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0.5</X>
+        <Y>0</Y>
+      </RenderTransformOrigin>
+      <Width>227</Width>
+      <Height>167</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.38677685950413232</Parameter>
+      <Parameter2>0</Parameter2>
+      <CmShapeType>圆角矩形</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>255</A>
+        <R>99</R>
+        <G>141</G>
+        <B>189</B>
+        <ScA>1</ScA>
+        <ScR>0.124771819</ScR>
+        <ScG>0.266355634</ScG>
+        <ScB>0.50888133</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>5</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>-1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>32286d71-a14e-431c-aaea-b71427aa3ecc</Guid>
+      <CenterY>134</CenterY>
+      <CenterX>93</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0.5</X>
+        <Y>0</Y>
+      </RenderTransformOrigin>
+      <Width>230</Width>
+      <Height>160</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.33719008264462824</Parameter>
+      <Parameter2>0</Parameter2>
+      <CmShapeType>圆角矩形</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>255</A>
+        <R>99</R>
+        <G>141</G>
+        <B>189</B>
+        <ScA>1</ScA>
+        <ScR>0.124771819</ScR>
+        <ScG>0.266355634</ScG>
+        <ScB>0.50888133</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>5</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>-1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>f5e1f942-1ded-421f-ba60-5660b2443ef2</Guid>
+      <CenterY>136</CenterY>
+      <CenterX>374</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>308</Width>
+      <Height>368</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.19938080495356053</Parameter>
+      <Parameter2>0</Parameter2>
+      <CmShapeType>圆角矩形</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>255</A>
+        <R>99</R>
+        <G>141</G>
+        <B>189</B>
+        <ScA>1</ScA>
+        <ScR>0.124771819</ScR>
+        <ScG>0.266355634</ScG>
+        <ScB>0.50888133</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>5</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>-1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>bb6f9ad7-26b8-44db-82e2-822f5395a916</Guid>
+      <CenterY>137</CenterY>
+      <CenterX>741</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0.5</X>
+        <Y>0</Y>
+      </RenderTransformOrigin>
+      <Width>236</Width>
+      <Height>201.66130845953944</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.19938080495356053</Parameter>
+      <Parameter2>0</Parameter2>
+      <CmShapeType>圆角矩形</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>255</A>
+        <R>99</R>
+        <G>141</G>
+        <B>189</B>
+        <ScA>1</ScA>
+        <ScR>0.124771819</ScR>
+        <ScG>0.266355634</ScG>
+        <ScB>0.50888133</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>5</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>-1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>3cd8577b-ba2c-4aa9-8b85-378a0a6ae01f</Guid>
+      <CenterY>95</CenterY>
+      <CenterX>92</CenterX>
+      <Description />
+      <ToolTip />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#1</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>114</Width>
+      <Height>40</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.7</Parameter>
+      <Parameter2>0</Parameter2>
+      <Text>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcdWMxXGh0bWF1dHNwXGRlZmYye1xmb250dGJse1xmMFxmY2hhcnNldDAgVGltZXMgTmV3IFJvbWFuO317XGYyXGZjaGFyc2V0MTM0IFwnY2VcJ2EyXCdjOFwnZWRcJ2QxXCdjNVwnYmFcJ2RhO317XGYzXGZjaGFyc2V0MTM0IFwnYmJcJ2FhXCdjZVwnYzRcJ2QwXCdjMlwnY2VcJ2JhO319e1xjb2xvcnRibFxyZWQwXGdyZWVuMFxibHVlMDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fVxsb2NoXGhpY2hcZGJjaFxwYXJkXHBsYWluXGx0cnBhclxpdGFwMHtcbGFuZzEwMzNcZnMyN1xmM1xjZjAgXGNmMFxxbHtcZjMge1xsYW5nMjA1MlxsdHJjaCBcJ2JmXCdkNVwnYmNcJ2U0XCdjYVwnZmRcJ2JlXCdkZFwnZDRcJ2I0fVxsaTBccmkwXHNhMFxzYjBcZmkwXHFsXHBhcn0NCn0NCn0=</Text>
+      <CmShapeType>无边框</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <BackgroundImage />
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>6d06cad6-fd19-4fc2-ae1c-a982deacbe9b</Guid>
+      <CenterY>95</CenterY>
+      <CenterX>377</CenterX>
+      <Description />
+      <ToolTip />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#1</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>104</Width>
+      <Height>40</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.7</Parameter>
+      <Parameter2>0</Parameter2>
+      <Text>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcdWMxXGh0bWF1dHNwXGRlZmYye1xmb250dGJse1xmMFxmY2hhcnNldDAgVGltZXMgTmV3IFJvbWFuO317XGYyXGZjaGFyc2V0MTM0IFwnY2VcJ2EyXCdjOFwnZWRcJ2QxXCdjNVwnYmFcJ2RhO317XGYzXGZjaGFyc2V0MTM0IFwnYmJcJ2FhXCdjZVwnYzRcJ2QwXCdjMlwnY2VcJ2JhO319e1xjb2xvcnRibFxyZWQwXGdyZWVuMFxibHVlMDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7XHJlZDJcZ3JlZW4yXGJsdWUyO31cbG9jaFxoaWNoXGRiY2hccGFyZFxwbGFpblxsdHJwYXJcaXRhcDB7XGxhbmcxMDMzXGZzMjdcZjNcY2YwIFxjZjBccWx7XGYzIHtcbGFuZzIwNTJcY2YyXGhpZ2hsaWdodDFcbHRyY2ggXCdiZlwnZDVcJ2JjXCdlNFwnZDRcJ2NiXCdjYlwnZTN9XGxpMFxyaTBcc2EwXHNiMFxmaTBccWxccGFyfQ0KfQ0KfQ==</Text>
+      <CmShapeType>无边框</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <BackgroundImage />
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>aa95f0b2-d6c8-4a53-a3a0-cd2b1f663825</Guid>
+      <CenterY>95</CenterY>
+      <CenterX>745</CenterX>
+      <Description />
+      <ToolTip />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#1</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>82</Width>
+      <Height>40</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.7</Parameter>
+      <Parameter2>0</Parameter2>
+      <Text>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcdWMxXGh0bWF1dHNwXGRlZmYye1xmb250dGJse1xmMFxmY2hhcnNldDAgVGltZXMgTmV3IFJvbWFuO317XGYyXGZjaGFyc2V0MTM0IFwnY2VcJ2EyXCdjOFwnZWRcJ2QxXCdjNVwnYmFcJ2RhO317XGYzXGZjaGFyc2V0MTM0IFwnYmJcJ2FhXCdjZVwnYzRcJ2QwXCdjMlwnY2VcJ2JhO319e1xjb2xvcnRibFxyZWQwXGdyZWVuMFxibHVlMDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fVxsb2NoXGhpY2hcZGJjaFxwYXJkXHBsYWluXGx0cnBhclxpdGFwMHtcbGFuZzEwMzNcZnMyN1xmM1xjZjAgXGNmMFxxbHtcZjMge1xsYW5nMjA1MlxsdHJjaCBcJ2JmXCdjOVwnY2FcJ2QzXCdiYlwnYWZ9XGxpMFxyaTBcc2EwXHNiMFxmaTBccWxccGFyfQ0KfQ0KfQ==</Text>
+      <CmShapeType>无边框</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <BackgroundImage />
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>1633414c-d2e3-42f7-8741-3cea97b4119e</Guid>
+      <CenterY>297</CenterY>
+      <CenterX>91</CenterX>
+      <Description />
+      <ToolTip />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#1</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>104</Width>
+      <Height>40</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.7</Parameter>
+      <Parameter2>0</Parameter2>
+      <Text>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcdWMxXGh0bWF1dHNwXGRlZmYye1xmb250dGJse1xmMFxmY2hhcnNldDAgVGltZXMgTmV3IFJvbWFuO317XGYyXGZjaGFyc2V0MTM0IFwnY2VcJ2EyXCdjOFwnZWRcJ2QxXCdjNVwnYmFcJ2RhO317XGYzXGZjaGFyc2V0MTM0IFwnYmJcJ2FhXCdjZVwnYzRcJ2QwXCdjMlwnY2VcJ2JhO319e1xjb2xvcnRibFxyZWQwXGdyZWVuMFxibHVlMDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fVxsb2NoXGhpY2hcZGJjaFxwYXJkXHBsYWluXGx0cnBhclxpdGFwMHtcbGFuZzEwMzNcZnMyN1xmM1xjZjAgXGNmMFxxbHtcZjMge1xsYW5nMjA1MlxsdHJjaCBcJ2I0XCdiNFwnYmRcJ2E4XCdjZFwnYmNcJ2Q0XCdhYX1cbGkwXHJpMFxzYTBcc2IwXGZpMFxxbFxwYXJ9DQp9DQp9</Text>
+      <CmShapeType>无边框</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <BackgroundImage />
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>f7ae7377-d78b-4352-ac36-40f5536e4535</Guid>
+      <CenterY>213</CenterY>
+      <CenterX>334</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#2</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>26</Width>
+      <Height>46</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.6</Parameter>
+      <Parameter2>0.5</Parameter2>
+      <CmShapeType>右箭头</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>1</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </ForeColor>
+      <RenderID>0</RenderID>
+      <BackgroundColor>
+        <A>255</A>
+        <R>79</R>
+        <G>128</G>
+        <B>188</B>
+        <ScA>1</ScA>
+        <ScR>0.07818743</ScR>
+        <ScG>0.215860531</ScG>
+        <ScB>0.5028865</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>0</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>0</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </LineColor>
+      <LineThickness>0</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>0b08917d-718f-44f5-b32d-c22a17c58309</Guid>
+      <CenterY>390</CenterY>
+      <CenterX>334</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#2</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>26</Width>
+      <Height>46</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.6</Parameter>
+      <Parameter2>0.5</Parameter2>
+      <CmShapeType>右箭头</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>1</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </ForeColor>
+      <RenderID>0</RenderID>
+      <BackgroundColor>
+        <A>255</A>
+        <R>79</R>
+        <G>128</G>
+        <B>188</B>
+        <ScA>1</ScA>
+        <ScR>0.07818743</ScR>
+        <ScG>0.215860531</ScG>
+        <ScB>0.5028865</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>0</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>0</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </LineColor>
+      <LineThickness>0</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>9b95f614-1dfc-4cbb-9666-a681834aca11</Guid>
+      <CenterY>215.93897589453047</CenterY>
+      <CenterX>700.052846771935</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#2</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>26</Width>
+      <Height>46</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.6</Parameter>
+      <Parameter2>0.5</Parameter2>
+      <CmShapeType>右箭头</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>1</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </ForeColor>
+      <RenderID>0</RenderID>
+      <BackgroundColor>
+        <A>255</A>
+        <R>79</R>
+        <G>128</G>
+        <B>188</B>
+        <ScA>1</ScA>
+        <ScR>0.07818743</ScR>
+        <ScG>0.215860531</ScG>
+        <ScB>0.5028865</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>0</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>0</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </LineColor>
+      <LineThickness>0</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeGISExport">
+      <Guid>78e0a264-9d7a-4cc5-8ce4-0ef0bb254955</Guid>
+      <CenterY>425.5</CenterY>
+      <CenterX>860</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>存空间文件</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FileName />
+      <FileType>shp</FileType>
+      <OpenFile>false</OpenFile>
+      <FeatureType>AllFeature</FeatureType>
+      <SaveWKT>false</SaveWKT>
+      <StringLength>200</StringLength>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>6364c9b5-56dc-401f-bf87-b875b2a2e298</Guid>
+      <CenterY>379.96381379117224</CenterY>
+      <CenterX>745.18337821244711</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0.5</X>
+        <Y>1</Y>
+      </RenderTransformOrigin>
+      <Width>232.44919756144805</Width>
+      <Height>125.6684560866849</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.38677685950413232</Parameter>
+      <Parameter2>0</Parameter2>
+      <CmShapeType>圆角矩形</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>255</A>
+        <R>99</R>
+        <G>141</G>
+        <B>189</B>
+        <ScA>1</ScA>
+        <ScR>0.124771819</ScR>
+        <ScG>0.266355634</ScG>
+        <ScB>0.50888133</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>5</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>-1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>d33452cf-dc22-4979-8629-e772d8b48c58</Guid>
+      <CenterY>340.77256414122934</CenterY>
+      <CenterX>742.10410805454433</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#1</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>82</Width>
+      <Height>40</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.7</Parameter>
+      <Parameter2>0</Parameter2>
+      <Text>e1xydGYxXGFuc2lcYW5zaWNwZzEyNTJcdWMxXGh0bWF1dHNwXGRlZmYye1xmb250dGJse1xmMFxmY2hhcnNldDAgVGltZXMgTmV3IFJvbWFuO317XGYyXGZjaGFyc2V0MTM0IFwnY2VcJ2EyXCdjOFwnZWRcJ2QxXCdjNVwnYmFcJ2RhO317XGYzXGZjaGFyc2V0MTM0IFwnYmJcJ2FhXCdjZVwnYzRcJ2QwXCdjMlwnY2VcJ2JhO319e1xjb2xvcnRibFxyZWQwXGdyZWVuMFxibHVlMDtccmVkMjU1XGdyZWVuMjU1XGJsdWUyNTU7fVxsb2NoXGhpY2hcZGJjaFxwYXJkXHBsYWluXGx0cnBhclxpdGFwMHtcbGFuZzEwMzNcZnMyN1xmM1xjZjAgXGNmMFxxbHtcZjMge1xsYW5nMjA1MlxsdHJjaCBcJ2I0XCdlNlwnYjRcJ2EyfVxsaTBccmkwXHNhMFxzYjBcZmkwXHFsXHBhcn0NCn0NCn0=</Text>
+      <CmShapeType>无边框</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>1</A>
+        <R>255</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0.003921569</ScA>
+        <ScR>1</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <BackgroundImage />
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>721002c1-4e08-419a-af7c-ec944732d3bf</Guid>
+      <CenterY>410.56935438702305</CenterY>
+      <CenterX>698.99432584390718</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>文本框#2</Title>
+      <Name>文本框</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <RenderTransformOrigin>
+        <X>0</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <Width>26</Width>
+      <Height>46</Height>
+      <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <Rotate>0</Rotate>
+      <Parameter>0.6</Parameter>
+      <Parameter2>0.5</Parameter2>
+      <CmShapeType>右箭头</CmShapeType>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>1</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </ForeColor>
+      <RenderID>0</RenderID>
+      <BackgroundColor>
+        <A>255</A>
+        <R>79</R>
+        <G>128</G>
+        <B>188</B>
+        <ScA>1</ScA>
+        <ScR>0.07818743</ScR>
+        <ScG>0.215860531</ScG>
+        <ScB>0.5028865</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>0</A>
+        <R>255</R>
+        <G>255</G>
+        <B>255</B>
+        <ScA>0</ScA>
+        <ScR>1</ScR>
+        <ScG>1</ScG>
+        <ScB>1</ScB>
+      </LineColor>
+      <LineThickness>0</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
+    </NodeBase>
+  </Items>
+  <ParNames />
+  <EvalNodeNames>地理图;WebMap;专题地图;地理热力图;高清影像;存空间文件</EvalNodeNames>
+  <OffsetX>0</OffsetX>
+  <OffsetY>0</OffsetY>
+  <Scale>0.97425683560137322</Scale>
+</NodeCollection>
