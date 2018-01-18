@@ -57,7 +57,7 @@
   * 根据文件名，从FTP服务器上，下载相关文件；
  
  
-.. figure:: images/FileSystem04.jpg
+.. figure:: images/FileSystem04.png
      :align: center
      :figwidth: 90% 
      :name: plate 	
