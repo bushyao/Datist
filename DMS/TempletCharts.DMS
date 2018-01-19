@@ -261,8 +261,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeTXTEx">
       <Guid>a48c7ddb-ad96-4d46-84d2-a6ca0f893db8</Guid>
-      <CenterY>391.5</CenterY>
-      <CenterX>164.5</CenterX>
+      <CenterY>441.5</CenterY>
+      <CenterX>149.5</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -307,42 +307,6 @@
         <string>.html</string>
         <string>.xml</string>
       </Exts>
-    </NodeBase>
-    <NodeBase xsi:type="NodeDerive">
-      <Guid>d6b59393-02c7-4284-b168-6b3a20fa059f</Guid>
-      <CenterY>150.5</CenterY>
-      <CenterX>300.5</CenterX>
-      <Description />
-      <ToolTip />
-      <KeyWords />
-      <EditMode>Edit</EditMode>
-      <Title />
-      <Name>新列8</Name>
-      <ShowName>true</ShowName>
-      <PriorNodeGuid>
-        <guid>a48c7ddb-ad96-4d46-84d2-a6ca0f893db8</guid>
-      </PriorNodeGuid>
-      <CacheIt>false</CacheIt>
-      <BatchEvalParameterName />
-      <BatchEvalParameterValues />
-      <InterActiveFieldName />
-      <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
-      <DefaultEvalIt>false</DefaultEvalIt>
-      <FieldName>新列8</FieldName>
-      <FieldMode>Formula</FieldMode>
-      <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>XPath( ColumnName , "Items\TempletChartData\ChartName" )</FormulaExpression>
-      <ConditionIf />
-      <ConditionTrue />
-      <ConditionFalse />
-      <MutliOr>false</MutliOr>
-      <AppendNullRow>true</AppendNullRow>
-      <MutliDefaultValue>null</MutliDefaultValue>
-      <MutliCondtitions />
-      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
     </NodeBase>
     <NodeBase xsi:type="NodeJsonToken">
       <Guid>5c04ab60-2845-4768-a2d2-be8765bd4b2d</Guid>
@@ -849,35 +813,10 @@
         </FieldSort>
       </FieldSorts>
     </NodeBase>
-    <NodeBase xsi:type="NodePolyBuild">
-      <Guid>a6bb957d-fce6-4ea7-8da0-fe8b6f8a78a3</Guid>
-      <CenterY>631</CenterY>
-      <CenterX>125</CenterX>
-      <Description />
-      <ToolTip />
-      <EditMode>Edit</EditMode>
-      <Title />
-      <Name>创建多边形</Name>
-      <ShowName>true</ShowName>
-      <PriorNodeGuid />
-      <CacheIt>false</CacheIt>
-      <BatchEvalParameterName />
-      <BatchEvalParameterValues />
-      <InterActiveFieldName />
-      <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
-      <DefaultEvalIt>false</DefaultEvalIt>
-      <BuildMethod>ConvexHull</BuildMethod>
-      <KeyFields />
-      <Concavity>0</Concavity>
-      <ScaleFactor>100000</ScaleFactor>
-    </NodeBase>
   </Items>
   <ParNames />
   <EvalNodeNames>地质图版;示功图;数据项转存</EvalNodeNames>
   <OffsetX>0</OffsetX>
-  <OffsetY>120</OffsetY>
+  <OffsetY>0</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>
