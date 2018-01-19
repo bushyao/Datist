@@ -1,0 +1,3164 @@
+{
+    "Items": [
+        {
+            "Coordinate": 1,
+            "ChartName": "曾允孚砂岩分类",
+            "TempletName": "曾允孚砂岩分类.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\曾允孚砂岩分类.cncx",
+            "Fields": [
+                {
+                    "FieldName": "石英类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "长石类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "岩屑类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/曾允孚砂岩分类.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "信荃麟砂岩分类",
+            "TempletName": "信荃麟砂岩分类.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\信荃麟砂岩分类.cncx",
+            "Fields": [
+                {
+                    "FieldName": "石英类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "长石类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "岩屑类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/信荃麟砂岩分类.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "朱筱敏砂岩分类",
+            "TempletName": "朱筱敏砂岩分类.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\朱筱敏砂岩分类.cncx",
+            "Fields": [
+                {
+                    "FieldName": "石英类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "长石类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "岩屑类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/朱筱敏砂岩分类.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "三角图版",
+            "TempletName": "三角图版.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\三角图版.cncx",
+            "Fields": [
+                {
+                    "FieldName": "石英类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "长石类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "岩屑类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/三角图版.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "碳酸盐岩结构分类",
+            "TempletName": "碳酸盐岩结构分类.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\碳酸盐岩结构分类.cncx",
+            "Fields": [
+                {
+                    "FieldName": "颗粒,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "泥晶,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "亮晶,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/碳酸盐岩结构分类.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "碳酸盐岩成分分类",
+            "TempletName": "碳酸盐岩成分分类.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\碳酸盐岩成分分类.cncx",
+            "Fields": [
+                {
+                    "FieldName": "粘土类,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "方解石,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "白云石,%",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/碳酸盐岩成分分类.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "牵引流C-M图",
+            "TempletName": "牵引流CM.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\牵引流CM.cncx",
+            "Fields": [
+                {
+                    "FieldName": "C值um",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "M值um",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/牵引流CM.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "重力流C-M图",
+            "TempletName": "重力流CM图.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\重力流CM图.cncx",
+            "Fields": [
+                {
+                    "FieldName": "C值um",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "M值um",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/重力流CM图.png"
+        },
+        {
+            "Coordinate": 2,
+            "ChartName": "初始孔隙度和渗透率恢复图解",
+            "TempletName": "孔渗恢复.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\孔渗恢复.cncx",
+            "Fields": [
+                {
+                    "FieldName": "F25",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "F50",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "F75",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/孔渗恢复.png"
+        },
+        {
+            "Coordinate": 5,
+            "ChartName": "压汞曲线",
+            "TempletName": "压汞.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\压汞.cncx",
+            "Fields": [
+                {
+                    "FieldName": "样品编号",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "数据序号",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "压力(Mpa)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "进汞量(%)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "绘制退汞曲线",
+                    "FieldValue": null,
+                    "FieldType": 1
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/压汞.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "孔隙度、渗透度交汇图",
+            "TempletName": "孔渗关系.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\孔渗关系.cncx",
+            "Fields": [
+                {
+                    "FieldName": "渗透率",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "孔隙度",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/孔渗关系.png"
+        },
+        {
+            "Coordinate": 4,
+            "ChartName": "施氏网",
+            "TempletName": "施氏网.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\施氏网.cncx",
+            "Fields": [
+                {
+                    "FieldName": "倾向",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "倾角",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/施氏网.png"
+        },
+        {
+            "Coordinate": 3,
+            "ChartName": "吴氏网",
+            "TempletName": "吴氏网.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\吴氏网.cncx",
+            "Fields": [
+                {
+                    "FieldName": "倾向",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "倾角",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/吴氏网.png"
+        },
+        {
+            "Coordinate": 6,
+            "ChartName": "童宪章图版",
+            "TempletName": "童宪章图版.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\童宪章图版.cncx",
+            "Fields": [
+                {
+                    "FieldName": "综合含水（%）",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "地质储量采出程度（%）",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "油气藏研究",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/童宪章图版.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Adakite (La/Yb)n－(Yb)n 判别图解",
+            "TempletName": "B001.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B001.cncx",
+            "Fields": [
+                {
+                    "FieldName": "(La/Yb)n",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "(Yb)n",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Defant M J and  Drummond M S. 1990. Derivation of some morden arc magmas by of young subducted lithosphere. Nature, 347:662～665",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B001.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal, A型花岗岩的(K2O+Na2O)/CaO vs Zr+Nb+Ce+Y图解",
+            "TempletName": "B002.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B002.cncx",
+            "Fields": [
+                {
+                    "FieldName": "(K2O+Na2O)/CaO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr+Nb+Ce+Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B002.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Adakite Sr/Y－Y 判别图解",
+            "TempletName": "B003.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B003.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Sr/Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Defant M J and  Drummond M S. 1990. Derivation of some morden arc magmas by of young subducted lithosphere. Nature, 347:662～665",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B003.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Al2O3－SiO2 岩石热水成因模式图",
+            "TempletName": "B004.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B004.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Al2O3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B004.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 (K2O+Na2O)/CaO vs 10000Ga/Al",
+            "TempletName": "B005.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B005.cncx",
+            "Fields": [
+                {
+                    "FieldName": "(K2O+Na2O)/CaO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B005.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Batchelor R2－R1 花岗岩成因分类图解",
+            "TempletName": "B006.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B006.cncx",
+            "Fields": [
+                {
+                    "FieldName": "R2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "R1",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        ①地幔斜长花岗岩；②破坏性活动板块边缘(板块碰撞前)花岗岩；③板块碰撞后隆起期花岗岩；④晚造期花岗岩；⑤非造山区A型花岗岩；⑥同碰撞(S型)花岗岩；⑦造山期后A型花岗岩\n        Batchelor R A and Bowden P. Petrogenetic interpretation of granitoid rock series using multicationic parameters. Chem. Geol., 1985(48):43－55\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B006.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 Ce vs 10000Ga/Al",
+            "TempletName": "B007.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B007.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ce",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B007.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Eby 不同构造环境中A型花岗岩的Ce/Nb vs Y/Nb图解",
+            "TempletName": "B008.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B008.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ce/Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y/Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "G N Eby,1992. Chemical subdivision of the A-type granitoids: Petrogenetic and tectonic implications. Geology,20:641-644",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B008.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "A-型与I-型花岗岩Ce－SiO2判别图(Collis等,1982)",
+            "TempletName": "B009.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B009.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ce",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "据Collis等,1982",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B009.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩 构造环境 Pearce F2-F1 判别图",
+            "TempletName": "B010.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B010.cncx",
+            "Fields": [
+                {
+                    "FieldName": "F2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "F1",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        WPB－板内玄武岩；LKT－低钾拉斑玄武岩(岛弧拉斑玄武岩)；CAB－钙碱性（高铝）玄武岩；SHO－钾玄岩；OFB－洋底（洋中脊）玄武岩\n        Pearce J A．Statistical analysis of major element patterns in basalts．J. Petro. 1976(17):15－43\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B010.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩 构造环境 Pearce F3-F2 判别图",
+            "TempletName": "B011.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B011.cncx",
+            "Fields": [
+                {
+                    "FieldName": "F3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "F2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        WPB－板内玄武岩；LKT－低钾拉斑玄武岩(岛弧拉斑玄武岩)；CAB－钙碱性（高铝）玄武岩；SHO－钾玄岩；OFB－洋底（洋中脊）玄武岩\n        Pearce J A．Statistical analysis of major element patterns in basalts．J. Petro. 1976(17):15－43\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B011.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 FeO/MgO vs 10000Ga/Al",
+            "TempletName": "B012.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B012.cncx",
+            "Fields": [
+                {
+                    "FieldName": "FeO/MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B012.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal, A型花岗岩的FeOt/MgO vs Zr+Nb+Ce+Y图解",
+            "TempletName": "B013.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B013.cncx",
+            "Fields": [
+                {
+                    "FieldName": "FeOt/MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr+Nb+Ce+Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B013.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "岩石系列K2O vs SiO2图解",
+            "TempletName": "B014.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B014.cncx",
+            "Fields": [
+                {
+                    "FieldName": "K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "\n        实线据 Peccerillo R, Taylor S R. 1976. Geochemistry of eocene calc-alkaline volcanic rocks from the Kastamonu area, Northern Turkey. Contrib. Mineral Petrol., 58:63~81\n        虚线据 Middlemost E A K. 1985. Magmas and Magmatic Rocks. London: Longman, 1~266\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B014.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 碱性指数 vs 10000Ga/Al",
+            "TempletName": "B015.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B015.cncx",
+            "Fields": [
+                {
+                    "FieldName": "碱性指数",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "\n        J B Whalen,K L Currie, B W Chappell. 1987. A-type granites:\n        geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B015.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 K2O/MgO vs 10000Ga/Al",
+            "TempletName": "B016.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B016.cncx",
+            "Fields": [
+                {
+                    "FieldName": "K2O/MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B016.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 K2O+Na2O vs 10000Ga/Al",
+            "TempletName": "B017.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B017.cncx",
+            "Fields": [
+                {
+                    "FieldName": "K2O+Na2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B017.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "安山岩构造环境La/Yb vs Sc/Ni判别图(Condie,1986)",
+            "TempletName": "B018.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B018.cncx",
+            "Fields": [
+                {
+                    "FieldName": "La/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Sc/Ni",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "据Collis等,1982",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B018.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "安山岩构造环境La/Yb vs Th判别图(Condie,1986)",
+            "TempletName": "B019.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B019.cncx",
+            "Fields": [
+                {
+                    "FieldName": "La/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Th",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "据Collis等,1982",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B019.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "里特曼-弋蒂里指数(logτ-logδ)图解",
+            "TempletName": "B020.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B020.cncx",
+            "Fields": [
+                {
+                    "FieldName": "logτ",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "logδ",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        (里特曼,1973)\n        A区-非造山带地区火山岩， B区-造山带地区火山岩，\n        C区-A区、B区派生的碱性、富碱岩;J-日本火山岩\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B020.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩成因系列Na2O-K2O图解(Collis等,1982)",
+            "TempletName": "B021.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B021.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Na2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "Collins W J et al.,1982. Nature and origin of A type granites with paticular reference to Southeastern Australia. Contrib. Miner. Petro., 80, 189-200",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B021.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 Nb vs 10000Ga/Al",
+            "TempletName": "B022.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B022.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B022.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "A型与I型花岗岩Nb－SiO2判别图(Collis等,1982)",
+            "TempletName": "B023.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B023.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "据Collis等,1982",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B023.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境 Nb－Y 判别图",
+            "TempletName": "B024.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B024.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A, Harris N B W and Tindle A G. Trace element discrimination diagrams for the tectonic interpretation of granitic rocks. Journal of Petrology, 1984, 25:956－983",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B024.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩 P2O5－TiO2 成因图解",
+            "TempletName": "B025.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B025.cncx",
+            "Fields": [
+                {
+                    "FieldName": "P2O5",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B025.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "洪大卫等 碱性花岗岩构造环境判别R1 vs 10000Ga/Al图解",
+            "TempletName": "B026.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B026.cncx",
+            "Fields": [
+                {
+                    "FieldName": "R1",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "洪大卫，王式洸，韩宝福，靳满元，1995，碱性花岗岩的构造环境分类及其鉴别标志，中国科学(B辑) ，25(4)：418-426",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B026.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "火山岩全碱－硅（TAS）分类图",
+            "TempletName": "B027.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B027.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Na2O+K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "\n        Pc－苦橄玄武岩；B－玄武岩；O1－玄武安山岩；O2－安山岩；O3－英安岩；R－流纹岩；S1－粗面玄武岩；S2－玄武质粗面安山岩；S3－粗面安山岩；T－粗面岩、粗面英安岩；F－副长石岩；U1－碱玄岩、碧玄岩；U2－响岩质碱玄岩；U3－碱玄质响岩；Ph－响岩；Ir－Irvine 分界线，上方为碱性，下方为亚碱性。\n        （Le Maitre R W (ed). A Classification of Igneous Rocks and Glossary of Terms. Blackwell, Oxford, 1989, 193 pp）\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B027.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "岩浆/火成岩系统全碱-硅(TAS)分类(Eric A.K.Middlmost)",
+            "TempletName": "B028.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B028.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Na2O+K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "\n        资料来源：Earth-Science Reviews, vol.37,(1994):215-224\n        Ir－Irvine 分界线，上方为碱性，下方为亚碱性。\n        【深成岩】：1-橄榄辉长岩；2a-碱性辉长岩；2b-亚碱性辉长岩；3-辉长闪长岩；4-闪长岩；5-花岗闪长岩；6-花岗岩；7-硅英岩；8-二长辉长岩；9-二长闪长岩；10-二长岩；11-石英二长岩；12-正长岩；13-副长石辉长岩；14-副长石二长闪长岩；15-副长石二长正长岩；16-副长正长岩；17-副长深成岩；18-霓方钠岩/磷霞岩/粗白榴岩\n        【火山岩】：1-苦橄玄武岩；2-玄武岩；3-玄武安山岩；4-安山岩；5-英安岩；6-流纹岩；7-英石岩；8-粗面玄武岩；9-玄武岩质粗面安山岩；10-粗面安山岩；11-粗面英安岩；12-粗面岩；13-碱玄岩；14-响质碱玄岩；15-碱玄质响岩；16-响岩；17-副长火山岩；18-方钠岩/霞石岩/纯白榴岩\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B028.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境 Ta－Yb 判别图",
+            "TempletName": "B029.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B029.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ta",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A, Harris N B W and Tindle A G. Trace element discrimination diagrams for the tectonic interpretation of granitic rocks. Journal of Petrology, 1984, 25:956－983",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B029.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩 TFeO/MgO －TiO2 成因图解",
+            "TempletName": "B030.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B030.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TFeO/MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B030.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 岩石系列 TiO2-Zr 判别图",
+            "TempletName": "B031.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B031.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B031.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩 构造环境 Ti－Zr 判别图",
+            "TempletName": "B032.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B032.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ti",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A and Cann J R. Tectonic setting of basic volcanic rocks determined using  trace element analyses. Earth and Planetary Science Letters,1973,19: 290－300",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B032.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "火山岩 SiO2－Zr/TiO2 分类图(Winchester & Floyd,1977)",
+            "TempletName": "B033.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B033.cncx",
+            "Fields": [
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr/TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "J.A.Winchester and P.A.Floyd, 1977. Geochemical discrimination of different magma series and theirdifferentiation products using immobile elements, Chemical Geology,  vol.20 , pp.325-343.",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B033.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "火山岩 Zr/TiO2－Nb/Y 分类图(Winchester and Floyd,1977)",
+            "TempletName": "B034.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B034.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Zr/TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Nb/Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "J.A.Winchester and P.A.Floyd, 1977. Geochemical discrimination of different magma series and theirdifferentiation products using immobile elements, Chemical Geology,  vol.20 , pp.325-343.",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B034.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 Y vs 10000Ga/Al",
+            "TempletName": "B035.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B035.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B035.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Eby 不同构造环境中A型花岗岩的Yb/Ta vs Y/Nb图解",
+            "TempletName": "B036.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B036.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Yb/Ta",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y/Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "G N Eby,1992. Chemical subdivision of the A-type granitoids: Petrogenetic and tectonic implications. Geology,20:641-644",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B036.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "A型与I型花岗岩Y－SiO2判别图(Collis等,1982)",
+            "TempletName": "B037.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B037.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "据Collis等,1982",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B037.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 Zn vs 10000Ga/Al",
+            "TempletName": "B038.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B038.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Zn",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen, K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B038.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Whalen etal,A型花岗岩 Zr vs 10000Ga/Al",
+            "TempletName": "B039.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B039.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10000Ga/Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "J B Whalen,K L Currie, B W Chappell. 1987. A-type granites: geochemical characteristics,discriminatuon and petrogenesis. Contributions to Mineralogy and Petrology, 95:407-419",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B039.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 岩石系列 Zr-SiO2 判别图",
+            "TempletName": "B040.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B040.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B040.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "A型与I型花岗岩Zr－SiO2判别图(Collis等,1982)",
+            "TempletName": "B041.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B041.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "据Collis等,1982",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B041.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩 构造环境 Zr/Y－Zr 判别图",
+            "TempletName": "B042.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B042.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Zr/Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A and  Norry M J. Petrogenetic Implications of Ti, Zr, Y, and Nb Variations in Volcanic Rocks. Contributions to Mineralogy and Petrology, 1979, 69: 33－47.",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B042.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "朱炳泉 矿石铅同位素的 Δγ-Δβ成因分类图解",
+            "TempletName": "B043.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B043.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Δγ",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Δβ",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "铅-锶-钕同位素",
+            "Comment": "\n        1.地幔源铅；2.上地壳铅；3.上地壳与地幔混合的俯冲带铅（3a.岩浆作用；3b.沉积作用）；4.化学沉积型铅；5.海底热水作用铅；6.中深变质作用铅；7.深变质下地壳铅；8.造山带铅；9.古老页岩上地壳铅；10.退变质铅。\n        朱炳泉.地球科学中同位素体系理论与应用—兼论中国大陆壳幔演化.北京:科学出版社,1998\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B043.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "朱炳泉 εNd(t)-εSr(t) 图解",
+            "TempletName": "B044.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B044.cncx",
+            "Fields": [
+                {
+                    "FieldName": "εNd(t)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "εSr(t)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "铅-锶-钕同位素",
+            "Comment": "ZHU BING-QUAN,  ZHANG JING-LIAN, TU XIANG-LIN  CHANG XIANG-YANG,  FAN CAI-YUAN,  LIU YING,  and LIU JU-YING. Pb, Sr, and Nd isotopic features in organic matter from China and their implications for petroleum generation and migration.Geochimica et Cosmochimica Acta,2001,65(15):2555-2570",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B044.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "SiO2－Al2O3/(K2O+Na2O+CaO)(含矿性判别图) ",
+            "TempletName": "B045.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B045.cncx",
+            "Fields": [
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3/(K2O+Na2O+CaO)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩体含矿性评价与判别图解",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B045.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境 Rb－Y+Nb 判别图",
+            "TempletName": "B046.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B046.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Rb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y+Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A, Harris N B W and Tindle A G. Trace element discrimination diagrams for the tectonic interpretation of granitic rocks. Journal of Petrology, 1984, 25:956－983",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B046.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境 Rb－Yb+Ta 判别图",
+            "TempletName": "B047.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B047.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Rb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Yb+Ta",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A, Harris N B W and Tindle A G. Trace element discrimination diagrams for the tectonic interpretation of granitic rocks. Journal of Petrology, 1984, 25:956－983",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B047.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "岛弧火山岩的SiO2-K2O分类图",
+            "TempletName": "B048.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B048.cncx",
+            "Fields": [
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "Ewart A. The mineralogy and petrology of Tertiary-Recent orogenic volcanic rocks: with special reference to the andesite-basaltic compositional range. In: Thorpe R S, ed. Andesites. New York: John Wiley and sons, 1982, 25-95 ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B048.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "铅同位素V1-V2图解",
+            "TempletName": "B049.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B049.cncx",
+            "Fields": [
+                {
+                    "FieldName": "V1",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "V2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "铅-锶-钕同位素",
+            "Comment": "\n        A-华南；B-扬子；C-华北；D-北疆；DA-北美科迪勒拉；DP-北太平洋群岛\n        朱炳泉，地球化学省与地球化学急变带.北京：科学出版社，2001，P12\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B049.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Alther et al, 花岗岩A/MF-C/MF成因图解",
+            "TempletName": "B050.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B050.cncx",
+            "Fields": [
+                {
+                    "FieldName": "A/MF",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "C/MF",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "\n        A-变质泥岩部分熔融；B-变质砂岩部分熔融；C-基性岩的部分熔融\n        Alther R,Holl A, Hegner E, Langer C and Kreuzer H. High-potassium,calc-alkaline I-type plutonism in the European Variscides: Northern Vosges (France) and northern Schwarzwald (Germany).Lithos, 2000,50:51~73\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B050.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "火山岩Румянцева分类法",
+            "TempletName": "B051.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B051.cncx",
+            "Fields": [
+                {
+                    "FieldName": "K2O/(Na2O+0.7K2O)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "Румянцева(1977)",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B051.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩K2O-Na2O",
+            "TempletName": "B052.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B052.cncx",
+            "Fields": [
+                {
+                    "FieldName": "K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Na2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "E A K Middlemost (1972)",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B052.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩构造环境Th-Ta判别图解",
+            "TempletName": "B053.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B053.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Th",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ta",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce 等  1980",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B053.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "岩石系列SiO2-AR(碱度率)图解",
+            "TempletName": "B054.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B054.cncx",
+            "Fields": [
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "A.R.",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": " J B  Wright,  1969",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B054.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "铅同位素207Pb/204Pb-206Pb/204Pb构造环境判别图解",
+            "TempletName": "B055.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B055.cncx",
+            "Fields": [
+                {
+                    "FieldName": "207Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "206Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "铅-锶-钕同位素",
+            "Comment": "\n        LC-下地壳；UC-上地壳；OIV-洋岛火山岩；OR-造山带；A，B，C，D分别为各区域中样品相对集中区。\n        R E Zartman and B R Doe. 1981. Plumbotectonics - the model. Tectonophysics, 75:135~162\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B055.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "铅同位素208Pb/204Pb-206Pb/204Pb构造环境判别图解",
+            "TempletName": "B056.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B056.cncx",
+            "Fields": [
+                {
+                    "FieldName": "208Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "206Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "铅-锶-钕同位素",
+            "Comment": "\n        LC-下地壳；UC-上地壳；OIV-洋岛火山岩；OR-造山带；A，B，C，D分别为各区域中样品相对集中区。\n        R E Zartman and B R Doe. 1981. Plumbotectonics - the model. Tectonophysics, 75:135~162\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B056.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "火山岩SiO2-Nb/Y分类图解",
+            "TempletName": "B057.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B057.cncx",
+            "Fields": [
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Nb/Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "\n        J.A.Winchester and P.A.Floyd, 1977. Geochemical discrimination of different magma series and theirdifferentiation products using immobile elements, Chemical Geology,  vol.20 , pp.325-343.\n        SubAlkalBas-亚碱性玄武岩；Andesite-安山岩；RhyDac/Dac-流纹英安岩/英安岩；Rhyolite-流纹岩；AlkBas-碱性玄武岩；TrachyAnd-粗面安山岩；Ban/Nph=Basanite(碧玄岩)/nephelinite(霞石岩)；Phonolite-响岩；Trachyte-粗面岩；Com/Pant-\n        钠闪碱流岩(comendite)/碱流岩(pantellerite)\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B057.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "单斜辉石 F2-F1 构造环境判别图解(Nisbet and Pearce, 1977)",
+            "TempletName": "B058.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B058.cncx",
+            "Fields": [
+                {
+                    "FieldName": "F2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "F1",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B058.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "单斜辉石SiO2-Al2O3岩石系列判别图解(邱家骧等, 1996)",
+            "TempletName": "B059.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B059.cncx",
+            "Fields": [
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "邱家骧，廖群安.1996.浙闽新生低玄武岩岩石成因学与Cpx矿物学[J].火山地质与矿物，(1~2)16~25。",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B059.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "钙质角闪石的Ti-Si变异图及成因类型划分",
+            "TempletName": "B060.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B060.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ti",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Si",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "单矿物图解",
+            "Comment": "\n        Ⅰ.基性超基性侵入岩中的角闪石;Ⅱ. 中酸性火山岩中的角闪石; Ⅲ. 各种变质岩中的角闪石; Ⅳ. 中酸性侵入岩中的角闪石;Ⅴ. 蚀变和交代角闪石\n        马昌前, 杨坤光, 唐仲华,等. 花岗岩类岩浆动力学理论方法及鄂东花岗岩类例析. 武汉:中国地质大学出版社,1994.\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B060.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "δD-δ18O图解",
+            "TempletName": "B061.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B061.cncx",
+            "Fields": [
+                {
+                    "FieldName": "δD",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "δ18O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "稳定同位素",
+            "Comment": "\n        雨水线：δD=8δ18O+10\n        高岭石风化线：：δD=7.6δ18O-220\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B061.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "拉斑玄武岩构造环境Ti/Zr-Ni图解",
+            "TempletName": "B062.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B062.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ti",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr-Ni",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        IAT-岛弧拉斑玄武岩；MORB-洋中脊玄武岩\n        据Beccaluva,1980\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B062.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "铝质-准铝花岗岩A/NK-A/KNC判别图",
+            "TempletName": "B063.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B063.cncx",
+            "Fields": [
+                {
+                    "FieldName": "A/NK",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "A/KNC",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B063.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "铅同位素207/204-206/204增长曲线",
+            "TempletName": "B064.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B064.cncx",
+            "Fields": [
+                {
+                    "FieldName": "207Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "206Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "铅-锶-钕同位素",
+            "Comment": "\n        A-地幔(Mantle)；B-造山带(Orogene)；C-上地壳(Upper Crust)；D-下地壳(Lower Crust)\n        R E Zartman and B R Doe. 1981. Plumbotectonics - the model. Tectonophysics, 75:135~162\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B064.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "铅同位素208/204-206/204增长曲线",
+            "TempletName": "B065.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B065.cncx",
+            "Fields": [
+                {
+                    "FieldName": "208Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "206Pb/204Pb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "铅-锶-钕同位素",
+            "Comment": "\n        A-地幔(Mantle)；B-造山带(Orogene)；C-上地壳(Upper Crust)；D-下地壳(Lower Crust)\n        R E Zartman and B R Doe. 1981. Plumbotectonics - the model. Tectonophysics, 75:135~162\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B065.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "砂岩形成构造环境的TiO2-Fe2O3T+MgO判别图解",
+            "TempletName": "B066.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B066.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Fe2O3T+MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "A-克拉通盆地；B-大陆壳内裂谷或弧后盆地；C-大陆边缘弧；D-大洋弧",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B066.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Simonen的(al+fm)-(c+alk)～Si图解",
+            "TempletName": "B067.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B067.cncx",
+            "Fields": [
+                {
+                    "FieldName": "(al+fm)-(c+alk)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Si",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "变质岩原岩恢复",
+            "Comment": "据 A Simonen，1953",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B067.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "变质岩原岩恢复TiO2-SiO2图解",
+            "TempletName": "B068.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B068.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "变质岩原岩恢复",
+            "Comment": "据 Tarrey，1976",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B068.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "变质岩原岩恢复Zr/TiO2-Ni图解",
+            "TempletName": "B069.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B069.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Zr/TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ni",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "变质岩原岩恢复",
+            "Comment": "据J A Winchester,1980",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B069.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境Al2O3-SiO2判别图解",
+            "TempletName": "B070.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B070.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Al2O3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "IAG-岛弧花岗岩类；CAG-大陆弧花岗岩类；CCG-大陆碰撞花岗岩类；POG-后造山花岗岩类；RRG-与裂谷有关的花岗岩类；CEUG-与大陆的造陆抬升有关的花岗岩类",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B070.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境TFeO/[w(TFeO)+w(MgO)] vs SiO2判别图解",
+            "TempletName": "B071.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B071.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TFeO/(TFeO+MgO)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "IAG-岛弧花岗岩类；CAG-大陆弧花岗岩类；CCG-大陆碰撞花岗岩类；POG-后造山花岗岩类；RRG-与裂谷有关的花岗岩类；CEUG-与大陆的造陆抬升有关的花岗岩类",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B071.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境w(FeO)-w(MgO)判别图解",
+            "TempletName": "B072.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B072.cncx",
+            "Fields": [
+                {
+                    "FieldName": "FeO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "IAG-岛弧花岗岩类；CAG-大陆弧花岗岩类；CCG-大陆碰撞花岗岩类；POG-后造山花岗岩类；RRG-与裂谷有关的花岗岩类；CEUG-与大陆的造陆抬升有关的花岗岩类",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B072.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 构造环境[w(TFeO)+w(MgO)]-w(CaO)判别图解",
+            "TempletName": "B073.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B073.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TFeO+MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "CaO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "IAG-岛弧花岗岩类；CAG-大陆弧花岗岩类；CCG-大陆碰撞花岗岩类；POG-后造山花岗岩类；RRG-与裂谷有关的花岗岩类；CEUG-与大陆的造陆抬升有关的花岗岩类",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B073.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "花岗岩 Q’-F’-Anor分类图",
+            "TempletName": "B074.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B074.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Q’-F",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Anor",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "2-;3a-;3b;4-;5-;6*-;7*-;",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B074.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "黄铁矿Ni-Co成因图解",
+            "TempletName": "B076.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B076.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ni/ppm",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Co/ppm",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "单矿物图解",
+            "Comment": "\n        赵振华等，1987\n        Ⅰ、Ⅱ区为沉积和沉积改造区；Ⅲ、Ⅳ为岩浆和热液区\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B076.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 10·TiO2-Al2O3-10·K2O 图解（赵崇贺） ",
+            "TempletName": "T001.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T001.cncx",
+            "Fields": [
+                {
+                    "FieldName": "10·TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "10·K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "\n        Ⅰ－大洋玄武岩； Ⅱ－大陆玄武岩、安山岩；  Ⅲ－岛弧、造山带玄武岩、安山岩\n        资料来源：赵崇贺.1989.中基性火山岩成分的ATK图解与构造环境.地质科技情报，8(4)：1-5 [Zhao Chonghe.1989.The ATK Diagram of Basic-Intermediate volcanic rocks and Tectonic Environment.Geological science and Technology information, 8(4)：1-5]\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T001.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 岩石系列 FeO*-Na2O+K2O-MgO (FAM) 图 ",
+            "TempletName": "T002.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T002.cncx",
+            "Fields": [
+                {
+                    "FieldName": "F",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "A",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "M",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "Irvine T N and Barager W R A. A guide to the chemical classification of the common volcanic rocks. Canadian Journal of Earth Sciences, 1971, 8: 523－548",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T002.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 构造环境 Hf/3-Th-Nb/16 判别图 ",
+            "TempletName": "T003.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T003.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Hf/3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Th",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Nb/16",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Wood D A. 1980. The application of a Th-Hf-Nb diagram to problems of tectomagmatic classification and to establishing the nature of crustal contamination of the British Tertiary volcanic provinic. Earth Plant Sci Lett,(50):11-30",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T003.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 构造环境 Hf/3-Th-Ta 判别图",
+            "TempletName": "T004.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T004.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Hf/3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Th",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Nb/16",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Wood D A. 1979. Avariably veined suboceanic uppermantle-genetic significance for mid-ocean ridge basalts from geochemical evidence. Geology, 7:499-503",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T004.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "Eby： A型花岗岩分类 Nb-Y-3Ga图解",
+            "TempletName": "T005.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T005.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "3Ga",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "G N Eby,1992. Chemical subdivision of the A-type granitoids: Petrogenetic and tectonic implications. Geology,20:641-644",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T005.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "Eby： A型花岗岩分类 Nb-Y-Ce 图解",
+            "TempletName": "T006.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T006.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ce",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "G N Eby,1992. Chemical subdivision of the A-type granitoids: Petrogenetic and tectonic implications. Geology,20:641-644",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T006.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 构造环境 2Nb-Zr/4-Y 判别图 ",
+            "TempletName": "T007.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T007.cncx",
+            "Fields": [
+                {
+                    "FieldName": "2Nb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr/4",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        A1+A2－板内碱性玄武岩；A2+C－板内拉斑玄武岩；B－P型 MORB；D－ N型 MORB；C+D－火山弧玄武岩\n        Meschede M. 1986 ,A method of discriminating between different types of mid－ocean ridge basalts and continental tholeiites with the Nb－Zr－Y diagram. Chemical Geology, 1986(56) pp.207－218\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T007.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩 Q-A-P 分类图",
+            "TempletName": "T008.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T008.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Q",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "A",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "P",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "\n        [火山岩]: 1－富石英流纹岩；2－碱长流纹岩；3a、b－流纹岩；4、5－英安岩；6*－碱长石英粗面岩；7*－石英粗面岩；8*－石英安粗岩；9*－石英粗安岩；10*－石英安山岩；6－碱长粗面岩；7－粗面岩；8－安粗岩；9－粗安岩；10－安山岩、玄武岩\n        [侵入岩]: 1－富石英花岗岩；2－碱长花岗岩；3a－花岗岩；3b－花岗岩(二长花岗岩)；4－花岗闪长岩；5－英云闪长岩、斜长花岗岩；6*－碱长石英正长岩；7*－石英正长岩；8*－石英二长岩；9*－石英二长闪长岩；10*-石英闪长岩、石英辉长岩、石英斜长岩;6－碱长正长岩；7-正长岩;8-二长岩;9-二长闪长岩、二长辉岩;10-闪长岩、辉长岩、斜长岩\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T008.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩 Q-A-P S-I-A型判别",
+            "TempletName": "T009.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T009.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Q",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "A",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "P",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "P Bowden等，1982",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T009.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩 构造环境Rb/30-Hf-3Ta判别图",
+            "TempletName": "T010.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T010.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Rb/30",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Hf",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "3Ta",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T010.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "Pearce  玄武岩FeO*-MgO-Al2O3 判别图(FMA）",
+            "TempletName": "T011.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T011.cncx",
+            "Fields": [
+                {
+                    "FieldName": "FeO*",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        Ⅰ－洋中脊或洋底；Ⅱ－洋岛； Ⅲ－大陆； Ⅳ－扩张性中央岛； Ⅴ－造山带\n        （Pearce T H et al． The relationship betwee major element chemistry and tectonic environment of basic and intermediate vocanic rocks．Earth Planet. Sci. Lett.,1977(36),121－132）\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T011.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "Pearce 玄武岩构造环境 TiO2-K2O-P2O5 判别图解",
+            "TempletName": "T012.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T012.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "K2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "P2O5",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "T H Pearce, B E Gorman T C Birkett,1975. The TiO2-K2O-P2O5 diagram: a method of discriminating between oceanic and non-oceanic basalts. Earth Planet. Sci. Lett., 24:419-426",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T012.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 构造环境 TiO2-10×MnO-10×P2O5 图",
+            "TempletName": "T013.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T013.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "MnO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "P2O5",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "OIT－洋岛拉斑玄武岩；OIA－洋岛碱性玄武岩；MORB－洋中脊玄武岩；IAT－岛弧拉斑玄武岩；CAB－钙碱性玄武岩（Mullen E D. MnO/TiO2/P2O5: a minor element discriminate for basaltic rocks of oceanic environments and its implications for petrogenesis. Earth and Planetary Science Letters, 1983(62), pp.53－62）",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T013.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 构造环境 Ti/100-Zr-Sr/2 判别图",
+            "TempletName": "T014.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T014.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ti/100",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Sr/2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A and Cann J R. Tectonic setting of basic volcanic rocks determined using  trace element analyses. Earth and Planetary Science Letters,1973,19: 290－300",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T014.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩 构造环境 Ti/100-Zr-Y×3 判别图 ",
+            "TempletName": "T015.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T015.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ti/100",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Y×3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Pearce J A and Cann J R. Tectonic setting of basic volcanic rocks determined using  trace element analyses. Earth and Planetary Science Letters,1973,19: 290－300",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T015.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "FeO*-K2O+Na2O-MgO(多条演化线)",
+            "TempletName": "T016.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T016.cncx",
+            "Fields": [
+                {
+                    "FieldName": "FeO*",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "K2O+Na2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "此图相关信息暂缺",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T016.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩Rb-Ba-Sr图解",
+            "TempletName": "T017.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T017.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Rb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ba",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Sr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩体含矿性评价与判别图解",
+            "Comment": "\n        AGG-钠长石化和云英岩化花岗岩；DG-分异的花岗岩；NG-正常花岗岩；AG-异常花岗岩；GD-花岗闪长岩；QD-石英闪长岩；D-闪长岩；GAD-与W、Mo、Sn有关矿化花岗岩\n        (El Blouseily A M, El Sokkary A A. The relation between Rb, Ba and Sr in granitic rocks[J].Chemical Geology, 1975 16: 207-219)\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T017.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩成因类型ACF图解",
+            "TempletName": "T018.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T018.cncx",
+            "Fields": [
+                {
+                    "FieldName": "A",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "C",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "F",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T018.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩岩石系列Cpx-Ol-Opx图解",
+            "TempletName": "T019.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T019.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Cpx",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "O1",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Opx",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "据 F Chayes,1965,1966",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T019.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "玄武岩岩石系列Ol-Ne-Q图解",
+            "TempletName": "T020.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T020.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ol'",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ne’",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Q'",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "据T N Irvine等,1971",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T020.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "亚碱性系列火山岩An-Ab-Or图解",
+            "TempletName": "T021.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T021.cncx",
+            "Fields": [
+                {
+                    "FieldName": "An",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ab'",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Or",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "据T N Irvine等,1971",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T021.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "碱性系列火山岩An-Ab-Or图解",
+            "TempletName": "T022.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T022.cncx",
+            "Fields": [
+                {
+                    "FieldName": "An",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ab'",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Or",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "据T N Irvine等,1971",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T022.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "侵入岩F-M-C图解(常用于基性-超基性岩的含矿性评价)",
+            "TempletName": "T023.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T023.cncx",
+            "Fields": [
+                {
+                    "FieldName": "F",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "M",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "C",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩体含矿性评价与判别图解",
+            "Comment": "常用于基性-超基性岩的含矿性评价",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T023.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "基性超基性火山岩TFe+Ti-Al-Mg分类图解",
+            "TempletName": "T024.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T024.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TFe+Ti",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Mg",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "UMK-超基性科马提岩；BK-玄武质科马提岩；HMT-高镁拉斑玄武岩；HFT-高铁拉斑玄武岩；HAT-高铝拉班玄武岩",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T024.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "TTG岩套 CIPW标准矿物 An-Ab-Or分类图解",
+            "TempletName": "T025.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T025.cncx",
+            "Fields": [
+                {
+                    "FieldName": "An",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ab",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Or",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "Tr-奥长花岗岩; Tn-英云闪长岩; Gd-花岗闪长岩; MG-二长花岗岩; Gr-花岗岩",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T025.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "碱性岩Ne(霞石)-M(暗色矿物)-A(碱性长石)分类图解",
+            "TempletName": "T026.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T026.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ne",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "M",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "A",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "a-钛铁霞辉岩；b-碱性辉长岩；c-暗色含霞正长岩；d-中色含霞正长岩；e-浅色含霞正长岩；f-暗霓霞岩；g-含长暗霓霞岩；h-暗色暗霞正长岩；i-霞石正长岩；j-浅色-霞石正长岩；k-霓霞岩；l-含长霓霞岩；m-暗霞正长岩；n-磷霞岩；o-含长磷霞岩；p-正霞正长岩",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T026.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "单斜辉石分类图解",
+            "TempletName": "T027.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T027.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Wo",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "En",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Fs",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "单矿物图解",
+            "Comment": "\n        Di-透辉石(diopside), He-钙铁辉石(hedenbergite), Au-普通辉石(Augite), Pi-易变辉石(Pigeonite), ClEn-斜顽辉石(clinoenstatite), ClFs-斜铁辉石(clinoferrosilite)\n        (据Morimoto等，1988)\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T027.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "岩浆岩成因类型的角闪石Ca-Fe-Mg判别图解",
+            "TempletName": "T028.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T028.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ca",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "TFe",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Mg",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T028.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "沉积岩 构造环境Th-Hf-Co判别图解",
+            "TempletName": "T029.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T029.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Th",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Hf",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Co",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "A-长英质火山岩；B-页岩(克拉通盆地)；C-石英岩(克拉通盆地)；D-长石砂岩；E-杂砂岩(弧)",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T029.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "沉积岩 构造环境Th-Sc-Zr/10判别图解",
+            "TempletName": "T030.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T030.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Th",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Sc",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr/10",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "\n        A-大洋岛弧；B-大陆岛弧；C-活动大陆边缘；D-被动大陆边缘\n        Mukul R. Bhatia and Keith A.W. Crook. Trace element characteristics of graywackes and tectonic setting discrimination of sedimentary basins.Contrib Mineral Petrol(1986),92:181-193\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T030.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "沉积岩 构造环境La-Th-Sc判别图解",
+            "TempletName": "T031.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T031.cncx",
+            "Fields": [
+                {
+                    "FieldName": "La",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Th",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Sc",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "\n        A-大洋岛弧；B-大陆岛弧；C-活动大陆边缘；D-被动大陆边缘\n        Mukul R. Bhatia and Keith A.W. Crook. Trace element characteristics of graywackes and tectonic setting discrimination of sedimentary basins.Contrib Mineral Petrol(1986),92:181-193\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T031.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩 构造环境Rb/10-Hf-Ta×3判别图解",
+            "TempletName": "T032.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T032.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Rb/10",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Hf",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ta×3",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T032.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "拉斑玄武岩和钙碱性玄武岩系列FeOt/MgO-SiO2图解",
+            "TempletName": "B088.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B088.cncx",
+            "Fields": [
+                {
+                    "FieldName": "FeOT/MgO",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Miyashiro, A., 1974, Volcanic rock series in island arc and active continental margins. Am J Sci, 274: 321-355.",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B088.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "SiO2-(Na2O+K2O) discrimination diagram for basalt series",
+            "TempletName": "B089.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B089.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Alk",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        A-Alkaline basalt series; T-Tholeiite series\n        (1) MacDonald, G. A., Katsura, T., 1964, Chemical compositions of Hawaiian lavas, J. Petro., 5: 82-133.\n        (2) Hyndman, D. W., 1985, Petrology of igneous and metamorphic rocks, McGraw-Hill, New York.\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B089.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩构造环境判别Th/Hf vs. Ta/Hf图解",
+            "TempletName": "B090.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B090.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Th/Hf",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ta/Hf",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Ⅰ.板块发散边缘N-MORB区;Ⅱ.板块汇聚边缘(Ⅱ1.大洋岛弧玄武岩区;Ⅱ2.陆缘岛弧及陆缘火山弧玄武岩区);Ⅲ.大洋板内洋岛、海山玄武岩区及T-MORB、E-MORB区;Ⅳ.大陆板内(Ⅳ1.陆内裂谷及陆缘裂谷拉斑玄武岩区;Ⅳ2.陆内裂谷碱性玄武岩区;Ⅳ3.大陆拉张带(或初始裂谷)玄武岩区);Ⅴ.地幔热柱玄武岩区",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B090.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Middlemost(1994)花岗岩岩类TAS分类图",
+            "TempletName": "B077.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B077.cncx",
+            "Fields": [
+                {
+                    "FieldName": "K2O+Na2O",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩石学分类命名图解",
+            "Comment": "Middlemost (1994)",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B077.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "流体包裹体Th-S-p图解",
+            "TempletName": "B078.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B078.cncx",
+            "Fields": [
+                {
+                    "FieldName": "均一温度(TH/℃)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "盐度(Wb%NaCl)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "变质岩原岩恢复",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B078.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "Pearce(1982)玄武岩构造环境判别图解(Th/Yb-Ta/Yb)",
+            "TempletName": "B079.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B079.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Th/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ta/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "\n        IAB-岛弧玄武岩；IAT-岛弧拉斑系列；ICA-岛弧钙碱系列；SHO-岛弧橄榄玄粗岩系列；WPB-板内玄武岩；MORB-洋中脊玄武岩；TH-拉斑玄武岩；TR-过渡玄武岩；ALK-碱性玄武岩\n        （据Pearce,1982)\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B079.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩构造环境判别图解(TiO2-Zr)",
+            "TempletName": "B080.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B080.cncx",
+            "Fields": [
+                {
+                    "FieldName": "TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Zr（10-6）",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B080.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩岩浆系列Th/Yb-Ta/Yb图解",
+            "TempletName": "B081.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B081.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Th/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ta/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B081.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩岩浆系列Ce/Yb-Ta/Yb图解",
+            "TempletName": "B082.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B082.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ce/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ta/Yb",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆系列判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B082.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "燧石沉积环境Fe2O3/SiO2 Vs Al2O3/SiO2图解",
+            "TempletName": "B083.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B083.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Fe2O3/SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3/SiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "资料来源：Richard W. Murray. Chemical criteria to identify the depositional environment of chert: general principles and applications.  Sedimentary Geology, 90(1994): 213-232",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B083.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "燧石沉积环境Fe2O3/(100-SiO2) Vs Al2O3/(100-SiO2)图解",
+            "TempletName": "B084.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B084.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Fe2O3/(100-SiO2)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3/(100-SiO2)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "资料来源：Richard W. Murray. Chemical criteria to identify the depositional environment of chert: general principles and applications.  Sedimentary Geology, 90(1994): 213-232",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B084.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "燧石沉积环境Fe2O3/TiO2 Vs Al2O3/(Al2O3+Fe2O3)图解",
+            "TempletName": "B085.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B085.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Fe2O3/TiO2",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3/(Al2O3+Fe2O3)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "资料来源：Richard W. Murray. Chemical criteria to identify the depositional environment of chert: general principles and applications.  Sedimentary Geology, 90(1994): 213-232",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B085.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "燧石沉积环境LaN/CeN Vs Al2O3/(Al2O3+Fe2O3)图解",
+            "TempletName": "B086.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B086.cncx",
+            "Fields": [
+                {
+                    "FieldName": "LaN/CeN",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Al2O3/(Al2O3+Fe2O3)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "资料来源：Richard W. Murray. Chemical criteria to identify the depositional environment of chert: general principles and applications.  Sedimentary Geology, 90(1994): 213-232",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B086.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩形成构造背景QAP图解",
+            "TempletName": "T033.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T033.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Q",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "A",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "P",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T033.png"
+        },
+        {
+            "Coordinate": 1,
+            "ChartName": "花岗岩类Q-Ab-An等温等压力线图",
+            "TempletName": "T034.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\T034.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Q",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ab",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "An",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "岩浆岩成因类型判别图解",
+            "Comment": "",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/T034.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "玄武岩构造环境V-Ti图解",
+            "TempletName": "B087.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B087.cncx",
+            "Fields": [
+                {
+                    "FieldName": "V(ppm)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Ti(ppm)/1000",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "构造环境判别图解",
+            "Comment": "Shervais, J. W., Ti-V plots and the petrogenesis of modern and ophiolitic lavas. Earth Planet Sci Lett, 1982, 59: 101—118",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B087.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "杂砂岩构造环境Ti/Zr vs La/Sc 判别图解",
+            "TempletName": "B091.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B091.cncx",
+            "Fields": [
+                {
+                    "FieldName": "Ti/Zr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "La/Sc",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "\n        A-大洋岛弧；B-大陆岛弧；C-活动大陆边缘；D-被动大陆边缘\n        Mukul R. Bhatia and Keith A.W. Crook. Trace element characteristics of graywackes and tectonic setting discrimination of sedimentary basins.Contrib Mineral Petrol(1986),92:181-193\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B091.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "杂砂岩构造环境La/Y vs Sc/Cr 判别图解",
+            "TempletName": "B092.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B092.cncx",
+            "Fields": [
+                {
+                    "FieldName": "La/Y",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Sc/Cr",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "\n        A-大洋岛弧；B-大陆岛弧；C-活动大陆边缘；D-被动大陆边缘\n        Mukul R. Bhatia and Keith A.W. Crook. Trace element characteristics of graywackes and tectonic setting discrimination of sedimentary basins.Contrib Mineral Petrol(1986),92:181-193\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B092.png"
+        },
+        {
+            "Coordinate": 0,
+            "ChartName": "杂砂岩构造环境La vs Th 判别图解",
+            "TempletName": "B093.cncx",
+            "TempletFileName": "D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\TempletChart\\B093.cncx",
+            "Fields": [
+                {
+                    "FieldName": "La(ppm)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                },
+                {
+                    "FieldName": "Th(ppm)",
+                    "FieldValue": null,
+                    "FieldType": 0
+                }
+            ],
+            "GroupName": "沉积岩",
+            "Comment": "\n        A-大洋岛弧；B-大陆岛弧；C-活动大陆边缘；D-被动大陆边缘\n        Mukul R. Bhatia and Keith A.W. Crook. Trace element characteristics of graywackes and tectonic setting discrimination of sedimentary basins.Contrib Mineral Petrol(1986),92:181-193\n      ",
+            "Image": "file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/B093.png"
+        }
+    ]
+}

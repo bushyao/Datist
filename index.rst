@@ -16,4 +16,5 @@
    FAQ/index
    nodes/index
    functions/index
+   TempletCharts/index
    logs/index
