@@ -597,11 +597,9 @@
       <FieldName>新列15</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F("
-   * - {Image}
+      <FormulaExpression>F("   * - {Image}
      - {ChartName}
-     - {Comment}
-")</FormulaExpression>
+     - {Comment}")</FormulaExpression>
       <ConditionIf />
       <ConditionTrue />
       <ConditionFalse />
@@ -616,7 +614,6 @@
       <CenterY>435.5</CenterY>
       <CenterX>950</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -634,8 +631,8 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
-      <Url>输出</Url>
-      <SavePath>F("D:\\github\\Datist\\functions\\{行号}{FileName}.rst")</SavePath>
+      <Url>新列15_字符合并</Url>
+      <SavePath>F("D:\\github\\Datist\\TempletCharts\\Charts.rst")</SavePath>
       <DataDataType />
       <MillisecondsTimeout>0</MillisecondsTimeout>
       <ItemType>Txt</ItemType>

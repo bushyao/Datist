@@ -570,7 +570,7 @@
       <FillerFields>
         <string>Image</string>
       </FillerFields>
-      <FillerValue>Replace(@Fields,"file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/","  .. image:: images/")</FillerValue>
+      <FillerValue>Replace(@Fields,"file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/",".. image:: images/")</FillerValue>
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>148b8db8-3e24-4ec5-82df-478cac77c180</Guid>
@@ -611,8 +611,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeDownload">
       <Guid>08d00f4a-3407-48d2-8da0-cdbf995db970</Guid>
-      <CenterY>435.5</CenterY>
-      <CenterX>950</CenterX>
+      <CenterY>610.5</CenterY>
+      <CenterX>960</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -620,7 +620,7 @@
       <Name>数据项转存</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>7ee4ad9f-20ad-418b-8ff5-1b4ca53489f0</guid>
+        <guid>af2807c7-0259-428b-901c-7692087053a3</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -632,7 +632,7 @@
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <Url>新列15_字符合并</Url>
-      <SavePath>F("D:\\github\\Datist\\TempletCharts\\Charts.rst")</SavePath>
+      <SavePath>F("D:\\github\\Datist\\TempletCharts\\index.rst")</SavePath>
       <DataDataType />
       <MillisecondsTimeout>0</MillisecondsTimeout>
       <ItemType>Txt</ItemType>
@@ -683,6 +683,42 @@
       <HasCount>false</HasCount>
       <CountFieldName>RecordCount</CountFieldName>
       <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>af2807c7-0259-428b-901c-7692087053a3</Guid>
+      <CenterY>553</CenterY>
+      <CenterX>847</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>替换#2</Title>
+      <Name>替换</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>7ee4ad9f-20ad-418b-8ff5-1b4ca53489f0</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FillerIf>1</FillerIf>
+      <FillerFields>
+        <string>新列15_字符合并</string>
+      </FillerFields>
+      <FillerValue>F("图版速查
+====================================   
+
+.. list-table::
+   :widths: 30 10 30
+   :header-rows: 1
+
+{@Fields}
+")</FillerValue>
     </NodeBase>
   </Items>
   <ParNames />
