@@ -542,7 +542,7 @@
         <string>GroupName</string>
         <string>Comment</string>
       </FillerFields>
-      <FillerValue>RemoveBreakAndSpace( @Fields )</FillerValue>
+      <FillerValue>RemoveRept( trim(  RemoveLineBreak( @Fields ) )  , " 　" ) </FillerValue>
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>e08a91bc-b087-4fe7-a5dd-ed930955e8fc</Guid>
