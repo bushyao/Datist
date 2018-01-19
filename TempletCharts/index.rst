@@ -2,7 +2,6 @@
 ====================================   
 
 .. list-table::
-   :widths: 15 10 30
    :header-rows: 1
 
    * - .. image:: images/曾允孚砂岩分类.png
