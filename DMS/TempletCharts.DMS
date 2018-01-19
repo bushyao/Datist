@@ -732,7 +732,7 @@
       <Name>汇总</Name>
       <ShowName>false</ShowName>
       <PriorNodeGuid>
-        <guid>7e6e89ae-2afa-4c9c-87c2-9e196eb2adb4</guid>
+        <guid>131bb085-2c07-4ac0-9087-e7f7e346177d</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -769,8 +769,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>7e6e89ae-2afa-4c9c-87c2-9e196eb2adb4</Guid>
-      <CenterY>612</CenterY>
-      <CenterX>575</CenterX>
+      <CenterY>610.5</CenterY>
+      <CenterX>395.5</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -805,6 +805,74 @@
       <MutliDefaultValue>null</MutliDefaultValue>
       <MutliCondtitions />
       <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>131bb085-2c07-4ac0-9087-e7f7e346177d</Guid>
+      <CenterY>615.5</CenterY>
+      <CenterX>530.5</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行序</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7e6e89ae-2afa-4c9c-87c2-9e196eb2adb4</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>GroupName</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort>油气藏研究
+构造环境判别图解
+岩浆岩成因类型判别图解
+岩浆系列判别图解
+沉积岩
+岩石学分类命名图解
+铅-锶-钕同位素
+岩体含矿性评价与判别图解
+单矿物图解
+稳定同位素
+变质岩原岩恢复</ValueSort>
+        </FieldSort>
+      </FieldSorts>
+    </NodeBase>
+    <NodeBase xsi:type="NodePolyBuild">
+      <Guid>a6bb957d-fce6-4ea7-8da0-fe8b6f8a78a3</Guid>
+      <CenterY>631</CenterY>
+      <CenterX>125</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>创建多边形</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <BuildMethod>ConvexHull</BuildMethod>
+      <KeyFields />
+      <Concavity>0</Concavity>
+      <ScaleFactor>100000</ScaleFactor>
     </NodeBase>
   </Items>
   <ParNames />
