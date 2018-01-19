@@ -70,6 +70,7 @@
       <CenterY>270</CenterY>
       <CenterX>180</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -101,6 +102,7 @@
       <CenterY>360</CenterY>
       <CenterX>180</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />

@@ -1625,6 +1625,6 @@ HTML函数
   <ParNames />
   <EvalNodeNames>汇总(组别);数据项转存;浏览数据</EvalNodeNames>
   <OffsetX>0</OffsetX>
-  <OffsetY>144</OffsetY>
+  <OffsetY>0</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>
