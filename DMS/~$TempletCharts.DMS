@@ -542,12 +542,12 @@
         <string>GroupName</string>
         <string>Comment</string>
       </FillerFields>
-      <FillerValue>RemoveBreakAndSpace( @Fields )</FillerValue>
+      <FillerValue>RemoveRept( trim(  RemoveLineBreak( @Fields ) )  , " 　" ) </FillerValue>
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>e08a91bc-b087-4fe7-a5dd-ed930955e8fc</Guid>
-      <CenterY>451</CenterY>
-      <CenterX>700</CenterX>
+      <CenterY>430.5</CenterY>
+      <CenterX>700.5</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -598,7 +598,7 @@
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
       <FormulaExpression>F("{ChartName}
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: {Image}
    :scale: 80 %
@@ -636,7 +636,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
-      <Url>新列15_字符合并</Url>
+      <Url>新列20_字符合并</Url>
       <SavePath>F("D:\\github\\Datist\\TempletCharts\\index.rst")</SavePath>
       <DataDataType />
       <MillisecondsTimeout>0</MillisecondsTimeout>
@@ -665,7 +665,9 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
-      <KeyFields />
+      <KeyFields>
+        <string>GroupName</string>
+      </KeyFields>
       <AggregeteFields>
         <AggregeteField>
           <AggregeteTypes>
@@ -691,8 +693,8 @@
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>af2807c7-0259-428b-901c-7692087053a3</Guid>
-      <CenterY>553</CenterY>
-      <CenterX>847</CenterX>
+      <CenterY>615.5</CenterY>
+      <CenterX>785.5</CenterX>
       <Description />
       <KeyWords />
       <EditMode>Edit</EditMode>
@@ -700,7 +702,7 @@
       <Name>替换</Name>
       <ShowName>false</ShowName>
       <PriorNodeGuid>
-        <guid>7ee4ad9f-20ad-418b-8ff5-1b4ca53489f0</guid>
+        <guid>25cffeb2-b216-4183-98c4-f64ed06cb140</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -713,13 +715,98 @@
       <DefaultEvalIt>false</DefaultEvalIt>
       <FillerIf>1</FillerIf>
       <FillerFields>
-        <string>新列15_字符合并</string>
+        <string>新列20_字符合并</string>
       </FillerFields>
       <FillerValue>F("图版速查
 ====================================   
 
 {@Fields}
 ")</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>25cffeb2-b216-4183-98c4-f64ed06cb140</Guid>
+      <CenterY>613</CenterY>
+      <CenterX>689</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>汇总#1</Title>
+      <Name>汇总</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>7e6e89ae-2afa-4c9c-87c2-9e196eb2adb4</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <KeyFields />
+      <AggregeteFields>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>新列20</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+      </AggregeteFields>
+      <StringSpliter>\r\n</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>7e6e89ae-2afa-4c9c-87c2-9e196eb2adb4</Guid>
+      <CenterY>612</CenterY>
+      <CenterX>575</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>新列20</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7ee4ad9f-20ad-418b-8ff5-1b4ca53489f0</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <FieldName>新列20</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>F("{GroupName}
+----------------------
+
+{新列15_字符合并}
+")</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
     </NodeBase>
   </Items>
   <ParNames />
