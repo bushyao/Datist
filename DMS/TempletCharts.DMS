@@ -570,7 +570,7 @@
       <FillerFields>
         <string>Image</string>
       </FillerFields>
-      <FillerValue>Replace(@Fields,"file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/",".. image:: images/")</FillerValue>
+      <FillerValue>Replace(@Fields,"file:///D:/MyProgram/RDMS/PPTAnalysis/binX/TempletChart/","images/")</FillerValue>
     </NodeBase>
     <NodeBase xsi:type="NodeDerive">
       <Guid>148b8db8-3e24-4ec5-82df-478cac77c180</Guid>
@@ -597,9 +597,14 @@
       <FieldName>新列15</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
-      <FormulaExpression>F("   * - {Image}
-     - {ChartName}
-     - {Comment}")</FormulaExpression>
+      <FormulaExpression>F("{ChartName}
+----------------------
+
+.. figure:: {Image}
+   :scale: 80 %
+   
+   {Comment}      
+")</FormulaExpression>
       <ConditionIf />
       <ConditionTrue />
       <ConditionFalse />
@@ -712,10 +717,6 @@
       </FillerFields>
       <FillerValue>F("图版速查
 ====================================   
-
-.. list-table::
-   :widths: 30 10 30
-   :header-rows: 1
 
 {@Fields}
 ")</FillerValue>
