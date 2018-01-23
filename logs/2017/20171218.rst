@@ -6,7 +6,7 @@
 
 2、新增，统计图增加chalk、dark、essos、halloween、infographic、macarons、purple-passion、roma、shine、vintage、walden、westeros、wonderland等样式；
 
-3、BUG，计数条形图不能样式不能正常使用的问题；
+3、BUG，计数条形图样式不能正常使用的问题；
 
 4、升级，JSChart、热力图、智能统计图等统计图形的样式选择器；
 

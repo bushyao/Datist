@@ -14,7 +14,7 @@
 
 输出Excel文件中表格格式：
 
-$=表名.字段名(Excel:SheetId:Nin&StartRow:Nin&StartColumn:Nin&EndRow:Nin&EndColumn:Nin&AutoSplit:true&Header:Nin&FixedWidth:true)=$
+$=表名.字段名(Excel:SheetId:Nin& StartRow:Nin& StartColumn:Nin& EndRow:Nin& EndColumn:Nin& AutoSplit:true& Header:Nin& FixedWidth:true)=$
 
 AutoSplit，设置是否根据页面的宽度自动拆分单元格，默认为False；
 
@@ -67,10 +67,12 @@ Chartid，为表单中统计图表的序号
 22、升级，ES搜索节点DSL查询支持流程变量；
 
 23、升级，ES索引节点编辑器序号改名为ID；
+
 id字段的逻辑如下：
-1、如果不指定id，那么你用guid生成一个id放入作为id使用（不要在增加了新的id字段放入json中了），此时json对象中不加入其他任何字段，所有字段都来源于前节点。
-2、如果指定了id对应的字段，那么id的值就用指定的字段的值，此时json对象中不添加其他字段，所有字段都来源于前节点。
-就是前节点中没有id字段，ES节点制定了id字段，这样生成的json中不会自动添加id字段
+
+  1) 如果不指定id，那么用guid生成一个id（增加了新的id字段放入json中了），此时json对象中不加入其他任何字段，所有字段都来源于前节点。
+  
+  2) 如果指定了id对应的字段，那么id的值就用指定的字段的值，此时json对象中不添加其他字段，所有字段都来源于前节点。 前节点中没有id字段，ES节点制定了id字段，这样生成的json中不会自动添加id字段。
 
 24、BUG，表格数据节点数据粘入丢行的问题；修改整数、实数判断逻辑；
 
