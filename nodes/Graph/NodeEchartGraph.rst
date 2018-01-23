@@ -7,7 +7,7 @@
 数据要求
 ------------------------------------
 
-.. figure:: images/NodeEchartGraph03.JPG
+.. figure:: images/NodeEchartGraph03.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	  
@@ -31,7 +31,7 @@
 编辑器
 ------------------------------------
 
-.. figure:: images/NodeEchartGraph04.JPG
+.. figure:: images/NodeEchartGraph04.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	  
@@ -45,14 +45,14 @@
    
 环形布局：
 
-.. figure:: images/NodeEchartGraph01.JPG
+.. figure:: images/NodeEchartGraph01.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	   
 
 力引导布局：
 
-.. figure:: images/NodeEchartGraph02.JPG
+.. figure:: images/NodeEchartGraph02.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	  
