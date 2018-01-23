@@ -7,10 +7,6 @@
 数据要求
 ------------------------------------
 
-.. figure:: images/NodeEchartGraph03.jpg
-     :align: center
-     :figwidth: 90% 
-     :name: plate 	  
 
 力引导图对数据有特殊的要求：
  
@@ -27,6 +23,20 @@
    
 其中，组别表征节点颜色；权重用于表征节点尺寸；链权重用于表征链线宽度；由于节点链中多次出现，因此组别与节点权重数据有大的冗余。
 
+示例数据：
+
+.. figure:: images/NodeEchartGraph03.jpg
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	  
+
+  其中：
+
+    SourceCategory、Source、SourceCount分别为链始节点的组别、名称及权重；
+
+    TargetCategory、Target、TargetCount分别为链终节点的组别、名称及权重；
+    
+	LinkCount为链“Source-Target”的权重；
    
 编辑器
 ------------------------------------
