@@ -16,5 +16,5 @@
    NodeExcelSheet
    NodeXLS
    NodeXLSEx
-   NodeTXT
+   NodeTXTEx
    NodeScanFiles
