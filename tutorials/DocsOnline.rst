@@ -46,7 +46,7 @@
 	 
 扩展功能后，在二维数据浏览器的右键菜单中，可以找到添加菜单项。下图中是数据专家与成果管理系统无缝集成的数据浏览器，我们在系统扩展了在线浏览、批量下载等功能。
 
-.. figure:: images/DocsOnline03.png
+.. figure:: images/DocsOnline03.jpg
      :align: center
      :figwidth: 90% 
      :name: plate 	
