@@ -748,7 +748,7 @@
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
      - {Name}
-     - { Padr( Description , @max( Length( Description ) ) ) }
+     - { Padr( Description , @max( Length( Description ), '　' ) ) }
 ")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
