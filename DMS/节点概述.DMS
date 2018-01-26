@@ -738,8 +738,6 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png 
-          :height: 80px
-		  :width: 80px
      - {Name}
      - {Description}
 ")</FormulaExpression>
@@ -863,7 +861,6 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
 .. list-table:: {GroupName}组
-   :widths: 15 15 60
    :header-rows: 1
 
    * - 节点
@@ -971,6 +968,40 @@
             <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
+          </NodeBase>
+          <NodeBase xsi:type="NodeDerive">
+            <Guid>6d27c577-ea4d-43ca-966c-8856ee2c867e</Guid>
+            <CenterY>386</CenterY>
+            <CenterX>174</CenterX>
+            <Description />
+            <ToolTip />
+            <EditMode>Edit</EditMode>
+            <Title />
+            <Name>新列23</Name>
+            <ShowName>true</ShowName>
+            <PriorNodeGuid />
+            <CacheIt>false</CacheIt>
+            <BatchEvalParameterName />
+            <BatchEvalParameterValues />
+            <InterActiveFieldName />
+            <InterActiveGroupID />
+            <CanOnlyOneViewer>false</CanOnlyOneViewer>
+            <OnlyOneViewer>false</OnlyOneViewer>
+            <NodeOutput>DB</NodeOutput>
+            <DefaultEvalIt>false</DefaultEvalIt>
+            <IsExpressionDescription>false</IsExpressionDescription>
+            <FieldName>新列23</FieldName>
+            <FieldMode>Formula</FieldMode>
+            <FieldDataType>Text</FieldDataType>
+            <FormulaExpression />
+            <ConditionIf />
+            <ConditionTrue />
+            <ConditionFalse />
+            <MutliOr>false</MutliOr>
+            <AppendNullRow>true</AppendNullRow>
+            <MutliDefaultValue>null</MutliDefaultValue>
+            <MutliCondtitions />
+            <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
           </NodeBase>
         </Items>
         <ParNames />
@@ -1101,6 +1132,92 @@
       <HasCount>false</HasCount>
       <CountFieldName>RecordCount</CountFieldName>
       <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeComment">
+      <Guid>cfed8bb2-5ad8-46b8-848e-18e0b93b0a15</Guid>
+      <CenterY>493</CenterY>
+      <CenterX>231</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>文本框</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <NodeSelected>false</NodeSelected>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
+      <CmShapeType>直角三角形</CmShapeType>
+      <Width>60</Width>
+      <Height>40</Height>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Parameter>0.7</Parameter>
+      <Parameter2>0</Parameter2>
+      <BackgroundColor>
+        <A>255</A>
+        <R>188</R>
+        <G>211</G>
+        <B>255</B>
+        <ScA>1</ScA>
+        <ScR>0.5028865</ScR>
+        <ScG>0.651405632</ScG>
+        <ScB>1</ScB>
+      </BackgroundColor>
+      <RenderID>1</RenderID>
+      <LineColor>
+        <A>255</A>
+        <R>99</R>
+        <G>141</G>
+        <B>189</B>
+        <ScA>1</ScA>
+        <ScR>0.124771819</ScR>
+        <ScG>0.266355634</ScG>
+        <ScB>0.50888133</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <RenderTransformOrigin>
+        <X>0.5</X>
+        <Y>0.5</Y>
+      </RenderTransformOrigin>
+      <IsLine>false</IsLine>
+      <Rotate>0</Rotate>
+      <FontFamilyName>宋体</FontFamilyName>
+      <IsBold>false</IsBold>
+      <IsItalic>false</IsItalic>
+      <FontSize>10</FontSize>
+      <ForeColor>
+        <A>255</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>1</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </ForeColor>
+      <HAlignment>Left</HAlignment>
+      <VAlignment>Top</VAlignment>
+      <ZIndex>1</ZIndex>
+      <Url />
+      <IsShadow>false</IsShadow>
+      <IsLocked>false</IsLocked>
+      <Exts>
+        <string>.png</string>
+        <string>.jpg</string>
+      </Exts>
     </NodeBase>
   </Items>
   <ParNames />
