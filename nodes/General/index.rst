@@ -643,6 +643,11 @@
      - 通过JS脚本定义EChart图形，进行数据可视化。
 
 
+   * - .. image:: images/NodeEchartGraph.png
+     - 力引导
+     - 以力引导图的形式展示关系数据。
+
+
    * - .. image:: images/NodeEchartTree.png
      - 树状图
      - 以树状的形式展示层级数据。
