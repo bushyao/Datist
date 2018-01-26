@@ -5,7 +5,7 @@
 
 
 .. list-table:: 数据源组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -110,7 +110,7 @@
 
 
 .. list-table:: 行列计算组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -275,7 +275,7 @@
 
 
 .. list-table:: 空间分析组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -360,7 +360,7 @@
 
 
 .. list-table:: 高级计算组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -425,7 +425,7 @@
 
 
 .. list-table:: 数据库与数据质量组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -495,7 +495,7 @@
 
 
 .. list-table:: 经典算法组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -575,7 +575,7 @@
 
 
 .. list-table:: 数据可视化组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -650,7 +650,7 @@
 
 
 .. list-table:: 数据发布组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -755,7 +755,7 @@
 
 
 .. list-table:: 报告与软件接口组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点
@@ -860,7 +860,7 @@
 
 
 .. list-table:: 运行控制组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点

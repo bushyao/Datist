@@ -861,7 +861,7 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
 .. list-table:: {GroupName}组
-   :widths: 15 10 30
+   :widths: 15 15 auto
    :header-rows: 1
 
    * - 节点

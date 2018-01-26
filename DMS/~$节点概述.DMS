@@ -737,7 +737,7 @@
             <FieldMode>Formula</FieldMode>
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
-   * - .. image:: images/{TypeName}.jpg 
+   * - .. image:: images/{TypeName}.png 
      - {Name}
      - {Description}
 ")</FormulaExpression>
@@ -1046,7 +1046,7 @@
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
-      <Url>新列14_字符合并</Url>
+      <Url>输出</Url>
       <SavePath>"D:\\github\\Datist\\nodes\\General\index.rst"</SavePath>
       <DataDataType />
       <MillisecondsTimeout>0</MillisecondsTimeout>
