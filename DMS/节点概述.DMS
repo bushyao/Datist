@@ -737,7 +737,7 @@
             <FieldMode>Formula</FieldMode>
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
-   * - .. image:: images/{TypeName}.png :height: 100px
+   * - .. image:: images/{TypeName}.png
      - {Name}
      - {Description}
 ")</FormulaExpression>
