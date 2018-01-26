@@ -60,6 +60,7 @@
   <StreamID />
   <ReportTitleName />
   <ListReportTitles />
+  <AttachFiles />
   <Price>0</Price>
   <PrivilegeType>公开</PrivilegeType>
   <Parameters />
@@ -69,6 +70,7 @@
       <CenterY>182.5</CenterY>
       <CenterX>455</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -156,6 +158,7 @@
       <CenterY>87.5</CenterY>
       <CenterX>170</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>TXT+#1</Title>
@@ -213,6 +216,7 @@
       <CenterY>87.5</CenterY>
       <CenterX>265</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -239,6 +243,7 @@
       <CenterY>87.5</CenterY>
       <CenterX>360</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -269,6 +274,7 @@
       <CenterY>87.5</CenterY>
       <CenterX>455</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -476,6 +482,7 @@
       <CenterY>317</CenterY>
       <CenterX>346</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -552,6 +559,7 @@
       <CenterY>312.5</CenterY>
       <CenterX>595</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>合并#1</Title>
@@ -706,6 +714,7 @@
         <StreamID />
         <ReportTitleName />
         <ListReportTitles />
+        <AttachFiles />
         <Price>0</Price>
         <PrivilegeType>公开</PrivilegeType>
         <Parameters />
@@ -739,7 +748,7 @@
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
      - {Name}
-     - {Description}
+     - { Padr( Description , 100)  }
 ")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
@@ -755,6 +764,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>400</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title>汇总#1</Title>
@@ -804,6 +814,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>305</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -838,6 +849,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>495</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -883,6 +895,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>590</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -1003,6 +1016,42 @@
             <MutliCondtitions />
             <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
           </NodeBase>
+          <NodeBase xsi:type="NodeDerive">
+            <Guid>c8d44383-60a0-49bf-9d81-c5e2b1738783</Guid>
+            <CenterY>362.5</CenterY>
+            <CenterX>285</CenterX>
+            <Description />
+            <KeyWords />
+            <EditMode>Edit</EditMode>
+            <Title />
+            <Name>新列24</Name>
+            <ShowName>true</ShowName>
+            <PriorNodeGuid>
+              <guid>19f584e5-e017-4042-bb5f-739060ca393b</guid>
+            </PriorNodeGuid>
+            <CacheIt>false</CacheIt>
+            <BatchEvalParameterName />
+            <BatchEvalParameterValues />
+            <InterActiveFieldName />
+            <InterActiveGroupID />
+            <CanOnlyOneViewer>false</CanOnlyOneViewer>
+            <OnlyOneViewer>false</OnlyOneViewer>
+            <NodeOutput>DB</NodeOutput>
+            <DefaultEvalIt>false</DefaultEvalIt>
+            <IsExpressionDescription>false</IsExpressionDescription>
+            <FieldName>新列24</FieldName>
+            <FieldMode>Formula</FieldMode>
+            <FieldDataType>Text</FieldDataType>
+            <FormulaExpression>Length( Description )</FormulaExpression>
+            <ConditionIf />
+            <ConditionTrue />
+            <ConditionFalse />
+            <MutliOr>false</MutliOr>
+            <AppendNullRow>true</AppendNullRow>
+            <MutliDefaultValue>null</MutliDefaultValue>
+            <MutliCondtitions />
+            <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+          </NodeBase>
         </Items>
         <ParNames />
         <EvalNodeNames />
@@ -1019,6 +1068,7 @@
       <CenterY>506</CenterY>
       <CenterX>586.25</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1061,6 +1111,7 @@
       <CenterY>506</CenterY>
       <CenterX>675.75</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1091,6 +1142,7 @@
       <CenterY>417.5</CenterY>
       <CenterX>615</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>汇总#2</Title>
@@ -1154,46 +1206,22 @@
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
-      <NodeSelected>false</NodeSelected>
-      <HasStartArrow>false</HasStartArrow>
-      <HasEndArrow>false</HasEndArrow>
-      <CmShapeType>直角三角形</CmShapeType>
-      <Width>60</Width>
-      <Height>40</Height>
-      <EndPointX>0</EndPointX>
-      <EndPointY>0</EndPointY>
-      <Parameter>0.7</Parameter>
-      <Parameter2>0</Parameter2>
-      <BackgroundColor>
-        <A>255</A>
-        <R>188</R>
-        <G>211</G>
-        <B>255</B>
-        <ScA>1</ScA>
-        <ScR>0.5028865</ScR>
-        <ScG>0.651405632</ScG>
-        <ScB>1</ScB>
-      </BackgroundColor>
-      <RenderID>1</RenderID>
-      <LineColor>
-        <A>255</A>
-        <R>99</R>
-        <G>141</G>
-        <B>189</B>
-        <ScA>1</ScA>
-        <ScR>0.124771819</ScR>
-        <ScG>0.266355634</ScG>
-        <ScB>0.50888133</ScB>
-      </LineColor>
-      <LineThickness>0.75</LineThickness>
-      <LineDashArray>0</LineDashArray>
-      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
       <RenderTransformOrigin>
         <X>0.5</X>
         <Y>0.5</Y>
       </RenderTransformOrigin>
+      <Width>60</Width>
+      <Height>40</Height>
       <IsLine>false</IsLine>
+      <EndPointX>0</EndPointX>
+      <EndPointY>0</EndPointY>
+      <Points>0,10 10,20 5,26 15,33 6 ,40 20,30 30,10 25,0 20</Points>
+      <HasStartArrow>false</HasStartArrow>
+      <HasEndArrow>false</HasEndArrow>
       <Rotate>0</Rotate>
+      <Parameter>0.7</Parameter>
+      <Parameter2>0</Parameter2>
+      <CmShapeType>直角三角形</CmShapeType>
       <FontFamilyName>宋体</FontFamilyName>
       <IsBold>false</IsBold>
       <IsItalic>false</IsItalic>
@@ -1208,8 +1236,32 @@
         <ScG>0</ScG>
         <ScB>0</ScB>
       </ForeColor>
+      <RenderID>1</RenderID>
+      <BackgroundColor>
+        <A>255</A>
+        <R>188</R>
+        <G>211</G>
+        <B>255</B>
+        <ScA>1</ScA>
+        <ScR>0.5028865</ScR>
+        <ScG>0.651405632</ScG>
+        <ScB>1</ScB>
+      </BackgroundColor>
+      <LineColor>
+        <A>255</A>
+        <R>99</R>
+        <G>141</G>
+        <B>189</B>
+        <ScA>1</ScA>
+        <ScR>0.124771819</ScR>
+        <ScG>0.266355634</ScG>
+        <ScB>0.50888133</ScB>
+      </LineColor>
+      <LineThickness>0.75</LineThickness>
+      <LineDashArray>0</LineDashArray>
       <HAlignment>Left</HAlignment>
       <VAlignment>Top</VAlignment>
+      <NodeSelected>false</NodeSelected>
       <ZIndex>1</ZIndex>
       <Url />
       <IsShadow>false</IsShadow>

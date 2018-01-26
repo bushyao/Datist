@@ -748,7 +748,7 @@
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
      - {Name}
-     - { Padr( Description , @max( Length( Description ), '　' ) ) }
+     - { Padr( Description , 100)  }
 ")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
@@ -1007,6 +1007,42 @@
             <FieldMode>Formula</FieldMode>
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression />
+            <ConditionIf />
+            <ConditionTrue />
+            <ConditionFalse />
+            <MutliOr>false</MutliOr>
+            <AppendNullRow>true</AppendNullRow>
+            <MutliDefaultValue>null</MutliDefaultValue>
+            <MutliCondtitions />
+            <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+          </NodeBase>
+          <NodeBase xsi:type="NodeDerive">
+            <Guid>c8d44383-60a0-49bf-9d81-c5e2b1738783</Guid>
+            <CenterY>362.5</CenterY>
+            <CenterX>285</CenterX>
+            <Description />
+            <KeyWords />
+            <EditMode>Edit</EditMode>
+            <Title />
+            <Name>新列24</Name>
+            <ShowName>true</ShowName>
+            <PriorNodeGuid>
+              <guid>19f584e5-e017-4042-bb5f-739060ca393b</guid>
+            </PriorNodeGuid>
+            <CacheIt>false</CacheIt>
+            <BatchEvalParameterName />
+            <BatchEvalParameterValues />
+            <InterActiveFieldName />
+            <InterActiveGroupID />
+            <CanOnlyOneViewer>false</CanOnlyOneViewer>
+            <OnlyOneViewer>false</OnlyOneViewer>
+            <NodeOutput>DB</NodeOutput>
+            <DefaultEvalIt>false</DefaultEvalIt>
+            <IsExpressionDescription>false</IsExpressionDescription>
+            <FieldName>新列24</FieldName>
+            <FieldMode>Formula</FieldMode>
+            <FieldDataType>Text</FieldDataType>
+            <FormulaExpression>Padr( Description , 100)</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
             <ConditionFalse />
