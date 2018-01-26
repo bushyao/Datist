@@ -849,7 +849,6 @@
             <CenterY>237.5</CenterY>
             <CenterX>495</CenterX>
             <Description />
-            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -872,12 +871,9 @@
             <FieldMode>Formula</FieldMode>
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
-.. list-table:: {GroupName}组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - {GroupName}
+     - 
+     - 
 	 
    {Table_1_字符合并}
 ")</FormulaExpression>
@@ -1068,7 +1064,6 @@
       <CenterY>506</CenterY>
       <CenterX>586.25</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1094,6 +1089,9 @@
 
 节点总览
 ======================
+
+.. list-table:: 
+   :header-rows: 1
 
 {新列14_字符合并}
 ")</FormulaExpression>

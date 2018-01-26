@@ -3,13 +3,13 @@
 节点总览
 ======================
 
-
-.. list-table:: 数据源组
+.. list-table:: 
    :header-rows: 1
 
-   * - 节点
-     - 名称
-     - 描述
+
+   * - 数据源
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeDBDirect.png
@@ -108,12 +108,9 @@
 
 
 
-.. list-table:: 行列计算组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 行列计算
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeSelect.png
@@ -272,12 +269,9 @@
 
 
 
-.. list-table:: 空间分析组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 空间分析
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeCreatePoint.png
@@ -356,12 +350,9 @@
 
 
 
-.. list-table:: 高级计算组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 高级计算
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeFileConvert.png
@@ -420,12 +411,9 @@
 
 
 
-.. list-table:: 数据库与数据质量组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 数据库与数据质量
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeRedisCacheRead.png
@@ -489,12 +477,9 @@
 
 
 
-.. list-table:: 经典算法组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 经典算法
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeEDA.png
@@ -568,12 +553,9 @@
 
 
 
-.. list-table:: 数据可视化组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 数据可视化
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeTatukGIS.png
@@ -642,12 +624,9 @@
 
 
 
-.. list-table:: 数据发布组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 数据发布
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeTable.png
@@ -746,12 +725,9 @@
 
 
 
-.. list-table:: 报告与软件接口组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 报告与软件接口
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeHtmlReport.png
@@ -850,12 +826,9 @@
 
 
 
-.. list-table:: 运行控制组
-   :header-rows: 1
-
-   * - 节点
-     - 名称
-     - 描述
+   * - 运行控制
+     - 
+     - 
 	 
    
    * - .. image:: images/NodeParameter.png
