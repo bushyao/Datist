@@ -738,6 +738,8 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png 
+          :height: 80px
+		  :width: 80px
      - {Name}
      - {Description}
 ")</FormulaExpression>
@@ -861,7 +863,7 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
 .. list-table:: {GroupName}组
-   :widths: 15 15 auto
+   :widths: 15 15 60
    :header-rows: 1
 
    * - 节点
