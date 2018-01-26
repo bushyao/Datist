@@ -67,8 +67,8 @@
   <Items>
     <NodeBase xsi:type="NodeTXTEx">
       <Guid>d6a6f002-0d64-44b2-b470-e1d4f38d35b7</Guid>
-      <CenterY>182.5</CenterY>
-      <CenterX>455</CenterX>
+      <CenterY>167.5</CenterY>
+      <CenterX>365</CenterX>
       <Description />
       <ToolTip />
       <KeyWords />
@@ -309,7 +309,7 @@
       </KeyFields>
       <IsSameNameMode>true</IsSameNameMode>
       <JoinString />
-      <NodeJoinType>Inner</NodeJoinType>
+      <NodeJoinType>Left</NodeJoinType>
       <T1Gid>
         <Gid>00000000-0000-0000-0000-000000000000</Gid>
         <Tag>0</Tag>
@@ -566,7 +566,7 @@
       <Name>合并</Name>
       <ShowName>false</ShowName>
       <PriorNodeGuid>
-        <guid>b3b776af-52b3-44d0-a4cd-652f4c826f96</guid>
+        <guid>68bd0d2a-c9e4-4fbd-a843-ba20b73233f3</guid>
         <guid>a86be4b7-d27c-48c8-bf94-8e11644a214d</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
@@ -582,7 +582,7 @@
       <Inputs>
         <NodeInput>
           <Tag>1</Tag>
-          <Gid>b3b776af-52b3-44d0-a4cd-652f4c826f96</Gid>
+          <Gid>68bd0d2a-c9e4-4fbd-a843-ba20b73233f3</Gid>
         </NodeInput>
         <NodeInput>
           <Tag>2</Tag>
@@ -724,6 +724,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>210</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -849,6 +850,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>495</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -1017,6 +1019,7 @@
             <CenterY>362.5</CenterY>
             <CenterX>285</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -1064,6 +1067,7 @@
       <CenterY>506</CenterY>
       <CenterX>586.25</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1268,6 +1272,61 @@
         <string>.png</string>
         <string>.jpg</string>
       </Exts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>68bd0d2a-c9e4-4fbd-a843-ba20b73233f3</Guid>
+      <CenterY>202.5</CenterY>
+      <CenterX>525</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>替换</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>b3b776af-52b3-44d0-a4cd-652f4c826f96</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FillerIf> IsDBNull ( 行号4 ) </FillerIf>
+      <FillerFields>
+        <string>行号4</string>
+      </FillerFields>
+      <FillerValue>200</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>6a3d58a6-6620-468d-9462-2e9fa922c49a</Guid>
+      <CenterY>197.5</CenterY>
+      <CenterX>455</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>筛选#1</Title>
+      <Name>筛选</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>b3b776af-52b3-44d0-a4cd-652f4c826f96</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <CanOnlyOneViewer>false</CanOnlyOneViewer>
+      <OnlyOneViewer>false</OnlyOneViewer>
+      <NodeOutput>DB</NodeOutput>
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <IsIncluded>true</IsIncluded>
+      <FilterExpression> IsDBNull ( 行号4 ) </FilterExpression>
     </NodeBase>
   </Items>
   <ParNames />

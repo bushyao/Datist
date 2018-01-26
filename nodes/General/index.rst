@@ -107,6 +107,21 @@
      - 通过自定义C#脚本方式解析文件，实现文件的接入。
 
 
+   * - .. image:: images/NodeXLSEx.png
+     - Excel扩展
+     - 从多个Excel报告中，提取图片、文本框的内容。
+
+
+   * - .. image:: images/NodeFTP.png
+     - 扫描FTP
+     - 扫描FTP服务器，将文件目录信息引入到流程中。
+
+
+   * - .. image:: images/NodeESSource.png
+     - ES搜索
+     - 接入ElasticSearch数据源；用于从分布式全文检索系统中搜索文档。
+
+
 
    * - 行列计算
      - 
@@ -347,6 +362,11 @@
    * - .. image:: images/NodeContour.png
      - 等值线
      - 通过数值列创建空间趋势线。
+
+
+   * - .. image:: images/NodeDBSCAN.png
+     - 密度聚类
+     - DBSCAN算法，基于密度的点要素空间聚类算法，用于寻找被低密度区域分离的高密度区域。
 
 
 
@@ -623,6 +643,21 @@
      - 通过JS脚本定义EChart图形，进行数据可视化。
 
 
+   * - .. image:: images/NodeEchartTree.png
+     - 树状图
+     - 以树状的形式展示层级数据。
+
+
+   * - .. image:: images/NodeEchartTreemap.png
+     - 矩形树图
+     - 以矩形树图的形式展示层级数据，如产量构成。
+
+
+   * - .. image:: images/NodeSankey.png
+     - 桑基图
+     - 以桑基图的形式展示关系数据。
+
+
 
    * - 数据发布
      - 
@@ -724,6 +759,11 @@
      - 向WebService发送一条消息。
 
 
+   * - .. image:: images/NodeESWrite.png
+     - ES索引
+     - 写入ElasticSearch；用于向分布式全文检索系统写入索引信息。
+
+
 
    * - 报告与软件接口
      - 
@@ -823,6 +863,11 @@
    * - .. image:: images/NodeExOutput.png
      - 通用接口
      - 将数据推送给DLL或指定的流程中，实现外部平台、系统的接入。
+
+
+   * - .. image:: images/NodePDFCombine.png
+     - PDF
+     - 将前节点中的文档，合并成一个PDF文件。
 
 
 
