@@ -872,7 +872,7 @@
             <FieldMode>Formula</FieldMode>
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
-   * - 
+   * - 　　　　　　　
      - **{GroupName}**
 	 
    {Table_1_字符合并}

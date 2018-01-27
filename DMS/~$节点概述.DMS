@@ -749,7 +749,7 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
-     - | {Name}
+     - | **{Name}**
        | { InsertStringByWidth( Description , 70 , '\r\n       | ' )  }")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
@@ -850,7 +850,6 @@
             <CenterY>237.5</CenterY>
             <CenterX>495</CenterX>
             <Description />
-            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -874,7 +873,7 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
    * - 
-     - {GroupName}
+     - **{GroupName}**
 	 
    {Table_1_字符合并}
 ")</FormulaExpression>
@@ -1066,7 +1065,6 @@
       <CenterY>506</CenterY>
       <CenterX>586.25</CenterX>
       <Description />
-      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1094,7 +1092,6 @@
 ======================
 
 .. list-table:: 
-   :header-rows: 1
 
 {新列14_字符合并}
 ")</FormulaExpression>
