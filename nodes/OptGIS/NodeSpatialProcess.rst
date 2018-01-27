@@ -72,3 +72,34 @@
 
 图元列B，指定的第二个图元列。
 	 
+实例
+------------------------	 
+
+有一批地震带等边界数据，需要所有区的合集数据。我们分别采用多图元模式和汇总模式进行处理。其具体流程如下：
+
+.. figure:: images/NodeSpatialProcess08.jpg
+     :align: center
+     :figwidth: 80% 
+     :name: plate 	
+     
+	 多图模式和汇总模式应用对比图
+
+多图元模式，适用于对同一记录中的两个数据项进行操作，因此本例中需要进行大量的数据准备工作；
+
+汇总模式，适用于对一列图元数据进行处理，本例中与Txt+相结合，批量读入多个边界数据，再分组创建多边形，最后使用汇总模式，求取所有区的合集数据。
+
+两个处理的流程不同，但输出结果相同。此例中，使用汇总模式流程显得更为优雅。
+	 
+.. figure:: images/NodeSpatialProcess09.jpg
+     :align: center
+     :figwidth: 80% 
+     :name: plate 	
+	 
+	 三个图元原始形态
+	 
+.. figure:: images/NodeSpatialProcess10.jpg
+     :align: center
+     :figwidth: 80% 
+     :name: plate 	
+	 
+	 三个图元合并结果
