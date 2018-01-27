@@ -7,8 +7,8 @@
    :header-rows: 1
 
 
-   * - 数据源
-     - 
+   * - 
+     - 数据源
 	 
    
    * - .. image:: images/NodeDBDirect.png
@@ -100,8 +100,8 @@
 
 
 
-   * - 行列计算
-     - 
+   * - 
+     - 行列计算
 	 
    
    * - .. image:: images/NodeSelect.png
@@ -229,8 +229,8 @@
 
 
 
-   * - 空间分析
-     - 
+   * - 
+     - 空间分析
 	 
    
    * - .. image:: images/NodeCreatePoint.png
@@ -298,8 +298,8 @@
 
 
 
-   * - 高级计算
-     - 
+   * - 
+     - 高级计算
 	 
    
    * - .. image:: images/NodeFileConvert.png
@@ -347,8 +347,8 @@
 
 
 
-   * - 数据库与数据质量
-     - 
+   * - 
+     - 数据库与数据质量
 	 
    
    * - .. image:: images/NodeRedisCacheRead.png
@@ -400,8 +400,8 @@
 
 
 
-   * - 经典算法
-     - 
+   * - 
+     - 经典算法
 	 
    
    * - .. image:: images/NodeEDA.png
@@ -461,8 +461,8 @@
 
 
 
-   * - 数据可视化
-     - 
+   * - 
+     - 数据可视化
 	 
    
    * - .. image:: images/NodeTatukGIS.png
@@ -534,8 +534,8 @@
 
 
 
-   * - 数据发布
-     - 
+   * - 
+     - 数据发布
 	 
    
    * - .. image:: images/NodeTable.png
@@ -619,8 +619,8 @@
 
 
 
-   * - 报告与软件接口
-     - 
+   * - 
+     - 报告与软件接口
 	 
    
    * - .. image:: images/NodeHtmlReport.png
@@ -704,8 +704,8 @@
 
 
 
-   * - 运行控制
-     - 
+   * - 
+     - 运行控制
 	 
    
    * - .. image:: images/NodeParameter.png

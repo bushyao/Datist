@@ -851,6 +851,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>495</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -873,8 +874,8 @@
             <FieldMode>Formula</FieldMode>
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
-   * - 
-     - {GroupName}
+   * - {GroupName}
+     - 
 	 
    {Table_1_字符合并}
 ")</FormulaExpression>
