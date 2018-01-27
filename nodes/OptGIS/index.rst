@@ -10,4 +10,5 @@
 .. toctree::
    :maxdepth: 2
    
+   NodeSpatialProcess
 
