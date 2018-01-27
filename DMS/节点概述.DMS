@@ -98,6 +98,7 @@
       <EnclosedInQuotes>false</EnclosedInQuotes>
       <ReadOnlyFristRows>false</ReadOnlyFristRows>
       <OnlyFristRows>10000</OnlyFristRows>
+      <ReadNullRow>false</ReadNullRow>
       <FolderFiles>
         <IsFolder>false</IsFolder>
         <FullName>D:\MyProgram\RDMS\PPTAnalysis\binX\Nodes.txt</FullName>
@@ -186,6 +187,7 @@
       <EnclosedInQuotes>false</EnclosedInQuotes>
       <ReadOnlyFristRows>false</ReadOnlyFristRows>
       <OnlyFristRows>10000</OnlyFristRows>
+      <ReadNullRow>false</ReadNullRow>
       <FolderFiles>
         <IsFolder>false</IsFolder>
         <FullName>$system$\NodeSort.cfg</FullName>
@@ -748,8 +750,7 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
-     - {Name}
-     - {Description}
+     - {Name}{Description}
 ")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
@@ -874,7 +875,6 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
    * - {GroupName}
-     - 
      - 
 	 
    {Table_1_字符合并}
@@ -1278,6 +1278,7 @@
       <CenterY>202.5</CenterY>
       <CenterX>525</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
@@ -1332,6 +1333,6 @@
   <ParNames />
   <EvalNodeNames>汇总(TypeName);数据项转存</EvalNodeNames>
   <OffsetX>0</OffsetX>
-  <OffsetY>0</OffsetY>
+  <OffsetY>48</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>
