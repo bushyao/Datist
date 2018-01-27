@@ -92,12 +92,14 @@
 
    * - .. image:: images/NodeRunStream.png
      - | 先导流程
-       | 运行指定流程中的所有默认输出节点(本流程变量具有穿透能力),输出流程运行结果。
+       | 运行指定流程中的所有默认输出节点(本流程变量具有穿透能力),输出流程运行结
+       | 果。
 
 
    * - .. image:: images/NodeStreamAppend.png
      - | 流程穿越
-       | 某流程的【数据浏览】节点穿越到当前流程中；运行过程中，本流程参数也具有穿越能力。
+       | 某流程的【数据浏览】节点穿越到当前流程中；运行过程中，本流程参数也具有
+       | 穿越能力。
 
 
    * - .. image:: images/NodeExSource.png
@@ -262,7 +264,8 @@
 
    * - .. image:: images/NodeRowSplit.png
      - | 行数据劈分
-       | 按同一规则拆分记录中的数据项。拆分后，每个数据项的第一个拆分结果组成第一条记录；第二个组成二条记录……
+       | 按同一规则拆分记录中的数据项。拆分后，每个数据项的第一个拆分结果组成第
+       | 一条记录；第二个组成二条记录……
 
 
    * - .. image:: images/NodeColumnSplit.png
@@ -367,7 +370,8 @@
 
    * - .. image:: images/NodeDBSCAN.png
      - | 密度聚类
-       | DBSCAN算法，基于密度的点要素空间聚类算法，用于寻找被低密度区域分离的高密度区域。
+       | DBSCAN算法，基于密度的点要素空间聚类算法，用于寻找被低密度区域分离的高
+       | 密度区域。
 
 
 
@@ -417,7 +421,8 @@
 
    * - .. image:: images/NodeChange.png
      - | 数据源切换
-       | 在多个流程之间进行切换。该节点有多个输入，通过该节点指定一个作为后续节点的数据源。
+       | 在多个流程之间进行切换。该节点有多个输入，通过该节点指定一个作为后续节
+       | 点的数据源。
 
 
    * - .. image:: images/NodeExFunction.png
@@ -517,7 +522,8 @@
 
    * - .. image:: images/NodeRegression.png
      - | 广义回归
-       | 广义线性模型,包括线性回归、逻辑回归、泊松回归、逆高斯回归、伽马回归等若干种。
+       | 广义线性模型,包括线性回归、逻辑回归、泊松回归、逆高斯回归、伽马回归等若
+       | 干种。
 
 
    * - .. image:: images/Nodehclust.png
@@ -537,12 +543,14 @@
 
    * - .. image:: images/NodeKNN.png
      - | 邻近算法
-       | 如果一个样本在特征空间中的k个最相邻的样本中的大多数属于某一个类别，则该样本也属于这个类别，并具有这个类别上样本的特性。
+       | 如果一个样本在特征空间中的k个最相邻的样本中的大多数属于某一个类别，则该
+       | 样本也属于这个类别，并具有这个类别上样本的特性。
 
 
    * - .. image:: images/NodeAssociationRule.png
      - | 关联规则
-       | 关联规则挖掘属于无监督学习方法，它描述的是在一个事物中物品间同时出现的规律的知识模式。
+       | 关联规则挖掘属于无监督学习方法，它描述的是在一个事物中物品间同时出现的
+       | 规律的知识模式。
 
 
    * - .. image:: images/NodeNaiveBayesClassifier.png
@@ -562,12 +570,14 @@
 
    * - .. image:: images/NodeSVM.png
      - | SVM
-       | 支持向量机SVM(Support Vector Machine）是一个有监督的学习模型，通常用来进行模式识别、分类、以及回归分析。
+       | 支持向量机SVM(Support Vector Machine）是一个有监督的学习模型，通常用来
+       | 进行模式识别、分类、以及回归分析。
 
 
    * - .. image:: images/NodeDecisionTree.png
      - | 决策树
-       | 一种树形结构，其中每个内部节点表示一个属性上的测试，每个分支代表一个测试输出，每个叶节点代表一种类别。
+       | 一种树形结构，其中每个内部节点表示一个属性上的测试，每个分支代表一个测
+       | 试输出，每个叶节点代表一种类别。
 
 
 
@@ -617,7 +627,8 @@
 
    * - .. image:: images/NodeTempletChart.png
      - | 地质图版
-       | 绘制岩性三角分类图、C-M图、孔渗恢复、压汞曲线、施氏网、吴氏网、童宪章图版等多种地质研究常用的图版。
+       | 绘制岩性三角分类图、C-M图、孔渗恢复、压汞曲线、施氏网、吴氏网、童宪章图
+       | 版等多种地质研究常用的图版。
 
 
    * - .. image:: images/NodeIndicator.png
@@ -698,7 +709,8 @@
 
    * - .. image:: images/NodeGISExport.png
      - | 存空间文件
-       | 输出空间数据，支持ArcGIS、AutoCAD、GML、GeoJSON、Google Earth、GPS、MapInfo等多种格式。
+       | 输出空间数据，支持ArcGIS、AutoCAD、GML、GeoJSON、Google Earth、GPS、Ma
+       | pInfo等多种格式。
 
 
    * - .. image:: images/NodeDownload.png
@@ -799,6 +811,7 @@
    * - .. image:: images/NodeExportDoc.png
      - | WordEx
        | 以模板方式，将数据输出Word中，可插入文本、图片、表单、Excel表单等内容。
+       | 
 
 
    * - .. image:: images/NodeDocCombine.png
