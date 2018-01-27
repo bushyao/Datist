@@ -747,7 +747,8 @@
             <FieldName>Table_1</FieldName>
             <FieldMode>Formula</FieldMode>
             <FieldDataType>Text</FieldDataType>
-            <FormulaExpression>F("   * - .. image:: images/{TypeName}.png
+            <FormulaExpression>F("
+   * - .. image:: images/{TypeName}.png
      - | {Name}
        | { InsertStringByWidth( Description , 70 , '\r\n       | ' )  }")</FormulaExpression>
             <ConditionIf />
