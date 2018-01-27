@@ -49,7 +49,7 @@
 
 .. figure:: images/NodeSpatialProcess06.jpg
      :align: center
-     :figwidth: 90% 
+     :figwidth: 80% 
      :name: plate 	  
   
      图元汇总模式界面
@@ -63,7 +63,7 @@
 	 
 .. figure:: images/NodeSpatialProcess07.jpg
      :align: center
-     :figwidth: 90% 
+     :figwidth: 80% 
      :name: plate 	  
   
      多图元运算模式界面	 
