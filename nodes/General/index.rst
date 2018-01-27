@@ -14,7 +14,9 @@
    
    * - .. image:: images/NodeDBDirect.png
      - 接入数据库
-     - 直连方式（不需驱动），接入DB2、FirebirdClient、MS Access、MySQL、ODBC、OLE DB、Oracle、OracleClient、PostgreSQL、SQL Server、SQLite等数据库。
+     - 直连方式（不需驱动），接入DB2、FirebirdClient、MS Access、
+	   MySQL、ODBC、OLE DB、Oracle、OracleClient、PostgreSQL、
+	   SQL Server、SQLite等数据库。
 
 
    * - .. image:: images/NodeSplitString.png
