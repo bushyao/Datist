@@ -82,7 +82,7 @@
      :figwidth: 80% 
      :name: plate 	
      
-	 多图模式和汇总模式流程对比
+     多图模式和汇总模式流程对比
 
 多图元模式，适用于对同一记录中的两个数据项进行操作，因此本例中需要进行大量的数据准备工作；
 
@@ -95,11 +95,11 @@
      :figwidth: 80% 
      :name: plate 	
 	 
-	 三个地震带原始形态
+     三个地震带原始形态
 	 
 .. figure:: images/NodeSpatialProcess10.jpg
      :align: center
      :figwidth: 80% 
      :name: plate 	
 	 
-	 三个地震带合并形态
+     三个地震带合并形态
