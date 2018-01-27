@@ -750,7 +750,7 @@
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
      - | {Name}
-     - | { InsertStringByWidth( Description , 70 , '\r\n     - | ' )  }
+     - | { InsertStringByWidth( Description , 70 , '\r\n       | ' )  }
 ")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
@@ -1333,6 +1333,6 @@
   <ParNames />
   <EvalNodeNames>汇总(TypeName);数据项转存</EvalNodeNames>
   <OffsetX>0</OffsetX>
-  <OffsetY>0</OffsetY>
+  <OffsetY>144</OffsetY>
   <Scale>1</Scale>
 </NodeCollection>

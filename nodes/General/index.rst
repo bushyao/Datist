@@ -14,8 +14,8 @@
    * - .. image:: images/NodeDBDirect.png
      - | 接入数据库
      - | 直连方式（不需驱动），接入DB2、FirebirdClient、MS Access、MySQL、ODBC、
-     - | OLE DB、Oracle、OracleClient、PostgreSQL、SQL Server、SQLite等数据库。
-     - | 
+       | OLE DB、Oracle、OracleClient、PostgreSQL、SQL Server、SQLite等数据库。
+       | 
 
 
    * - .. image:: images/NodeSplitString.png
@@ -61,8 +61,8 @@
    * - .. image:: images/NodePolygonSource.png
      - | 空间数据
      - | 支持ArcGIS、AutoCAD、DLG、GML、GeoJSON、GeoMap、GSHHS、Google Earth、G
-     - | PS、LandXML、LiDAR LAS、MapInfo、MicroStation、OpenStreetMap、SDTS、SQ
-     - | L Layer等。
+       | PS、LandXML、LiDAR LAS、MapInfo、MicroStation、OpenStreetMap、SDTS、SQ
+       | L Layer等。
 
 
    * - .. image:: images/NodeMapNO.png
@@ -678,7 +678,7 @@
    * - .. image:: images/NodeDBWrite.png
      - | 写入数据库
      - | 将数据表写入数据库中，支持Oracle、SQL Server、MySql、Access、DB2、Post
-     - | gresql、Firebird、dBASE、SQLite、FoxPro等数据库。
+       | gresql、Firebird、dBASE、SQLite、FoxPro等数据库。
 
 
    * - .. image:: images/NodeDBWriteEx.png
