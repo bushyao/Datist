@@ -11,21 +11,30 @@
 支持五种运算类型：
 
 .. list-table:: 
- 
+
+   * - 操作图示
+     - 操作类型
+     - 详细描述
+	 
    * - .. image:: images/NodeSpatialProcess01.png
-     - 计算图元并集	
+     - 并集
+     - 返回多个图元之间合并的结果图元。
 	
    * - .. image:: images/NodeSpatialProcess02.png
-     - 前一个图元减后一个图元
+     - 图元A减图元B
+     - 返回多个图元之间相差的结果图元。
 	
    * - .. image:: images/NodeSpatialProcess03.png
-     - 后一个图元减前一个图元	
+     - 图元B减图元A
+     - 返回多个图元之间相差的结果图元。	
 	 
    * - .. image:: images/NodeSpatialProcess04.png
-     - 计算两个图元的交集图元	
+     - 交集
+     - 返回多个图元之间公共部分的结果图元。	
 
    * - .. image:: images/NodeSpatialProcess05.png
-     - 计算两个图元的异或图元
+     - 异或集
+     - 返回多个图元之间非公共部分的结果图元。
 	 
 
 数据组织
