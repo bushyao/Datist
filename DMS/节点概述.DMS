@@ -750,7 +750,7 @@
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
      - | {Name}
-     - | { InsertStringByWidth( Description , 70 , '\r\n       | ' )  }
+       | { InsertStringByWidth( Description , 70 , '\r\n       | ' )  }
 ")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
