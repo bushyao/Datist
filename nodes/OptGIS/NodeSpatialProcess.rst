@@ -30,11 +30,11 @@
 	 
    * - .. image:: images/NodeSpatialProcess04.png
      - 交集
-     - 返回多个图元之间公共部分的结果图元。	
+     - 返回多个图元之间公共部分的内容。	
 
    * - .. image:: images/NodeSpatialProcess05.png
      - 异或集
-     - 返回多个图元之间非公共部分的结果图元。
+     - 返回多个图元之间非公共部分的内容。
 	 
 
 数据组织
@@ -45,7 +45,7 @@
    * **图元汇总** ，对一列图元进行操作，类似于汇总节点，支持分组汇总功能；
    * **多图元运算** ，对于一条记录内的两个图元进行操作。
    
-图元汇总模式：
+**图元汇总模式：**
 
 .. figure:: images/NodeSpatialProcess06.jpg
      :align: center
@@ -59,7 +59,7 @@
 分组列，指定的分组字段，支持多个，可为空；
 
 	 
-多图元运算模式：	 
+**多图元运算模式：**	 
 	 
 .. figure:: images/NodeSpatialProcess07.jpg
      :align: center
