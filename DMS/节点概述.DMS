@@ -726,7 +726,6 @@
             <CenterY>237.5</CenterY>
             <CenterX>210</CenterX>
             <Description />
-            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -750,7 +749,8 @@
             <FieldDataType>Text</FieldDataType>
             <FormulaExpression>F("
    * - .. image:: images/{TypeName}.png
-     - {Name}{Description}
+     - | {Name}
+     - | { InsertStringByWidth( Description , 70 , '\r\n     - | ' )  }
 ")</FormulaExpression>
             <ConditionIf />
             <ConditionTrue />
@@ -851,6 +851,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>495</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
