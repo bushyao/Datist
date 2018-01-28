@@ -726,6 +726,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>210</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -850,6 +851,7 @@
             <CenterY>237.5</CenterY>
             <CenterX>495</CenterX>
             <Description />
+            <ToolTip />
             <KeyWords />
             <EditMode>Edit</EditMode>
             <Title />
@@ -1065,6 +1067,7 @@
       <CenterY>506</CenterY>
       <CenterX>586.25</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title />
