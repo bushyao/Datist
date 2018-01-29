@@ -86,6 +86,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FileName>D:\MyProgram\RDMS\PPTAnalysis\binX\Functions.txt</FileName>
       <ReadMode>Delimited</ReadMode>
       <Filebody>false</Filebody>
@@ -97,6 +98,7 @@
       <EnclosedInQuotes>false</EnclosedInQuotes>
       <ReadOnlyFristRows>false</ReadOnlyFristRows>
       <OnlyFristRows>10000</OnlyFristRows>
+      <ReadNullRow>false</ReadNullRow>
       <FolderFiles>
         <IsFolder>false</IsFolder>
         <FullName>D:\MyProgram\RDMS\PPTAnalysis\binX\Functions.txt</FullName>
@@ -138,6 +140,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldFilters>
         <FieldFilter>
           <FieldName>列0</FieldName>
@@ -202,6 +205,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldSorts>
         <FieldSort>
           <Asc>true</Asc>
@@ -243,6 +247,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <KeyFields>
         <string>组别</string>
       </KeyFields>
@@ -274,6 +279,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldFormats />
       <AutoWidthFit>true</AutoWidthFit>
       <Expression />
@@ -301,6 +307,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <IsIncluded>false</IsIncluded>
       <FilterExpression> 组别 == '内部使用' </FilterExpression>
     </NodeBase>
@@ -327,6 +334,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>新列8</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -365,6 +373,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <KeyFields>
         <string>组别</string>
       </KeyFields>
@@ -414,6 +423,7 @@
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldSorts>
         <FieldSort>
           <Asc>true</Asc>
@@ -472,6 +482,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>输出</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -513,6 +524,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <Url>输出</Url>
       <SavePath>F("D:\\github\\Datist\\functions\\{行号}{FileName}.rst")</SavePath>
       <DataDataType />
@@ -543,6 +555,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FillerIf>1</FillerIf>
       <FillerFields>
         <string>输出_字符合并</string>
@@ -576,6 +589,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>FileName</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -612,6 +626,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <NewName>行号16</NewName>
       <ComputeMode>RowID</ComputeMode>
       <ComputeFieldName />
@@ -642,6 +657,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>行号</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -678,6 +694,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FillerIf>@Fields in ('*','+' ,'-','|')</FillerIf>
       <FillerFields>
         <string>函数</string>
@@ -706,6 +723,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <IsIncluded>true</IsIncluded>
       <FilterExpression> 组别 == '数值函数' </FilterExpression>
     </NodeBase>
@@ -732,6 +750,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldSorts>
         <FieldSort>
           <Asc>true</Asc>
@@ -763,6 +782,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <SuperNodeType>TwoSide</SuperNodeType>
       <SubNodes>
         <Arthor>bushyao</Arthor>
@@ -811,6 +831,7 @@ HTML函数
             <OnlyOneViewer>false</OnlyOneViewer>
             <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
+            <IsExpressionDescription>false</IsExpressionDescription>
             <KeyFields />
             <AggregeteFields>
               <AggregeteField>
@@ -855,6 +876,7 @@ HTML函数
             <OnlyOneViewer>false</OnlyOneViewer>
             <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
+            <IsExpressionDescription>false</IsExpressionDescription>
           </NodeBase>
           <NodeBase xsi:type="NodeSuperOutput">
             <Guid>401cbc9e-a86a-486b-8e5b-c2e8cfb6b794</Guid>
@@ -878,6 +900,7 @@ HTML函数
             <OnlyOneViewer>false</OnlyOneViewer>
             <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
+            <IsExpressionDescription>false</IsExpressionDescription>
           </NodeBase>
           <NodeBase xsi:type="NodeComment">
             <Guid>0bf822ce-be75-46f2-856f-9fca067499dc</Guid>
@@ -900,6 +923,7 @@ HTML函数
             <OnlyOneViewer>false</OnlyOneViewer>
             <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
+            <IsExpressionDescription>false</IsExpressionDescription>
             <RenderTransformOrigin>
               <X>0.5</X>
               <Y>0.5</Y>
@@ -999,6 +1023,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FolderPathForPicture>C:\Users\BC\Desktop\test</FolderPathForPicture>
       <ExMode>GetSheetAndTextBox</ExMode>
       <MaxColumn>30</MaxColumn>
@@ -1030,6 +1055,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <IsIncluded>false</IsIncluded>
       <FilterExpression> Type == 'Cell' </FilterExpression>
     </NodeBase>
@@ -1054,6 +1080,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <Text>start,end,step
 20,50,4</Text>
       <SplitChar>, .、;:"\r\n\t</SplitChar>
@@ -1087,6 +1114,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>新列27</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -1123,6 +1151,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>函数2</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -1159,6 +1188,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>index_1</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -1195,6 +1225,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldFilters>
         <FieldFilter>
           <FieldName>组别</FieldName>
@@ -1259,6 +1290,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>body</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -1299,6 +1331,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>funcName</FieldName>
       <FieldMode>Formula</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -1335,6 +1368,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>functype</FieldName>
       <FieldMode>Condition</FieldMode>
       <FieldDataType>Text</FieldDataType>
@@ -1371,6 +1405,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FillerIf>IsNullOrWhiteSpace( @Fields )</FillerIf>
       <FillerFields>
         <string>funcName</string>
@@ -1400,6 +1435,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldSorts>
         <FieldSort>
           <Asc>true</Asc>
@@ -1450,6 +1486,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <KeyFields>
         <string>funcName</string>
         <string>组别</string>
@@ -1499,6 +1536,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldFormats />
       <AutoWidthFit>true</AutoWidthFit>
       <Expression />
@@ -1526,6 +1564,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FieldSorts>
         <FieldSort>
           <Asc>true</Asc>
@@ -1560,6 +1599,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <FillerIf>1</FillerIf>
       <FillerFields>
         <string>funcName</string>
@@ -1588,6 +1628,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <IsIncluded>true</IsIncluded>
       <FilterExpression> 组别 == '比较函数' </FilterExpression>
     </NodeBase>
@@ -1614,6 +1655,7 @@ HTML函数
       <OnlyOneViewer>false</OnlyOneViewer>
       <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
       <NewName>行号41</NewName>
       <ComputeMode>RowID</ComputeMode>
       <ComputeFieldName />

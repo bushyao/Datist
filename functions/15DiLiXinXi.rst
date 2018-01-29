@@ -2,30 +2,6 @@
 地理信息
 ======================
 
-AddressLat
-~~~~~~~~~~~~~~~~~~
-函数体： **AddressLat(string)**
-
-返回值：Double
-
-说明：获取地名对应的纬度坐标。
-
-AddressLon
-~~~~~~~~~~~~~~~~~~
-函数体： **AddressLon(string)**
-
-返回值：Double
-
-说明：获取地名对应的经度坐标。
-
-AddressStd
-~~~~~~~~~~~~~~~~~~
-函数体： **AddressStd(string)**
-
-返回值：String
-
-说明：标准化地名书写。
-
 Area
 ~~~~~~~~~~~~~~~~~~
 函数体： **Area(Points)**

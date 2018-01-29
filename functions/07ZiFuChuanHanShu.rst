@@ -160,7 +160,15 @@ InsertString
 
 返回值：String
 
-说明：向字符串插入指定的字符串。
+说明：向String中指定的位置（ID），插入InsertString字符串。
+
+InsertStringByWidth
+~~~~~~~~~~~~~~~~~~
+函数体： **InsertStringByWidth(String,width,InsertString)**
+
+返回值：String
+
+说明：在String中每隔Width的长度，插入InsertString字符串（汉字为两个字符）。
 
 IsMatch
 ~~~~~~~~~~~~~~~~~~
