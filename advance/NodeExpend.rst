@@ -67,8 +67,8 @@ HTML界面与节点之间，采用JSON格式进行数据交换，JSON数据定�
        },
        "allfields": true,
        "names": {
-           "q": "列0",
-           "f": "列0"
+           "q": "IsFile",
+           "f": "StreamType"
        }
    }
 
