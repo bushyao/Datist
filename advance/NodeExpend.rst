@@ -353,8 +353,8 @@ DLL数据处理
 R
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-  * 数据接入：界面参数格式为[$VarName$]，其中VarName对于界面参数JSON中的字段的名称，如title等; 
-  * 前节点数据接入：为Inputtable变量，DataFrame类型；
+  * 数据接入：界面参数pars部分格式为[$VarName$]，其中VarName对于界面参数JSON中的字段的名称，如title等; 
+  * 前节点数据接入：为Inputtable变量，DataFrame类型；其实对应的列名，为界面参数names部分定义指定的名称。（只有当allfields设为false时，才修改列的名称）
   * 成果输出：支持多级标题、文本、加粗文本以及图片；具体参见代码规范。
 
 代码规范，示例代码:: 
@@ -372,10 +372,17 @@ R
 
 示例代码::
 
-    header1("[$title$]")
-    output("[$desc$]")
+    header1("[$title$]")  #界面参数pars部分的对象title
+    output("[$desc$]")    #界面参数pars部分的对象desc
      
-    header1("具体内容")
+    header1("数据源") 	
+    output(inputtable)
+
+    header1("q列")
+    output(inputtable$q)       #界面参数names部分的对象q；此时，q为inputtable（DataFrame）中一列的名称。（allfields参数必须设为false）
+	
+    header1("具体内容") 
+	
     #============== set parameters ===================
     T0 =0                    #start time
     T1=5479                  #Learning period /julian day
