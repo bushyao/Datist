@@ -17,4 +17,6 @@
    nodes/index
    functions/index
    TempletCharts/index
+   ChartsEx/index
    logs/index
+   
