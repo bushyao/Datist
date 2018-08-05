@@ -190,6 +190,27 @@
     series[0].barWidth = '60%'
     series[0].data = [10,52,200,334,390,330,220]
 
+.. figure:: images/image016.png
+   :scale: 80 %    
+
+代码::
+
+	tooltip.trigger = 'item'
+	tooltip.formatter = '{a} <br/>{b}: {c} ({d}%)'
+	legend.orient = 'vertical'
+	legend.x = 'left'
+	legend.data = ["直接访问","邮件营销","联盟广告","视频广告","搜索引擎"]
+	series[0].name = '访问来源'
+	series[0].type = 'pie'
+	series[0].radius = ['50%', '70%']
+	series[0].avoidLabelOverlap = False
+	series[0].label.normal.show = False
+	series[0].label.normal.position = 'center'
+	series[0].label.emphasis.show = True
+	series[0].label.emphasis.textStyle.fontSize = '30'
+	series[0].label.emphasis.textStyle.fontWeight = 'bold'
+	series[0].labelLine.normal.show = False
+	series[0].data = [{"value":335,"name":"直接访问"},{"value":310,"name":"邮件营销"},{"value":234,"name":"联盟广告"},{"value":135,"name":"视频广告"},{"value":1548,"name":"搜索引擎"}]
 
 .. figure:: images/image017.png
    :scale: 80 %   
