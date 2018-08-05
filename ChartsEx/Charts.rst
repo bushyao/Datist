@@ -6,6 +6,7 @@
    :scale: 80 %
    
 代码::
+
     xAxis.type = 'category'
     xAxis.data = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
     yAxis.type = 'value'
@@ -16,6 +17,7 @@
    :scale: 80 %   
 
 代码::
+
     xAxis.type = 'category'
     xAxis.boundaryGap = False
     xAxis.data = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
@@ -28,6 +30,7 @@
    :scale: 80 %   
 
 代码::
+
     xAxis.type = 'category'
     xAxis.data = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
     yAxis.type = 'value'
@@ -37,7 +40,8 @@
 .. figure:: images/image007.png
    :scale: 80 %   
 
-代码::   
+代码::
+   
     title.text = '极坐标双数值轴'
     legend.data = ["line"]
     polar = {}
@@ -55,6 +59,7 @@
    :scale: 80 %   
  
 代码::
+
     angleAxis = {}
     radiusAxis.type = 'category'
     radiusAxis.data = ["周一","周二","周三","周四"]
@@ -82,6 +87,7 @@
    :scale: 80 %   
 
 代码::   
+
     title.text = 'Step Line'
     tooltip.trigger = 'axis'
     legend.data = ["Step Start","Step Middle","Step End"]
@@ -110,6 +116,7 @@
    :scale: 80 %   
 
 代码::
+
     backgroundColor = '#eee'
     legend.data = ["bar","bar2","bar3","bar4"]
     legend.align = 'left'
@@ -166,6 +173,7 @@
    :scale: 80 %    
 
 代码::
+
     color = ['#3398DB']
     tooltip.trigger = 'axis'
     tooltip.axisPointer.type = 'shadow'
