@@ -301,3 +301,20 @@
     :figwidth: 90% 
     :name: plate 
  
+**3)地统计分析**
+提供方便快捷的地统计分析功能，支持反距离权重、普通克里金插值、规则样条插值等多种等值线绘制算法；灵活多样的充填色编辑与应用机制，为用户提供优质用体验效果。
+
+.. figure:: GISImages/GeoStatistical1.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 
+	
+.. figure:: GISImages/GeoStatistical2.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 	
+
+.. figure:: GISImages/GeoStatistical3.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 	
