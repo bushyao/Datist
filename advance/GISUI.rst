@@ -42,7 +42,10 @@
 **6)保存**
 保存当前地图文件；当图件做了修改后才可用。
 
-**7)坐标系统与网格**
+**7)导出**
+将当前视域保存为图片文件。
+
+**8)坐标系统与网格**
 提供丰富的坐标系统，用户可在多种不同的坐标系统之间切换；坐标网格自动绘制机制使得图件显示，更具专业效果。
 
 .. figure:: GISImages/Projection.png
@@ -318,3 +321,141 @@
     :align: center
     :figwidth: 90% 
     :name: plate 	
+	
+属性表工具箱
+-----------------------------------
+
+系统面向矢量图层的属性数据，提供了一套编辑、查询与分析功能。用户可以从图层管理栏右键菜单中开启属性数据表。属性表具有两模式：所有图元数据与仅选中图元，模式切换位于窗口的最下方。	
+
+.. figure:: GISImages/LayerAttibuteTable.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 			
+	
+**1)主菜单**	
+
+主菜单栏位于，属性性表窗口上方，主要包含文字查找与替换、新增列、重置等功能。
+
+**查找与替换**
+提供字符串的查找与替换的功能，支持仅在选中图元范围内查找与替换。
+
+.. figure:: GISImages/FindAndReplace.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 	
+
+**根据属性选中**
+该功能与图层管理栏中的【属性查询】功能一致。
+
+**清除所有选中**
+清除当前数据表中已选中记录的选中状态。
+
+**反选记录**	
+将数据表中的所有记录作为一个整体，在已选中记录与未选中记录之间进行切换。
+
+**选中所有记录**
+将数据表中的所有记录置于选中状态。
+
+**新增列**
+为数据表增加一列数据。
+	
+**显示所有列**
+将所有数据列置可见状态。	
+
+**重置列宽**
+将所有数据列的宽度恢复至初始状态。	
+
+**重置列序**
+将所有数据列的顺序恢复至初始状态。	
+
+**输出数据**
+将当前数据表的内容导出为Excel文件。	
+	
+ 
+**2)列头右键菜单**	
+
+列头右键菜单，提供排序、字段计算、汇总、统计等一系列的列操作功能。
+ 
+**正序**
+以前列为关键字，对整个数据表进行正向排序。
+
+**逆序**
+以前列为关键字，对整个数据表进行降序排序。 
+ 
+**高级排序**
+提供多个关键字对数据表进行排序的功能。
+
+.. figure:: GISImages/AdvancedSorting.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 	
+ 
+**字段计算**
+
+.. figure:: GISImages/FieldCalculator.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 	
+
+ 
+ColumnMenu	SortAscending	正序
+ColumnMenu	SortDescending	逆序
+ColumnMenu	AdvancedSorting	高级排序...
+ColumnMenu	FieldCalculator	字段计算...
+ColumnMenu	TurnFieldOff	列隐藏
+ColumnMenu	FreezeColumn	冻结/取消冻结
+ColumnMenu	DeleteField	删除列
+ColumnMenu	Summarize	汇总...
+ColumnMenu	Statistics	统计...
+RowMenu	Flash	闪烁图元
+RowMenu	ZoomTo	缩放到图元
+RowMenu	PanTo	平移到图元
+RowMenu	Identify	属性窗口...
+RowMenu	SelectChange	选中/不选中
+RowMenu	ZoomToSelected	缩放到所有选中
+RowMenu	ClearSelected	清除所有选中
+RowMenu	DeleteSelected	删除所有选中
+RowMenu	ClearSelected	清除所有选中
+RowMenu	SwitchSelection	反选记录
+RowMenu	SelectAll	选中所有记录
+RowMenu	SwitchSelection	反选记录
+RowMenu	ClearSelected	清除所有选中
+RowMenu	ZoomToSelected	缩放到所有选中
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
