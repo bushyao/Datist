@@ -427,17 +427,28 @@
 
 记录头右键菜单，一组关于单行、多行记录操作的功能集合，如闪烁图元、缩放至图元、属性窗口等。
 	
+**闪烁图元**
+在地图显示区，高亮闪烁当前记录对应的图元。
+
+**缩放到图元**
+缩放地图图幅范围，使之足够显示当前的图元。
+
+**平移到图元**
+将图元平移到屏幕中心。
+
+**属性窗口**
+开启属性窗口，显示当前记录的内容。
+
+**选中/不选中**
+切换当前记录的选中与不选中状态。
+
+**缩放到所有选中**
+缩放地图图幅范围，使之足够显示数据表中所有已选中的图元。
+
+**清除所有选中**
+清除当前数据表中已选中记录的选中状态。
  
-RowMenu	SelectChange	选中/不选中
-RowMenu	ZoomToSelected	缩放到所有选中
-RowMenu	ClearSelected	清除所有选中
-RowMenu	DeleteSelected	删除所有选中
-RowMenu	ClearSelected	清除所有选中
-RowMenu	SwitchSelection	反选记录
-RowMenu	SelectAll	选中所有记录
-RowMenu	SwitchSelection	反选记录
-RowMenu	ClearSelected	清除所有选中
-RowMenu	ZoomToSelected	缩放到所有选中
+ 
 
 
 
