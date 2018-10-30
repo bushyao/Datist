@@ -334,7 +334,7 @@
 	
 **1)主菜单**	
 
-主菜单栏位于，属性性表窗口上方，主要包含文字查找与替换、新增列、重置等功能。
+主菜单栏位于窗口上方，一组关于整个数据表操作功能集合，如文字查找与替换、新增列、重置等。
 
 **查找与替换**
 提供字符串的查找与替换的功能，支持仅在选中图元范围内查找与替换。
@@ -372,9 +372,9 @@
 将当前数据表的内容导出为Excel文件。	
 	
  
-**2)列头右键菜单**	
+**2)字段头右键菜单**	
 
-列头右键菜单，提供排序、字段计算、汇总、统计等一系列的列操作功能。
+字段头右键菜单，一组关于数据列操作的功能集合，如排序、字段计算、汇总、统计等。
  
 **正序**
 以前列为关键字，对整个数据表进行正向排序。
@@ -391,26 +391,43 @@
     :name: plate 	
  
 **字段计算**
+提供一个计算器，计算生成数据项的值。
 
 .. figure:: GISImages/FieldCalculator.png
     :align: center
     :figwidth: 90% 
     :name: plate 	
 
+**列隐藏**
+将当前列隐藏。
+
+**冻结/取消冻结**
+将当前列固定左侧，以方便浏览查询数据。
+
+**删除列**
+永久删除当前列的所有数据。
+
+**汇总**
+针对于字符串型字段，提供的数据汇总功能，汇总结果可导出为Excel文件。
+
+.. figure:: GISImages/Summarize.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 	
+	
+**统计**
+针对于数值型字段，提供的数据直方图统计功能，以探查数据分布情况。
+
+.. figure:: GISImages/Statistics.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate 	
+
+**3)记录头菜单**	
+
+记录头右键菜单，一组关于单行、多行记录操作的功能集合，如闪烁图元、缩放至图元、属性窗口等。
+	
  
-ColumnMenu	SortAscending	正序
-ColumnMenu	SortDescending	逆序
-ColumnMenu	AdvancedSorting	高级排序...
-ColumnMenu	FieldCalculator	字段计算...
-ColumnMenu	TurnFieldOff	列隐藏
-ColumnMenu	FreezeColumn	冻结/取消冻结
-ColumnMenu	DeleteField	删除列
-ColumnMenu	Summarize	汇总...
-ColumnMenu	Statistics	统计...
-RowMenu	Flash	闪烁图元
-RowMenu	ZoomTo	缩放到图元
-RowMenu	PanTo	平移到图元
-RowMenu	Identify	属性窗口...
 RowMenu	SelectChange	选中/不选中
 RowMenu	ZoomToSelected	缩放到所有选中
 RowMenu	ClearSelected	清除所有选中
