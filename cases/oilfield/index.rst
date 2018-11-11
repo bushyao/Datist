@@ -15,6 +15,8 @@
    oilstratum   
    SliceImage
    oilrockdeep
+   ArchivesStoreroom
+
    
 质量控制篇
 ====================================
