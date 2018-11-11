@@ -9,7 +9,7 @@
 ====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    predrilling
    oilstratum   
@@ -20,7 +20,7 @@
 ====================================
 
 .. toctree::
-   :maxdepth: 2   
+   :maxdepth: 1  
    
    DataQuality
    DataConsistency
@@ -32,7 +32,7 @@
 ====================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
    DataBaseIndex
    oiltest   
