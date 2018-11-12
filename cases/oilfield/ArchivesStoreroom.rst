@@ -35,14 +35,14 @@
      :figwidth: 90% 
      :name: plate 
 	 
-	 用于打标签节点的专业学科语汇与短语字典
+     用于打标签节点的专业学科语汇与短语字典
 
 .. figure:: images/ArchivesStoreroom4.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
 	 
-	 采用相似度算法进行专业归属标记
+     采用相似度算法进行专业归属标记
 	 
 	 
 **自动归类与比对结果**
