@@ -4,118 +4,129 @@
 ====================================
 Datist提供一套统计图绘制语言。
 
-统计图关键字
+关键字
 -----------------------------------
 
-统计图
+设置坐标系
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+**XYChart**
+
+创建二维统计图；
+
+语法::
+
+    XYChart([Name],[ShowGrid = True],[TitleX],[TitleY],[Side = default])
+    其中Side，可设置为default|left|right指定X坐标轴的位置。
 
 **PieChart**
 
-新建饼状统计图。
+创建饼状统计图。
 
 语法::
 
     PieChart([Name])
 
-**PiperChart**
-
-新建piper三线图图。
-
-语法::
-
-    PiperChart([Name],[ShowGrid = True])
 
 **PolarChart**
 
-新建极坐标统计图(角度vs数值)。
+创建极坐标统计图(角度vs数值)。
 
 语法::
 
     PolarChart([Name])
 
+	
+**TriChart**
+
+创建三角坐标系统计图。
+
+语法::
+
+    TriChart([Name],[ShowGrid = True],[TitleA = A],[TitleB = B],[TitleC = C],[Desc])
+    其中Desc用于指定统计图底部显示的文字信息。
+
 **RadarChart**
 
-新建雷达图(多个坐标轴)。
+创建雷达图（多个坐标轴)。
 
 语法::
 
     RadarChart([Name])
 
-**SchmidtChart**
-
-新建施氏网(施密特网)。
-
-语法::
-
-    SchmidtChart([Name],[ShowGrid = True])
-
-**TriChart**
-
-新建三角坐标系统计图。
-
-语法::
-
-    TriChart([Name],[ShowGrid = True],[TitleA = A],[TitleB = B],[TitleC = C],[Desc])
 
 **WulffChart**
 
-新建吴氏网(乌尔夫网图)。
+创建吴氏网(乌尔夫网图)。
 
 语法::
 
     WulffChart([Name],[ShowGrid = True])
+	
+**SchmidtChart**
 
-**XYChart**
-
-新建二维统计图；其中default|left|right为X坐标轴的位置。
+创建施氏网(施密特网)。
 
 语法::
 
-    XYChart([Name],[ShowGrid = True],[TitleX],[TitleY],[Side = default])
+    SchmidtChart([Name],[ShowGrid = True]) 
 
-坐标轴
+    
+**PiperChart**
+
+创建piper三线图，适用于水化学数据分析。
+
+语法::
+
+    PiperChart([Name],[ShowGrid = True])
+	
+	
+	
+设置坐标轴
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-**AngularScale**
-
-将当前统计图指定的坐标轴，设置为角度坐标
-
-语法::
-
-    AngularScale(AxisType = PolarAngle)
-
+ 
 **AxisTitle**
 
-设置坐标轴的标题,其中AxisType为X|Y|Polar|PolarAngle
+设置坐标轴的标题。
 
 语法::
 
     AxisTitle(AxisType = X,Title)
-
-**LinearScale**
-
-将当前统计图指定的坐标轴，设置为数值型
-
-语法::
-
-    LinearScale(AxisType = X,[min = 非数字],[max = 非数字])
-
-**LogScale**
-
-将当前统计图指定的坐标轴，设置为对数坐标
-
-语法::
-
-    LogScale(AxisType = X,[min = 非数字],[max = 非数字])
+    其中AxisType可为X|Y|Polar|PolarAngle
 
 **OrdinalScale**
 
-将当前统计图指定的坐标轴，设置为序数型
+将当前统计图指定的坐标轴，设置为序数型。
 
 语法::
 
     OrdinalScale(AxisType = X)
+	
+
+**LinearScale**
+
+将当前统计图指定的坐标轴，设置为数值型。
+
+语法::
+
+    LinearScale(AxisType = X,[min = 数字],[max = 数字])
+
+**LogScale**
+
+将当前统计图指定的坐标轴，设置为对数坐标。
+
+语法::
+
+    LogScale(AxisType = X,[min = 数字],[max = 数字])
+
+**AngularScale**
+
+将当前统计图指定的坐标轴，设置为角度坐标。
+
+语法::
+
+    AngularScale(AxisType = PolarAngle)
+ 
 
 **TimelineScale**
 
@@ -125,7 +136,7 @@ Datist提供一套统计图绘制语言。
 
     TimelineScale(AxisType = X)
 
-系列
+设置数据系列
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ** Area**
@@ -168,14 +179,6 @@ Bar系列支持：XYChart
 
     Bar(xColumn,yColumn,[LabelColumn],[Name])
 
-**Box**
-
-Box系列支持：XYChart
-
-语法::
-
-    Box(ValueColumn,[groupColumn],[Name])
-
 **CountBar**
 
 CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
@@ -183,6 +186,14 @@ CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
 语法::
 
     CountBar(LabelColumn,[Name])
+
+**Box**
+
+误差统计图，支持：XYChart
+
+语法::
+
+    Box(ValueColumn,[groupColumn],[Name])
 
 **Histogram**
 
@@ -199,14 +210,6 @@ Histogram系列支持：XYChart,PolarChart
 语法::
 
     Pie(LabelColumn,ValueColumn,[Name])
-
-**Piper**
-
-Piper系列支持：PiperChart
-
-语法::
-
-    Piper(MgColumn,CaColumn,NaColumn,SO4Column,CO3Column,ClColumn,[LabelColumn],[Name])
 
 **Ring**
 
@@ -240,9 +243,27 @@ StepLine系列支持：XYChart
 
     StepLine(xColumn,yColumn,[LabelColumn],[Name])
 
-标记
+**Piper**
+
+Piper系列支持：PiperChart
+
+语法::
+
+    Piper(MgColumn,CaColumn,NaColumn,SO4Column,CO3Column,ClColumn,[LabelColumn],[Name])
+
+绘图命令
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+绘图命令，可以通过鼠标交互式绘图来自动创建。注意，不同的坐标系下点的坐标编码方式不同。
+
+**Rect**
+
+绘制矩形
+
+语法::
+
+    Rect(pointA,pointB)
+	
 **Circle**
 
 绘制椭圆
@@ -250,6 +271,23 @@ StepLine系列支持：XYChart
 语法::
 
     Circle(CenterPoint,SidePoint)
+
+**Ellipse**
+
+绘制椭圆
+
+语法::
+
+    Ellipse(pointA,pointB)
+	
+	
+**Polyline**
+
+绘制折线
+
+语法::
+
+    Polyline(pointA,pointB,pointC...)
 
 **Curve**
 
@@ -259,13 +297,16 @@ StepLine系列支持：XYChart
 
     Curve(pointA,pointB,pointC...)
 
-**Ellipse**
 
-绘制椭圆
+**Label**
+
+添加标记 
 
 语法::
 
-    Ellipse(pointA,pointB)
+    Label(Text,point[,Pos])
+    其中Pos为Center(默认),LeftTop,LeftMiddle,LeftBottom,CenterTop,CenterBottom,RightTop,RightMiddle,RightBottom
+    Pos也可以通过相应的序号来设置。
 
 **Image**
 
@@ -275,52 +316,39 @@ StepLine系列支持：XYChart
 
     Image(File)
 
-**Label**
-
-添加标记,支持XYChart,TriChart，其中Position为Center(默认),LeftTop,LeftMiddle,LeftBottom,CenterTop,CenterBottom,RightTop,RightMiddle,RightBottom
-
-语法::
-
-    Label(Text,point[,Pos])
-
-**Polyline**
-
-绘制折线
-
-语法::
-
-    Polyline(pointA,pointB,pointC...)
-
-**Rect**
-
-绘制矩形
-
-语法::
-
-    Rect(pointA,pointB)
 
 页面布局
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 **AlignGrid**
 
-网格布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+网格布局所有统计图。
 
 语法::
 
     AlignGrid([margin = 1],[gap = 5])
+    其中margin指定页边距，gap指定图与图之间的间隔
 
 **AlignH**
 
-左右布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+左右布局所有统计图。
 
 语法::
 
     AlignH([margin = 1],[gap = 5])
+	
+	
+**AlignV**
+
+上下布局所有统计图。
+
+语法::
+
+    AlignV([margin = 1],[gap = 5])
 
 **AlignLeft**
 
-┠型布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+┠型布局所有统计图。
 
 语法::
 
@@ -328,42 +356,27 @@ StepLine系列支持：XYChart
 
 **AlignRight**
 
-┫型布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+┫型布局所有统计图。
 
 语法::
 
     AlignRight([margin = 1],[gap = 5])
 
-**AlignV**
 
-上下布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
-
-语法::
-
-    AlignV([margin = 1],[gap = 5])
-
-设置
+其它设置
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**ChartStyle**
+**Title**
 
-设置统计图的界面样式。
-
-语法::
-
-    ChartStyle([style = Default],[margin = 15])
-
-**Export**
-
-导出图像
+设置统计图的标题。
 
 语法::
 
-    Export(File)
+    Title(Text,[Pos = Left],[Font = 宋体],[Size = 16])
 
 **SetChart**
 
-将指定名称的统计图设置为当前统计图
+将指定名称的统计图设置为当前统计图。
 
 语法::
 
@@ -377,28 +390,44 @@ StepLine系列支持：XYChart
 
     SetData(Name|tableId)
 
+**ChartStyle**
+
+设置统计图的界面样式。
+
+语法::
+
+    ChartStyle([style = Default],[margin = 15])
+    其中style，支持default、Paper、Light、Dark。
+    在数据专家系统的ChartEx目录下，用户可以编制（.json）文件对统计图的界面式进行扩展，可参考test.json文件。
+
 **SetLegend**
 
-设置图例样式
+设置图例样式。
 
 语法::
 
     SetLegend([Pos = LeftTop],[dock = True],[Rows = -1],[Cols = -1])
+    其中Pos为Center(默认),LeftTop,LeftMiddle,LeftBottom,CenterTop,CenterBottom,RightTop,RightMiddle,RightBottom
+    Pos也可以通过相应的序号来设置。
+	
+**Export**
 
-**Title**
-
-设置标题
+导出图像
 
 语法::
 
-    Title(Text,[Pos = Left],[Font = 宋体],[Size = 16])
+    Export(File)
 
-扩展图形
+	
+扩展统计图
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+用户可以使用统计图语言定制统计图，对系统进行扩展。扩展统计图以.cht为后缀，位于数据专家系统的ChartEx目录下，可参考Clasolite.cht。
+也可以将其添加到Chart.cfg文件中，将扩展统计图添加到【统计图节点】的列表中。
 
 **Clasolite**
 
-碎屑岩三角分类图解
+碎屑岩三角分类图解，一个扩展统计图的示例。
 
 语法::
 
