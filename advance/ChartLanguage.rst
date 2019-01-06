@@ -828,12 +828,12 @@ Clasolite使用::
 	
 统计图节点面板扩展示例::	
 
-	{ 
-	    "ChartId":"Clasolite",   //唯一标识，用于区分统计图的类型；同时与Images下的图标相对应，指定面板中显示的图标。
+    { 
+        "ChartId":"Clasolite",   //唯一标识，用于区分统计图的类型；同时与Images下的图标相对应，指定面板中显示的图标。
         "Title": "碎屑岩分类",   //定义面板中显示的统计图名称。
         "ChartName": "Clasolite",//指定统计图的坐标系，也可为扩展统计图的名称。
         "SeriesName": "Point",   //定义绘图的数据系列
-        "Multi": "Series",       //定义有多组数据时的绘图方式，支持Value, Series, Chart, None。其中Value支持多个Y数据;Series将分组生成多个数据系列，一般为Point数据系列使用;Chart将分组生成多个统计图，如饼图，如;None为不支持多组数据。
+        "Multi": "Series",       //定义有多组数据时的绘图方式，支持Value, Series, Chart, None。其中Value支持多个Y数据;Series将分组生成多个数据系列，一般为Point数据系列使用;Chart将分组生成多个统计图，如饼图;None为不支持多组数据。
         "DataNames": "Q,F,R"     //定义数据系列，对应前节点数据需求列的名称，注其顺序必须与数据系列的顺序一致。
     },
 	
@@ -850,6 +850,7 @@ Clasolite使用::
 在数据专家系统的ChartEx目录下，用户可以编制（.json）文件对统计图的界面式进行扩展，可参考test.json文件。	
 
 test.json文件代码::	
+
     {
       "SetBorder": false,
       "SeriesBorderColor": "",
