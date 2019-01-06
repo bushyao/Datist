@@ -8,6 +8,7 @@ Datist提供一套统计图绘制语言。
 -----------------------------------
 
 **XYChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建二维统计图。
 
@@ -17,6 +18,7 @@ Datist提供一套统计图绘制语言。
     其中Side，可设置为default|left|right指定X坐标轴的位置。
 
 **PieChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建饼状统计图。
 
@@ -26,6 +28,7 @@ Datist提供一套统计图绘制语言。
 
 
 **PolarChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建极坐标统计图(角度vs数值)。
 
@@ -50,6 +53,7 @@ Datist提供一套统计图绘制语言。
 
 
 **RadarChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建雷达图（多个坐标轴)。
 
@@ -73,6 +77,7 @@ Datist提供一套统计图绘制语言。
 
 	
 **TriChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建三角坐标系统计图。
 
@@ -94,6 +99,7 @@ Datist提供一套统计图绘制语言。
     :name: plate		
 
 **WulffChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建吴氏网(乌尔夫网图)。
 
@@ -102,6 +108,7 @@ Datist提供一套统计图绘制语言。
     WulffChart([Name],[ShowGrid = True])
 	
 **SchmidtChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建施氏网(施密特网)。
 
@@ -124,6 +131,7 @@ Datist提供一套统计图绘制语言。
     :name: plate 
     
 **PiperChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 创建piper三线图，适用于水化学数据分析。
 
@@ -154,6 +162,7 @@ Piper三线图示例::
 -----------------------------------
  
 **AxisTitle**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 设置坐标轴的标题。
 
@@ -163,6 +172,7 @@ Piper三线图示例::
     其中AxisType可为X|Y|Polar|PolarAngle
 
 **OrdinalScale**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 将当前统计图指定的坐标轴，设置为序数型。
 
@@ -172,6 +182,7 @@ Piper三线图示例::
 	
 
 **LinearScale**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 将当前统计图指定的坐标轴，设置为数值型。
 
@@ -180,6 +191,7 @@ Piper三线图示例::
     LinearScale(AxisType = X,[min = 数字],[max = 数字])
 
 **LogScale**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 将当前统计图指定的坐标轴，设置为对数坐标。
 
@@ -201,6 +213,7 @@ Piper三线图示例::
 
 	
 **AngularScale**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 将当前统计图指定的坐标轴，设置为角度坐标。
 
@@ -210,6 +223,7 @@ Piper三线图示例::
  
 
 **TimelineScale**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 将当前统计图指定的坐标轴，设置为时间型。
 
@@ -233,6 +247,7 @@ Piper三线图示例::
 -----------------------------------
 
 **Area**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Area系列支持：XYChart,PolarChart,RadarChart
 
@@ -258,6 +273,7 @@ Area示例::
     :name: plate	
 
 **Line**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Line系列支持：XYChart,PolarChart,RadarChart
 
@@ -268,6 +284,7 @@ Line系列支持：XYChart,PolarChart,RadarChart
     RadarChart: Line(AxisColumn,ValueColumn,[LabelColumn],[Name])
 
 **Point**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Point系列支持：XYChart,PolarChart,TriChart,SchmidtChart,WulffChart
 
@@ -293,6 +310,7 @@ Point系列支持：XYChart,PolarChart,TriChart,SchmidtChart,WulffChart
     :name: plate
 	
 **Bar**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Bar系列支持：XYChart
 
@@ -317,6 +335,7 @@ Bar系列支持：XYChart
     :name: plate	
 
 **CountBar**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
 
@@ -325,6 +344,7 @@ CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
     CountBar(LabelColumn,[Name])
 
 **Box**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 误差统计图，支持：XYChart
 
@@ -346,6 +366,7 @@ CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
     :name: plate	
 
 **Histogram**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Histogram系列支持：XYChart,PolarChart
 
@@ -368,6 +389,7 @@ Histogram与玫瑰花图示例::
     :name: plate		
 
 **Pie**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 饼图系列支持：PieChart
 
@@ -376,6 +398,7 @@ Histogram与玫瑰花图示例::
     Pie(LabelColumn,ValueColumn,[Name])
 
 **Ring**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Ring系列支持：PieChart
 
@@ -397,6 +420,7 @@ Ring系列支持：PieChart
     :name: plate	
 
 **SmoothArea**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SmoothArea系列支持：XYChart
 
@@ -405,6 +429,7 @@ SmoothArea系列支持：XYChart
     SmoothArea(xColumn,yColumn,[LabelColumn],[Name])
 
 **SmoothLine**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SmoothLine系列支持：XYChart
 
@@ -413,6 +438,7 @@ SmoothLine系列支持：XYChart
     SmoothLine(xColumn,yColumn,[LabelColumn],[Name])
 
 **StepLine**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 StepLine系列支持：XYChart
 
@@ -433,6 +459,7 @@ StepLine示例::
     :name: plate	
 
 **Piper**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Piper系列支持：PiperChart
 
@@ -446,6 +473,7 @@ Piper系列支持：PiperChart
 绘图命令，可以通过鼠标交互式绘图来自动创建。注意，不同的坐标系下点的坐标编码方式不同。
 
 **Rect**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 绘制矩形
 
@@ -454,6 +482,7 @@ Piper系列支持：PiperChart
     Rect(pointA,pointB)
 	
 **Circle**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 绘制椭圆
 
@@ -462,6 +491,7 @@ Piper系列支持：PiperChart
     Circle(CenterPoint,SidePoint)
 
 **Ellipse**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 绘制椭圆
 
@@ -471,6 +501,7 @@ Piper系列支持：PiperChart
 	
 	
 **Polyline**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 绘制折线
 
@@ -479,6 +510,7 @@ Piper系列支持：PiperChart
     Polyline(pointA,pointB,pointC...)
 
 **Curve**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 绘制曲线
 
@@ -488,6 +520,7 @@ Piper系列支持：PiperChart
 
 
 **Label**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 添加标记 
 
@@ -498,6 +531,7 @@ Piper系列支持：PiperChart
     Pos也可以通过相应的序号来设置。
 
 **Image**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 加载背景图片
 
@@ -510,6 +544,7 @@ Piper系列支持：PiperChart
 -----------------------------------
 
 **AlignGrid**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 网格布局所有统计图。
 
@@ -542,6 +577,7 @@ Piper系列支持：PiperChart
     :name: plate	
  
 **AlignH**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 左右布局所有统计图。
 
@@ -568,6 +604,7 @@ Piper系列支持：PiperChart
     :name: plate	
 	
 **AlignV**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 上下布局所有统计图。
 
@@ -599,6 +636,7 @@ Piper系列支持：PiperChart
     :name: plate		
 	
 **AlignLeft**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ┠型布局所有统计图。
 
@@ -628,6 +666,7 @@ Piper系列支持：PiperChart
 
 	
 **AlignRight**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ┫型布局所有统计图。
 
@@ -659,14 +698,17 @@ Piper系列支持：PiperChart
 -----------------------------------
 
 **Title**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 设置统计图的标题。
 
 语法::
 
     Title(Text,[Pos = Left],[Font = 宋体],[Size = 16])
+	其中Pos，可设置为Left、Center、Right
 
 **SetChart**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 将指定名称的统计图设置为当前统计图。
 
@@ -675,6 +717,7 @@ Piper系列支持：PiperChart
     SetChart(Name)
 
 **SetData**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 当有多个数据源时，切换当前用于绘图的数据表；tableId从1开始计数。
 
@@ -708,6 +751,7 @@ Piper系列支持：PiperChart
     :name: plate	
 
 **ChartStyle**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 设置统计图的界面样式。
 
@@ -718,6 +762,7 @@ Piper系列支持：PiperChart
     在数据专家系统的ChartEx目录下，用户可以编制（.json）文件对统计图的界面式进行扩展，可参考test.json文件。
 
 **SetLegend**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 设置图例样式。
 
@@ -728,6 +773,7 @@ Piper系列支持：PiperChart
     Pos也可以通过相应的序号来设置。
 	
 **Export**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 导出图像
 
@@ -743,6 +789,7 @@ Piper系列支持：PiperChart
 也可以将其添加到Chart.cfg文件中，将扩展统计图添加到【统计图节点】的列表中。
 
 **Clasolite**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 碎屑岩三角分类图解，一个扩展统计图的示例。
 

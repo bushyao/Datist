@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<NodeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Arthor>bushyao</Arthor>
+  <SQLiteIO>
+    <DbFullName>Tc45c0811a3d04763beaca354df5b0912.bcdb</DbFullName>
+    <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
+    <DmsFullName>C:\Users\BC\Desktop\输出Chart列表.DMS</DmsFullName>
+  </SQLiteIO>
+  <Title>Stream</Title>
+  <Subject>2019/1/6 20:27:48</Subject>
+  <Arthor2>BC-PC</Arthor2>
+  <Manager />
+  <Company>DSS</Company>
+  <Category />
+  <Description />
+  <KeyWords />
+  <StreamID />
+  <ReportTitleName />
+  <ListReportTitles />
+  <Price>0</Price>
+  <PrivilegeType>公开</PrivilegeType>
+  <Parameters />
+  <Items>
+    <NodeBase xsi:type="NodeCache">
+      <Guid>9b18d820-3ada-460c-bfdb-0bdc34ef87dc</Guid>
+      <CenterY>157.5</CenterY>
+      <CenterX>140</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>表格数据</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid />
+      <CacheIt>true</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <JsonTextSaved>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</JsonTextSaved>
+    </NodeBase>
+    <NodeBase xsi:type="NodeReplaceValue">
+      <Guid>4a0528c6-7fdf-451e-8521-967503e17be6</Guid>
+      <CenterY>238.4</CenterY>
+      <CenterX>128.8</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>向上取值</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>9b18d820-3ada-460c-bfdb-0bdc34ef87dc</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FillerIf>IsNullOrWhiteSpace( @Fields )</FillerIf>
+      <Fields>
+        <string>组别</string>
+      </Fields>
+      <GroupField />
+    </NodeBase>
+    <NodeBase xsi:type="NodeColumnSplit">
+      <Guid>5061be24-f511-499d-a653-8980158efd26</Guid>
+      <CenterY>237.5</CenterY>
+      <CenterX>280</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>列劈分</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>906c7f3d-59b2-4ca1-b2eb-a89636f2708c</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FieldName>示例</FieldName>
+      <SplitChars>(</SplitChars>
+      <SplitterFixed>10,20</SplitterFixed>
+      <NewColumnHeader>ColumnSplit</NewColumnHeader>
+      <MaxColumnsCount>1</MaxColumnsCount>
+      <IsRegex>false</IsRegex>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>3133ab47-f28b-4f66-adc0-fd3e2d778963</Guid>
+      <CenterY>246.4</CenterY>
+      <CenterX>369.6</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>替换</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>5061be24-f511-499d-a653-8980158efd26</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FillerIf>HasSubString( @Fields , ':' )</FillerIf>
+      <FillerFields>
+        <string>ColumnSplit1</string>
+      </FillerFields>
+      <FillerValue>SubStrBetweenS( @Fields , ":" ,"" )</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>7b3ff20c-f905-40ee-bacf-2cc996d1f1f5</Guid>
+      <CenterY>242.5</CenterY>
+      <CenterX>490</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>汇总</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>8f1813bd-aa22-4000-b3c2-870a133bd510</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <KeyFields>
+        <string>ColumnSplit1</string>
+      </KeyFields>
+      <AggregeteFields>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>组别</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>示例</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>描述</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>行号6</FieldName>
+          <FDataType>Integer</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+      </AggregeteFields>
+      <StringSpliter>\r\n</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeRowID">
+      <Guid>906c7f3d-59b2-4ca1-b2eb-a89636f2708c</Guid>
+      <CenterY>305.6</CenterY>
+      <CenterX>192</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行号6</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>9b18d820-3ada-460c-bfdb-0bdc34ef87dc</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <NewName>行号6</NewName>
+      <ComputeMode>RowID</ComputeMode>
+      <ComputeFieldName />
+      <UniqueFieldName />
+      <BeginFieldName />
+      <OrderBy>true</OrderBy>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>f611ceea-a6c6-4e03-b873-f5449d9c62f0</Guid>
+      <CenterY>362.5</CenterY>
+      <CenterX>425</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>新列7</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>7b3ff20c-f905-40ee-bacf-2cc996d1f1f5</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FieldName>新列7</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>F("**{ColumnSplit1}**\r\n\r\n{描述_字符合并}\r\n\r\n语法::\r\n\r\n{示例_字符合并}\r\n")</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>286eb70d-0771-4368-9ff6-dc99ef14de85</Guid>
+      <CenterY>362.5</CenterY>
+      <CenterX>520</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>行序</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>f611ceea-a6c6-4e03-b873-f5449d9c62f0</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>新列7</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
+          <DataType>Text</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+      </FieldSorts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>22e7b1da-628a-4946-9975-77d2a7910daa</Guid>
+      <CenterY>349.6</CenterY>
+      <CenterX>619.2</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>汇总#1</Title>
+      <Name>汇总</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>286eb70d-0771-4368-9ff6-dc99ef14de85</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <KeyFields>
+        <string>组别_字符合并</string>
+      </KeyFields>
+      <AggregeteFields>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>新列7</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>行号6_第一个</FieldName>
+          <FDataType>Integer</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+      </AggregeteFields>
+      <StringSpliter>\r\n</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSort">
+      <Guid>ad3e808d-f6bc-4d77-9fd2-5c251868f1b4</Guid>
+      <CenterY>442.4</CenterY>
+      <CenterX>628</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>行序#1</Title>
+      <Name>行序</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>22e7b1da-628a-4946-9975-77d2a7910daa</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FieldSorts>
+        <FieldSort>
+          <Asc>true</Asc>
+          <FieldName>行号6_第一个_第一个</FieldName>
+          <OrdinalIgnoreCase>false</OrdinalIgnoreCase>
+          <DataType>Integer</DataType>
+          <Tag>true</Tag>
+          <ValueSort />
+        </FieldSort>
+      </FieldSorts>
+    </NodeBase>
+    <NodeBase xsi:type="NodeAggregate">
+      <Guid>ad3cb3ef-b4b5-4607-8ad8-062705955bda</Guid>
+      <CenterY>462.5</CenterY>
+      <CenterX>405</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>汇总#2</Title>
+      <Name>汇总</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>c500547f-c4b3-424e-a5b7-d3772b2a1dde</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <KeyFields />
+      <AggregeteFields>
+        <AggregeteField>
+          <AggregeteTypes>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+            <boolean>true</boolean>
+            <boolean>false</boolean>
+            <boolean>false</boolean>
+          </AggregeteTypes>
+          <FieldName>新列12</FieldName>
+          <FDataType>Text</FDataType>
+          <StringSpliter>,</StringSpliter>
+        </AggregeteField>
+      </AggregeteFields>
+      <StringSpliter>\r\n</StringSpliter>
+      <HasCount>false</HasCount>
+      <CountFieldName>RecordCount</CountFieldName>
+      <HasSum>false</HasSum>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDerive">
+      <Guid>c500547f-c4b3-424e-a5b7-d3772b2a1dde</Guid>
+      <CenterY>462.5</CenterY>
+      <CenterX>510</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>新列12</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>ad3e808d-f6bc-4d77-9fd2-5c251868f1b4</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FieldName>新列12</FieldName>
+      <FieldMode>Formula</FieldMode>
+      <FieldDataType>Text</FieldDataType>
+      <FormulaExpression>F("{组别_字符合并}\r\n^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n\r\n{新列7_字符合并}")</FormulaExpression>
+      <ConditionIf />
+      <ConditionTrue />
+      <ConditionFalse />
+      <MutliOr>false</MutliOr>
+      <AppendNullRow>true</AppendNullRow>
+      <MutliDefaultValue>null</MutliDefaultValue>
+      <MutliCondtitions />
+      <MutliCondtitionIsDateTime>false</MutliCondtitionIsDateTime>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>8f1813bd-aa22-4000-b3c2-870a133bd510</Guid>
+      <CenterY>132.5</CenterY>
+      <CenterX>430</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>替换#1</Title>
+      <Name>替换</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>3133ab47-f28b-4f66-adc0-fd3e2d778963</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FillerIf>1</FillerIf>
+      <FillerFields>
+        <string>示例</string>
+      </FillerFields>
+      <FillerValue>"    " || @Fields</FillerValue>
+    </NodeBase>
+    <NodeBase xsi:type="NodeDownload">
+      <Guid>1ecf3619-18e9-4179-bb9a-deca8d14b663</Guid>
+      <CenterY>462.5</CenterY>
+      <CenterX>300</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title />
+      <Name>数据项转存</Name>
+      <ShowName>true</ShowName>
+      <PriorNodeGuid>
+        <guid>ad3cb3ef-b4b5-4607-8ad8-062705955bda</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <ByStream>false</ByStream>
+      <Url>新列12_字符合并</Url>
+      <SavePath>"C:\Users\BC\Desktop\txt.txt"</SavePath>
+      <DataDataType />
+      <MillisecondsTimeout>0</MillisecondsTimeout>
+      <ItemType>Txt</ItemType>
+      <RecognizeFileName>true</RecognizeFileName>
+    </NodeBase>
+  </Items>
+  <ParNames />
+  <EvalNodeNames>数据项转存</EvalNodeNames>
+  <OffsetX>0</OffsetX>
+  <OffsetY>0</OffsetY>
+  <Scale>1</Scale>
+</NodeCollection>
