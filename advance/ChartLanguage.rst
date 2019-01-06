@@ -1,12 +1,413 @@
 ﻿.. ChartLanguage
  
-图表语言
+统计图语言
 ====================================
 Datist提供一套统计图绘制语言。
 
-    
-**案例：**
+绘图关键字：
+-----------------------------------
 
+统计图
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. PieChart
+
+新建饼状统计图。
+
+示例::
+
+    PieChart([Name])
+
+#. PiperChart
+
+新建piper三线图图。
+
+示例::
+
+    PiperChart([Name],[ShowGrid = True])
+
+#. PolarChart
+
+新建极坐标统计图(角度vs数值)。
+
+示例::
+
+    PolarChart([Name])
+
+#. RadarChart
+
+新建雷达图(多个坐标轴)。
+
+示例::
+
+    RadarChart([Name])
+
+#. SchmidtChart
+
+新建施氏网(施密特网)。
+
+示例::
+
+    SchmidtChart([Name],[ShowGrid = True])
+
+#. TriChart
+
+新建三角坐标系统计图。
+
+示例::
+
+    TriChart([Name],[ShowGrid = True],[TitleA = A],[TitleB = B],[TitleC = C],[Desc])
+
+#. WulffChart
+
+新建吴氏网(乌尔夫网图)。
+
+示例::
+
+    WulffChart([Name],[ShowGrid = True])
+
+#. XYChart
+
+新建二维统计图；其中default|left|right为X坐标轴的位置。
+
+示例::
+
+    XYChart([Name],[ShowGrid = True],[TitleX],[TitleY],[Side = default])
+
+坐标轴
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. AngularScale
+
+将当前统计图指定的坐标轴，设置为角度坐标
+
+示例::
+
+    AngularScale(AxisType = PolarAngle)
+
+#. AxisTitle
+
+设置坐标轴的标题,其中AxisType为X|Y|Polar|PolarAngle
+
+示例::
+
+    AxisTitle(AxisType = X,Title)
+
+#. LinearScale
+
+将当前统计图指定的坐标轴，设置为数值型
+
+示例::
+
+    LinearScale(AxisType = X,[min = 非数字],[max = 非数字])
+
+#. LogScale
+
+将当前统计图指定的坐标轴，设置为对数坐标
+
+示例::
+
+    LogScale(AxisType = X,[min = 非数字],[max = 非数字])
+
+#. OrdinalScale
+
+将当前统计图指定的坐标轴，设置为序数型
+
+示例::
+
+    OrdinalScale(AxisType = X)
+
+#. TimelineScale
+
+将当前统计图指定的坐标轴，设置为时间型。
+
+示例::
+
+    TimelineScale(AxisType = X)
+
+系列
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#.  Area
+
+Area系列支持：XYChart,PolarChart,RadarChart
+
+示例::
+
+    XYChart: Area(xColumn,yColumn,[LabelColumn],[Name])
+    PolarChart: Area(AColumn,PColumn,[LabelColumn],[Name])
+    RadarChart: Area(AxisColumn,ValueColumn,[LabelColumn],[Name])
+
+#.  Line
+
+Line系列支持：XYChart,PolarChart,RadarChart
+
+示例::
+
+    XYChart: Line(xColumn,yColumn,[LabelColumn],[Name])
+    PolarChart: Line(AColumn,PColumn,[LabelColumn],[Name])
+    RadarChart: Line(AxisColumn,ValueColumn,[LabelColumn],[Name])
+
+#.  Point
+
+Point系列支持：XYChart,PolarChart,TriChart,SchmidtChart,WulffChart
+
+示例::
+
+    XYChart: Point(xColumn,yColumn,[LabelColumn],[Name])
+    PolarChart: Point(AColumn,PColumn,[LabelColumn],[Name])
+    TriChart: Point(AColumn,BColumn,CColumn,[LabelColumn],[Name])
+    SchmidtChart: Point(rColumn,aColumn,[LabelColumn],[Name])
+    WulffChart: Point(rColumn,aColumn,[LabelColumn],[Name])
+
+#. Bar
+
+Bar系列支持：XYChart
+
+示例::
+
+    Bar(xColumn,yColumn,[LabelColumn],[Name])
+
+#. Box
+
+Box系列支持：XYChart
+
+示例::
+
+    Box(ValueColumn,[groupColumn],[Name])
+
+#. CountBar
+
+CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
+
+示例::
+
+    CountBar(LabelColumn,[Name])
+
+#. Histogram
+
+Histogram系列支持：XYChart,PolarChart
+
+示例::
+
+    Histogram(ValueColumn,[Name])
+
+#. Pie
+
+饼图系列支持：PieChart
+
+示例::
+
+    Pie(LabelColumn,ValueColumn,[Name])
+
+#. Piper
+
+Piper系列支持：PiperChart
+
+示例::
+
+    Piper(MgColumn,CaColumn,NaColumn,SO4Column,CO3Column,ClColumn,[LabelColumn],[Name])
+
+#. Ring
+
+Ring系列支持：PieChart
+
+示例::
+
+    Ring(LabelColumn,ValueColumn,[Name])
+
+#. SmoothArea
+
+SmoothArea系列支持：XYChart
+
+示例::
+
+    SmoothArea(xColumn,yColumn,[LabelColumn],[Name])
+
+#. SmoothLine
+
+SmoothLine系列支持：XYChart
+
+示例::
+
+    SmoothLine(xColumn,yColumn,[LabelColumn],[Name])
+
+#. StepLine
+
+StepLine系列支持：XYChart
+
+示例::
+
+    StepLine(xColumn,yColumn,[LabelColumn],[Name])
+
+标记
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Circle
+
+绘制椭圆
+
+示例::
+
+    Circle(CenterPoint,SidePoint)
+
+#. Curve
+
+绘制曲线
+
+示例::
+
+    Curve(pointA,pointB,pointC...)
+
+#. Ellipse
+
+绘制椭圆
+
+示例::
+
+    Ellipse(pointA,pointB)
+
+#. Image
+
+加载背景图片
+
+示例::
+
+    Image(File)
+
+#. Label
+
+添加标记,支持XYChart,TriChart，其中Position为Center(默认),LeftTop,LeftMiddle,LeftBottom,CenterTop,CenterBottom,RightTop,RightMiddle,RightBottom
+
+示例::
+
+    Label(Text,point[,Pos])
+
+#. Polyline
+
+绘制折线
+
+示例::
+
+    Polyline(pointA,pointB,pointC...)
+
+#. Rect
+
+绘制矩形
+
+示例::
+
+    Rect(pointA,pointB)
+
+页面布局
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. AlignGrid
+
+网格布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+
+示例::
+
+    AlignGrid([margin = 1],[gap = 5])
+
+#. AlignH
+
+左右布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+
+示例::
+
+    AlignH([margin = 1],[gap = 5])
+
+#. AlignLeft
+
+┠型布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+
+示例::
+
+    AlignLeft([margin = 1],[gap = 5])
+
+#. AlignRight
+
+┫型布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+
+示例::
+
+    AlignRight([margin = 1],[gap = 5])
+
+#. AlignV
+
+上下布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
+
+示例::
+
+    AlignV([margin = 1],[gap = 5])
+
+设置
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. ChartStyle
+
+设置统计图的界面样式。
+
+示例::
+
+    ChartStyle([style = Default],[margin = 15])
+
+#. Export
+
+导出图像
+
+示例::
+
+    Export(File)
+
+#. SetChart
+
+将指定名称的统计图设置为当前统计图
+
+示例::
+
+    SetChart(Name)
+
+#. SetData
+
+当有多个数据源时，切换当前用于绘图的数据表；tableId从1开始计数。
+
+示例::
+
+    SetData(Name|tableId)
+
+#. SetLegend
+
+设置图例样式
+
+示例::
+
+    SetLegend([Pos = LeftTop],[dock = True],[Rows = -1],[Cols = -1])
+
+#. Title
+
+设置标题
+
+示例::
+
+    Title(Text,[Pos = Left],[Font = 宋体],[Size = 16])
+
+扩展图形
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+#. Clasolite
+
+碎屑岩三角分类图解
+
+示例::
+
+    Clasolite()
+
+
+    
+案例：
+-----------------------------------
 
 点系列示例::
 
