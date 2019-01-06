@@ -2,7 +2,7 @@
  
 统计图语言
 ====================================
-Datist提供一套统计图绘制语言。 
+Datist提供一套统计图绘制语言，适用于统计图、统计图2节点。 
 
 设置坐标系
 -----------------------------------
@@ -758,8 +758,7 @@ Piper系列支持：PiperChart
 语法::
 
     ChartStyle([style = Default],[margin = 15])
-    其中style，支持default、Paper、Light、Dark。
-    在数据专家系统的ChartEx目录下，用户可以编制（.json）文件对统计图的界面式进行扩展，可参考test.json文件。
+    其中style，支持default、Paper、Light、Dark或自定义样式的文件名。
 
 **SetLegend**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -782,22 +781,35 @@ Piper系列支持：PiperChart
     Export(File)
 
 	
-扩展统计图
+系统扩展
 -----------------------------------
-
-用户可以使用统计图语言定制统计图，对系统进行扩展。扩展统计图以.cht为后缀，位于数据专家系统的ChartEx目录下，可参考Clasolite.cht。
-也可以将其添加到Chart.cfg文件中，将扩展统计图添加到【统计图节点】的列表中。
-
-**Clasolite**
+ 
+**自定义统计图**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-碎屑岩三角分类图解，一个扩展统计图的示例。
+用户可以使用统计图语言定制统计图，对系统进行扩展。扩展统计图以.cht为后缀，位于数据专家系统的ChartEx目录下，可参考Clasolite.cht。
+ 
+Clasolite文件代码::
 
-语法::
+    //碎屑岩三角分类图解
+    TriChart(ss,false,"石英，%","长石，%","岩屑+云母、\r\n绿泥石，%","Ⅰ-石英砂岩；Ⅱ-长石石英砂岩；Ⅲ-岩屑石英砂岩；\r\nⅣ-长石砂岩；Ⅴ-岩屑长石砂岩；Ⅵ-长石岩屑砂岩；\r\nⅦ-岩屑砂岩；")
+    Polyline(90 10 0,90 0 10,,75 25 0,75 0 25,,90 5 5,0 50 50,,75 18.75 6.25,0 75 25,,75 6.25 18.75,0 25 75)
+    Label(Ⅰ,93 3.5 3.5)
+    Label(Ⅱ,82 13 5)
+    Label(Ⅲ,82 5 13)
+    Label(Ⅳ,36 54 10)
+    Label(Ⅴ,36 39 25)
+    Label(Ⅵ,36 25 39)
+    Label(Ⅶ,36 10 54)
+    Label( 90,90 10 0,4)
+    Label( 90,90 0 10,6)
+    Label( 75,75 25 0,4)
+    Label( 75,75 0 25,6)
+    Label( 3,0 75 25,8)
+    Label( 1,0 50 50,8)
+    Label( 1/3,0 25 75,8) 
 
-    Clasolite()
-
-扩展图形示例::
+Clasolite使用::
 	
     //扩展图形
     Clasolite()
@@ -808,4 +820,65 @@ Piper系列支持：PiperChart
     :align: center
     :figwidth: 90% 
     :name: plate	
+	
+**统计图节点扩展**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+用户通过编辑Chart.cfg文件，对统计图节点面板进行扩展，也可以将扩展统计图添加到其中。
+	
+统计图节点面板扩展示例::	
+
+	{ 
+	    "ChartId":"Clasolite",   //唯一标识，用于区分统计图的类型；同时与Images下的图标相对应，指定面板中显示的图标。
+        "Title": "碎屑岩分类",   //定义面板中显示的统计图名称。
+        "ChartName": "Clasolite",//指定统计图的坐标系，也可为扩展统计图的名称。
+        "SeriesName": "Point",   //定义绘图的数据系列
+        "Multi": "Series",       //定义有多组数据时的绘图方式，支持Value, Series, Chart, None。其中Value支持多个Y数据;Series将分组生成多个数据系列，一般为Point数据系列使用;Chart将分组生成多个统计图，如饼图，如;None为不支持多组数据。
+        "DataNames": "Q,F,R"     //定义数据系列，对应前节点数据需求列的名称，注其顺序必须与数据系列的顺序一致。
+    },
+	
+统计图节点面板
+
+.. figure:: ChartImages/NodePanel.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate	
+	
+**统计图样式扩展**
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+在数据专家系统的ChartEx目录下，用户可以编制（.json）文件对统计图的界面式进行扩展，可参考test.json文件。	
+
+test.json文件代码::	
+    {
+      "SetBorder": false,
+      "SeriesBorderColor": "",
+      "DrawStrokeColor": "255, 79, 79",
+      "DrawFillColor": "80, 255, 79, 79",
+      "ControlBackgroundForeColor": "0,51, 51, 51",
+      "ControlBackgroundBackColor": "0,211, 211, 211",
+      "LabelForeColor": "0, 0, 0",
+      "LabelBackColor": "255, 255, 255",
+      "GaugeBackgroundBackColor": "251, 203, 156",
+      "GaugeBackgroundForeColor": "60, 90, 108",
+      "NumericLitColor": "247, 150, 56",
+      "NumericDimColor": "50, 247, 150, 56",
+      "NumericDecimalLitColor": "238, 217, 2",
+      "NumericDecimalDimColor": "50, 238, 217, 2",
+      "GaugeAxisLabelForeColor": "White",
+      "GaugeAxisLabelBackColor": "White",
+      "IndicatorColors": [ "247, 150, 56", "238, 217, 2", "243, 217, 124" ],
+      "RulerStrokeColor": "79, 79, 79",
+      "RulerFillColor": "160, 162, 173, 182",
+      "TickStrokeColor": "196, 196, 196",
+      "GridStrokeColor": "79, 79, 79",
+      "WallForeColor": "255, 255, 255",
+      "WallBackColor": "0,51, 51, 51",
+      "SeriesColors": [ "221, 107, 102", "117, 154, 160", "230, 157, 135", "141, 193, 169", "234, 126, 83", "238, 221, 120", "115, 163, 115", "115, 185, 188", "114, 137, 171", "145, 202, 140", "244, 159, 66" ],
+      "ScaleStripColor": "230, 234, 240"
+    }
+	
+样式扩展文件的使用方式::	
+
+    ChartStyle(test)//test为扩展样式的文件名
+    
