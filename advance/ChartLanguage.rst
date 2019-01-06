@@ -4,13 +4,13 @@
 ====================================
 Datist提供一套统计图绘制语言。
 
-绘图关键字：
+统计图关键字
 -----------------------------------
 
 统计图
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. PieChart
+ #) PieChart
 
 新建饼状统计图。
 
@@ -18,7 +18,7 @@ Datist提供一套统计图绘制语言。
 
     PieChart([Name])
 
-#. PiperChart
+ #) PiperChart
 
 新建piper三线图图。
 
@@ -26,7 +26,7 @@ Datist提供一套统计图绘制语言。
 
     PiperChart([Name],[ShowGrid = True])
 
-#. PolarChart
+ #) PolarChart
 
 新建极坐标统计图(角度vs数值)。
 
@@ -34,7 +34,7 @@ Datist提供一套统计图绘制语言。
 
     PolarChart([Name])
 
-#. RadarChart
+ #) RadarChart
 
 新建雷达图(多个坐标轴)。
 
@@ -42,7 +42,7 @@ Datist提供一套统计图绘制语言。
 
     RadarChart([Name])
 
-#. SchmidtChart
+ #) SchmidtChart
 
 新建施氏网(施密特网)。
 
@@ -50,7 +50,7 @@ Datist提供一套统计图绘制语言。
 
     SchmidtChart([Name],[ShowGrid = True])
 
-#. TriChart
+ #) TriChart
 
 新建三角坐标系统计图。
 
@@ -58,7 +58,7 @@ Datist提供一套统计图绘制语言。
 
     TriChart([Name],[ShowGrid = True],[TitleA = A],[TitleB = B],[TitleC = C],[Desc])
 
-#. WulffChart
+ #) WulffChart
 
 新建吴氏网(乌尔夫网图)。
 
@@ -66,7 +66,7 @@ Datist提供一套统计图绘制语言。
 
     WulffChart([Name],[ShowGrid = True])
 
-#. XYChart
+ #) XYChart
 
 新建二维统计图；其中default|left|right为X坐标轴的位置。
 
@@ -77,7 +77,7 @@ Datist提供一套统计图绘制语言。
 坐标轴
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. AngularScale
+ #) AngularScale
 
 将当前统计图指定的坐标轴，设置为角度坐标
 
@@ -85,7 +85,7 @@ Datist提供一套统计图绘制语言。
 
     AngularScale(AxisType = PolarAngle)
 
-#. AxisTitle
+ #) AxisTitle
 
 设置坐标轴的标题,其中AxisType为X|Y|Polar|PolarAngle
 
@@ -93,7 +93,7 @@ Datist提供一套统计图绘制语言。
 
     AxisTitle(AxisType = X,Title)
 
-#. LinearScale
+ #) LinearScale
 
 将当前统计图指定的坐标轴，设置为数值型
 
@@ -101,7 +101,7 @@ Datist提供一套统计图绘制语言。
 
     LinearScale(AxisType = X,[min = 非数字],[max = 非数字])
 
-#. LogScale
+ #) LogScale
 
 将当前统计图指定的坐标轴，设置为对数坐标
 
@@ -109,7 +109,7 @@ Datist提供一套统计图绘制语言。
 
     LogScale(AxisType = X,[min = 非数字],[max = 非数字])
 
-#. OrdinalScale
+ #) OrdinalScale
 
 将当前统计图指定的坐标轴，设置为序数型
 
@@ -117,7 +117,7 @@ Datist提供一套统计图绘制语言。
 
     OrdinalScale(AxisType = X)
 
-#. TimelineScale
+ #) TimelineScale
 
 将当前统计图指定的坐标轴，设置为时间型。
 
@@ -128,7 +128,7 @@ Datist提供一套统计图绘制语言。
 系列
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#.  Area
+ #)  Area
 
 Area系列支持：XYChart,PolarChart,RadarChart
 
@@ -138,7 +138,7 @@ Area系列支持：XYChart,PolarChart,RadarChart
     PolarChart: Area(AColumn,PColumn,[LabelColumn],[Name])
     RadarChart: Area(AxisColumn,ValueColumn,[LabelColumn],[Name])
 
-#.  Line
+ #)  Line
 
 Line系列支持：XYChart,PolarChart,RadarChart
 
@@ -148,7 +148,7 @@ Line系列支持：XYChart,PolarChart,RadarChart
     PolarChart: Line(AColumn,PColumn,[LabelColumn],[Name])
     RadarChart: Line(AxisColumn,ValueColumn,[LabelColumn],[Name])
 
-#.  Point
+ #)  Point
 
 Point系列支持：XYChart,PolarChart,TriChart,SchmidtChart,WulffChart
 
@@ -160,7 +160,7 @@ Point系列支持：XYChart,PolarChart,TriChart,SchmidtChart,WulffChart
     SchmidtChart: Point(rColumn,aColumn,[LabelColumn],[Name])
     WulffChart: Point(rColumn,aColumn,[LabelColumn],[Name])
 
-#. Bar
+ #) Bar
 
 Bar系列支持：XYChart
 
@@ -168,7 +168,7 @@ Bar系列支持：XYChart
 
     Bar(xColumn,yColumn,[LabelColumn],[Name])
 
-#. Box
+ #) Box
 
 Box系列支持：XYChart
 
@@ -176,7 +176,7 @@ Box系列支持：XYChart
 
     Box(ValueColumn,[groupColumn],[Name])
 
-#. CountBar
+ #) CountBar
 
 CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
 
@@ -184,7 +184,7 @@ CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
 
     CountBar(LabelColumn,[Name])
 
-#. Histogram
+ #) Histogram
 
 Histogram系列支持：XYChart,PolarChart
 
@@ -192,7 +192,7 @@ Histogram系列支持：XYChart,PolarChart
 
     Histogram(ValueColumn,[Name])
 
-#. Pie
+ #) Pie
 
 饼图系列支持：PieChart
 
@@ -200,7 +200,7 @@ Histogram系列支持：XYChart,PolarChart
 
     Pie(LabelColumn,ValueColumn,[Name])
 
-#. Piper
+ #) Piper
 
 Piper系列支持：PiperChart
 
@@ -208,7 +208,7 @@ Piper系列支持：PiperChart
 
     Piper(MgColumn,CaColumn,NaColumn,SO4Column,CO3Column,ClColumn,[LabelColumn],[Name])
 
-#. Ring
+ #) Ring
 
 Ring系列支持：PieChart
 
@@ -216,7 +216,7 @@ Ring系列支持：PieChart
 
     Ring(LabelColumn,ValueColumn,[Name])
 
-#. SmoothArea
+ #) SmoothArea
 
 SmoothArea系列支持：XYChart
 
@@ -224,7 +224,7 @@ SmoothArea系列支持：XYChart
 
     SmoothArea(xColumn,yColumn,[LabelColumn],[Name])
 
-#. SmoothLine
+ #) SmoothLine
 
 SmoothLine系列支持：XYChart
 
@@ -232,7 +232,7 @@ SmoothLine系列支持：XYChart
 
     SmoothLine(xColumn,yColumn,[LabelColumn],[Name])
 
-#. StepLine
+ #) StepLine
 
 StepLine系列支持：XYChart
 
@@ -243,7 +243,7 @@ StepLine系列支持：XYChart
 标记
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Circle
+ #) Circle
 
 绘制椭圆
 
@@ -251,7 +251,7 @@ StepLine系列支持：XYChart
 
     Circle(CenterPoint,SidePoint)
 
-#. Curve
+ #) Curve
 
 绘制曲线
 
@@ -259,7 +259,7 @@ StepLine系列支持：XYChart
 
     Curve(pointA,pointB,pointC...)
 
-#. Ellipse
+ #) Ellipse
 
 绘制椭圆
 
@@ -267,7 +267,7 @@ StepLine系列支持：XYChart
 
     Ellipse(pointA,pointB)
 
-#. Image
+ #) Image
 
 加载背景图片
 
@@ -275,7 +275,7 @@ StepLine系列支持：XYChart
 
     Image(File)
 
-#. Label
+ #) Label
 
 添加标记,支持XYChart,TriChart，其中Position为Center(默认),LeftTop,LeftMiddle,LeftBottom,CenterTop,CenterBottom,RightTop,RightMiddle,RightBottom
 
@@ -283,7 +283,7 @@ StepLine系列支持：XYChart
 
     Label(Text,point[,Pos])
 
-#. Polyline
+ #) Polyline
 
 绘制折线
 
@@ -291,7 +291,7 @@ StepLine系列支持：XYChart
 
     Polyline(pointA,pointB,pointC...)
 
-#. Rect
+ #) Rect
 
 绘制矩形
 
@@ -302,7 +302,7 @@ StepLine系列支持：XYChart
 页面布局
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. AlignGrid
+ #) AlignGrid
 
 网格布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
 
@@ -310,7 +310,7 @@ StepLine系列支持：XYChart
 
     AlignGrid([margin = 1],[gap = 5])
 
-#. AlignH
+ #) AlignH
 
 左右布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
 
@@ -318,7 +318,7 @@ StepLine系列支持：XYChart
 
     AlignH([margin = 1],[gap = 5])
 
-#. AlignLeft
+ #) AlignLeft
 
 ┠型布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
 
@@ -326,7 +326,7 @@ StepLine系列支持：XYChart
 
     AlignLeft([margin = 1],[gap = 5])
 
-#. AlignRight
+ #) AlignRight
 
 ┫型布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
 
@@ -334,7 +334,7 @@ StepLine系列支持：XYChart
 
     AlignRight([margin = 1],[gap = 5])
 
-#. AlignV
+ #) AlignV
 
 上下布局所有统计图，其中margin指定页边距，gap指定图与图之间的间隔。
 
@@ -345,7 +345,7 @@ StepLine系列支持：XYChart
 设置
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. ChartStyle
+ #) ChartStyle
 
 设置统计图的界面样式。
 
@@ -353,7 +353,7 @@ StepLine系列支持：XYChart
 
     ChartStyle([style = Default],[margin = 15])
 
-#. Export
+ #) Export
 
 导出图像
 
@@ -361,7 +361,7 @@ StepLine系列支持：XYChart
 
     Export(File)
 
-#. SetChart
+ #) SetChart
 
 将指定名称的统计图设置为当前统计图
 
@@ -369,7 +369,7 @@ StepLine系列支持：XYChart
 
     SetChart(Name)
 
-#. SetData
+ #) SetData
 
 当有多个数据源时，切换当前用于绘图的数据表；tableId从1开始计数。
 
@@ -377,7 +377,7 @@ StepLine系列支持：XYChart
 
     SetData(Name|tableId)
 
-#. SetLegend
+ #) SetLegend
 
 设置图例样式
 
@@ -385,7 +385,7 @@ StepLine系列支持：XYChart
 
     SetLegend([Pos = LeftTop],[dock = True],[Rows = -1],[Cols = -1])
 
-#. Title
+ #) Title
 
 设置标题
 
@@ -396,7 +396,7 @@ StepLine系列支持：XYChart
 扩展图形
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Clasolite
+ #) Clasolite
 
 碎屑岩三角分类图解
 
@@ -404,9 +404,8 @@ StepLine系列支持：XYChart
 
     Clasolite()
 
-
     
-案例：
+统计图案例
 -----------------------------------
 
 点系列示例::
