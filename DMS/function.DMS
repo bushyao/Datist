@@ -1214,7 +1214,7 @@ HTML函数
       <Name>funcName</Name>
       <ShowName>true</ShowName>
       <PriorNodeGuid>
-        <guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</guid>
+        <guid>a51fba4c-9fcf-450f-8e03-d046ad376bda</guid>
       </PriorNodeGuid>
       <CacheIt>false</CacheIt>
       <BatchEvalParameterName />
@@ -1526,6 +1526,55 @@ HTML函数
       <UniqueFieldName>funcName</UniqueFieldName>
       <BeginFieldName />
       <OrderBy>true</OrderBy>
+    </NodeBase>
+    <NodeBase xsi:type="NodeSelect">
+      <Guid>e6929cf0-7ef0-4cc3-81e5-e969e1c15250</Guid>
+      <CenterY>312.5</CenterY>
+      <CenterX>405</CenterX>
+      <Description />
+      <ToolTip />
+      <EditMode>Edit</EditMode>
+      <Title>筛选#4</Title>
+      <Name>筛选</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>f0c8d400-4403-4f59-86c7-79bd6785cf45</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <IsIncluded>true</IsIncluded>
+      <FilterExpression> funcName == 'DateTime2' </FilterExpression>
+    </NodeBase>
+    <NodeBase xsi:type="NodeFiller">
+      <Guid>a51fba4c-9fcf-450f-8e03-d046ad376bda</Guid>
+      <CenterY>232.5</CenterY>
+      <CenterX>425</CenterX>
+      <Description />
+      <KeyWords />
+      <EditMode>Edit</EditMode>
+      <Title>替换#3</Title>
+      <Name>替换</Name>
+      <ShowName>false</ShowName>
+      <PriorNodeGuid>
+        <guid>c19f75e2-e518-406d-a6aa-cb31503e8ee7</guid>
+      </PriorNodeGuid>
+      <CacheIt>false</CacheIt>
+      <BatchEvalParameterName />
+      <BatchEvalParameterValues />
+      <InterActiveFieldName />
+      <InterActiveGroupID />
+      <DefaultEvalIt>false</DefaultEvalIt>
+      <IsExpressionDescription>false</IsExpressionDescription>
+      <FillerIf>1</FillerIf>
+      <FillerFields>
+        <string>说明</string>
+      </FillerFields>
+      <FillerValue> Replace(@Fields,"\r\n","\r\n\r\n")</FillerValue>
     </NodeBase>
   </Items>
   <ParNames />

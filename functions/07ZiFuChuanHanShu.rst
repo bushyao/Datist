@@ -741,6 +741,7 @@ SubStrBetweenL
 返回值：String
 
 说明：返回STRING中List1-List2之间的子字符串,ID可选，第N个匹配项，0为所有（默认），1第1个，2第二个...;Char可选，输出连接间隔符。如：SubStrBetweenL( 内容 , ['供稿:'] , ['审稿','审核','编审', '
+
 ' ])
 
 SubStrBetweenS
