@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <NodeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Arthor>bushyao</Arthor>
-  <HID>FT56A09YBJTMLN</HID>
   <SQLiteIO>
     <DbFullName>Tccaeff128fda4130948936607f2a6ccf.bcdb</DbFullName>
     <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
@@ -82,9 +81,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <FileName />
@@ -145,14 +141,6 @@
           <NewDataType>Text</NewDataType>
         </FieldFilter>
       </FieldFilters>
-      <Exts>
-        <string>.csv</string>
-        <string>.txt</string>
-        <string>.json</string>
-        <string>.htm</string>
-        <string>.html</string>
-        <string>.xml</string>
-      </Exts>
     </NodeBase>
     <NodeBase xsi:type="NodeTXTEx">
       <Guid>866852fd-e8d2-4e0c-818c-5a6b9c649273</Guid>
@@ -171,9 +159,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <FileName />
@@ -204,14 +189,6 @@
           <NewDataType>Text</NewDataType>
         </FieldFilter>
       </FieldFilters>
-      <Exts>
-        <string>.csv</string>
-        <string>.txt</string>
-        <string>.json</string>
-        <string>.htm</string>
-        <string>.html</string>
-        <string>.xml</string>
-      </Exts>
     </NodeBase>
     <NodeBase xsi:type="NodeSelect">
       <Guid>59a2a120-6825-40ba-b2ac-7cad5c73cff1</Guid>
@@ -232,9 +209,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <IsIncluded>false</IsIncluded>
@@ -259,9 +233,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <NewName>行号4</NewName>
@@ -291,9 +262,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <Inputs>
@@ -406,9 +374,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <KeyFields>
@@ -438,9 +403,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <FieldFormats />
@@ -463,9 +425,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <FolderFiles>
@@ -475,9 +434,6 @@
       <ReadHash>false</ReadHash>
       <ReadData>false</ReadData>
       <ReadDirectory>false</ReadDirectory>
-      <Exts>
-        <string>path</string>
-      </Exts>
     </NodeBase>
     <NodeBase xsi:type="NodeFilter">
       <Guid>a86be4b7-d27c-48c8-bf94-8e11644a214d</Guid>
@@ -498,9 +454,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <FieldFilters>
@@ -576,9 +529,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <Inputs>
@@ -691,15 +641,11 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <SuperNodeType>TwoSide</SuperNodeType>
       <SubNodes>
         <Arthor>bushyao</Arthor>
-        <HID>FT56A09YBJTMLN</HID>
         <SQLiteIO>
           <DbFullName>T615b21a9bf5746039750b45c5d602e30.bcdb</DbFullName>
           <ClearDataBeforeRunning>false</ClearDataBeforeRunning>
@@ -740,9 +686,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
             <FieldName>Table_1</FieldName>
@@ -780,9 +723,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
             <KeyFields>
@@ -830,9 +770,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
             <FieldSorts>
@@ -865,9 +802,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
             <FieldName>新列14</FieldName>
@@ -907,9 +841,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
             <FieldSorts>
@@ -950,9 +881,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
           </NodeBase>
@@ -974,9 +902,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
           </NodeBase>
@@ -996,9 +921,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
             <FieldName>新列23</FieldName>
@@ -1033,9 +955,6 @@
             <BatchEvalParameterValues />
             <InterActiveFieldName />
             <InterActiveGroupID />
-            <CanOnlyOneViewer>false</CanOnlyOneViewer>
-            <OnlyOneViewer>false</OnlyOneViewer>
-            <NodeOutput>DB</NodeOutput>
             <DefaultEvalIt>false</DefaultEvalIt>
             <IsExpressionDescription>false</IsExpressionDescription>
             <FieldName>新列24</FieldName>
@@ -1081,9 +1000,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <FieldName>输出</FieldName>
@@ -1126,11 +1042,9 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
+      <ByStream>false</ByStream>
       <Url>输出</Url>
       <SavePath>"D:\\github\\Datist\\nodes\\General\index.rst"</SavePath>
       <DataDataType />
@@ -1157,9 +1071,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <KeyFields />
@@ -1202,9 +1113,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <RenderTransformOrigin>
@@ -1267,10 +1175,6 @@
       <Url />
       <IsShadow>false</IsShadow>
       <IsLocked>false</IsLocked>
-      <Exts>
-        <string>.png</string>
-        <string>.jpg</string>
-      </Exts>
     </NodeBase>
     <NodeBase xsi:type="NodeFiller">
       <Guid>68bd0d2a-c9e4-4fbd-a843-ba20b73233f3</Guid>
@@ -1291,9 +1195,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <FillerIf> IsDBNull ( 行号4 ) </FillerIf>
@@ -1320,9 +1221,6 @@
       <BatchEvalParameterValues />
       <InterActiveFieldName />
       <InterActiveGroupID />
-      <CanOnlyOneViewer>false</CanOnlyOneViewer>
-      <OnlyOneViewer>false</OnlyOneViewer>
-      <NodeOutput>DB</NodeOutput>
       <DefaultEvalIt>false</DefaultEvalIt>
       <IsExpressionDescription>false</IsExpressionDescription>
       <IsIncluded>true</IsIncluded>
