@@ -104,14 +104,6 @@
 
 说明：将字段内容连接成一个字符串
 
-@LongestSubstring
-~~~~~~~~~~~~~~~~~~
-函数体： **@LongestSubstring( Field )**
-
-返回值：Any
-
-说明：求组内，最大公共连续的子串(Longest Common Substring)。
-
 @lower_quartile
 ~~~~~~~~~~~~~~~~~~
 函数体： **@lower_quartile(FIELD)**

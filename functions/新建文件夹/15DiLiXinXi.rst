@@ -140,14 +140,6 @@ DegreesToDigital
 
 说明：将度分秒格式的经纬度转化为数字，例如：108°54′36″转为 108.91 或是 108 54 36转为108.91。
 
-DegreesToDigital2
-~~~~~~~~~~~~~~~~~~
-函数体： **DegreesToDigital2(String)**
-
-返回值：Double
-
-说明：将度分秒格式的经纬度转化为数字，例如：108.5436转为 108.91。
-
 DigitalToDegrees
 ~~~~~~~~~~~~~~~~~~
 函数体： **DigitalToDegrees(Double)**
@@ -177,12 +169,6 @@ DistanceByMeter
 返回值：Double
 
 说明：计算两个图元的距离，图元坐标为经纬度，距离单位为米。
-
-函数体： **DistanceByMeter(longitude1,latitude 1,longitude2,latitude2)**
-
-返回值：Double
-
-说明：计算两个点的距离，图元坐标为经纬度，距离单位为米。
 
 EndPoint
 ~~~~~~~~~~~~~~~~~~
@@ -376,7 +362,7 @@ PolygonArea
 
 返回值：Double
 
-说明：返回多边形的面积,坐标系为西安80。
+说明：返回多边形的面积。
 
 函数体： **PolygonArea(Polygon,EPSG)**
 
@@ -499,20 +485,6 @@ Smooth
 返回值：Polygon
 
 说明：图元平滑Shape为多边形或折线，Factor为平滑因子（单位:米）
-
-ToGeoMap
-~~~~~~~~~~~~~~~~~~
-函数体： **ToGeoMap(Shape)**
-
-返回值：String
-
-说明：将面图元转换成GeoMap的明码格式
-
-函数体： **ToGeoMap(Shape,Name)**
-
-返回值：String
-
-说明：将面图元转换成GeoMap的明码格式,Name指定多边形的名称
 
 ToLine
 ~~~~~~~~~~~~~~~~~~

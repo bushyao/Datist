@@ -2,6 +2,14 @@
 油田专用
 ======================
 
+AccToDisplance
+~~~~~~~~~~~~~~~~~~
+函数体： **AccToDisplance(string accArray, double detaT, double ChongCheng, double accelerationConst)**
+
+返回值：String
+
+说明：示功图函数，将加速度数据转化为位移。
+
 AppendWellHeaders
 ~~~~~~~~~~~~~~~~~~
 函数体： **AppendWellHeaders(String)**
@@ -21,6 +29,14 @@ AppendWellHeaders
 返回值：String
 
 说明：补全井头的汉字。按SplitChars指定的字符分隔字符串String，返回补全汉字字头以SplitChar隔的字符串，如井12，23->井12，井23。参数MaxLen为井头最大汉字数。
+
+Create8CWorkGrahp
+~~~~~~~~~~~~~~~~~~
+函数体： **Create8CWorkGrahp(LocationString, LoadString)**
+
+返回值：String
+
+说明：示功图函数，创建绘图数据。
 
 GetWellName
 ~~~~~~~~~~~~~~~~~~

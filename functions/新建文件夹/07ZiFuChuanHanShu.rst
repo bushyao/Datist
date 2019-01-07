@@ -192,14 +192,6 @@ JoinItems
 
 说明：将多个字段内容合并成一个字符串。
 
-JoinItems2
-~~~~~~~~~~~~~~~~~~
-函数体： **JoinItems2(SplitChar,item1,Item2,……)**
-
-返回值：String
-
-说明：将多个字段内容合并成一个字符串。区别于JoinItems函数，JoinItems2合并时忽略空值。
-
 JsonListItemValues
 ~~~~~~~~~~~~~~~~~~
 函数体： **JsonListItemValues(String JsonText,String KeyName)**
@@ -728,11 +720,11 @@ SubStrB
 
 SubStrBetween
 ~~~~~~~~~~~~~~~~~~
-函数体： **SubStrBetween(STRING,StartID,EndID)**
+函数体： **SubStrBetween(STRING,N,M)**
 
 返回值：String
 
-说明：返回STRING中StartID-EndID之间的子字符串。
+说明：返回STRING中N-M之间的子字符串。
 
 SubStrBetweenL
 ~~~~~~~~~~~~~~~~~~

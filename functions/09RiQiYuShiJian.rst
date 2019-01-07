@@ -2,62 +2,6 @@
 日期与时间
 ======================
 
-AddDays
-~~~~~~~~~~~~~~~~~~
-函数体： **AddDays(Datetime,Real)**
-
-返回值：DateTime
-
-说明：将指定的天数加到Datetime上，Integer参数可以是负数也可以是正数。
-
-AddHours
-~~~~~~~~~~~~~~~~~~
-函数体： **AddHours(Datetime,Real)**
-
-返回值：DateTime
-
-说明：将指定的小时数加到Datetime上，Integer参数可以是负数也可以是正数。
-
-AddMilliseconds
-~~~~~~~~~~~~~~~~~~
-函数体： **AddMilliseconds(Datetime,Real)**
-
-返回值：DateTime
-
-说明：将指定的毫秒数加到Datetime上，Integer参数可以是负数也可以是正数。
-
-AddMinutes
-~~~~~~~~~~~~~~~~~~
-函数体： **AddMinutes(Datetime,Real)**
-
-返回值：DateTime
-
-说明：将指定的分钟数加到Datetime上，Integer参数可以是负数也可以是正数。
-
-AddMonths
-~~~~~~~~~~~~~~~~~~
-函数体： **AddMonths(Datetime,Integer)**
-
-返回值：DateTime
-
-说明：将指定的月份数加到Datetime上，Integer参数可以是负数也可以是正数。
-
-AddSeconds
-~~~~~~~~~~~~~~~~~~
-函数体： **AddSeconds(Datetime,Real)**
-
-返回值：DateTime
-
-说明：将指定的秒数加到Datetime上，Integer参数可以是负数也可以是正数。
-
-AddYears
-~~~~~~~~~~~~~~~~~~
-函数体： **AddYears(Datetime,Integer)**
-
-返回值：DateTime
-
-说明：将指定的年份数加到Datetime上，Integer参数可以是负数也可以是正数。
-
 CENCToDate
 ~~~~~~~~~~~~~~~~~~
 函数体： **CENCToDate(Double)**
@@ -126,13 +70,80 @@ DateBefore
 
 说明：Datetime在BaseDatetime之前，则返回真值，否则，此函数的返回结果为假值；如果Datetime,BaseDatetime非标准的日期格式，返回空。
 
-DatetimeDifference
+DateDiff
 ~~~~~~~~~~~~~~~~~~
-函数体： **DatetimeDifference(BaseDateTime，Datetime)**
+函数体： **DateDiff(interval,startDatetime,endDatetime)**
 
-返回值：TimeSpan
+返回值：double
 
-说明：返回Datetime-BaseDateTime的时间间隔。
+说明：求两个指定日期间的时间间隔数目。
+其中时间startDatetime,endDatetime格式，参见DateTime2函数。
+必选参数interval,为字符串表达式，设定时间差的时间的间隔。
+参数的设定值为：年，y，季，q，月，m，周，w，天，d，时，h，分，mi，秒，s，毫秒，ms
+如：DateDiff('月','2017-10-10','2018-11-30')
+
+DateTime2
+~~~~~~~~~~~~~~~~~~
+函数体： **DateTime2(datetime, modifier, modifier, …)**
+
+返回值：DateTime
+
+说明：对输入时间datetime，按modifier调整后，输出日期字符串'yyyy-MM-dd HH:mm:ss.fff'。
+其中datetime是必须的，modifier为可选项。
+datetime的支持格式字符串：
+  1.yyyy-MM-dd
+  2.yyyy-MM-dd HH:mm
+  3.yyyy-MM-dd HH:mm:ss
+  4.yyyy-MM-dd HH:mm:ss.fff
+  5.yyyy-MM-ddTHH:mm  其中T是日期和时间分割符
+  6.yyyy-MM-ddTHH:mm:ss
+  7.yyyy-MM-ddTHH:mm:ss.fff
+  8.HH:mm
+  9.HH:mm:ss
+  10.HH:mm:ss.fff
+  11.now
+修正参数modifier可有可无，如果有多个修正参数，按从左到右原则依次修正，而且后修正参数是基于前修正参数据结果的再次修正。支持修正字符串有两类：
+  1.加减时间类，格式：±N m，其中m可为：年，y，月，m，天，d，时，h，分，mi，秒，s，毫秒，ms
+  2.取特定时间类，支持：年初，年末，季初，季末，月初，月末，Nth周，周一，周二，周三，周四，周五，周六，周日
+    其中Nth周，表示当年的第N周的周一，如Datetime2('2018-11-30','5周')，输出 2018-01-29 00:00:00.000
+如：Datetime2('2018-11-30','4d','周一')，输出 2018-12-03 00:00:00.000
+
+DateTime3
+~~~~~~~~~~~~~~~~~~
+函数体： **DateTime3(format, datetime, modifier, modifier, …)**
+
+返回值：string
+
+说明：对输入时间datetime，按modifier调整后，以format的格式输出，功能与DateTime2函数相近。
+其中format和datetime是必须的，modifier为可选项。
+参数datetime, modifier格式，参见DateTime2函数。
+format定义输出日期的格式。下面列出了可被合并以构造自定义模式的模式，这些模式是区分大小写的：
+  gg 时期或纪元。如果要设置格式的日期不具有关联的时期或纪元字符串，则忽略该模式。
+  y 不包含纪元的年份。如果不包含纪元的年份小于 10，则显示不具有前导零的年份。
+  yy 不包含纪元的年份。如果不包含纪元的年份小于 10，则显示具有前导零的年份。
+  yyyy 包括纪元的四位数的年份。
+  M 月份数字。一位数的月份没有前导零。
+  MM 月份数字。一位数的月份有一个前导零。
+  MMM 月份的缩写名称，如：1月、2月、3月、4月、5月、6月、7月、8月、9月、10月、11月、12月。
+  MMMM 月份的完整名称，如：一月、二月、三月、四月、五月、六月、七月、八月、九月、十月、十一月、十二月。
+  d 月中的某一天。一位数的日期没有前导零。
+  dd 月中的某一天。一位数的日期有一个前导零。
+  ddd 周中某天的缩写名称，如：周日、周一、周二、周三、周四、周五、周六。
+  dddd 周中某天的完整名称，如：星期日、星期一、星期二、星期三、星期四、星期五、星期六。
+  h 12 小时制的小时。一位数的小时数没有前导零。
+  hh 12 小时制的小时。一位数的小时数有前导零。
+  H 24 小时制的小时。一位数的小时数没有前导零。
+  HH 24 小时制的小时。一位数的小时数有前导零。
+  m 分钟数字。一位数的分钟数没有前导零。
+  mm 分钟数字。一位数的分钟数有前导零。
+  s 秒数字。一位数的秒数没有前导零。
+  ss 秒数字。一位数的秒数有前导零。
+  f 毫秒数字。
+  j 一年中的第几天，01-366。
+  J 儒略日数。
+  w 星期数，0-6，0是星期天。
+  W 一年中的第几周，00-53。
+如：Datetime3('ddd','2018-11-30')，输出 周五
 
 DatetimeEqual
 ~~~~~~~~~~~~~~~~~~
@@ -142,194 +153,6 @@ DatetimeEqual
 
 说明：两个时间比较，相等为真，不相等为否。
 
-Day
-~~~~~~~~~~~~~~~~~~
-函数体： **Day()**
-
-返回值：String
-
-说明：取当前日
-
-函数体： **Day(Datetime)**
-
-返回值：Integer
-
-说明：返回Datetime的天部分。返回结果为1 到31 之间的整数。
-
-DayOfMonth
-~~~~~~~~~~~~~~~~~~
-函数体： **DayOfMonth(Datetime)**
-
-返回值：Integer
-
-说明：获取日期为该月中的第几天。
-
-DayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **DayOfWeek(Datetime)**
-
-返回值：Integer
-
-说明：表示的日期是星期几,返回结果为0 到6之间的整数。
-
-DayOfWeek_cn
-~~~~~~~~~~~~~~~~~~
-函数体： **DayOfWeek_cn(Datetime)**
-
-返回值：String
-
-说明：表示的日期是星期几,返回结果为星期日,星期一,星期二,星期三,星期四,星期五,星期六。
-
-DayOfWeek_en
-~~~~~~~~~~~~~~~~~~
-函数体： **DayOfWeek_en(Datetime)**
-
-返回值：String
-
-说明：表示的日期是星期几,返回结果为Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday。
-
-DayOfWeek_en_short
-~~~~~~~~~~~~~~~~~~
-函数体： **DayOfWeek_en_short(Datetime)**
-
-返回值：String
-
-说明：表示的日期是星期几,返回结果为Sun, Mon, Tue, Wed, Thu, Fri, Sat。
-
-DayOfYear
-~~~~~~~~~~~~~~~~~~
-函数体： **DayOfYear(Datetime)**
-
-返回值：Integer
-
-说明：获取指定日期是该年中的第几天。
-
-DaysDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **DaysDifference(BaseDateTime，Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从日期BaseDateTime到日期Datetime的天数。如果Datetime在BaseDateTime之前，则该函数返回负值。
-
-FirstDayOfMonth
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfMonth(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期所在月份第一天。
-
-FirstDayOfNextMonth
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfNextMonth(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的下个月第一天。
-
-FirstDayOfNextQuarter
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfNextQuarter(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的下一季度第一天。
-
-FirstDayOfNextYear
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfNextYear(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的下一年第一天。
-
-FirstDayOfPreviousMonth
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfPreviousMonth(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的上个月第一天。
-
-FirstDayOfPreviousQuarter
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfPreviousQuarter(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的上一季度第一天。
-
-FirstDayOfPreviousYear
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfPreviousYear(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的上一年第一天。
-
-FirstDayOfQuarter
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfQuarter(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期所在季度份第一天。
-
-FirstDayOfYear
-~~~~~~~~~~~~~~~~~~
-函数体： **FirstDayOfYear(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期所在年份第一天。
-
-format_DateTime
-~~~~~~~~~~~~~~~~~~
-函数体： **format_DateTime(DateTime,DateTimeFormat)**
-
-返回值：String
-
-说明：将日期与时间转化为指定格式的文本，DateTimeFormat为日期格式：(年-月-日 时:分:秒.毫秒) yyyy-MM-dd HH:mm:ss（HH为24小时制，hh为12小时制）。
-
-Format_TimeSpan
-~~~~~~~~~~~~~~~~~~
-函数体： **Format_TimeSpan(TimeSpan)**
-
-返回值：String
-
-说明：将时间间隔转化为指定格式的文本。
-
-函数体： **Format_TimeSpan(TimeSpan,TimeSpanFormat)**
-
-返回值：String
-
-说明：将时间间隔转化为指定格式的文本，TimeSpanFormat为格式：dd\天hh\时mm\分ss\秒，注意反斜杠。
-
-FridayOfNextWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **FridayOfNextWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期下周的星期五对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-FridayOfPreviousWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **FridayOfPreviousWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期上周的星期五对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-FridayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **FridayOfWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期本周的星期五对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
 From_UnixTime
 ~~~~~~~~~~~~~~~~~~
 函数体： **From_UnixTime(Int)**
@@ -337,28 +160,6 @@ From_UnixTime
 返回值：DateTime
 
 说明：将Unix时间转换为日期。
-
-Hour
-~~~~~~~~~~~~~~~~~~
-函数体： **Hour()**
-
-返回值：String
-
-说明：取当前时
-
-函数体： **Hour(Datetime)**
-
-返回值：Integer
-
-说明：返回Datetime的小时部分。返回结果为0 至23 之间的整数。
-
-HoursDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **HoursDifference(BasedDatetime,Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从日期BasedDatetime到日期Datetime的小时数。如果Datetime在BasedDatetime之前，则该函数返回负值。
 
 JulianToDate
 ~~~~~~~~~~~~~~~~~~
@@ -368,124 +169,6 @@ JulianToDate
 
 说明：将儒略日转换为日期，以1970-01-01 0:0:0.0为基数。
 
-LastDayOfMonth
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfMonth(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期所在月份最后一天。
-
-LastDayOfNextMonth
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfNextMonth(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的下个月的最后一天。
-
-LastDayOfNextQuarter
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfNextQuarter(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的下一季度的最后一天。
-
-LastDayOfNextYear
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfNextYear(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的下一年的最后一天。
-
-LastDayOfPrdviousMonth
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfPrdviousMonth(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的上个月的最后一天。
-
-LastDayOfPrdviousQuarter
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfPrdviousQuarter(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的上一季度的最后一天。
-
-LastDayOfPrdviousYear
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfPrdviousYear(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期的上一年的最后一天。
-
-LastDayOfQuarter
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfQuarter(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期所在季度份最后一天。
-
-LastDayOfYear
-~~~~~~~~~~~~~~~~~~
-函数体： **LastDayOfYear(Datetime)**
-
-返回值：DateTime
-
-说明：获取指定日期所在年份最后一天。
-
-Millisecond
-~~~~~~~~~~~~~~~~~~
-函数体： **Millisecond()**
-
-返回值：String
-
-说明：取当前毫秒
-
-Milliseconds
-~~~~~~~~~~~~~~~~~~
-函数体： **Milliseconds(Datetime)**
-
-返回值：Integer
-
-说明：返回Datetime的毫秒钟部分。返回结果为0到999之间的整数。
-
-MillisecondsDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **MillisecondsDifference(BaseDatetime,Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从日期BaseDatetime到日期Datetime的毫秒数。如果Datetime在BaseDatetime之前，则该函数返回负值。
-
-Minute
-~~~~~~~~~~~~~~~~~~
-函数体： **Minute()**
-
-返回值：String
-
-说明：取当前分
-
-函数体： **Minute(Datetime)**
-
-返回值：Integer
-
-说明：返回Datetime的分钟部分。返回结果为0 到59 之间的整数。
-
-MinutesDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **MinutesDifference(BaseDatetime,Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从日期BaseDatetime到日期Datetime的分钟数。如果Datetime在BaseDatetime之前，则该函数返回负值。
-
 MondayByWeekNo
 ~~~~~~~~~~~~~~~~~~
 函数体： **MondayByWeekNo(Integer year,Integer weekNo)**
@@ -494,76 +177,6 @@ MondayByWeekNo
 
 说明：获取指定年度第几星期的星期一对应用的日期。
 
-MondayOfNextWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **MondayOfNextWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期下周的星期一对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-MondayOfPreviousWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **MondayOfPreviousWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期上周的星期一对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-MondayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **MondayOfWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期本周的星期一对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-Month
-~~~~~~~~~~~~~~~~~~
-函数体： **Month()**
-
-返回值：String
-
-说明：取当前月
-
-函数体： **Month(Datetime)**
-
-返回值：Integer
-
-说明：返回Datetime的月份部分。返回结果为1 到12 之间的整数。
-
-Month_cn
-~~~~~~~~~~~~~~~~~~
-函数体： **Month_cn(Datetime)**
-
-返回值：String
-
-说明：返回Datetime的月份部分。返回结果为一月、二月、三月、四月、五月、六月、七月、八月、九月、十月、十一月、十二月。
-
-Month_en
-~~~~~~~~~~~~~~~~~~
-函数体： **Month_en(Datetime)**
-
-返回值：String
-
-说明：返回Datetime的月份部分。返回结果为January,February,March,April,May,June,July,August,September,October,November,December。
-
-Month_en_short
-~~~~~~~~~~~~~~~~~~
-函数体： **Month_en_short(Datetime)**
-
-返回值：String
-
-说明：返回Datetime的月份部分。返回结果为Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec。
-
-MonthsDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **MonthsDifference(BaseDatetime,Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从BaseDatetime到Datetime月数。这是基于每月30.0 天的近似数字。如果Datetime在BaseDatetime之前，则该函数返回负值。
-
 Now
 ~~~~~~~~~~~~~~~~~~
 函数体： **Now()**
@@ -571,100 +184,6 @@ Now
 返回值：String
 
 说明：取当前系统的年月日时分秒
-
-SaturdayOfNextWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **SaturdayOfNextWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期下周的星期六对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-SaturdayOfPreviousWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **SaturdayOfPreviousWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期上周的星期六对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-SaturdayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **SaturdayOfWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期本周的星期六对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-Second
-~~~~~~~~~~~~~~~~~~
-函数体： **Second()**
-
-返回值：String
-
-说明：取当前秒
-
-函数体： **Second(Datetime)**
-
-返回值：Integer
-
-说明：返回Datetime的秒钟部分。返回结果为0 到59 之间的整数。
-
-SecondsDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **SecondsDifference(BaseDatetime,Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从日期BaseDatetime到日期Datetime的秒数。如果Datetime在BaseDatetime之前，则该函数返回负值。
-
-SundayOfNextWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **SundayOfNextWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期下周的星期日对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-SundayOfPreviousWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **SundayOfPreviousWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期上周的星期日对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-SundayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **SundayOfWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期本周的星期日对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-ThursdayOfNextWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **ThursdayOfNextWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期下周的星期四对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-ThursdayOfPreviousWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **ThursdayOfPreviousWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期上周的星期四对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-ThursdayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **ThursdayOfWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期本周的星期四对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
 
 TimeAfter
 ~~~~~~~~~~~~~~~~~~
@@ -681,46 +200,6 @@ TimeBefore
 返回值：Boolean
 
 说明：Time在BaseTime之前，则返回真值，否则，此函数的返回结果为假值；如果Time,BaseTime非标准的日期格式，返回空。
-
-TimeHoursDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **TimeHoursDifference(BaseTime,Time)**
-
-返回值：Double
-
-说明：以整数的形式返回从日期BaseTime到日期Time的小时数。如果Time在BaseTime之前，则该函数返回负值。
-
-TimeMillisecondsDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **TimeMillisecondsDifference(BaseTime,Time)**
-
-返回值：Double
-
-说明：以整数的形式返回从日期BaseTime到日期Time的毫秒数。如果Time在BaseTime之前，则该函数返回负值。
-
-TimeMinutesDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **TimeMinutesDifference(BaseTime,Time)**
-
-返回值：Double
-
-说明：以整数的形式返回从日期BaseTime到日期Time的分钟数。如果Time在BaseTime之前，则该函数返回负值。
-
-TimeSecondsDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **TimeSecondsDifference(BaseTime,Time)**
-
-返回值：Double
-
-说明：以整数的形式返回从日期BaseTime到日期Time的秒数。如果Time在BaseTime之前，则该函数返回负值。
-
-TimeSpan2HM
-~~~~~~~~~~~~~~~~~~
-函数体： **TimeSpan2HM(TimeSpan)**
-
-返回值：String
-
-说明：将时间间隔转换为，总小时数：分钟，如25：50表示25小时50分钟。
 
 To_UnixTime
 ~~~~~~~~~~~~~~~~~~
@@ -781,105 +260,3 @@ ToOAdate
 返回值：Double
 
 说明：将一个日期型的字符串转化(格式为yyyy-MM-dd HH:mm:ss 例如2010-01-01 5:11:33 )为等效的 OLE 自动化日期，返回一个双精度浮点数，它包含与此实例的值等效的 OLE 自动化日期。
-
-toShortDate
-~~~~~~~~~~~~~~~~~~
-函数体： **toShortDate(DateTime)**
-
-返回值：String
-
-说明：将日期时间(可为字符串格式)转化为短日期格式,支持常见的日期格式，如2005-11-5 13:47:04，输出2005-11-5。
-
-toShortTime
-~~~~~~~~~~~~~~~~~~
-函数体： **toShortTime(DateTime)**
-
-返回值：String
-
-说明：将日期时间(可为字符串格式)转化为短时间格式,支持常见的日期格式，如2005-11-5 13:47:04，输出13:47:04。
-
-TuesdayOfNextWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **TuesdayOfNextWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期下周的星期二对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-TuesdayOfPreviousWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **TuesdayOfPreviousWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期上周的星期二对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-TuesdayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **TuesdayOfWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期本周的星期二对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-WednesdayOfNextWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **WednesdayOfNextWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期下周的星期三对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-WednesdayOfPreviousWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **WednesdayOfPreviousWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期上周的星期三对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-WednesdayOfWeek
-~~~~~~~~~~~~~~~~~~
-函数体： **WednesdayOfWeek(DateTime)**
-
-返回值：DateTime
-
-说明：计算指定日期本周的星期三对应的日期。国际标准ISO 8601将星期一定为一星期的第一天。
-
-WeekNoOfYear
-~~~~~~~~~~~~~~~~~~
-函数体： **WeekNoOfYear(Datetime)**
-
-返回值：Integer
-
-说明：获取指定日期所在星期是该年中的第几星期。
-
-WeeksDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **WeeksDifference(BaseDatetime,Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从日期BaseDatetime至日期Datetime的周数。这基于每周7.0 天。如果Datetime在BaseDatetime之前，则该函数返回负值。
-
-Year
-~~~~~~~~~~~~~~~~~~
-函数体： **Year()**
-
-返回值：String
-
-说明：取当前系统的年
-
-函数体： **Year(Datetime)**
-
-返回值：Integer
-
-说明：返回Datetime的年份部分。返回结果为整数，如2002。
-
-YearsDifference
-~~~~~~~~~~~~~~~~~~
-函数体： **YearsDifference(BasedDatetime,Datetime)**
-
-返回值：Double
-
-说明：以小数的形式返回从日期BasedDatetime至日期Datetime的年数。这是基于每年365.0 天的近似数字。如果Datetime在BasedDatetime之前，则该函数返回负值。
