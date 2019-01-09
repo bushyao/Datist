@@ -10,12 +10,16 @@ Datist 给用户提供自定义的节点的功能，您可以在工具箱添加�
 以同名文件方式，组织扩展节点。常规节点定义文件组织如下：
 
   #).nde文件：NodeExpand简写，JSON格式的UTF8文本，定义节点的描述、数据需求和输出数据结构信息。
+  
   #).png图片文件：定义节点的图标，建议图标尺寸小于200*200。
+  
   #).html网页文件：定义运行参数界面。
+  
   #)核心算法文件：自定义节点的运行文件，支持py、pyc、R、Rc和exe。
+  
   #).dms流程文件，给出流程的示例流程。
 
-.. figure:: images/NodeExpend01.png
+.. figure:: images/NodeEx01.png
     :align: center
     :figwidth: 90% 
     :name: plate
@@ -31,7 +35,7 @@ Datist 给用户提供自定义的节点的功能，您可以在工具箱添加�
 
 扩展节点需定义节点描述、数据需求、运行参数及输出数据结构信息。
 
-.. figure:: images/NodeExpend01x.png
+.. figure:: images/NodeEx02.png
     :align: center
     :figwidth: 90% 
     :name: plate
@@ -57,20 +61,22 @@ Datist 给用户提供自定义的节点的功能，您可以在工具箱添加�
 InputTables数组的长度，将决定节点的可连接前节点的数量：
 
   #)无InputTables属性或子元素，自定义节点为数据源类型；
+  
   #)仅有一个子元素，自定义节点仅支持一个输入数据节点；
+  
   #)多个两个子元素，自定义节点仅多个输入数据节点。 
 
 示例代码::
 
     "InputTables": [
         {
-            "Name": "magdata",
-            "Title": "井位",
+            "Name": "magdata",            //数据表名，用于数据源转存
+            "Title": "井位",              //数据表界面显示名称
             "Fields": [
                 {
-                    "Name": "Longitude",
-                    "Title": "经度(度)",
-                    "Type": "string"
+                    "Name": "Longitude",  //字段名，用于数据源转存
+                    "Title": "经度(度)",  //用于字段显示
+                    "Type": "string"      //用于控制下拉列表中的类型
                 },
                 {
                     "Name": "Latitude",
@@ -97,66 +103,51 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
         }
     ]
 	
+示例代码中定义了两个数据源的需求。
+
+.. figure:: images/NodeEx03.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+	
+.. note::
+
+   Type指定字段数据类型，即自定义节点对字段类型的要求，数据源窗口将根据指定的类型过滤字段下拉列表内容。
+   Type支持int、real、string、bool、datetime等类型；
+   若为空，支持任意类型的数据；多个类型以|间隔，如int|real,表示支持两种类型的数据。
+ 
+	
+节点运行参数
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+节点运行参数，由HTML界面定义，作用是编辑一个JSON文件，作为节点的运行参数。	
+
+参数文件由HTML定义格式（用户自己定义）。运行时，数据专家追加数据源信息，以文件路径的方式推送给核心算法。
+
+
+参数文件示例::
+
+    {
+      "pars": {
+        "title": "点1",
+        "desc": "测点"
+      },
+      "allfields": true,
+      "names": {
+        "q": "月份",
+        "f": "月份"
+      }
+    }	
+ 
 	
 
-节点内部与用户进行交互的界面；由节点窗口、用户自定义的Html界面构成；
+用户自定义的Html界面构成：
 
-.. figure:: images/NodeExpend02.png
+.. figure:: images/NodeEx04.png
     :align: center
     :figwidth: 90% 
     :name: plate
-         
-**3、节点数据查看器**
-    
-数据专家自动收集节点运行的结果并进行展示；是用户定义的脚本运行结果查看器；需要用户提供R脚本；
-
-.. figure:: images/NodeExpend03.png
-    :align: center
-    :figwidth: 90% 
-    :name: plate
-         
-工作原理
------------------------------------
-
-扩展节点运行包括两部分的工作，如下图所示；
-
-  * 节点编辑器与节点实体之间的界面交互，这部分需要您定义HTML界面，并通过JSON数据格式进行通讯；
-  * 自定义的算法；运行时，数据专家会给算法推送数据，并进行关键字替换；算法执行之后，收集并扭转算法的输出结果，如文字、表格、图片等；
- 
-.. figure:: images/NodeExpend04.png
-    :align: center
-    :figwidth: 90% 
-    :name: plate
-
-数据交换（JSON）
------------------------------------
-
-HTML界面与节点之间，采用JSON格式进行数据交换，JSON数据定义了参数传递与字段映射关系。
-
-示例::
-
-   {
-       "pars": {
-           "title": "点1",
-           "desc": "测点"
-       },
-       "allfields": true,
-       "names": {
-           "q": "IsFile",
-           "f": "StreamType"
-       }
-   }
-
-pars键值组，定义界面与自定义代码之间的参数，一般而言，代码中以[$VarName$]的格式来定义参数，；运行时，系统将用值替换它。
-本例，名为title的参数，代码中定义为[$title$]，运行时，将用“点1”来替换它。
-
-字段映射由两部分构成
-
-  * allfields，布尔型，定义是否对前节点数据推送的方式；false，将根据names键值组的定义，取二维表中的部分字段（列）进行数据映射，向自定义代码中推送；true，将忽略names键值组，推送所有数据。
-  * name键值组，定义数据映射关系；本例中，定义了前节点中IsFile与StreamType两个字段的映射关系，运行时，系统以q、f名称推送两列数据。
- 
-用户界面（HTML）
------------------------------------
+  	 
 
 建议Html界面由样式设置、数据交换、界面显示三个部分构成；
 
@@ -164,30 +155,6 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
   * 数据交换：定义HTML界面与节点编辑器之间的通讯方式，由数据初始化SetData与数据保存 GetData 两个函数组成；
   * 界面显示：HTML脚本定义，界面参数与字段映射的具体内容。
   
-示例代码:: 
-
-    <style>
-        body {
-            overflow: hidden;
-        }
-
-        input {
-            width: 200px;
-        }
-
-        select {
-            width: 203px;
-        }
-
-        table {
-            width: 100%;
-            font-size: 12px;
-        }
-
-        td {
-            height: 30px;
-        }
-    </style>
 
 数据交换部分由GetData、SetData两个函数组成；建议使用Jquery组件，方便界面对象的引用。
 
@@ -273,363 +240,151 @@ pars键值组，定义界面与自定义代码之间的参数，一般而言，�
                 <td><select id="fieldF"></select> </td>
             </tr>
         </table>
-    </body>
+    </body>		 
+	
+		 
+输出数据结构
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+当自定义节点有二维表输出时，通过.nde文件中OutputFields属性定义输出二维表的结构。节点运行时，以输出列表中第一个CSV文件为输出数据表（以;或,分隔）。
+
+示例代码:: 
+
+      "OutputFields": [
+        {
+          "Name": "月份",
+          "Type": "string"
+        },
+        {
+          "Name": "蒸发量",
+          "Type": "string"
+        },
+        {
+          "Name": "降水量",
+          "Type": "string"
+        }
+      ]
+
+基本案例中完成nde文件代码如下:: 
+
+    {
+      "Name": "Python2",
+      "SystemToolTip": "python2测试",
+      "Version": "2.0",
+      "Author": "bushyao",
+      "ScriptFile": "NodeTest.R",
+      "InputTables": [
+        {
+          "Name": "magdata",
+          "Title": "井位",
+          "Fields": [
+            {
+              "Name": "Longitude",
+              "Title": "经度(度)",
+              "Type": "string"
+            },
+            {
+              "Name": "Latitude",
+              "Title": "经度(度)",
+              "Type": "string"
+            }
+          ]
+        },
+        {
+          "Name": "magdata2",
+          "Title": "震中",
+          "Fields": [
+            {
+              "Name": "Longitude",
+              "Title": "经度(度)",
+              "Type": "string"
+            },
+            {
+              "Name": "Latitude",
+              "Title": "经度(度)",
+              "Type": "string"
+            }
+          ]
+        }
+      ],
+      "OutputFields": [
+        {
+          "Name": "月份",
+          "Type": "string"
+        },
+        {
+          "Name": "蒸发量",
+          "Type": "string"
+        },
+        {
+          "Name": "降水量",
+          "Type": "string"
+        }
+      ]
+    }
+
+
+自定义节点运行
+-----------------------------------
+
+自定义节点运行过程中，系统转存界面参数及数据源数据，将参数文件传递给核心算法，运行算法后，数据专家自动从界面收集数据。
+
+.. figure:: images/NodeEx05.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+	
+运行结果收集
+-----------------------------------
+
+用户以Print方式（python），将需要收集的内容，输出界面上；数据专家自动收集数据，无须用户定义。现支持文本、文件和http、https网页。
+		 
+以报告形式浏览输出内容	 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/NodeEx05.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+	
+查看网络地址	 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/NodeEx06.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+	
+输出二维数据表
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. figure:: images/NodeEx07.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate		 
+
+	
     
 核心算法
 -----------------------------------
 
 用户自己构成脚本过程中，需要遵循数据接入与输出的规范。
  
-DLL数据源
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-通过C#编制DLL，将外部数据读入数据专家中。
-
-  * 类名命名空间必须和DLL的名称同名；
-  * 类名的必须为DataEngine；
-  * 必须包含字段名定义函数： public static Dictionary<string, string> DBFields(string jsonString)
-  * 必须包含数据读取函数：public static IEnumerator<List<object>> Data(string jsonString)
-
-示例代码::
-
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics;
-    using System.IO;
-    using Newtonsoft.Json.Linq;
-
-    namespace MyDLL
-    {
-        public class DataEngine
-        {
  
-            public static Dictionary<string, string> DBFields(string jsonString)
-            {
-                var dic = new Dictionary<string, string>(); 
-                dic.Add("DocName", "Text");    //DocName为输出的字段名，Text为字段类型
-                dic.Add("烟尘执行标准", "Text");
-                dic.Add("硫氧执行标准", "Text");
-                dic.Add("氮氧执行标准", "Text"); 
-                dic.Add("企业编号", "Text");
-                dic.Add("排口编号", "Text");
-                dic.Add("省", "Text");
-                dic.Add("市", "Text"); 
-                return dic;
-            }
  
-            public static IEnumerator<List<object>> Data(string jsonString)
-            { 
-                Debug.WriteLine(jsonString);
-     
-                var json = JObject.Parse(jsonString);
-                if (json == null)  yield break;
-                
-                var pars = json.SelectToken("pars");
-                var paraFile = pars["filename"].ToString();
-
-                Debug.WriteLine(paraFile);
-
-                var fall = File.ReadAllLines(paraFile);
-
-                var oldDateTime = DateTime.Now;
-
-                for (var index = 1; index < fall.Length; index++)
-                {
-                    var s = fall[index];
-
-                    var arr = s.Split('\t');
-
-                    var lst = new List<object>();
-                    foreach (var pollutant in arr)
-                    {
-                        if (lst.Count > 8) break;
-                        lst.Add(pollutant);
-                    }
-
-                    for (int i = lst.Count; i < 8; i++)
-                    {
-                        lst.Add("");
-                    }
-     
-                    yield return lst;
-
-                    //进度
-                    if ((DateTime.Now - oldDateTime).TotalSeconds >= 30 || index == fall.Length - 1)
-                    {
-                        Debug.WriteLine($"Read: {index }/{fall.Length - 1} ({index * 1.0 / (fall.Length - 1):P}) ");
-                        oldDateTime = DateTime.Now;
-                    }
-                }
-            }
-        }
-        } 
-    } 
-
-    
-DLL数据处理
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-通过C#编制DLL，对前节点数据进行处理。
-
-  * 类名命名空间必须和DLL的名称同名；
-  * 类名的必须为DataEngine；
-  * 必须包含字段名定义函数： public static Dictionary<string, string> DBFields(string jsonString)，其中jsonString为界面参数
-  * 必须包含数据读取函数：public static IEnumerator<List<object>> Data(string jsonString, DataTable data)，其中jsonString为界面参数，data为前节点数据。
-
-示例代码::
-
-    using System.Collections.Generic;
-    using System.Data;
-    using System.Diagnostics;
-    using Newtonsoft.Json.Linq;
-
-    namespace MyProcess
-    {
-        public class DataEngine
-        { 
-            public static Dictionary<string, string> DBFields(string jsonString)
-            {
-                var dic = new Dictionary<string, string>();
-                dic.Add("FieldName1", "Text");
-                dic.Add("FieldName2", "Text");
-                dic.Add("Result2", "Int");
-                return dic;
-            }
- 
-            public static IEnumerator<List<object>> Data(string jsonString, DataTable data)
-            { 
-                Debug.WriteLine(jsonString); 
-
-                var json = JObject.Parse(jsonString);
-                if (json == null)
-                {
-                    yield break;
-                }
-
-                var pars = json.SelectToken("pars");
-                var title = pars["title"].ToString();
-
-                Debug.WriteLine(title);
-
-
-                if (data == null) yield break;
-                long id = 0;
-                foreach (DataRow dr in data.Rows)
-                {
-                    var results = new List<object> { dr[0], dr[1], id++ };
-
-                    yield return results;
-                }
-
-            }
-        }
-    }
-
-R
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-  * 数据接入：界面参数pars部分格式为[$VarName$]，其中VarName对于界面参数JSON中的字段的名称，如title等; 
-  * 前节点数据接入：为Inputtable变量，DataFrame类型；其实对应的列名，为界面参数names部分定义指定的名称。（只有当allfields设为false时，才修改列的名称）
-  * 成果输出：支持多级标题、文本、加粗文本以及图片；具体参见代码规范。
-
-代码规范，示例代码:: 
-
-    #输出一级标题函数为 header1()
-    #输出二级标题函数为 header2()
-    #输出三级标题函数为 header3()
-    #输出文本或内容函数为 output(object,"header")
-    #输出加粗文本函数为 boldtext()
-    #输出统计图
-    #  开始 png(gettempfile(),width =300, height = 300)
-    #  收尾 invisible(dev.off())
-
-    #前节点数据源名称为inputtable；
-
-示例代码::
-
-    header1("[$title$]")  #界面参数pars部分的对象title
-    output("[$desc$]")    #界面参数pars部分的对象desc
-     
-    header1("数据源") 	
-    output(inputtable)
-
-    header1("q列")
-    output(inputtable$q)       #界面参数names部分的对象q；此时，q为inputtable（DataFrame）中一列的名称。（allfields参数必须设为false）
-	
-    header1("具体内容") 
-	
-    #============== set parameters ===================
-    T0 =0                    #start time
-    T1=5479                  #Learning period /julian day
-    T2=13847                 #Forcast period  /julian day
-
-    xMin=95                  #output range Xmin
-    xMax=109                 #output range Xmax
-    yMin=20                  #output range Ymin
-    yMax=43                  #output range Ymax
-    xd=0.05                  #space distance in X direction
-    yd=0.05                  #space distance in Y direction
-    calcmag=4.0              #triggering events 
-    estimag=6.0              #triggered events
-
-    mdx=(xMax-xMin)/xd+1
-    ndy=(yMax-yMin)/yd+1
-
-    #============== read datafile ===================
-    cata.all <- inputtable
-    cata <- cata.all[cata.all$V8 < xMax & cata.all$V8>=xMin & cata.all$V7 >=yMin & cata.all$V7<yMax   &cata.all[,9]>=calcmag,]  #filter region and mag
-    cata$dates <- julian(as.Date(paste(cata[,1],cata[,2], cata[,3],sep="-")), orig=as.Date("1970-1-1"))+cata[,4]/24+cata[,5]/24/60+cata[,6]/24/60/60
-    cata1 <-cata[cata$dates >T0 & cata $dates < T1,]  #learning period earthquake catalog
-    cata2 <-cata[cata$dates >T1 & cata $dates < T2,]  #Forcast period earthquake catalog
-
-    #output("PPE Model")
-    png(gettempfile(),width = 1000, height = 1000)
-     par(mfrow=c(2,2))
-     hist(cata[,9],breaks=seq(3.95,8.0,0.1),xlab='magnitude',main='G-R of all catalog')  #figure G-R 1
-     plot(cata[,9],ylab='magnitude',main='M-T of all catalog')                           #figure M-T 2 
-     plot(cata[,c(8,7)],cex=(cata[,9]-3.5)/2,xlab='long',ylab='lati',main='seismicity of all catalog')  #figure Dist 3    
-     plot(cata1[,c(8,7)],cex=(cata[,9]-3.5)/2,xlab='long',ylab='lati',main='seismicity of learning period')   #figure Dist 4  
-    invisible(dev.off())
-
-Echarts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-与R类似，具体使用方式，参考官方网站：http://echarts.baidu.com/examples.html
-
-数据专家以pdata为变量的形式，向核心算法推送数据；
-
-示例代码::
-
-    var markLineOpt = {
-        animation: false,
-        label: {
-            normal: {
-                formatter: 'y = 0.5 * x + 3',
-                textStyle: {
-                    align: 'right'
-                }
-            }
-        },
-        lineStyle: {
-            normal: {
-                type: 'solid'
-            }
-        },
-        tooltip: {
-            formatter: 'y = 0.5 * x + 3'
-        },
-        data: [[{
-            coord: [0, 3],
-            symbol: 'none'
-        }, {
-            coord: [20, 13],
-            symbol: 'none'
-        }]]
-    };
-
-    option = {
-        title: {
-            text: 'Anscombe\'s quartet',
-            x: 'center',
-            y: 0
-        },
-        grid: [
-            {x: '7%', y: '7%', width: '38%', height: '38%'},
-            {x2: '7%', y: '7%', width: '38%', height: '38%'},
-            {x: '7%', y2: '7%', width: '38%', height: '38%'},
-            {x2: '7%', y2: '7%', width: '38%', height: '38%'}
-        ],
-        tooltip: {
-            formatter: 'Group {a}: ({c})'
-        },
-        xAxis: [
-            {gridIndex: 0, min: 0, max: 20},
-            {gridIndex: 1, min: 0, max: 20},
-            {gridIndex: 2, min: 0, max: 20},
-            {gridIndex: 3, min: 0, max: 20}
-        ],
-        yAxis: [
-            {gridIndex: 0, min: 0, max: 15},
-            {gridIndex: 1, min: 0, max: 15},
-            {gridIndex: 2, min: 0, max: 15},
-            {gridIndex: 3, min: 0, max: 15}
-        ],
-        series: [
-            {
-                name: 'I',
-                type: 'scatter',
-                xAxisIndex: 0,
-                yAxisIndex: 0,
-                data: dataAll[0],
-                markLine: markLineOpt
-            },
-            {
-                name: 'II',
-                type: 'scatter',
-                xAxisIndex: 1,
-                yAxisIndex: 1,
-                data: dataAll[1],
-                markLine: markLineOpt
-            },
-            {
-                name: 'III',
-                type: 'scatter',
-                xAxisIndex: 2,
-                yAxisIndex: 2,
-                data: dataAll[2],
-                markLine: markLineOpt
-            },
-            {
-                name: 'IV',
-                type: 'scatter',
-                xAxisIndex: 3,
-                yAxisIndex: 3,
-                data: dataAll[3],
-                markLine: markLineOpt
-            }
-        ]
-    };    
-      
-编译扩展包
------------------------------------
-
-用户可以使用工具箱中的节点生成器，创建扩展节点；使用添加节点功能，将扩展节点添加到工具箱中；
-
-.. figure:: images/NodeExpend05.png
-    :align: center
-    :figwidth: 90% 
-    :name: plate
-         
-**节点生成器**
-
-用户输出扩展节点的相关信息，点击编译按钮，即可创建扩展节点（*.dnp）。
-
-.. figure:: images/NodeExpend06.png
-    :align: center
-    :figwidth: 90% 
-    :name: plate
-
-.. note::
-
-   * 对于界面HTML、脚本文件，请使用UTF8编码格式；
-   * 对于DLL数据源扩展节点，请勾选数据源节点，以与数据处理节点进行区分；
-   * 对于R和Echarts扩展节点，请勾选代码加密，以便保护您的代码。
-   * 关于扩展节点示例，请放置于NodeDemos目录下，且DMS文件的名称与脚本文件的名称相同。
-   
-   
 添加扩展包
 -----------------------------------
 
 用户通过添加节点功能，对工具箱进行扩展；扩展节点的使用与原生节点的使用方式相同；
 
-.. figure:: images/NodeExpend08.png
+.. figure:: images/NodeEx08.png
     :align: center
     :figwidth: 90% 
     :name: plate
     
 **案例：**
 
-.. figure:: images/NodeExpend09.png
+.. figure:: images/NodeEx09.png
     :align: center
     :figwidth: 90% 
     :name: plate
