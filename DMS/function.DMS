@@ -1555,6 +1555,7 @@ HTML函数
       <CenterY>232.5</CenterY>
       <CenterX>425</CenterX>
       <Description />
+      <ToolTip />
       <KeyWords />
       <EditMode>Edit</EditMode>
       <Title>替换#3</Title>
