@@ -265,7 +265,7 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
         }
       ]
 
-基本案例中完成nde文件代码如下:: 
+本案例中，完整nde文件代码如下:: 
 
     {
       "Name": "Python2",
@@ -329,11 +329,107 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
 
 自定义节点运行过程中，系统转存界面参数及数据源数据，将参数文件传递给核心算法，运行算法后，数据专家自动从界面收集数据。
 
+当前核心算法模块，支持py、pyc、R、Rc和exe。
+
 .. figure:: images/NodeEx05.png
     :align: center
     :figwidth: 90% 
     :name: plate
+
+脚本宿主程序
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+对于py、pyc、R、Rc等脚本文件，需要在系统中，定义宿主程序。注：R脚本指定Rscript.exe程序程序。
 	
+.. figure:: images/NodeEx11.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+	
+Python扩展节点
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  
+代码示例(NodeTest.py):: 
+
+    # -*- coding: utf-8 -*-
+    import sys
+    import json
+    import codecs
+     
+    argfile=sys.argv[1] #'par2.json'  
+    data=json.loads(open(argfile).read().decode('utf-8-sig'))
+    
+    #前节点的输出文件名 
+    print('--NodeTest.py by bushyao--')
+    
+    print('magdata:' + data['magdata'])
+    print('magdata2:' + data['magdata2'])
+    print('outputPath:' + data['outputPath'])
+    
+    print('中文永远是个坑'.decode('utf-8').encode('cp936'))
+    print('title:' + data['pars']['title'].encode('cp936'))
+    print('desc:' + data['pars']['desc'].encode('cp936'))
+    
+    #输出一个文件
+    print("D:\\MyProgram\\binX\\Plugin\\test\\tmpData\\asia150dpi.png")
+    
+    #输出数据表格文件
+    print("D:\\MyProgram\\binX\\Plugin\\test\\tmpData\\tmp5DAC.csv")
+    
+    #输出网页
+    print("http://www.baidu.com")   #输出网络地址 
+ 
+ 
+EXE扩展节点
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  
+代码示例(C#):: 
+
+    using System;
+    using System.IO;
+    using System.Text;
+    using Newtonsoft.Json.Linq;
+    
+    namespace NodePlugin
+    {
+        class Program
+        {
+            static void Main(string[] args)
+            {
+                if (args.Length < 1)
+                {
+                    Console.WriteLine("参数据文件不存在");
+                    return;
+                }
+                var jsonFile = args[0];
+    
+                var txt = File.ReadAllText(jsonFile, Encoding.UTF8);
+                var data = JObject.Parse(txt);
+    
+                Console.WriteLine("----NodeTest.exe by bushyao----");
+    
+                // 前节点的输出文件名
+                Console.WriteLine("magdata:" + data["magdata"]);
+                Console.WriteLine("magdata2:" + data["magdata2"]);
+                Console.WriteLine("outputPath:" + data["outputPath"]);
+    
+                Console.WriteLine("title:" + data["pars"]["title"]);
+                Console.WriteLine("desc:" + data["pars"]["desc"]);
+    
+                //输出一个文件
+                Console.WriteLine("D:\\MyProgram\\binX\\Plugin\\test\\tmpData\\asia150dpi.png");
+    
+                //输出数据表格文件
+                Console.WriteLine("D:\\MyProgram\\binX\\Plugin\\test\\tmpData\\tmp5DAC.csv");
+    
+                //输出网页
+                Console.WriteLine("http://www.baidu.com");   //输出网络地址 
+            }
+        }
+    }
+
+ 
+ 
 运行结果收集
 -----------------------------------
 
@@ -365,12 +461,6 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
 
 	
     
-核心算法
------------------------------------
-
-用户自己构成脚本过程中，需要遵循数据接入与输出的规范。
- 
- 
  
 添加扩展包
 -----------------------------------
