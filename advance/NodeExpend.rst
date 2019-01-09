@@ -361,7 +361,9 @@ Python扩展节点
     
     #前节点的输出文件名 
     print('--NodeTest.py by bushyao--')
-    
+	
+    print('debug: 1st debug Info!')
+	
     print('magdata:' + data['magdata'])
     print('magdata2:' + data['magdata2'])
     print('outputPath:' + data['outputPath'])
@@ -369,7 +371,9 @@ Python扩展节点
     print('中文永远是个坑'.decode('utf-8').encode('cp936'))
     print('title:' + data['pars']['title'].encode('cp936'))
     print('desc:' + data['pars']['desc'].encode('cp936'))
-    
+	
+    print('Debug:2st debug Info!')
+	
     #输出一个文件
     print("D:\\MyProgram\\binX\\Plugin\\test\\tmpData\\asia150dpi.png")
     
@@ -433,8 +437,18 @@ EXE扩展节点
 运行结果收集
 -----------------------------------
 
-用户以Print方式（python），将需要收集的内容，输出界面上；数据专家自动收集数据，无须用户定义。现支持文本、文件和http、https网页。
-		 
+用户以Print方式（python），将需要收集的内容，输出界面上；数据专家自动收集数据，无须用户定义。
+
+以打印到屏幕上的行为单位，回收内容，具体约定如下：
+
+    #) 若屏幕出的文字为文件，且文件存在，系统认定为回收文件；
+	
+    #) 当文字以Debug:开始，不区分大小写，则为日志信息，显示于日志窗口中；
+
+    #) 若文字以https://或http://开始，则认定为网页；
+	
+    #) 其它系统皆认定为文本数据。
+
 以报告形式浏览输出内容	 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
