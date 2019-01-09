@@ -438,7 +438,7 @@ EXE扩展节点
 以报告形式浏览输出内容	 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: images/NodeEx05.png
+.. figure:: images/NodeEx06.png
     :align: center
     :figwidth: 90% 
     :name: plate
@@ -446,7 +446,7 @@ EXE扩展节点
 查看网络地址	 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: images/NodeEx06.png
+.. figure:: images/NodeEx07.png
     :align: center
     :figwidth: 90% 
     :name: plate
@@ -454,7 +454,7 @@ EXE扩展节点
 输出二维数据表
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: images/NodeEx07.png
+.. figure:: images/NodeEx08.png
     :align: center
     :figwidth: 90% 
     :name: plate		 
@@ -467,14 +467,14 @@ EXE扩展节点
 
 用户通过添加节点功能，对工具箱进行扩展；扩展节点的使用与原生节点的使用方式相同；
 
-.. figure:: images/NodeEx08.png
+.. figure:: images/NodeEx09.png
     :align: center
     :figwidth: 90% 
     :name: plate
     
 **案例：**
 
-.. figure:: images/NodeEx09.png
+.. figure:: images/NodeEx10.png
     :align: center
     :figwidth: 90% 
     :name: plate
