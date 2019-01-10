@@ -125,7 +125,7 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
 参数文件由HTML定义格式（用户自己定义）。运行时，数据专家追加数据源信息，以文件路径的方式推送给核心算法。
 
 
-参数文件示例::
+用户自己定义的参数文件示例::
 
     {
       "pars": {
@@ -137,6 +137,25 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
         "q": "月份",
         "f": "月份"
       }
+    }	
+ 
+
+数据专家追加数据源信息示例::
+
+    {
+      "pars": {
+        "title": "点1",
+        "desc": "测点"
+      },
+      "allfields": true,
+      "names": {
+        "q": "月份",
+        "f": "月份"
+      },
+      "magdata": "C:\\Users\\BC\\AppData\\Local\\Temp\\magdata.txt",  //与.nde文件中InputTables的表名对应
+      "magdata2": "C:\\Users\\BC\\AppData\\Local\\Temp\\magdata2.txt",//与.nde文件中InputTables的表名对应
+      "OutputPath": "C:\\Users\\BC\\AppData\\Local\\Temp\\",          //建议用户文件存放路径
+	  "ResultFile": "C:\\Users\\BC\\AppData\\Local\\Temp\\result.json"//与.nde文件中的ResultFile对应
     }	
  
 	
@@ -320,7 +339,8 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
           "Name": "降水量",
           "Type": "string"
         }
-      ]
+      ],
+      "ResultFile":"result.json" //可以绝对路径，或仅为文件名
     }
 
 
@@ -366,7 +386,8 @@ Python扩展节点
 	
     print('magdata:' + data['magdata'])
     print('magdata2:' + data['magdata2'])
-    print('outputPath:' + data['outputPath'])
+    print('OutputPath:' + data['OutputPath'])
+	print('ResultFile:' + data['ResultFile'])
     
     print('中文永远是个坑'.decode('utf-8').encode('cp936'))
     print('title:' + data['pars']['title'].encode('cp936'))
@@ -415,7 +436,7 @@ EXE扩展节点
                 // 前节点的输出文件名
                 Console.WriteLine("magdata:" + data["magdata"]);
                 Console.WriteLine("magdata2:" + data["magdata2"]);
-                Console.WriteLine("outputPath:" + data["outputPath"]);
+                Console.WriteLine("OutputPath:" + data["OutputPath"]);
     
                 Console.WriteLine("title:" + data["pars"]["title"]);
                 Console.WriteLine("desc:" + data["pars"]["desc"]);
@@ -437,18 +458,65 @@ EXE扩展节点
 运行结果收集
 -----------------------------------
 
+运行结果收集支持两种方式：
+
+.. figure:: images/NodeEx05x.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+	
+一、约定文件方式，需在nde文件指定ResultFile的属性，核心代码运行时，创建此JSON文件。
+
+结果示例代码::
+ 
+    [
+        {
+          "id": 0,
+          "name": "文本串",
+    	  "type":"TXT",
+          "content":"这是一段测试文本",
+    	  "desc":"这是描述"
+        },
+    	{
+          "id": 1,
+          "name": "文件",
+    	  "type":"FILE",
+          "content":"D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\Plugin\\test\\tmpData\\asia150dpi.png",
+    	  "desc":"图片哦"
+        },
+    	{
+          "id": 2,
+          "name": "官方文档",
+    	  "type":"url",
+          "content":"https://datist.readthedocs.io/zh_CN/latest/advance/NodeExpend.html#id8",
+    	  "desc":"文档"
+        },
+    	{
+          "id": 3,
+          "name": "输出的二维表",
+    	  "type":"tab",
+          "content":"D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\Plugin\\test\\tmpData\\tmp5DAC.csv",
+    	  "desc":"二维表"
+        },
+    ]
+	
+	其中，Tab类型，可以二维表格式的方式，显现于报告中。
+
+二、从屏幕自动获取方式
+
 用户以Print方式（python），将需要收集的内容，输出界面上；数据专家自动收集数据，无须用户定义。
+	
+从屏幕自动获取内容，具体约定如下：
 
-以打印到屏幕上的行为单位，回收内容，具体约定如下：
-
-    #) 若屏幕出的文字为文件，且文件存在，系统认定为回收文件；
+    #) 若屏幕出的文字为文件，且文件存在，系统认定为回收文件，即FILE型；若文件是csv或Tab(以;或,间隔的UTF8文本文件)，将以二维表的方式向后扭转，即TAB型。
 	
     #) 当文字以Debug:开始，不区分大小写，则为日志信息，显示于日志窗口中；
 
-    #) 若文字以https://或http://开始，则认定为网页；
+    #) 若文字以https://或http://开始，则认定为网页，即URL型；
 	
-    #) 其它系统皆认定为文本数据。
-
+    #) 其它系统皆认定为文本数据，即TXT型；
+	
+	
 以报告形式浏览输出内容	 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
