@@ -6,7 +6,7 @@ Datist提供一套统计图绘制语言，适用于统计图、统计图2节点�
 
 统计图绘制以函数方式组织绘图语法，函数由函数名和参数组成。
 
-示例代码::
+语法说明::
    
     XYChart([Name],[ShowGrid = True],[TitleX],[TitleY],[Side = default])
     其中：
