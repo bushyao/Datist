@@ -140,7 +140,7 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
     }	
  
 
-数据专家追加数据源信息示例::
+系统追加数据源信息示例::
 
     {
       "pars": {
@@ -155,7 +155,7 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
       "magdata": "C:\\Users\\BC\\AppData\\Local\\Temp\\magdata.txt",  //与.nde文件中InputTables的表名对应
       "magdata2": "C:\\Users\\BC\\AppData\\Local\\Temp\\magdata2.txt",//与.nde文件中InputTables的表名对应
       "OutputPath": "C:\\Users\\BC\\AppData\\Local\\Temp\\",          //建议用户文件存放路径
-	  "ResultFile": "C:\\Users\\BC\\AppData\\Local\\Temp\\result.json"//与.nde文件中的ResultFile对应
+      "ResultFile": "C:\\Users\\BC\\AppData\\Local\\Temp\\result.json"//与.nde文件中的ResultFile对应
     }	
  
 	
@@ -387,7 +387,7 @@ Python扩展节点
     print('magdata:' + data['magdata'])
     print('magdata2:' + data['magdata2'])
     print('OutputPath:' + data['OutputPath'])
-	print('ResultFile:' + data['ResultFile'])
+    print('ResultFile:' + data['ResultFile'])
     
     print('中文永远是个坑'.decode('utf-8').encode('cp936'))
     print('title:' + data['pars']['title'].encode('cp936'))
@@ -500,7 +500,7 @@ EXE扩展节点
         },
     ]
 	
-	其中，Tab类型，可以二维表格式的方式，显现于报告中。
+    其中，Tab类型，可以二维表格式的方式，显现于报告中。
 
 二、从屏幕自动获取方式
 
