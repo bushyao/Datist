@@ -358,7 +358,7 @@ Bar系列支持：XYChart
 CountBar
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
+CountBar系列，对散列数据分组计数，绘制条形图支持：XYChart
 
 语法::
 
