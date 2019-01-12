@@ -264,7 +264,8 @@ TimelineScale
 设置数据系列
 -----------------------------------
 
-Symbol说明支持Bar,Pyramid,InvertedPyramid,Ellipse,Cross,DiagonalCross,LineCross,LineDiagonalCross,Star,Diamond,Asterisk
+标记符号Symbol支持:
+Bar, Pyramid, InvertedPyramid, Ellipse, Cross, DiagonalCross, LineCross, LineDiagonalCross, Star, Diamond, Asterisk
 
 Area
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
