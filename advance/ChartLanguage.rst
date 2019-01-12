@@ -264,17 +264,19 @@ TimelineScale
 设置数据系列
 -----------------------------------
 
+Symbol说明支持Bar,Pyramid,InvertedPyramid,Ellipse,Cross,DiagonalCross,LineCross,LineDiagonalCross,Star,Diamond,Asterisk
+
 Area
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Area系列支持：XYChart,PolarChart,RadarChart
 
 语法::
-
-    XYChart: Area(xColumn,yColumn,[LabelColumn],[Name])
-    PolarChart: Area(AColumn,PColumn,[LabelColumn],[Name])
-    RadarChart: Area(AxisColumn,ValueColumn,[LabelColumn],[Name])
  
+    XYChart: Area(xColumn,yColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    PolarChart: Area(AColumn,PColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    RadarChart: Area(AxisColumn,ValueColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+
 Area示例::	
 
     //SmoothArea
@@ -297,9 +299,9 @@ Line系列支持：XYChart,PolarChart,RadarChart
 
 语法::
 
-    XYChart: Line(xColumn,yColumn,[LabelColumn],[Name])
-    PolarChart: Line(AColumn,PColumn,[LabelColumn],[Name])
-    RadarChart: Line(AxisColumn,ValueColumn,[LabelColumn],[Name])
+    XYChart: Line(xColumn,yColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    PolarChart: Line(AColumn,PColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    RadarChart: Line(AxisColumn,ValueColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
 
 Point
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -307,12 +309,12 @@ Point
 Point系列支持：XYChart,PolarChart,TriChart,SchmidtChart,WulffChart
 
 语法::
-
-    XYChart: Point(xColumn,yColumn,[LabelColumn],[Name])
-    PolarChart: Point(AColumn,PColumn,[LabelColumn],[Name])
-    TriChart: Point(AColumn,BColumn,CColumn,[LabelColumn],[Name])
-    SchmidtChart: Point(rColumn,aColumn,[LabelColumn],[Name])
-    WulffChart: Point(rColumn,aColumn,[LabelColumn],[Name])
+ 
+    XYChart: Point(xColumn,yColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    PolarChart:	 Point(AColumn,PColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    TriChart: Point(AColumn,BColumn,CColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    SchmidtChart: Point(rColumn,aColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
+    WulffChart: Point(rColumn,aColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
 	
 点系列示例::
 
@@ -334,7 +336,7 @@ Bar系列支持：XYChart
 
 语法::
 
-    Bar(xColumn,yColumn,[LabelColumn],[Name])
+    Bar(xColumn,yColumn,[LabelColumn],[ShowLabel = True],[Name])
   	
 多个系列示例::
 	
@@ -359,7 +361,7 @@ CountBar系列,对散列数据分组计数，给制条形图支持：XYChart
 
 语法::
 
-    CountBar(LabelColumn,[Name])
+    CountBar(LabelColumn,[ShowLabel = True],[Name])
 
 Box
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -413,7 +415,7 @@ Pie
 
 语法::
 
-    Pie(LabelColumn,ValueColumn,[Name])
+    Pie(LabelColumn,ValueColumn,[ShowLabel = True],[Name]) 
 
 Ring
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -422,7 +424,7 @@ Ring系列支持：PieChart
 
 语法::
 
-    Ring(LabelColumn,ValueColumn,[Name])
+    Ring(LabelColumn,ValueColumn,[ShowLabel = True],[Name]) 
 	
 饼图示例::	
    
@@ -444,7 +446,7 @@ SmoothArea系列支持：XYChart
 
 语法::
 
-    SmoothArea(xColumn,yColumn,[LabelColumn],[Name])
+    SmoothArea(xColumn,yColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
 
 SmoothLine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -453,7 +455,7 @@ SmoothLine系列支持：XYChart
 
 语法::
 
-    SmoothLine(xColumn,yColumn,[LabelColumn],[Name])
+    SmoothLine(xColumn,yColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
 
 StepLine
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -462,7 +464,7 @@ StepLine系列支持：XYChart
 
 语法::
 
-    StepLine(xColumn,yColumn,[LabelColumn],[Name])
+    StepLine(xColumn,yColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
  
 StepLine示例::		
 	
@@ -483,7 +485,7 @@ Piper系列支持：PiperChart
 
 语法::
 
-    Piper(MgColumn,CaColumn,NaColumn,SO4Column,CO3Column,ClColumn,[LabelColumn],[Name])
+    Piper(MgColumn,CaColumn,NaColumn,SO4Column,CO3Column,ClColumn,[LabelColumn],[ShowLabel = False],[Symbol = Ellipse],[SymbolSize = 5],[Name]) 
 
 绘图命令
 -----------------------------------
