@@ -371,9 +371,10 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
 Python扩展节点
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   
-代码示例(NodeTest.py):: 
+代码示例(NodeTest27.py):: 
 
     # -*- coding: utf-8 -*-
+	# Python2.7
     import sys
     import json
     import codecs
@@ -406,6 +407,44 @@ Python扩展节点
     #输出网页
     print("http://www.baidu.com")   #输出网络地址 
  
+ 
+代码示例(NodeTest36.py):: 
+
+    # -*- coding: utf-8 -*-
+    # Python3.6
+    import sys
+    import json
+    import codecs
+     
+    argfile=sys.argv[1] #'par2.json'  
+    print('debug:'+argfile) #json缓存地址
+    with open(argfile,'rb') as f:
+        data = json.load(f)
+    
+    #前节点的输出文件名 
+    print('--NodeTest36.py by Chenshi--')
+    print('debug: 1st debug Info!')
+    
+    print('magdata:' + data['magdata'])
+    print('magdata2:' + data['magdata2'])
+    print('OutputPath:' + data['OutputPath'])
+    print('ResultFile:' + data['ResultFile'])
+    
+    print('中s文永远是个坑')
+    print('title:' + data['pars']['title'])
+    print('desc:' + data['pars']['desc'])
+    
+    print('Debug:2st debug Info!')
+    #输出一个文件
+    print("D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\Plugin\\test\\tmpData\\asia150dpi.png")
+    
+    #输出数据表格文件
+    print("D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\Plugin\\test\\tmpData\\tmp5DAC.csv")
+    
+    #输出网页
+    print("http://www.baidu.com")   #输出网络地址
+ 
+
  
 EXE扩展节点
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
