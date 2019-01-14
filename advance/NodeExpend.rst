@@ -383,7 +383,7 @@ Python扩展节点
     data=json.loads(open(argfile).read().decode('utf-8-sig'))
     
     #前节点的输出文件名 
-    print('--NodeTest.py by bushyao--')
+    print('--NodeTest27.py by bushyao--')
 	
     print('debug: 1st debug Info!')
 	
