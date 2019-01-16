@@ -17,7 +17,7 @@ Datist 给用户提供自定义的节点的功能，您可以在工具箱添加�
   
   #) 核心算法文件：自定义节点的运行文件，支持py、pyc、R、Rc和exe。
   
-  #) .dms流程文件，给出流程的示例流程。
+  #) .dms流程文件，给出扩展节点的示例流程。
 
 .. figure:: images/NodeEx01.png
     :align: center
