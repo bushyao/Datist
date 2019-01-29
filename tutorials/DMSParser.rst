@@ -68,19 +68,12 @@ HTML页面编写
     <html>
     <head>
         <style>
-            html, body {
-                height: 100%;
-            }
-    
-            html {
-                overflow: hidden;
-            }
-    
+            html, body { height: 100%; }    
+            html {overflow: hidden;}    
             form.hpform {
                 float: left;
                 width: 20%;
             }
-    
             iframe {
                 float: left;
                 height: 98%;
@@ -124,8 +117,7 @@ HTML页面编写
             <input type="button" value="最大化" onclick="WindowState('max');" />
             <br>
         </form>
-    
-    
+        
         <!--内容显示-->
         <iframe id="ifrm" Name="ifrm" frameborder="0"></iframe>
     
