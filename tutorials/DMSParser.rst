@@ -13,3 +13,21 @@ DMSParser原理:
     :align: center
     :figwidth: 90% 
     :name: plate
+	
+DMSParser使用，由HTML页面编写、DMS流程编制、窗口启动配置三个部分构成，其目录组织结构如下:
+	
+.. figure:: DMSParserImages/DMSParser2.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+
+	
+目录结构
+-----------------------------------
+
+主程序为DMSParser.exe，主页面为DMS/Index.html；
+
+.. figure:: DMSParserImages/DMSParser2.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate	
