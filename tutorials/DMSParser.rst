@@ -57,9 +57,80 @@ DMSParser使用，由HTML页面编写、DMS流程编制、窗口启动配置三�
     :figwidth: 90% 
     :name: plate
 
-业务流程构造
+HTML页面编写
 -----------------------------------
 
+面对具体的业务场景，用户的需求是多样的，HTML语言具有高灵活、门槛低的特征，因此系统选用了HTML作为DMSParser前端业务场景组织语言。
+
+上述案例中，HTML代码如下::
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <style>
+            html, body {
+                height: 100%;
+            }
+    
+            html {
+                overflow: hidden;
+            }
+    
+            form.hpform {
+                float: left;
+                width: 20%;
+            }
+    
+            iframe {
+                float: left;
+                height: 98%;
+                margin-left: 2%;
+                width: 78%;
+            }
+        </style>
+        <script type="text/javascript" src="js\jquery.js"></script>
+        <script type="text/javascript">
+    
+            function Run() {
+                //收集界面参数，并换成JSON字符串
+                var anObject = new Object();
+                anObject.title = $("#title").val();
+                anObject.desc = $("#desc").val();
+                var obj = JSON.stringify(anObject);
+    
+                //调用浏览器函数，运行数据专家流程，通过回调函数返回结果。
+                RunDMS('Demo.DMS', obj, CallBack);
+            }
+    
+            //回调函数，url为内存网站地址
+            function CallBack(url) {
+                var el = document.getElementById('ifrm');
+                el.src = url;
+            }
+        </script>
+    </head>
+    <body>
+    
+        <!--界面参数-->
+        <form method="post" class="hpform">
+            <input id="title" type="text" placeholder="报告标题" value="报告标题" style="width: 100%" /><br>
+            <textarea id="desc" placeholder="报告描述" style="height: 100px;width: 100%">报告描述</textarea><br>
+            <input type="button" onclick="javascript:Run();" value="运行" />
+            
+            <!--窗口控制命令-->
+            <input type="button" value="关闭" onclick="Close();" />
+            <input type="button" value="窗口" onclick="NoneBorder(false);" />
+            <input type="button" value="正常化" onclick="WindowState('normal');" />
+            <input type="button" value="最大化" onclick="WindowState('max');" />
+            <br>
+        </form>
+    
+    
+        <!--内容显示-->
+        <iframe id="ifrm" Name="ifrm" frameborder="0"></iframe>
+    
+    </body>
+    </html> 
 
 
 
