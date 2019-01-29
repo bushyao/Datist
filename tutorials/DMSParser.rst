@@ -124,5 +124,10 @@ HTML页面编写
     </body>
     </html> 
 
-
+炫酷版示例：
+	
+.. figure:: DMSParserImages/DMSParser7.gif
+    :align: center
+    :figwidth: 90% 
+    :name: plate
 
