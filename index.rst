@@ -9,12 +9,11 @@
    :glob:
    
    tutorials/index
-   advance/index
-   solutions/index
-   cases/index
-   DatistStore/index
    FAQ/index
    nodes/index
+   cases/index   
+   solutions/index
+   DatistStore/index
    functions/index
    TempletCharts/index
    logs/index
