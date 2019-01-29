@@ -21,13 +21,45 @@ DMSParser使用，由HTML页面编写、DMS流程编制、窗口启动配置三�
     :figwidth: 90% 
     :name: plate
 
-	
-目录结构
------------------------------------
+其中DMSParser.exe为主程序；DMSParser.exe.config为窗口启动配置参数；DMS为用户内容组织目录。
 
-主程序为DMSParser.exe，主页面为DMS/Index.html；
+下面以一个简单的案例来说明实现原理。在报告标题、报告描述对话框中输入文字，单击运行，右侧的页面中显示相应的运行报告。
 
-.. figure:: DMSParserImages/DMSParser2.png
+.. figure:: DMSParserImages/DMSParser3.png
     :align: center
     :figwidth: 90% 
-    :name: plate	
+    :name: plate
+
+
+业务流程构造
+-----------------------------------
+
+本案例中，业务流程由三个节点构成，功能为用一个报告浏览节点展示缓存表格数据。流程中定义了title与desc两个流程变量，浏览节点使用它们使用为报告的标题与描述项。
+
+业务流程：
+
+.. figure:: DMSParserImages/DMSParser4.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+
+流程变量：
+
+.. figure:: DMSParserImages/DMSParser5.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+
+流程变量使用：
+	
+.. figure:: DMSParserImages/DMSParser6.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+
+业务流程构造
+-----------------------------------
+
+
+
+
