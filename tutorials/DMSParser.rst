@@ -24,7 +24,9 @@ DMSParser由HTML页面编写、DMS流程编制、窗口启动配置三个部分�
 其中：
 
    # DMSParser.exe为主程序；
+   
    # DMSParser.exe.config为窗口启动配置参数；
+   
    # DMS为用户内容组织目录。
 
 下面以一个简单的案例来说明这一实现原理。在报告标题、报告描述对话框中输入文字，单击运行，右侧的页面中显示相应的运行报告。
@@ -144,7 +146,9 @@ RunDMS
 其中：
 
    # FileName为流程文件名称；   
+   
    # Pars为Json字符串，Json属性与流程全局变量对应；
+   
    # CallBack为回调函数；格式为 FunctionName(URL)，URL为内存网页地址；
  
 Close
