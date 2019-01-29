@@ -133,7 +133,7 @@ DMSParser本质上是一个网页浏览器，解析并展示HTML脚本。DMSPars
 流程执行函数
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-RunDMS(string FileName,string Pars,function CallBack);
+函数: RunDMS(string FileName,string Pars,function CallBack);
 
 调用数据专家流程并运行默认输出节点。
 
@@ -148,21 +148,21 @@ RunDMS(string FileName,string Pars,function CallBack);
 关闭系统函数
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Close()
+函数: Close()
 
 无参数，运行后退出系统；
 
 窗口边框控制函数
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-NoneBorder(bool flag)
+函数: NoneBorder(bool flag)
 
 控制主界面的边框显示与否；flag为True时，隐藏窗口边框；为False显示边框。
 
 窗口状态函数
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-WindowState(string state)
+函数: WindowState(string state)
 
 控制主界面显示状态；state可选值有min、max、normal，分别对应于窗体最小化、最大值与正常显示。
  
