@@ -131,3 +131,44 @@ HTML页面编写
     :figwidth: 90% 
     :name: plate
 
+	
+浏览器函数
+-----------------------------------
+
+DMSParser本质上是一个网页浏览器，解析并展示HTML脚本。DMSParser提供多个内置函数。
+
+流程执行函数
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+RunDMS(string FileName,string Pars,function CallBack);
+
+调用数据专家流程并运行默认输出节点。
+
+其中：
+
+   FileName为流程文件名称；
+   
+   Pars为Json字符串，Json属性与流程全局变量对应；
+   
+   CallBack为回调函数；格式为 FunctionName(URL)，URL为内存网页地址；
+ 
+关闭系统函数
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Close()
+
+无参数，运行后退出系统；
+
+窗口边框控制函数
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+NoneBorder(bool flag)
+
+控制主界面的边框显示与否；flag为True时，隐藏窗口边框；为False显示边框。
+
+窗口状态函数
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+WindowState(string state)
+
+控制主界面显示状态；state可选值有min、max、normal，分别对应于窗体最小化、最大值与正常显示。
