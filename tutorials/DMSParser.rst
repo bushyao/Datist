@@ -54,7 +54,7 @@ DMSParser使用，由HTML页面编写、DMS流程编制、窗口启动配置三�
 	
 .. figure:: DMSParserImages/DMSParser6.png
     :align: center
-    :figwidth: 90% 
+    :figwidth: 60% 
     :name: plate
 
 HTML页面编写
@@ -124,14 +124,7 @@ HTML页面编写
     </body>
     </html> 
 
-炫酷版示例：
-	
-.. figure:: DMSParserImages/DMSParser7.gif
-    :align: center
-    :figwidth: 90% 
-    :name: plate
 
-	
 浏览器函数
 -----------------------------------
 
@@ -172,3 +165,40 @@ NoneBorder(bool flag)
 WindowState(string state)
 
 控制主界面显示状态；state可选值有min、max、normal，分别对应于窗体最小化、最大值与正常显示。
+ 
+窗口启动设置
+-----------------------------------
+
+用户可以通过配置DMSParser.exe.config文件，设置主窗体启动的状态。
+
+启动参数::
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <configuration>
+        <startup> 
+            <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.2"/>
+        </startup>
+      <appSettings>
+        
+        <!--设置窗口边框是否显示--> 
+        <add key="NoneBorder" value="True"/>
+        
+        <!--设置窗口开启时状态，可选值有：min,max,normal-->
+        <add key="WindowState" value="max"/>
+    
+        <!--设置主窗体标题-->
+        <add key="Title" value="数据专家系统"/>
+    
+        <!--设置主窗体显示的图标--> 
+        <add key="Icon" value="DMSParser.ico"/>
+      </appSettings>
+    </configuration>
+
+炫酷版示例：
+	
+.. figure:: DMSParserImages/DMSParser7.gif
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+
+	
