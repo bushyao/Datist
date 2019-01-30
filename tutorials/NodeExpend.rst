@@ -86,7 +86,7 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
                 }  
             ]
         },
-		{
+        {
             "Name": "magdata2",
             "Title": "震中",
             "Fields": [
@@ -103,21 +103,21 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
             ]
         }
     ]
-	
+    
 示例代码中定义了两个数据源的需求。
 
 .. figure:: images/NodeEx03.png
     :align: center
     :figwidth: 90% 
     :name: plate
-	
+    
 .. note::
 
    Type指定字段数据类型，即自定义节点对字段类型的要求，数据源窗口将根据指定的类型过滤字段下拉列表内容。
    Type支持int、real、string、bool、datetime等类型；
    若为空，支持任意类型的数据；多个类型以|间隔，如int|real,表示支持两种类型的数据。
  
-	
+    
 节点运行参数
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -138,7 +138,7 @@ JSON参数文件示例::
         "q": "月份",
         "f": "月份"
       }
-    }	
+    }    
  
 
 追加信息后，JSON参数文件示例::
@@ -159,9 +159,9 @@ JSON参数文件示例::
       "ResultFile": "C:\\Users\\BC\\AppData\\Local\\Temp\\result.json", //与.nde文件中的ResultFile对应
       "GetResult": "Print",         //返回值与显示页设置的运行结果收集方式：Print、JSON，
       "DataMode": "FileList",       //返回值与显示页设置的输出与显示方式：FileList,Url,DataTable
-    }	
+    }    
  
-	
+    
 
 用户自定义的Html界面构成：
 
@@ -265,9 +265,9 @@ JSON参数文件示例::
                 <td><select id="fieldF"></select> </td>
             </tr>
         </table>
-    </body>		 
-	
-		 
+    </body>         
+    
+         
 输出数据结构
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -367,12 +367,12 @@ JSON参数文件示例::
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 对于py、pyc、R、Rc等脚本文件，需要在系统中，定义宿主程序。注：R脚本指定Rscript.exe程序程序。
-	
+    
 .. figure:: images/NodeEx11.png
     :align: center
     :figwidth: 90% 
     :name: plate
-	
+    
 Python扩展节点
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   
@@ -389,9 +389,9 @@ Python扩展节点
     
     #前节点的输出文件名 
     print('--NodeTest27.py by bushyao--')
-	
+    
     print('debug: 1st debug Info!')
-	
+    
     print('magdata:' + data['magdata'])
     print('magdata2:' + data['magdata2'])
     print('OutputPath:' + data['OutputPath'])
@@ -400,9 +400,9 @@ Python扩展节点
     print('中文永远是个坑'.decode('utf-8').encode('cp936'))
     print('title:' + data['pars']['title'].encode('cp936'))
     print('desc:' + data['pars']['desc'].encode('cp936'))
-	
+    
     print('Debug:2st debug Info!')
-	
+    
     #输出一个文件
     print("D:\\MyProgram\\binX\\Plugin\\test\\tmpData\\asia150dpi.png")
     
@@ -510,7 +510,7 @@ EXE扩展节点
     :align: center
     :figwidth: 90% 
     :name: plate
-	
+    
 一、约定文件方式，需在nde文件指定ResultFile的属性，核心代码运行时，创建此JSON文件。
 
 结果示例代码::
@@ -519,58 +519,58 @@ EXE扩展节点
         {
           "id": 0,
           "name": "文本串",
-    	  "type":"TXT",
+          "type":"TXT",
           "content":"这是一段测试文本",
-    	  "desc":"这是描述"
+          "desc":"这是描述"
         },
-    	{
+        {
           "id": 1,
           "name": "文件",
-    	  "type":"FILE",
+          "type":"FILE",
           "content":"D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\Plugin\\test\\tmpData\\asia150dpi.png",
-    	  "desc":"图片哦"
+          "desc":"图片哦"
         },
-    	{
+        {
           "id": 2,
           "name": "官方文档",
-    	  "type":"url",
+          "type":"url",
           "content":"https://datist.readthedocs.io/zh_CN/latest/advance/NodeExpend.html#id8",
-    	  "desc":"文档"
+          "desc":"文档"
         },
-    	{
+        {
           "id": 3,
           "name": "输出的二维表",
-    	  "type":"tab",
+          "type":"tab",
           "content":"D:\\MyProgram\\RDMS\\PPTAnalysis\\binX\\Plugin\\test\\tmpData\\tmp5DAC.csv",
-    	  "desc":"二维表"
+          "desc":"二维表"
         },
     ]
-	
+    
     其中，Tab类型，可以二维表格式的方式，显现于报告中。
 
 二、从屏幕自动获取方式
 
 用户以Print方式（python），将需要收集的内容，输出界面上；数据专家自动收集数据，无须用户定义。
-	
+    
 从屏幕自动获取内容，具体约定如下：
 
     #) 若屏幕出的文字为文件，且文件存在，系统认定为回收文件，即FILE型；若文件是csv或Tab文件(以;或,间隔的UTF8文本文件)，将以二维表的方式向后扭转，即TAB型；若文件是HTML或HTM文件，则认定为网页，即URL型。
-	
+    
     #) 当文字以Debug:开始，不区分大小写，则为日志信息，显示于日志窗口中；
 
     #) 若文字以https://或http://开始，则认定为网页，即URL型；
-	
+    
     #) 其它系统皆认定为文本数据，即TXT型；
-	
-	
-以报告形式浏览输出内容	 
+    
+    
+以报告形式浏览输出内容     
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: images/NodeEx06.png
     :align: center
     :figwidth: 90% 
     :name: plate
-	
+    
 查看网页（网络地址或本地网页文件） 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -578,7 +578,7 @@ EXE扩展节点
     :align: center
     :figwidth: 90% 
     :name: plate
-	
+    
 .. note::
    
    当以查看网页方式浏览数据，若存在多个URL型输出内容，仅显示第一个输出URL型内容。  
@@ -589,7 +589,7 @@ EXE扩展节点
 .. figure:: images/NodeEx08.png
     :align: center
     :figwidth: 90% 
-    :name: plate		 
+    :name: plate         
 
 .. note::
 
