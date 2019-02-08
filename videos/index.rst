@@ -33,7 +33,7 @@
    * 对象：列装单位的负责人和业务人员
  
 *视频链接：*
-   `igp-gravity.github.io <https://igp-gravity.github.io/2019/02/03/ispec20190203.html>`_ 
+   `ispec20190203 <https://igp-gravity.github.io/2019/02/03/ispec20190203.html>`_ 
 
    
 2、如何设计你自己的工作流程
@@ -54,7 +54,7 @@
    * 对象：列装单位的负责人和业务人员
    
 *视频链接：*   
-   `igp-gravity.github.io <https://igp-gravity.github.io/2019/02/07/ispec20190207.html>`_ 
+   `ispec20190207 <https://igp-gravity.github.io/2019/02/07/ispec20190207.html>`_ 
 
    
 3、让流程开始工作的方法
@@ -75,4 +75,4 @@
    * 对象：列装单位的负责人和业务人员
    
 *视频链接：*   
-   `igp-gravity.github.io <https://igp-gravity.github.io/2019/02/08/ispec20190208.html>`_ 
+   `ispec20190208 <https://igp-gravity.github.io/2019/02/08/ispec20190208.html>`_ 
