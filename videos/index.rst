@@ -11,4 +11,4 @@
    
 
    
-[第1季第1集-地震分析会商技术系统是什么？](https://igp-gravity.github.io/2019/02/03/ispec20190203.html?from=timeline "With a Title"). 
+[第1季第1集-地震分析会商技术系统是什么？](https://igp-gravity.github.io/2019/02/03/ispec20190203.html?from=timeline). 
