@@ -9,5 +9,11 @@
    :maxdepth: 2
    :numbered:
 
+第1季
+------------------------------------
 
-`第1季第1集-地震分析会商技术系统是什么？ <https://igp-gravity.github.io/2019/02/03/ispec20190203.html?from=timeline>`_ 
+`第1集 地震分析会商技术系统是什么 <https://igp-gravity.github.io/2019/02/03/ispec20190203.html>`_ 
+
+`第2集 如何设计你自己的工作流程 <https://igp-gravity.github.io/2019/02/07/ispec20190207.html>`_ 
+
+`第3集 让流程开始工作的方法 <https://igp-gravity.github.io/2019/02/08/ispec20190208.html>`_ 
