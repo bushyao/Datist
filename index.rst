@@ -9,7 +9,7 @@
    :glob:
    
    tutorials/index
-   Video/Index
+   video/index
    FAQ/index
    nodes/index
    cases/index   
