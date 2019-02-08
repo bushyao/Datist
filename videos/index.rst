@@ -33,7 +33,7 @@
    * 对象：列装单位的负责人和业务人员
  
 *视频链接：*
-   `地震分析会商技术系统是什么 <https://igp-gravity.github.io/2019/02/03/ispec20190203.html>`_ 
+   `igp-gravity.github.io <https://igp-gravity.github.io/2019/02/03/ispec20190203.html>`_ 
 
 #. `如何设计你自己的工作流程 <https://igp-gravity.github.io/2019/02/07/ispec20190207.html>`_ 
 
