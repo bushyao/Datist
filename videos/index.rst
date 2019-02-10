@@ -31,6 +31,26 @@ Datist地震科学版是经过17-18年两年的实践积累，由地震会商技
    * 优化后的绘图、GIS插件；
 
    * 新增地震行业常用矢量底图数据。
+   
+   
+数据专家地震科学版`下载地址 <https://datist-download.oss-cn-beijing.aliyuncs.com/2019/Datist%202019.1%20Setup.exe>`_ 
+
+安装步骤：
+
+第一步：下载后安装，第一次登陆，请打开企业微信进入“地震科研助手”，通过扫描二维码自动获取授权文件
+
+.. figure:: images/datisteq1.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
+
+
+第二步：进入程序界面后，进入“帮助”菜单，点击“关于”，授权信息如下图所示
+
+.. figure:: images/datisteq2.png
+    :align: center
+    :figwidth: 90% 
+    :name: plate
  
  
 1、地震分析会商技术系统是什么
