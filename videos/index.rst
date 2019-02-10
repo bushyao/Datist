@@ -33,7 +33,7 @@ Datist地震科学版是经过17-18年两年的实践积累，由地震会商技
    * 新增地震行业常用矢量底图数据。
    
    
-数据专家地震科学版 `下载地址 <https://datist-download.oss-cn-beijing.aliyuncs.com/2019/Datist%202019.1%20Setup.exe>`_ 
+数据专家地震科学版（ `下载地址 <https://datist-download.oss-cn-beijing.aliyuncs.com/2019/Datist%202019.1%20Setup.exe>`_ ）
 
 安装步骤：
 
