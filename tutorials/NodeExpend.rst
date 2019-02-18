@@ -81,7 +81,7 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
                 },
                 {
                     "Name": "Latitude",
-                    "Title": "经度(度)",
+                    "Title": "纬度(度)",
                     "Type": "string"
                 }  
             ]
@@ -97,7 +97,7 @@ InputTables数组的长度，将决定节点的可连接前节点的数量：
                 },
                 {
                     "Name": "Latitude",
-                    "Title": "经度(度)",
+                    "Title": "纬度(度)",
                     "Type": "string"
                 }   
             ]
@@ -154,8 +154,10 @@ JSON参数文件示例::
         "f": "月份"
       },
       "magdata": "C:\\Users\\BC\\AppData\\Local\\Temp\\magdata.txt",    //与.nde文件中InputTables的表名对应
+      "magdata_colnames":经度,纬度                                      //前节点映射的字段名
       "magdata2": "C:\\Users\\BC\\AppData\\Local\\Temp\\magdata2.txt",  //与.nde文件中InputTables的表名对应
-      "OutputPath": "C:\\Users\\BC\\AppData\\Local\\Temp\\",            //建议用户文件存放路径
+      "magdata2_colnames":经度,纬度                                     //前节点映射的字段名
+	  "OutputPath": "C:\\Users\\BC\\AppData\\Local\\Temp\\",            //建议用户文件存放路径
       "ResultFile": "C:\\Users\\BC\\AppData\\Local\\Temp\\result.json", //与.nde文件中的ResultFile对应
       "GetResult": "Print",         //返回值与显示页设置的运行结果收集方式：Print、JSON，
       "DataMode": "FileList",       //返回值与显示页设置的输出与显示方式：FileList,Url,DataTable
@@ -311,7 +313,7 @@ JSON参数文件示例::
             },
             {
               "Name": "Latitude",
-              "Title": "经度(度)",
+              "Title": "纬度(度)",
               "Type": "string"
             }
           ]
@@ -327,12 +329,13 @@ JSON参数文件示例::
             },
             {
               "Name": "Latitude",
-              "Title": "经度(度)",
+              "Title": "纬度(度)",
               "Type": "string"
             }
           ]
         }
       ],
+      "CheckInput","true",   //在节点运行之前，是否检查数据源对应关系
       "OutputFields": [
         {
           "Name": "月份",
