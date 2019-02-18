@@ -157,7 +157,7 @@ JSON参数文件示例::
       "magdata_colnames": "月份,降水量",                                //前节点映射的字段名
       "magdata2": "C:\\Users\\BC\\AppData\\Local\\Temp\\magdata2.txt",  //与.nde文件中InputTables的表名对应
       "magdata2_colnames": "经度,纬度",                                 //前节点映射的字段名
-	  "OutputPath": "C:\\Users\\BC\\AppData\\Local\\Temp\\",            //建议用户文件存放路径
+      "OutputPath": "C:\\Users\\BC\\AppData\\Local\\Temp\\",            //建议用户文件存放路径
       "ResultFile": "C:\\Users\\BC\\AppData\\Local\\Temp\\result.json", //与.nde文件中的ResultFile对应
       "GetResult": "Print",         //返回值与显示页设置的运行结果收集方式：Print、JSON，
       "DataMode": "FileList",       //返回值与显示页设置的输出与显示方式：FileList,Url,DataTable
