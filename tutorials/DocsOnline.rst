@@ -18,7 +18,10 @@
 
  * DLL扩展项的执行目标是DLL中的静态函数。执行时，从浏览器中获取数据，作为参数传递给DLL的函数并运行函数。可以用它来集成企业里的信息系统，也可用它来快速访问、查看各类文档功能。
 
- 
+ .. figure:: images/DocsOnline02.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	  
 
 浏览器扩展功能的基本原理如下：
 
