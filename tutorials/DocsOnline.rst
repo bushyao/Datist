@@ -21,20 +21,30 @@
  .. figure:: images/DocsOnline02.png
      :align: center
      :figwidth: 90% 
-     :name: plate 	  
+     :name: plate 	   
 
-浏览器扩展功能的基本原理如下：
-
-
-数据钻取管理器
+	 
+数据钻取项定义
 ----------------------------------
 
-在主菜单的设置菜单下，数据钻取管理菜单可以开启数据钻取管理器。系统支持两种类型的钻取功能：
+在主菜单的设置菜单下，数据钻取管理菜单可以开启数据钻取管理器。
 
-  * **COM扩展：** 通过DLL对系统功能进行扩展，系统把当前记录的数据传给DLL，并执行指定的函数；
-  * **流程扩展：** 通过流程扩展系统功能，系统调用指定的流程，并执行它。
-
-
+ * 流程扩展：定义流程扩展项；
+ 
+ .. figure:: images/DocsOnline03.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	   
+ 
+ 
+ * DLL扩展：定义DLL扩展项；
+  
+ .. figure:: images/DocsOnline04.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	     
+  
+  
 **COM扩展**
 
 您需定义菜单名、插件DLL名、类名、函数名、参数据字段列表等相关信息，从而实现系统功能的扩展，如图所示：
