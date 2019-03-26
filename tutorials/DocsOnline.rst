@@ -10,7 +10,7 @@
 
  * 流程扩展项的执行目标是流程。执行时，从浏览器中获取数据，传递给目标流程变量，并执行流程中默认输出节点。如下图所示：
 
-.. figure:: images/DocsOnline01.png
+ .. figure:: images/DocsOnline01.png
      :align: center
      :figwidth: 90% 
      :name: plate 	 
