@@ -35,7 +35,7 @@
 
 .. figure:: images/DocsOnline05.png
      :align: center
-     :figwidth: 90% 
+     :figwidth: 60% 
      :name: plate 
 
 ②在新增的记录行中，补充菜单名称和表单字段；  
@@ -52,7 +52,7 @@
   
 .. figure:: images/DocsOnline06.png
      :align: center
-     :figwidth: 90% 
+     :figwidth: 60% 
      :name: plate 	
 	 
 ②在新增的记录行中，补充菜单名称和表单字段；    
