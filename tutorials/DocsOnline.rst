@@ -33,14 +33,14 @@
  
   1）右键菜单，单击【添加流程】菜单页，在弹出的打开文件对话框中，选取流程； 
 
- .. figure:: images/DocsOnline05.png
+.. figure:: images/DocsOnline05.png
      :align: center
      :figwidth: 90% 
      :name: plate 
   
   2）在新增的记录行中，补充菜单名称和表单字段；  
  
- .. figure:: images/DocsOnline03.png
+.. figure:: images/DocsOnline03.png
      :align: center
      :figwidth: 90% 
      :name: plate 	   
@@ -50,14 +50,14 @@
  
   1）右键菜单，单击【添加DLL】菜单页，在弹出的“设置DLL数据钻取器”对话框中，选取DLL文件及命名空间、函数名称，系统自动反射出函数的参数名称；
   
- .. figure:: images/DocsOnline06.png
+.. figure:: images/DocsOnline06.png
      :align: center
      :figwidth: 90% 
      :name: plate 	
 	 
   2）在新增的记录行中，补充菜单名称和表单字段；    
   
- .. figure:: images/DocsOnline04.png
+.. figure:: images/DocsOnline04.png
      :align: center
      :figwidth: 90% 
      :name: plate 	     
