@@ -31,8 +31,8 @@
 
  * 流程扩展：定义流程扩展项；增加流程扩展项操作步骤如下：
  
- # 右键菜单，单击【添加流程】菜单页，在弹出的打开文件对话框中，选取流程；
- # 在新增的记录行中，录入菜单名称和表单字段； 
+  #. 右键菜单，单击【添加流程】菜单页，在弹出的打开文件对话框中，选取流程； 
+  #. 在新增的记录行中，录入菜单名称和表单字段； 
  
  
  
@@ -48,72 +48,3 @@
      :align: center
      :figwidth: 90% 
      :name: plate 	     
-  
-  
-**COM扩展**
-
-您需定义菜单名、插件DLL名、类名、函数名、参数据字段列表等相关信息，从而实现系统功能的扩展，如图所示：
- 
-.. figure:: images/DocsOnline09.jpg
-     :align: center
-     :figwidth: 100% 
-     :name: plate 	
-
-**流程扩展** 	
-
-定义待执行的流程、流程参数、必须字段列表，如下图所示：
- 
-.. figure:: images/DocsOnline10.jpg
-     :align: center
-     :figwidth: 100% 
-     :name: plate 	
-	 	 
-	 
-	 
-扩展功能后，在二维数据浏览器的右键菜单中，可以找到添加菜单项。下图中是数据专家与成果管理系统无缝集成的数据浏览器，我们在系统扩展了在线浏览、批量下载等功能。
-
-.. figure:: images/DocsOnline03.jpg
-     :align: center
-     :figwidth: 90% 
-     :name: plate 	
-
-在地理图上，使用数据钻取功能，也会出现类似的右键菜单。
-
-.. figure:: images/DocsOnline08.jpg
-     :align: center
-     :figwidth: 90% 
-     :name: plate 	
-
-	 
-数据钻取实例
-----------------------------------
-
-下面简单介绍一个数据钻取的实例，该实例为调用已建系统中的数据，在数据专家中实现系统登录、数据下载、批量下载以及单井在线流程功能。
-
-在线调用信息系统之前，我们首先进行用户登录（插件提供）。
-
-.. figure:: images/DocsOnline04.png
-     :align: center
-     :figwidth: 90% 
-     :name: plate 		 
-
-使用本地下载功能，下载某个地质图件。	 
- 
-.. figure:: images/DocsOnline05.png
-     :align: center
-     :figwidth: 90% 
-     :name: plate 	
-
-使用批量下载功能，批量多个地质图件。
-
-.. figure:: images/DocsOnline06.png
-     :align: center
-     :figwidth: 90% 
-     :name: plate 	
-	 
-使用单井在线浏览功能，单井的测井蓝图。
-
-.. figure:: images/DocsOnline07.png
-     :align: center
-     :figwidth: 90% 
-     :name: plate 		 
