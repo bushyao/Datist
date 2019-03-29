@@ -66,4 +66,50 @@
 .. figure:: images/DocsOnline04.png
      :align: center
      :figwidth: 90% 
-     :name: plate 	     
+     :name: plate 	 
+	 
+右键菜单说明： 
+	
+  #. 添加DLL：新增DLL数据钻取项；    
+  #. 在文件夹中显示：在文件浏览器查看DLL文件；
+  #. 编辑DLL：更新DLL路径、类名、函数名及函数参数等内容；	
+  #. 删除DLL：删除选中的DLL钻取项；
+  
+数据钻取应用
+----------------------------------  
+
+单击数据钻取管理器下方的【示例流程】按键，打开示例流程如下：
+
+.. figure:: images/DocsOnline07.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	 
+	 
+
+1）“数据浏览器”数据钻取案例
+
+运行测点列表节点，浏览地震测点数据，如下图所示。在关注的行上点击右键菜单，就可以看到“点值变化图*”菜单项。“点值变化图”菜单项，源于数据钻取管理器中流程扩展的设置，其中“*”表示是流程扩展（相对于DLL扩展）。
+
+.. figure:: images/DocsOnline08.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	 
+	 
+单击“点值变化图*”菜单，系统弹出如下界面：
+
+.. figure:: images/DocsOnline09.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	 
+	 
+单击菜单时，运行的如下流程（在数据钻取器中，流程数据钻取项右键菜单【查看流程】可查看对应的流程），请注意，默认输出项的设置，运行时，仅运行具有默认输出项标记的节点。
+	 
+.. figure:: images/DocsOnline10.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	 
+	 
+
+
+
+  
