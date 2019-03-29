@@ -1,7 +1,7 @@
 ﻿.. the frist doc for datist
 
 
-Hello world！
+常见术语
 =====================
 典型的 Datist 界面如下：
 
