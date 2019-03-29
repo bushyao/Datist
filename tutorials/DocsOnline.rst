@@ -147,4 +147,9 @@
    });
 
 其中，DrillDown函数为浏览器内置，第一个数据对应于“数据钻取管理器”中的菜单名称，运行时依据该名称调用相应数据钻取项；其后的参数则对应于数据钻取项的数据流程参数或DLL函数的参数。
+
+.. figure:: images/DocsOnline13.png
+     :align: center
+     :figwidth: 90% 
+     :name: plate 	
    
