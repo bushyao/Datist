@@ -28,12 +28,7 @@ Datist提供独创的智能解析工具与技术，可快速地、批量地从�
   * 模板组，对模板进行管理，包括新建、复制、检查、删除模板、排序、开启模板面板等功能；
   * 取值模板组，定义模板的内容，包括新增标题块、说明块、内容块以及验证模板功能；
 
-智能解析模板工具：
-
-.. figure:: images/Semistructured011.jpg
-     :align: center
-     :figwidth: 90% 
-     :name: plate 	 
+智能解析模板工具： 
 
 .. figure:: images/Semistructured02.jpg
      :align: center
