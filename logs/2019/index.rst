@@ -9,5 +9,5 @@
 .. toctree::
    :maxdepth: 2
    
-   20190531
+   2019
 
