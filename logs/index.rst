@@ -9,6 +9,7 @@
 .. toctree::
    :maxdepth: 2
    
+   2020
    2019/index
    2018/index
    2017/index 
